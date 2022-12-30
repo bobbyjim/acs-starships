@@ -1,0 +1,61 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:32 2021
+Mission: Specialized Freighter
+QSP: F2-BU41
+TL: 15 
+Name: YT Packet
+Tons: 200
+Actual Tons: 207.5
+Overtonnage: 7.5
+
+MCr: 211.3
+Builder: Humbolt Systems
+Owner: Humbolt Systems
+Disposition: In Service
+Allegiance: NaHu
+
+Crew comfort: 0
+Passenger demand: 0
+Cargo: 50
+FuelPercentage: 10
+Components:
+ - HH0   U  1 00000 200   10  Unstreamlined Hull, lifters
+ - HL1   K  1 00000   2    2  Landing legs with pads
+ - AA1  60  1 00000   8    0  AV=60. 2 Kinetic Charged
+ - DF0   -  1 00000  15    0  Jump Fuel (1  parsec)
+ - DF0   -  1 00000   6    0  Plant Fuel (one month)
+ - DF1  S1  1 00000   1  0.1  Fuel Scoops 100t/hr
+ - DF1  I1  1 00000   1  0.1  Fuel Intakes 40t/hr
+ - DF1  B1  1 00000   1  0.1  Fuel Bins 20t/hr
+ - DF1  P1  1 00000   1    1  Fuel Purifiers 4t/hr
+ - DJ1   4  1 615E0 2.5   20  Ult Jump Drive-1 (A)
+ - DH1  -4  1 70222  20   50  Pro Hop Drive-1 (A)
+ - DP1   4  1 745E2 3.25   26  Ult PowerPlant-4 (D)
+ - DM1   4  1 935D3 1.75   28  Ult Maneuver Drive-4 (D)
+ - OC1   4  1 00000   4   18  Computer Model/4 std
+ - OO0   -  1 00000   1    1  Life Support Standard
+ - OB0   2  1 00000   8    0  Spacious Controls
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   1  1 00000   1  1.5  AR Ant Jammer
+ - SS1   1  1 00000   1  1.5  AR Ant EMS
+ - SS1   -  1 00000   0  1.5  AR Surf Stealth Mask
+ - SS1   -  1 00000   0  1.5  AR Surf Visor
+ - WW1   2  1 00000   3  3.2  AR B1 Missile
+ - WW1   2  1 00000   3  3.5  Vd B1 Beam Laser
+ - DD1  -4  1 00013   2   10  Ear B Black Globe
+ - CO0   -  4 00000   2  0.1  Crew Stateroom
+ - CO0   -  2 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  2 00000   4    0  Crew Lounge
+ - PO0   -  1 00000 0.5  0.5  Shared Fresher
+ - PO0   -  2 00000   4  0.2  Standard Suite
+ - PO0   -  3 00000   4    0  Passenger Lounge
+ - PO0   -  1 00000   1    0  Mail Vault
+ - PO1   -  1 00000 0.5  0.1  Air Lock
+ - PO1   -  1 00000   2    0  Cargo Lock
+ - PC0   -  1 00000  50    0  Cargo Hold Basic
+ - PO0   -  1 00000   1    0  Magazine
+ - VO1   -  1 00000  10    0  Large Vehicle Lock
+ - VO0  LM  1 00000  20   28  Gig
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

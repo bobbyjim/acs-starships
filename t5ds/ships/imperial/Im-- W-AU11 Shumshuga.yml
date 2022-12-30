@@ -1,0 +1,487 @@
+--- 
+components: 
+   - 
+      e: 0
+      r: 0
+      category: 'Hull'
+      s: 0
+      howMany: 1
+      CP: 0
+      code: 'U'
+      totalTons: 100
+      totalMCr: 5
+      notes: 'U, lifters, 1 a/l free'
+      label: 'Unstreamlined Hull, lifters, 1 a/l free'
+      eff: 1
+      name: 'Hull'
+      config: 'Unstreamlined'
+      mult: 1
+      Sq: 200
+      tl: 10
+      preMult: 1
+      tons: 100
+      type: 'Hull'
+      mcr: 5
+      b: 0
+      target: 10
+      q: 0
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: '1 parsec jump, at 10t per parsec'
+      label: 'Jump Fuel (1  parsec)'
+      category: 'Jump Fuel'
+      s: 0
+      r: 0
+      eff: 1
+      howMany: 1
+      tl: 10
+      tons: 10
+      type: 'Drive'
+      mcr: 0
+      Sq: 20
+      target: 10
+      b: 0
+      totalTons: 10
+      CP: 0
+      q: 0
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: '2 months'
+      label: 'Plant Fuel (2 months)'
+      eff: 1
+      s: 0
+      r: 0
+      totalTons: 2
+      category: 'Powerplant Fuel'
+      Sq: 4
+      tl: 10
+      b: 0
+      type: 'Drive'
+      CP: 0
+      howMany: 1
+      target: 10
+      tons: 2
+      mcr: 0
+      q: 0
+
+   - 
+      totalMCr: 1
+      e: 0
+      r: 0
+      label: 'Landing legs with pads'
+      tonsPercent: 1
+      s: 0
+      name: 'Landing legs with pads'
+      tons: 1
+      note: 'K'
+      target: 10
+      category: 'landers'
+      howMany: 1
+      tl: 10
+      mcrPerTon: 1
+      type: 'Hull'
+      mcr: 1
+      Sq: 2
+      eff: 1
+      code: 'K'
+      b: 0
+      totalTons: 1
+      CP: 1
+      q: 0
+
+   - 
+      totalMCr: 1.1
+      e: 0
+      notes: '100 t/hr'
+      label: 'Fuel Scoops with Purifier'
+      eff: 1
+      s: 0
+      target: 8
+      r: 0
+      category: 'Fuel Scoops'
+      howMany: 1
+      tl: 8
+      tons: 2
+      type: 'Drive'
+      CP: 2
+      Sq: 4
+      code: 'SP'
+      b: 0
+      totalTons: 2
+      mcr: 1.1
+      q: 0
+
+   - 
+      totalMCr: 1.1
+      e: 0
+      r: 0
+      label: 'Fuel Intakes with Purifier'
+      category: 'Fuel Intakes'
+      s: 0
+      target: 8
+      notes: '40 t/hr'
+      eff: 1
+      howMany: 1
+      tl: 8
+      tons: 2
+      type: 'Drive'
+      CP: 2
+      Sq: 4
+      code: 'IP'
+      b: 0
+      totalTons: 2
+      mcr: 1.1
+      q: 0
+
+   - 
+      totalMCr: 1.1
+      e: 0
+      notes: '20 t/hr'
+      label: 'Fuel Bins with Purifier'
+      eff: 1
+      s: 0
+      q: 0
+      tons: 2
+      category: 'Fuel Bins'
+      Sq: 4
+      tl: 8
+      b: 0
+      type: 'Drive'
+      CP: 2
+      howMany: 1
+      code: 'BP'
+      mcr: 1.1
+      totalTons: 2
+      target: 8
+      r: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Maneuver Drive'
+      howMany: 1
+      s: 0
+      B: 0
+      CP: 1
+      code: 'A'
+      totalTons: 2
+      Q: 0
+      totalMCr: 4
+      E: 0
+      R: 0
+      label: 'Maneuver Drive-1 (A)'
+      eff: 1
+      S: 0
+      name: 'Maneuver Drive'
+      autoAdjust: 1
+      Sq: 4
+      rating: 1
+      tons: 2
+      notes: '1 G'
+      mcr: 4
+      tl: 10
+      basetl: 9
+      b: 0
+      type: 'Drive'
+      q: 0
+      target: 10
+
+   - 
+      e: 0
+      r: 0
+      category: 'Jump Drive'
+      mod: 0
+      howMany: 1
+      s: 0
+      jumpFuelUsage: 0.1
+      B: 0
+      CP: 1
+      code: 'A'
+      totalTons: 10
+      Q: 0
+      totalMCr: 10
+      E: 0
+      notes: 'J 1'
+      label: 'Jump Drive-1 (A)'
+      eff: 1
+      S: 0
+      name: 'Jump Drive'
+      autoAdjust: 1
+      Sq: 20
+      rating: 1
+      tons: 10
+      R: 0
+      mcr: 10
+      tl: 10
+      basetl: 9
+      b: 0
+      type: 'Drive'
+      target: 10
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'PowerPlant'
+      q: 0
+      mod: 0
+      howMany: 1
+      s: 0
+      autoAdjust: 1
+      B: 0
+      CP: 1
+      code: 'A'
+      totalTons: 4
+      Q: 0
+      totalMCr: 4
+      E: 0
+      R: 0
+      label: 'PowerPlant-1 (A)'
+      eff: 1
+      S: 0
+      name: 'PowerPlant'
+      tons: 4
+      Sq: 8
+      tl: 10
+      b: 0
+      notes: 'P 1'
+      powerFuelUsage: 0.01
+      rating: 1
+      basetl: 8
+      type: 'Drive'
+      mcr: 4
+      target: 10
+
+   - 
+      totalMCr: 4
+      e: 0
+      r: 0
+      label: 'Grapple'
+      eff: 1
+      s: 0
+      notes: '1 pair per 35t'
+      totalTons: 4
+      Sq: 8
+      tl: 10
+      b: 0
+      type: 'Vehicle'
+      mcr: 1
+      howMany: 4
+      target: 10
+      tons: 1
+      CP: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Computer Model/1  '
+      mod: 1
+      howMany: 1
+      s: 0
+      CP: 1
+      q: 0
+      totalTons: 1
+      totalMCr: 1.5
+      notes: ''
+      label: 'Computer Model/1  '
+      eff: 1
+      name: 'Computer'
+      config: 'Ops'
+      Sq: 2
+      tl: 10
+      tons: 1
+      mount: 'Model/1'
+      mcr: 1.5
+      basetl: 9
+      range: 's'
+      b: 0
+      type: 'Ops'
+      target: 11
+
+   - 
+      totalMCr: 0.2
+      e: 0
+      r: 0
+      label: 'Squad Barracks'
+      eff: 1
+      s: 0
+      notes: '(5) R1 R1 R2 R2 R3'
+      howMany: 1
+      tl: 10
+      tons: 4
+      b: 0
+      type: 'Ops'
+      CP: 0
+      Sq: 8
+      q: 0
+      totalTons: 4
+      mcr: 0.2
+      target: 10
+
+   - 
+      totalMCr: 1.8
+      e: 0
+      r: 0
+      label: 'Large Cargo Lock'
+      eff: 1
+      s: 0
+      notes: ''
+      totalTons: 9
+      Sq: 18
+      tl: 10
+      b: 0
+      type: 'Payload'
+      CP: 1
+      howMany: 1
+      target: 10
+      tons: 9
+      mcr: 1.8
+      q: 0
+
+   - 
+      totalMCr: 0.4
+      e: 0
+      notes: ''
+      label: 'Cargo Lock'
+      eff: 1
+      s: 0
+      r: 0
+      howMany: 1
+      tl: 10
+      tons: 2
+      b: 0
+      type: 'Payload'
+      mcr: 0.4
+      Sq: 4
+      q: 0
+      totalTons: 2
+      CP: 1
+      target: 10
+
+   - 
+      totalMCr: 0
+      e: 0
+      r: 0
+      label: 'Cargo Hold Basic'
+      category: 'Cargo'
+      s: 0
+      notes: ''
+      totalTons: 70
+      eff: 1
+      howMany: 1
+      tl: 10
+      b: 0
+      type: 'Payload'
+      CP: 0
+      Sq: 140
+      target: 10
+      tons: 70
+      mcr: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'SR Ant Communicator'
+      s: 0
+      mod: 1
+      howMany: 1
+      CP: 1
+      target: 11
+      totalTons: 0.5
+      totalMCr: 1.2
+      notes: ''
+      label: 'SR Ant Communicator'
+      eff: 1
+      name: 'Communicator'
+      config: 'Sensor'
+      Sq: 1
+      tl: 10
+      tons: 0.5
+      type: 'Sensor'
+      mcr: 1.2
+      basetl: 7
+      range: 'SR'
+      b: 0
+      mount: 'Ant'
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Bridge'
+      mod: -2
+      howMany: 1
+      s: 0
+      CP: 0
+      target: 8
+      totalTons: 3
+      ws: 0
+      notes: '1cc 5op 0ws'
+      label: 'Cramped Bridge'
+      eff: 1
+      totalMCr: 0.7
+      name: 'Bridge'
+      tons: 3
+      op: 5
+      Sq: 6
+      tl: 10
+      b: 0
+      type: 'Ops'
+      mcr: 0.7
+      cc: 1
+      q: 0
+header: 
+   crew: 6
+   format: 'T5-ACS-1'
+   staff: 0
+   missionLabel: 'Barge'
+   totalCargoSpace: 70
+   spaciousness: 0.5
+   passengers: 0
+   controlConsoles: 1
+   demand: -5
+   lifters: 'y'
+   operatingConsoles: 5
+   overtons: 28.5
+   shipname: 'Shumshuga'
+   crewComfort: -5
+   workstations: 0
+   mission: 'W'
+   totalMCr: 37.1
+   jumpFuelPercentage: 0.1
+   jf: 1
+   low: 0
+   tons: 100
+   powerFuelPercentage: 0.01
+   mult: 1
+   tl: 10
+   qsp: 'W-AU11'
+   comments: |
+      Displacing 100 tons, the Type W Barge is a low-tech level, utilitarian vessel designed to haul small amounts of critical material across space as cheaply as possible.  As a result, the ship is slow (Jump-1), and uncomfortable, with a cramped bridge and a crew barracks. Attached to the bridge is a computer Model/1. 
+      
+      The ship is bulky and overtonned, making it ungainly and difficult to use by inexperienced operators. The barge typically carries 12 tons of fuel – sufficient for a one parsec jump and one month of operations – and frontier refueling capabilities. Cargo capacity is 70 tons. It is unstreamlined.
+      
+      The ship has four grapples, suitable for attaching up to four 35-ton small craft or pods. The ship requires a pilot, astrogator, and engineer. The barracks can accommodate an additional two people.
+      
+      NOTES 
+      
+      This barge is essentially a 40 ton ship's boat, gutted and filled with drives. The cargo hold is an 88 ton pod hull welded to the refitted boat. The crew space is what used to be the boat's old cockpit and a bit of leftover space.
+      
+      The “bridge” and barracks are "on their sides" when the ship is landed - it lands like a ships boat, to provide proper access to the huge cargo bay and its bay lock. In space, the bridge and barracks level uses grav plates, and it works like a 7 ton crew area.
+      
+      Most owners reposition the fittings in the crew compartment so that it’s usable when landed, and never turn on the internal grav plates.
+      
+      The engineering section has a 1.5m x 1.5m access crawlway, when landed, with several sections divided by hatches.  In space, the engineering section is in zero G, and is easier to transit. Wall rungs permit access to all machines there.  You ought to have Zero-G skill.
+   config: 'U'
+   pf: 2
+   shifts: 1
+   tonsFree: -28.5
+   preMult: 1
+   crewLocked: 'no'
+   troops: 0

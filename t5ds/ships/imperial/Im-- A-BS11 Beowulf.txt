@@ -1,0 +1,43 @@
+Trader A-BS11 Beowulf MCr50.6
+
+
+Using a 200-ton hull, the free trader is an elementary interstellar merchant ship plying the space lanes carrying cargo and passengers. It has jump drive-A, maneuver drive-A, and power plant-A, giving performance of jump-1 and 1-G acceleration. Fuel tankage supports the power plant and one jump-1. Adjacent to the bridge is a computer Model/1. There are ten staterooms and twenty low berths. There are two hardpoints, but no weapons are mounted. There are no ship's vehicles. Cargo capacity is 82 tons. The hull is streamlined.
+
+The free trader requires a crew of four: pilot, engineer, medic, and steward. Up to two gunners may be added. The ship can carry six high or middle passengers and twenty low passengers.
+
+Overtonnage: 5.5 tons
+Crew comfort:     +0
+Passenger demand: +1
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    200	 Streamlined hull                   	   14	
+      2	 Landing legs with pads             	    2	
+      0	 AV=10. 1 Kinetic Plate             	    0	
+     20	 Jump Fuel (1  parsec)              	    0	1 parsec jump, at 20t per parsec
+    1.8	 Plant Fuel (one month)             	    0	one month
+      1	 Fuel Scoops                        	  0.1	100 t/hr
+      1	 Fuel Intakes                       	  0.1	40 t/hr
+      1	 Fuel Bins                          	  0.1	20 t/hr
+     10	 Jump Drive-1 (A)                   	   10	R1
+      2	 Mod PowerPlant A (R1)              	    2	R1
+      2	 Maneuver Drive-1 (A)               	    4	R1
+      0	 AR Surf Basic                      	    6	
+      2	 2x AR T1 Empty                     	  0.4	#2 
+      1	 Computer Model/1 std               	  1.5	
+      1	 Life Support Standard              	    1	21 people
+      2	 2x Life Support Luxury             	    2	#2 4 high passengers
+      2	 Clinic                             	    1	
+     10	 Spacious Bridge                    	  0.6	1cc 4op 0ws
+      8	 4x Crew Stateroom                  	  0.4	#4 1 crew
+     10	 Crew Commons                       	    0	
+      1	 Crew Common Fresher                	    1	10 crew
+     82	 Cargo Hold Basic                   	    0	
+     10	 20x Low Berth                      	    2	#20 1 passenger
+     36	 6x Luxury Stateroom                	  2.4	#6 1 passenger + fresher
+[/code]
+
+[code]
+[/code]
+

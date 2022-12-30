@@ -1,0 +1,72 @@
+--- 
+ACS1.0: Fri Sep 2 10:57:06 GMT-0500 2016
+
+Mission: Transport
+QSP: T-JU33
+TL: 16
+Name: Bretremoy
+Actual Tons: 885
+
+MCr: 370.5
+Owner: Droyne
+Crew comfort:     +1
+Passenger demand: +1
+
+Comments: Using a 900-ton, TL16 hull, the Bretremoy-class Droyne Transport mounts advanced jump drive-P, advanced maneuver drive-P, and advanced power plant-P, giving a performance of jump-3 and 3G acceleration. Fuel tankage supports a 3 parsec jump, at 74t per parsec, and one month of operations. Attached to the bridge is a Computer Model/3 fib. There are 36 Droyne triple staterooms and 100 low berths. Installed weaponry include a B2 Particle Accelerator, T2 DataCaster, T2 Jump Damper, T2 Tractor/Pressor, two T2 Beam Lasers, two T3 Missiles, and a T2 Sandcaster.  Defenses include bolted-in nuclear damper, meson screen, mag scrambler, and black globe.
+
+Cargo capacity is 100 tons. The ship has an unstreamlined hull, with scoops, intakes, and bins for frontier refueling. 
+
+Carried craft include a GCarrier in a bracket, two light Fighters in brackets, and a Pinnace in a hull niche. The ship has 18 crew, and can carry 90 passengers and 100 low passengers. 
+
+
+Components: 
+ - Hull 900 1 29 D D 00000 0 Unstreamlined Hull, lifters, 9 a/l free 
+ - Hull 9 1 9 H H 00000 1 Landing legs with pads 
+ - Armor 36 1 0 H H 00000 1 AV=64. 2 EMP Charged 
+ - Drives 224 1 0 D D 00000 0 Jump Fuel (3  parsecs) 
+ - Drives 22.5 1 0 D D 00000 0 Plant Fuel (one month) 
+ - Drives 2 1 1.1 9 9 00000 2 Fuel Scoops with Purifier 
+ - Drives 2 1 1.1 9 9 00000 2 Fuel Intakes with Purifier 
+ - Drives 2 1 1.1 9 9 00000 2 Fuel Bins with Purifier 
+ - Drives 1 1 1 B B 00000 1 Fuel Transfer Pumps 
+ - Drives 24.75 1 75 E H 734B3 3 Adv Jump Drive P (R3) 
+ - Drives 14.19 1 43 E H 715E3 2 Adv PowerPlant P (R3) 
+ - Drives 8.91 1 54 E H 954B2 1 Adv Maneuver Drive P (R3) 
+ - Operations 6 1 15.7 H M 00000 1 Computer Model/3 fib 
+ - Operations 6 3 6 H H 00000 0 Life Support Long Term 
+ - Operations 2 1 1 H H 00000 1 Clinic 
+ - Operations 8 2 0.4 H H 00000 0 Gunners' Barracks 
+ - Operations 32 1 1.9 H L 00000 0 Spacious Bridge 
+ - Vehicles 3 3 3 H H 00000 0 Grapple 
+ - Vehicles 8 1 3 E E 00000 0 GCarrier 
+ - Vehicles 1 1 1 H H 00000 0 GCarrier Bracket 
+ - Vehicles 2 2 2 H H 00000 0 Fighter Bracket 
+ - Vehicles 16 2 24 F F 00000 0 Lt Fighter 
+ - Vehicles 40 1 19 D D 00000 0 Pinnace 
+ - Vehicles 20 1 1.5 H H 00000 0 Hull Niche (Pinnace) 
+ - Crew 36 6 2.4 H H 00000 1 Droyne Triple Suite 
+ - Payload 50 100 10 H H 00000 0 Low Berth 
+ - Payload 100 5 0 D D 00000 0 Cargo Hold Basic 
+ - Passengers 180 30 12 H H 00000 0 Droyne Triple Stateroom 
+ - Sensors 1 1 1.5 H K 00000 1 AR Ant Communicator 
+ - Sensors 1 1 1.5 H K 00000 1 AR Ant Jammer 
+ - Sensors 1 1 1.5 H K 00000 1 AR Ant Neutrino Detector 
+ - Sensors 1 1 1.5 H K 00000 1 AR Ant EMS 
+ - Sensors 1 1 1.5 H K 00000 1 AR Ant Stealth Mask 
+ - Sensors 1 1 1.5 H K 00000 1 AR Ant Visor 
+ - Weapons 5 1 6.5 H M 00000 1 AR B2 Particle Accelerator 
+ - Weapons 1 1 1.2 H G 00000 1 D T2 DataCaster 
+ - Weapons 1 1 15.5 H G 00000 1 Vd T2 Jump Damper 
+ - Weapons 1 1 5.5 H G 00000 1 Vd T2 Tractor/Pressor 
+ - Weapons 2 2 2 H G 00000 1 Vd T2 Beam Laser 
+ - Weapons 2 2 2.4 H H 00000 1 AR T3 Missile 
+ - Weapons 1 1 0.3 H G 00000 1 D T2 Sandcaster 
+ - Weapons 1 1 0 H H 00000 0 Magazine 
+ - Defenses 2 1 2 H G 00000 1 B Meson Screen 
+ - Defenses 3 1 2 H G 00000 1 B Nuclear Damper 
+ - Defenses 2 1 2 H G 00000 1 B Mag Scrambler 
+ - Defenses 2 1 5 H G 00000 1 B Black Globe 
+
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

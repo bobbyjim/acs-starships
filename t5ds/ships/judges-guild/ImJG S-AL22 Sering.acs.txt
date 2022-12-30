@@ -1,0 +1,50 @@
+--- 
+ACS1.0: Fri Apr 15 09:20:38 2022
+Mission: Scout/Courier
+QSP: S-AL22
+TL: 12 
+Name: Sering
+Tons: 100
+Actual Tons: 99.5
+
+MCr: 42.1
+Builder: Ling Standard
+Owner: Judges Guild
+Disposition: In Service
+Allegiance: ImJG
+
+Crew comfort: 2
+Passenger demand: -5
+Cargo: 3
+FuelPercentage: 11
+Components:
+#  CODE R  # QREBS TONS  MCR   LABEL
+ - HH0  L  1 00000 100   16    Lift body Hull, lifters, 1 a/l free
+ - HL1  K  1 00000 1     1     Landing legs with pads
+ - AA1 24  1 00000 4     0     AV=24. 2 Kinetic Plate
+ - DF0  -  1 00000 20    0     Jump Fuel (2  parsecs)
+ - DF0  -  1 00000 3.6   0     Plant Fuel (2 months)
+ - DF2 SP  1 00000 2     1.1   Fuel Scoops with Purifier
+ - DF2 IP  1 00000 2     1.1   Fuel Intakes with Purifier
+ - DF2 BP  1 00000 2     1.1   Fuel Bins with Purifier
+ - DJ1  A  1 00000 10    10    Jump Drive-2 (A)
+ - DP1  2  1 8430A 4     2     Mod PowerPlant A (R2)
+ - DM1  2  1 25211 2     2     Mod Maneuver Drive A (R2)
+ - OL0  -  1 00000 1     1     Life Support Standard
+ - OC1  3  1 7A0C0 1     0.7   Mod Computer Model/1 std
+ - OB0  2  1 00000 6     0.5   Spacious Bridge
+ - SS1  2  1 632B0 0     1     Mod AR Surf Communicator
+ - SS1  2  1 514B1 0     1     Mod AR Surf Neutrino Detector
+ - SS1  2  1 104400 0     1     Mod AR Surf Scope
+ - SS1  2  1 55520 0     1     Mod AR Surf Radar
+ - WW1 -1  1 00000 1     0.5   AR T2 Empty
+ - CF0  1  1 00000 0.5   0.5   Crew Shared Fresher
+ - CS0  1  4 00000 3     0.1   Crew Stateroom
+ - CC0  -  4 00000 4     0     Crew Commons
+ - PC0  -  1 00000 3     0     Cargo Hold Basic
+ - PO1  -  1 00000 0.5   0.1   Personnel Air Lock
+ - VO0 EL  1 00000 4     0.1   Air/Raft Enclosed
+ - VO1  -  1 00000 4     0     Air/Raft Lock
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

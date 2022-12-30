@@ -1,0 +1,976 @@
+--- 
+components: 
+   - 
+      e: 0
+      r: 0
+      category: 'Hull'
+      howMany: 1
+      s: 0
+      Sq: 4000
+      code: 'B'
+      totalTons: 2000
+      CP: 0
+      totalMCr: 60
+      notes: 'B'
+      label: 'Braced Hull'
+      eff: 1
+      name: 'Hull'
+      config: 'Braced'
+      mult: 1
+      tl: 12
+      preMult: 1
+      tons: 2000
+      type: 'Hull'
+      mcr: 60
+      b: 0
+      q: 0
+      target: 12
+
+   - 
+      totalMCr: 0
+      e: 0
+      r: 0
+      label: 'Jump Fuel (2  parsecs)'
+      eff: 1
+      s: 0
+      target: 12
+      tons: 400
+      category: 'Jump Fuel'
+      howMany: 1
+      tl: 12
+      b: 0
+      type: 'Drive'
+      Sq: 800
+      q: 0
+      CP: 0
+      totalTons: 400
+      mcr: 0
+      notes: '2 parsec jump, at 200t per parsec'
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: 'one month'
+      label: 'Plant Fuel (one month)'
+      category: 'Powerplant Fuel'
+      s: 0
+      r: 0
+      totalTons: 40
+      eff: 1
+      howMany: 1
+      tl: 12
+      b: 0
+      type: 'Drive'
+      CP: 0
+      q: 0
+      Sq: 80
+      tons: 40
+      mcr: 0
+      target: 12
+
+   - 
+      e: 0
+      r: 0
+      category: 'PowerPlant'
+      target: 10
+      howMany: 1
+      s: 0
+      B: 0
+      Sq: 122
+      code: 'V'
+      powerFuelUsage: 0.01
+      totalTons: 61
+      CP: 2
+      Q: 0
+      totalMCr: 61
+      E: 0
+      R: 0
+      label: 'PowerPlant-2 (V)'
+      eff: 1
+      S: 0
+      name: 'PowerPlant'
+      tons: 61
+      rating: 2
+      b: 0
+      type: 'Drive'
+      mcr: 61
+      tl: 10
+      basetl: 9
+      autoAdjust: 1
+      q: 0
+      notes: 'P 2'
+
+   - 
+      e: 0
+      r: 0
+      category: 'Jump Drive'
+      target: 11
+      howMany: 1
+      s: 0
+      B: 0
+      Sq: 210
+      code: 'V'
+      totalTons: 105
+      CP: 3
+      Q: 0
+      totalMCr: 105
+      E: 0
+      R: 0
+      label: 'Jump Drive-2 (V)'
+      eff: 1
+      S: 0
+      name: 'Jump Drive'
+      jumpFuelUsage: 0.1
+      rating: 2
+      tons: 105
+      type: 'Drive'
+      mcr: 105
+      tl: 11
+      basetl: 11
+      b: 0
+      autoAdjust: 1
+      q: 0
+      notes: 'J 2'
+
+   - 
+      e: 0
+      r: 0
+      category: 'Maneuver Drive'
+      howMany: 1
+      s: 0
+      tons: 39
+      B: 0
+      CP: 2
+      code: 'V'
+      totalTons: 39
+      Sq: 78
+      Q: 0
+      totalMCr: 78
+      E: 0
+      R: 0
+      label: 'Maneuver Drive-2 (V)'
+      eff: 1
+      S: 0
+      name: 'Maneuver Drive'
+      notes: '2 G'
+      rating: 2
+      b: 0
+      type: 'Drive'
+      mcr: 78
+      tl: 10
+      basetl: 9
+      autoAdjust: 1
+      target: 10
+      q: 0
+
+   - 
+      mount: 'Model/2bis'
+      e: 0
+      r: 0
+      category: 'Computer Model/2bis fib'
+      mod: 3
+      howMany: 1
+      s: 0
+      CP: 1
+      q: 0
+      totalTons: 6
+      Sq: 12
+      totalMCr: 11.2
+      notes: ''
+      label: 'Computer Model/2bis fib'
+      eff: 1
+      name: 'Computer'
+      config: 'Ops'
+      tl: 10
+      tons: 6
+      type: 'Ops'
+      mcr: 11.2
+      basetl: 1
+      range: 'f'
+      b: 0
+      target: 13
+
+   - 
+      basetl: 8
+      e: 0
+      r: 0
+      category: 'AR Ant Communicator'
+      mod: 1
+      howMany: 1
+      s: 0
+      CP: 1
+      q: 0
+      totalTons: 1
+      Sq: 2
+      totalMCr: 1.5
+      notes: ''
+      label: 'AR Ant Communicator'
+      eff: 1
+      name: 'Communicator'
+      tons: 1
+      tl: 10
+      config: 'Sensor'
+      type: 'Sensor'
+      mcr: 1.5
+      mount: 'Ant'
+      range: 'AR'
+      b: 0
+      target: 11
+
+   - 
+      basetl: 8
+      e: 0
+      r: 0
+      category: 'AR Ext Jammer'
+      mod: 4
+      howMany: 1
+      s: 0
+      CP: 1
+      target: 14
+      totalTons: 3
+      Sq: 6
+      totalMCr: 2.5
+      notes: ''
+      label: 'AR Ext Jammer'
+      eff: 1
+      name: 'Jammer'
+      tons: 3
+      tl: 10
+      config: 'Sensor'
+      type: 'Sensor'
+      mcr: 2.5
+      mount: 'Ext'
+      range: 'AR'
+      b: 0
+      q: 0
+
+   - 
+      mount: 'Ext'
+      e: 0
+      r: 0
+      category: 'AR Ext Radar'
+      mod: 4
+      howMany: 1
+      s: 0
+      Sq: 6
+      q: 0
+      totalTons: 3
+      CP: 1
+      totalMCr: 2.5
+      notes: ''
+      label: 'AR Ext Radar'
+      eff: 1
+      name: 'Radar'
+      config: 'Sensor'
+      tl: 10
+      b: 0
+      type: 'Sensor'
+      mcr: 2.5
+      basetl: 9
+      range: 'AR'
+      tons: 3
+      target: 14
+
+   - 
+      basetl: 9
+      e: 0
+      r: 0
+      category: 'AR Surf Scope'
+      s: 0
+      mod: 0
+      howMany: 1
+      CP: 1
+      q: 0
+      totalTons: 0
+      totalMCr: 1.5
+      notes: ''
+      label: 'AR Surf Scope'
+      eff: 1
+      name: 'Scope'
+      config: 'Sensor'
+      tl: 10
+      tons: 0
+      type: 'Sensor'
+      mcr: 1.5
+      mount: 'Surf'
+      range: 'AR'
+      b: 0
+      target: 10
+
+   - 
+      basetl: 10
+      e: 0
+      r: 0
+      category: 'AR Ext Neutrino Detector'
+      mod: 4
+      howMany: 1
+      s: 0
+      CP: 1
+      q: 0
+      totalTons: 3
+      Sq: 6
+      totalMCr: 2.5
+      notes: ''
+      label: 'AR Ext Neutrino Detector'
+      eff: 1
+      name: 'Neutrino Detector'
+      config: 'Sensor'
+      tl: 10
+      b: 0
+      type: 'Sensor'
+      mcr: 2.5
+      mount: 'Ext'
+      range: 'AR'
+      tons: 3
+      target: 14
+
+   - 
+      basetl: 8
+      e: 0
+      r: 0
+      category: 'AR B2 CommCaster'
+      mod: 3
+      howMany: 1
+      s: 0
+      CP: 1
+      q: 0
+      totalTons: 5
+      Sq: 10
+      totalMCr: 9
+      notes: ''
+      label: 'AR B2 CommCaster'
+      eff: 1
+      name: 'CommCaster'
+      tons: 5
+      tl: 10
+      config: 'Weapon'
+      type: 'Weapon'
+      mcr: 9
+      mount: 'B2'
+      range: 'AR'
+      b: 0
+      target: 13
+
+   - 
+      mount: 'Bay'
+      e: 0
+      r: 0
+      category: 'AR Bay Salvo Rack'
+      mod: 5
+      howMany: 1
+      s: 0
+      Sq: 100
+      q: 0
+      totalTons: 50
+      CP: 1
+      totalMCr: 15
+      notes: ''
+      label: 'AR Bay Salvo Rack'
+      eff: 1
+      name: 'Salvo Rack'
+      config: 'Weapon'
+      tl: 10
+      b: 0
+      type: 'Weapon'
+      mcr: 15
+      basetl: 10
+      range: 'AR'
+      tons: 50
+      target: 15
+
+   - 
+      basetl: 11
+      e: 0
+      r: 0
+      category: 'LR Bay KK Missile'
+      mod: 5
+      howMany: 1
+      s: 0
+      Sq: 200
+      q: 0
+      totalTons: 100
+      CP: 1
+      totalMCr: 18
+      notes: ''
+      label: 'LR Bay KK Missile'
+      eff: 1
+      name: 'KK Missile'
+      config: 'Weapon'
+      tl: 11
+      b: 0
+      type: 'Weapon'
+      mcr: 18
+      mount: 'Bay'
+      range: 'LR'
+      tons: 100
+      target: 16
+
+   - 
+      basetl: 7
+      e: 0
+      r: 0
+      category: 'AR Bay Missile'
+      mod: 5
+      howMany: 1
+      s: 0
+      CP: 1
+      q: 0
+      totalTons: 50
+      Sq: 100
+      totalMCr: 5.2
+      notes: ''
+      label: 'AR Bay Missile'
+      eff: 1
+      name: 'Missile'
+      tons: 50
+      tl: 10
+      config: 'Weapon'
+      type: 'Weapon'
+      mcr: 5.2
+      mount: 'Bay'
+      range: 'AR'
+      b: 0
+      target: 15
+
+   - 
+      mount: 'B2'
+      e: 0
+      r: 0
+      category: 'AR B2 Missile'
+      mod: 3
+      howMany: 4
+      s: 0
+      CP: 1
+      q: 0
+      totalTons: 20
+      Sq: 40
+      totalMCr: 16.8
+      notes: ''
+      label: 'AR B2 Missile'
+      eff: 1
+      name: 'Missile'
+      tons: 5
+      tl: 10
+      b: 0
+      type: 'Weapon'
+      mcr: 4.2
+      basetl: 7
+      range: 'AR'
+      config: 'Weapon'
+      target: 13
+
+   - 
+      basetl: 9
+      e: 0
+      r: 0
+      category: 'Vd T3 Sandcaster'
+      mod: 0
+      howMany: 2
+      s: 0
+      Sq: 4
+      q: 0
+      totalTons: 2
+      CP: 1
+      totalMCr: 2.2
+      notes: ''
+      label: 'Vd T3 Sandcaster'
+      eff: 1
+      name: 'Sandcaster'
+      tons: 1
+      tl: 10
+      b: 0
+      type: 'Weapon'
+      mcr: 1.1
+      mount: 'T3'
+      range: 'Vd'
+      config: 'Weapon'
+      target: 10
+
+   - 
+      mount: 'T3'
+      e: 0
+      r: 0
+      category: 'AR T3 Missile'
+      mod: 0
+      howMany: 4
+      s: 0
+      Sq: 8
+      q: 0
+      totalTons: 4
+      CP: 1
+      totalMCr: 4.8
+      notes: ''
+      label: 'AR T3 Missile'
+      eff: 1
+      name: 'Missile'
+      tons: 1
+      tl: 10
+      config: 'Weapon'
+      type: 'Weapon'
+      mcr: 1.2
+      basetl: 7
+      range: 'AR'
+      b: 0
+      target: 10
+
+   - 
+      basetl: 10
+      e: 0
+      r: 0
+      category: 'Vd T3 Beam Laser'
+      mod: 0
+      howMany: 5
+      s: 0
+      CP: 1
+      q: 0
+      totalTons: 5
+      Sq: 10
+      totalMCr: 7.5
+      notes: ''
+      label: 'Vd T3 Beam Laser'
+      eff: 1
+      name: 'Beam Laser'
+      config: 'Weapon'
+      tl: 10
+      tons: 1
+      type: 'Weapon'
+      mcr: 1.5
+      mount: 'T3'
+      range: 'Vd'
+      b: 0
+      target: 10
+
+   - 
+      totalMCr: 2
+      e: 0
+      notes: '40 person-months'
+      label: 'Life Support Long Term'
+      eff: 1
+      s: 0
+      r: 0
+      totalTons: 2
+      howMany: 1
+      tl: 10
+      b: 0
+      type: 'Ops'
+      mcr: 2
+      target: 10
+      CP: 0
+      tons: 2
+      Sq: 4
+      q: 0
+
+   - 
+      totalMCr: 2
+      e: 0
+      r: 0
+      label: 'Spacer Niche'
+      eff: 1
+      Sq: 40
+      notes: '1 crew'
+      sleeps: 1
+      howMany: 20
+      s: 0
+      tons: 1
+      type: 'Crew'
+      CP: 0
+      tl: 10
+      target: 10
+      totalSleeps: 20
+      b: 0
+      totalTons: 20
+      mcr: 0.1
+      q: 0
+
+   - 
+      totalMCr: 0
+      e: 0
+      r: 0
+      label: 'Crew Lounge'
+      eff: 1
+      s: 0
+      notes: ''
+      howMany: 5
+      tl: 10
+      tons: 4
+      b: 0
+      type: 'Crew'
+      Sq: 40
+      q: 0
+      mcr: 0
+      totalTons: 20
+      CP: 0
+      target: 10
+
+   - 
+      totalMCr: 2
+      e: 0
+      r: 0
+      label: 'Crew Common Fresher'
+      eff: 1
+      CP: 0
+      notes: '10 crew'
+      howMany: 2
+      s: 0
+      tons: 1
+      type: 'Crew'
+      Sq: 4
+      tl: 10
+      q: 0
+      b: 0
+      totalTons: 2
+      mcr: 1
+      target: 10
+
+   - 
+      totalMCr: 0
+      e: 0
+      r: 0
+      label: 'Cargo Hold Basic'
+      category: 'Cargo'
+      s: 0
+      notes: ''
+      totalTons: 84
+      eff: 1
+      howMany: 1
+      tl: 12
+      b: 0
+      type: 'Payload'
+      Sq: 168
+      target: 12
+      CP: 0
+      tons: 84
+      mcr: 0
+      q: 0
+
+   - 
+      totalMCr: 2
+      e: 0
+      notes: '(22) 4 sq + R4 O1/O2'
+      label: 'Platoon Barracks'
+      eff: 1
+      r: 0
+      tons: 18
+      howMany: 2
+      s: 0
+      b: 0
+      type: 'Ops'
+      mcr: 1
+      tl: 10
+      target: 10
+      Sq: 72
+      totalTons: 36
+      CP: 0
+      q: 0
+
+   - 
+      totalMCr: 0.2
+      e: 0
+      notes: '(5) R1 R1 R2 R2 R3'
+      label: 'Squad Barracks'
+      eff: 1
+      mcr: 0.2
+      r: 0
+      howMany: 1
+      s: 0
+      tons: 4
+      type: 'Ops'
+      CP: 0
+      tl: 10
+      q: 0
+      b: 0
+      totalTons: 4
+      Sq: 8
+      target: 10
+
+   - 
+      totalMCr: 10
+      e: 0
+      r: 0
+      label: 'Emergency Capsule'
+      eff: 1
+      mcr: 1
+      s: 0
+      notes: 'max. 10 for 15 days'
+      howMany: 10
+      tl: 10
+      tons: 1
+      type: 'Ops'
+      CP: 0
+      q: 0
+      b: 0
+      totalTons: 10
+      Sq: 20
+      target: 10
+
+   - 
+      speed: '5G'
+      e: '0'
+      r: '0'
+      label: "Ship's Boat + grapples"
+      load: 9
+      eff: '1'
+      s: '0'
+      totalMCr: 10.2
+      av: '10,10,10,3,10,3,3'
+      tons: 22
+      target: '11'
+      mod: ''
+      howMany: 1
+      tl: '11'
+      b: '0'
+      type: 'Vehicle'
+      mcr: 10.2
+      code: 'VlMLiQB'
+      CP: 0
+      totalTons: 22
+      Sq: 44
+      q: '0'
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: 'for express contracts'
+      label: 'Vault'
+      eff: 1
+      s: 0
+      r: 0
+      totalTons: 12
+      howMany: 1
+      tl: '10'
+      b: 0
+      type: 'Payload'
+      Sq: 24
+      q: 0
+      mcr: 0
+      tons: 12
+      CP: 0
+      target: 10
+
+   - 
+      totalMCr: 3
+      e: 0
+      notes: ''
+      label: 'Surgery'
+      eff: 1
+      s: 0
+      r: 0
+      howMany: 1
+      tl: 10
+      tons: 4
+      b: 0
+      type: 'Ops'
+      mcr: 3
+      target: 10
+      CP: 1
+      totalTons: 4
+      Sq: 8
+      q: 0
+
+   - 
+      totalMCr: 0.8
+      e: '0'
+      r: '0'
+      label: 'Briefing Room'
+      eff: '1'
+      s: '0'
+      q: '0'
+      tons: 4
+      mod: ''
+      howMany: 2
+      tl: '10'
+      b: '0'
+      type: 'Ops'
+      CP: 1
+      target: '10'
+      Sq: 16
+      totalTons: 8
+      mcr: 0.4
+      notes: ''
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: '50 x Size-5'
+      label: 'Magazine'
+      eff: 1
+      mcr: 0
+      r: 0
+      howMany: 1
+      s: 0
+      tons: 20
+      type: 'Weapon'
+      CP: 0
+      tl: 10
+      target: 10
+      b: 0
+      totalTons: 20
+      Sq: 40
+      q: 0
+
+   - 
+      totalMCr: 2.5
+      e: '0'
+      r: '0'
+      label: 'Armory'
+      eff: '1'
+      s: '0'
+      notes: ''
+      totalTons: 10
+      mod: ''
+      howMany: 1
+      tl: '10'
+      b: '0'
+      type: 'Ops'
+      Sq: 20
+      target: '10'
+      CP: 1
+      tons: 10
+      mcr: 2.5
+      q: '0'
+
+   - 
+      basetl: 8
+      e: 0
+      r: 0
+      category: 'AV=80. 8 Kinetic Plate'
+      mod: ''
+      howMany: 1
+      s: 0
+      Sq: 1120
+      target: 10
+      totalTons: 560
+      CP: 1
+      totalMCr: 0
+      notes: ''
+      label: 'AV=80. 8 Kinetic Plate'
+      eff: 1
+      name: 'Plate'
+      tons: 560
+      tl: 10
+      config: 'Armor'
+      type: 'Armor'
+      mcr: 0
+      mount: 'Kinetic'
+      range: '8'
+      b: 0
+      q: 0
+
+   - 
+      basetl: 11
+      e: 0
+      r: 0
+      category: 'AR M Particle Accelerator'
+      s: 0
+      mod: 10
+      howMany: 1
+      Sq: 400
+      target: 21
+      totalTons: 200
+      CP: 1
+      totalMCr: 22.5
+      notes: ''
+      label: 'AR M Particle Accelerator'
+      eff: 1
+      name: 'Particle Accelerator'
+      config: 'Weapon'
+      tl: 11
+      b: 0
+      type: 'Weapon'
+      mcr: 22.5
+      mount: 'M'
+      range: 'AR'
+      tons: 200
+      q: 0
+
+   - 
+      basetl: 11
+      e: 0
+      r: 0
+      category: 'AR Bay Particle Accelerator'
+      s: 0
+      mod: 5
+      howMany: 1
+      Sq: 100
+      target: 16
+      totalTons: 50
+      CP: 1
+      totalMCr: 7.5
+      notes: ''
+      label: 'AR Bay Particle Accelerator'
+      eff: 1
+      name: 'Particle Accelerator'
+      config: 'Weapon'
+      tl: 11
+      b: 0
+      type: 'Weapon'
+      mcr: 7.5
+      mount: 'Bay'
+      range: 'AR'
+      tons: 50
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Bridge'
+      s: 0
+      mod: 2
+      howMany: 1
+      Sq: 40
+      target: 12
+      totalTons: 20
+      CP: 0
+      ws: 0
+      notes: '4cc 6op 0ws'
+      label: 'Spacious Bridge'
+      eff: 1
+      totalMCr: 1.4
+      name: 'Bridge'
+      tons: 20
+      op: 6
+      tl: 10
+      b: 0
+      type: 'Ops'
+      mcr: 1.4
+      cc: 4
+      q: 0
+header: 
+   crew: 11
+   format: 'T5-ACS-1'
+   staff: 0
+   missionLabel: 'Cruiser'
+   owner: 'Sword Worlds'
+   controlConsoles: 4
+   spaciousness: 2
+   operatingConsoles: 6
+   totalCargoSpace: 84
+   workstations: 0
+   passengers: 0
+   shipname: 'Jarl'
+   crewComfort: -2
+   demand: -5
+   mission: 'C'
+   totalMCr: 470.3
+   undertons: 19
+   jumpFuelPercentage: 0.1
+   jf: 2
+   low: 0
+   config: 'B'
+   powerFuelPercentage: 0.02
+   pf: 1
+   tl: 10
+   qsp: 'C-VB22'
+   preMult: 1
+   tons: 2000
+   mult: 1
+   shifts: 1
+   tonsFree: 19
+   comments: |
+      The primary naval command asset in the Confederation planetary navies, the Jarl is a titan amongst the comparatively smaller ships in Sword Worlder fleets. It is a sprawling spacecraft built to stand its ground at the centre of any engagement, weathering the storm while delivering significant counterattacks. Slow and ponderous, the Jarl is laden with numerous weapon and defense systems to make up for its lack of manoeuvrability. This includes the expensive and terrifying Svartskie (‘Black Sky’) ortillery railgun platform; a weapon designed for eliminating entire enemy cities – when necessary.
+      
+      The Jarl is built like most other Sword Worlder vessels. It has tight conditions, a lack of storage room except for each crewman’s own personal gear and redundant systems aligned throughout the hull. Something that Sword Worlds designers could not institute in smaller crafts but always wanted to, the Jarl supports two complementary-but-not-reliant primary system areas. Complete and functional alternate command bridge, service airlock and briefing rooms exist at opposed sides of the spread-out vessel to serve the command staff in case one or the other is compromised. It is expensive and somewhat wasteful of space when not needed but when the command bridge takes a direct hit and it takes minutes instead of hours to bring a second, fully equipped, command bridge back online – there is little reason to doubt its utility.
+      
+      There are four Jarls in fleet service at most times in the Sword Worlds. The Siegfried patrols the planetary orbits surrounding Gram and Tyrfing. The Valisson is commonly deployed on a month-to-month basis around Biter, keeping a close watch over the routes to and from the Metal Worlds. The Wulvenhoar lies in orbit over Narsil, a leftover from the last engagement against local interplanetary rebels. The Jormungander is the only open-patrol command element the Confederation Patrol keeps within the subsector, always roving from planet to planet just to ‘check in’ and make sure its massive array of firepower could not be put to good use on the Patrol’s foes.
+   crewLocked: 'no'
+   troops: 0

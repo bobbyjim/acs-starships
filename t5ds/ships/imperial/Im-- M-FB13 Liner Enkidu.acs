@@ -1,0 +1,50 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:33 2021
+Mission: Liner
+QSP: M-FB13
+TL: 12 
+Name: Enkidu
+Tons: 600
+Actual Tons: 596
+
+MCr: 135.5
+Builder: Gashidda No. 3
+Disposition: In Service
+Allegiance: Im
+
+Crew comfort: -2
+Passenger demand: 0
+Cargo: 120
+FuelPercentage: 13
+Components:
+ - HH0   B  1 00000 600   18  Braced Hull
+ - AA1  12  1 00000   0    0  AV=12. 1 Kinetic Plate
+ - DF0   -  1 00000 180    0  Jump Fuel (3  parsecs)
+ - DF0   -  1 00000 19.8    0  Plant Fuel (one month)
+ - DJ2   J  1 00000  50   50  Jump Drive-3 (J)
+ - DM1   C  1 00000   5   10  Maneuver Drive-1 (C)
+ - DP1   2  1 00000  14   14  Mod PowerPlant-3 (J)
+ - OC1   3  1 00000   3  10.5  Computer Model/3 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   -  1 00000   1    1  Life Support Luxury
+ - OO0   -  1 00000   1    1  Life Support Adaptable
+ - OB0   2  1 00000  24    0  Spacious Controls
+ - CO0   -  2 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - CO0   -  7 00000   2  0.1  Crew Stateroom
+ - CO0   -  2 00000   1  0.1  Spacer Niche
+ - CO0   -  6 00000   4    0  Crew Lounge
+ - CO0   -  3 00000 0.5  0.1  Spacer Bunks
+ - PC0   -  1 00000 120    0  Cargo Hold Basic
+ - PO0   -  1 00000   1    1  Common Fresher
+ - PO0   -  8 00000   6  0.4  Luxury Stateroom
+ - PO0   -  2 00000 0.5  0.5  Shared Fresher
+ - PO0   -  4 00000   4    0  Passenger Lounge
+ - PO0   -  1 00000   1    0  Mail Vault
+ - PO0   - 13 00000   2  0.1  Standard Stateroom
+ - PO0   - 20 00000 0.5  0.1  Low Berth
+ - VO0  MS  1 00000  20   16  Launch
+ - VO1   -  1 00000  10    0  Launch Hangar
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

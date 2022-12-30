@@ -1,0 +1,452 @@
+--- 
+header: 
+   crewComfort: -2
+   pf: 1
+   totalMCr: 658.8
+   shipname: 'Hercules'
+   format: 'T5-ACS-1'
+   config: 'S'
+   crewLocked: 'yes'
+   preMult: 1
+   spaciousness: 2
+   mult: 5
+   troops: 0
+   tons: 5000
+   staff: 0
+   tonsFree: -1.5
+   totalCargoSpace: 4069
+   owner: 'Akerut'
+   passengers: 1
+   controlConsoles: 1
+   demand: -5
+   tl: 9
+   operatingConsoles: 12
+   workstations: 1
+   undertons: 26.5
+   comments: |
+      Using a 5000-ton hull, the Hercules heavy merchant is a bulk and containerized cargo carrier developed and produced for operations in the Aramis and neighboringsubsectors by Akerut. It mounts jump drive-W, maneuver drive-W, and power plant-W, giving performance of jump-1 and 1G acceleration. On the bridge is a computer Model/2bis. There are fifteen staterooms and no low berths. The ship has four triple turrets, each mounting beam lasers. There is one ship's vehicle: a 40-ton pinnace. 
+      
+      The Hercules heavy merchant requires a crew of 15: pilot/captain, astrogator, 7 engineers, medic, 4 gunners, and pinnace pilot. The ship does not carry passengers.
+      
+   powerFuelPercentage: 0.01
+   qsp: 'F-K5S11'
+   jumpFuelPercentage: 0.1
+   shifts: 1
+   jf: 1
+   low: 0
+   crew: 5
+   mission: 'F'
+   overtons: 1.5
+   missionLabel: 'Freighter'
+components: 
+   - 
+      totalTons: 5000
+      Sq: 10000
+      totalMCr: 302
+      eff: 1
+      label: 'Streamlined Hull'
+      mult: 5
+      type: 'Hull'
+      preMult: 1
+      code: 'S'
+      config: 'Streamlined'
+      tons: 5000
+      q: 0
+      mcr: 302
+      r: 0
+      s: 0
+      tl: 12
+      target: 12
+      notes: 'S'
+      b: 0
+      CP: 0
+      e: 0
+      category: 'Hull'
+      name: 'Hull'
+      howMany: 1
+
+   - 
+      CP: 0
+      Sq: 1000
+      tl: 12
+      target: 12
+      mcr: 0
+      b: 0
+      eff: 1
+      s: 0
+      totalMCr: 0
+      type: 'Drive'
+      category: 'Jump Fuel'
+      e: 0
+      label: 'Jump Fuel (1  parsec)'
+      totalTons: 500
+      tons: 500
+      q: 0
+      notes: 'J1, 500t/pc'
+      r: 0
+      howMany: 1
+
+   - 
+      CP: 0
+      Sq: 100
+      tl: 12
+      target: 12
+      mcr: 0
+      b: 0
+      eff: 1
+      s: 0
+      totalMCr: 0
+      type: 'Drive'
+      category: 'Powerplant Fuel'
+      e: 0
+      label: 'Plant Fuel (one month)'
+      totalTons: 50
+      tons: 50
+      q: 0
+      notes: 'one month'
+      r: 0
+      howMany: 1
+
+   - 
+      totalTons: 0
+      totalMCr: 0
+      mod: ''
+      eff: 1
+      basetl: 8
+      label: 'AV=9. 1 Kinetic Plate'
+      config: 'Armor'
+      type: 'Armor'
+      mount: 'Kinetic'
+      tons: 0
+      q: 0
+      mcr: 0
+      r: 0
+      CP: 1
+      tl: 9
+      target: 9
+      notes: ''
+      b: 0
+      s: 0
+      range: '1'
+      e: 0
+      category: 'AV=9. 1 Kinetic Plate'
+      name: 'Plate'
+      howMany: 1
+
+   - 
+      totalTons: 3
+      Sq: 6
+      totalMCr: 7.5
+      mod: 3
+      eff: 1
+      basetl: 0
+      label: 'Computer Model/2bis std'
+      config: 'Ops'
+      type: 'Ops'
+      mount: 'Model/2bis'
+      tons: 3
+      q: 0
+      mcr: 7.5
+      r: 0
+      CP: 1
+      tl: 9
+      target: 12
+      notes: ''
+      b: 0
+      s: 0
+      range: 's'
+      e: 0
+      category: 'Computer Model/2bis std'
+      name: 'Computer'
+      howMany: 1
+
+   - 
+      s: 0
+      Sq: 2
+      tl: 9
+      target: 9
+      notes: '10 person-months'
+      b: 0
+      eff: 1
+      CP: 0
+      totalMCr: 1
+      type: 'Ops'
+      e: 0
+      label: 'Life Support Standard'
+      totalTons: 1
+      tons: 1
+      q: 0
+      mcr: 1
+      r: 0
+      howMany: 1
+
+   - 
+      s: 0
+      Sq: 2
+      tl: 9
+      target: 9
+      notes: '10 crew'
+      b: 0
+      eff: 1
+      CP: 0
+      totalMCr: 1
+      type: 'Crew'
+      e: 0
+      label: 'Crew Common Fresher'
+      totalTons: 1
+      tons: 1
+      q: 0
+      mcr: 1
+      r: 0
+      howMany: 1
+
+   - 
+      s: 0
+      Sq: 1
+      tl: 9
+      target: 9
+      mcr: 0.5
+      b: 0
+      eff: 1
+      CP: 0
+      totalMCr: 0.5
+      type: 'Crew'
+      e: 0
+      label: 'Crew Shared Fresher'
+      totalTons: 0.5
+      tons: 0.5
+      q: 0
+      notes: '4 crew'
+      r: 0
+      howMany: 1
+
+   - 
+      s: 0
+      Sq: 56
+      tl: 9
+      target: 9
+      mcr: 0.1
+      b: 0
+      eff: 1
+      CP: 0
+      totalMCr: 1.4
+      type: 'Crew'
+      e: 0
+      label: 'Crew Stateroom'
+      totalTons: 28
+      totalSleeps: 14
+      tons: 2
+      sleeps: 1
+      q: 0
+      notes: '1 crew'
+      r: 0
+      howMany: 14
+
+   - 
+      s: 0
+      av: '30,10,10,10,10,10,10'
+      tl: 14
+      target: 14
+      load: 35
+      b: 0
+      eff: 1
+      label: 'Slow Pinnace'
+      Sq: 80
+      speed: '2G'
+      totalMCr: 18
+      type: 'Vehicle'
+      e: 0
+      code: 'MSQN'
+      CP: 0
+      tons: 40
+      q: 0
+      totalTons: 40
+      mcr: 18
+      r: 0
+      howMany: 1
+
+   - 
+      totalTons: 6
+      Sq: 12
+      totalMCr: 10
+      mod: 0
+      eff: 1
+      basetl: 9
+      label: 'D T3de Beam Laser'
+      config: 'Weapon'
+      type: 'Weapon'
+      mount: 'T3de'
+      tons: 1.5
+      q: 0
+      notes: ''
+      r: 0
+      CP: 1
+      tl: 9
+      target: 9
+      range: 'D'
+      b: 0
+      s: 0
+      mcr: 2.5
+      e: 0
+      category: 'D T3de Beam Laser'
+      name: 'Beam Laser'
+      howMany: 4
+
+   - 
+      s: 0
+      Sq: 8138
+      tl: 12
+      target: 12
+      notes: ''
+      b: 0
+      eff: 1
+      label: 'Cargo Hold Basic'
+      totalMCr: 0
+      type: 'Payload'
+      category: 'Cargo'
+      e: 0
+      CP: 0
+      tons: 4069
+      q: 0
+      totalTons: 4069
+      mcr: 0
+      r: 0
+      howMany: 1
+
+   - 
+      totalTons: 79
+      Sq: 158
+      totalMCr: 79
+      B: 0
+      eff: 1
+      basetl: 8
+      label: 'PowerPlant-1 (N2)'
+      type: 'Drive'
+      E: 0
+      powerFuelUsage: 0.01
+      code: 'N2'
+      rating: 1
+      tons: 79
+      q: 0
+      notes: 'P 1'
+      r: 0
+      CP: 3
+      tl: 9
+      target: 9
+      mcr: 79
+      b: 0
+      s: 0
+      autoAdjust: 1
+      e: 0
+      Q: 0
+      R: 0
+      S: 0
+      category: 'PowerPlant'
+      name: 'PowerPlant'
+      howMany: 1
+
+   - 
+      totalTons: 135
+      Sq: 270
+      totalMCr: 135
+      B: 0
+      eff: 1
+      basetl: 9
+      label: 'Jump Drive-1 (N2)'
+      jumpFuelUsage: 0.1
+      type: 'Drive'
+      E: 0
+      code: 'N2'
+      rating: 1
+      tons: 135
+      q: 0
+      notes: 'J 1'
+      r: 0
+      CP: 4
+      tl: 9
+      target: 9
+      mcr: 135
+      b: 0
+      s: 0
+      autoAdjust: 1
+      e: 0
+      Q: 0
+      R: 0
+      S: 0
+      category: 'Jump Drive'
+      name: 'Jump Drive'
+      howMany: 1
+
+   - 
+      totalTons: 51
+      Sq: 102
+      totalMCr: 102
+      B: 0
+      eff: 1
+      basetl: 9
+      label: 'Maneuver Drive-1 (N2)'
+      type: 'Drive'
+      E: 0
+      code: 'N2'
+      rating: 1
+      tons: 51
+      q: 0
+      notes: '1 G'
+      r: 0
+      CP: 2
+      tl: 9
+      target: 9
+      mcr: 102
+      b: 0
+      s: 0
+      autoAdjust: 1
+      e: 0
+      Q: 0
+      R: 0
+      S: 0
+      category: 'Maneuver Drive'
+      name: 'Maneuver Drive'
+      howMany: 1
+
+   - 
+      CP: 1
+      Sq: 20
+      tl: 9
+      target: 9
+      notes: ''
+      b: 0
+      eff: 1
+      s: 0
+      totalMCr: 0
+      type: 'Vehicle'
+      e: 0
+      label: 'Large Vehicle Lock'
+      totalTons: 10
+      tons: 10
+      q: 0
+      mcr: 0
+      r: 0
+      howMany: 1
+
+   - 
+      s: 0
+      Sq: 56
+      tl: 9
+      target: 11
+      mcr: 0
+      b: 0
+      eff: 1
+      label: 'Spacious Controls'
+      totalMCr: 0
+      type: 'Ops'
+      notes: ''
+      name: 'Bridge'
+      CP: 0
+      tons: 28
+      r: 0
+      q: 0
+      totalTons: 28
+      category: 'Bridge'
+      mod: 2
+      howMany: 1
+      e: 0

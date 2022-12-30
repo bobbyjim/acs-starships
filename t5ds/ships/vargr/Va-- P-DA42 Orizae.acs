@@ -1,0 +1,56 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:35 2021
+Mission: Corsair
+QSP: P-DA42
+TL: 11 
+Name: Orizae
+Tons: 400
+Actual Tons: 397
+
+MCr: 145.2
+Owner: Vargr
+Allegiance: Va
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 74
+FuelPercentage: 14
+Components:
+ - HH0   A  1 00000 400   30  Airframe Hull
+ - HL1   K  1 00000   4    4  Landing legs with pads
+ - AA1  11  1 00000   0    0  AV=11. 1 Kinetic Plate
+ - DF0   -  1 00000  80    0  Jump Fuel (2  parsecs)
+ - DF0   -  1 00000  16    0  Plant Fuel (one month)
+ - DP1   H  1 00000  25   25  PowerPlant-4 (H)
+ - DJ1   D  1 00000  25   25  Jump Drive-2 (D)
+ - DM1   H  1 00000  15   30  Maneuver Drive-4 (H)
+ - DF1   S  2 00000   1  0.1  Fuel Scoops
+ - DF1   P  2 00000   1  0.1  Fuel Purifiers
+ - OC1   1  1 00000   1  1.5  Computer Model/1 std
+ - OO0   -  1 00000   1    1  Life Support Standard
+ - OO0   -  2 00000   4  0.2  Squad Barracks
+ - OO1   -  1 00000   4    3  Surgery
+ - OB0   -  1 00000   9    1  Standard Bridge
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   4  1 00000   3  2.5  AR Ext Jammer
+ - SS1   4  1 00000   3  2.5  AR Ext Radar
+ - SS1   4  1 00000   3  2.5  AR Ext Scope
+ - SS1   4  1 00000   3  2.5  AR Ext Neutrino Detector
+ - WS1   4  1 00000   3  1.6  Vd Ext Activity Sensor
+ - WS1   4  1 00000   3  1.6  Vd Ext Densitometer
+ - WW1   -  2 00000   1  1.2  AR T3 Missile
+ - WW1   -  2 00000   1  1.5  Vd T3 Beam Laser
+ - CO0   -  8 00000   2  0.1  Crew Stateroom
+ - CO0   -  2 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  1 00000  18    0  Crew Lounge
+ - CO0   -  1 00000   4  0.2  XO Stateroom
+ - CO1   -  1 00000   8  0.4  Owner Suite
+ - PC0   -  1 00000  74    0  Cargo Hold Basic
+ - PO0   - 12 00000 0.5  0.1  Low Berth
+ - PO1   -  2 00000   2    0  Cargo Lock
+ - PO1   -  2 00000   1  0.1  Air Lock + Locker
+ - VO1   -  1 00000  10    0  Large Vehicle Lock
+ - VO0  LM  1 00000  40    0  Hangar
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

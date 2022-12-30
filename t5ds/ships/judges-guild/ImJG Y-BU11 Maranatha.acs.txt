@@ -1,0 +1,54 @@
+--- 
+ACS1.0: Thu Apr 14 09:59:13 2022
+Mission: Yacht
+QSP: Y-BU11
+TL: 12 
+Name: Maranatha
+Tons: 200
+Actual Tons: 207
+Overtonnage: 7
+
+MCr: 62.4
+Builder: GsBAG
+Owner: Judges Guild
+Disposition: In Service
+Allegiance: ImJG
+
+Crew comfort: 0
+Passenger demand: 1
+Cargo: 13
+FuelPercentage: 9
+Components:
+#  CODE R  # QREBS TONS  MCR   LABEL
+ - HH0  U  1 00000 200   8     Unstreamlined Hull, lifters, 2 a/l free
+ - HL1 n/  1 00000 -1    0     No Landers
+ - AA1 12  1 00000 0     0     AV=12. 1 Kinetic Plate
+ - DF0  -  1 00000 33    0     Jump Fuel (2  parsecs)
+ - DF0  -  1 00000 2     0     Plant Fuel (one month)
+ - DJ1  3  1 00000 3.3   10    Adv Jump Drive-1 (A)
+ - DM1  A  1 00000 2     4     Maneuver Drive-1 (A)
+ - DP1  A  1 00000 4     4     PowerPlant-1 (A)
+ - OC1  1  1 00000 1     1.5   Computer Model/1 std
+ - OL0  L  1 00000 2     2     Life Support Long Term
+ - OM1  -  1 00000 2     1     Clinic
+ - OL0  X  1 00000 1     1     Life Support Luxury
+ - OL0  A  1 00000 1     1     Life Support Adaptable
+ - OB0  -  1 00000 6     0.6   Standard Bridge
+ - SS1  -  1 00000 0     1.5   AR Surf Communicator
+ - SS1  -  1 00000 0     1.5   AR Surf Scope
+ - SS1  1  1 00000 1     1.5   AR Ant EMS
+ - WW1 -2  1 00000 1     0.2   AR T1 Empty
+ - CS0  1  4 00000 2     0.1   Crew Stateroom
+ - CF0  2  1 00000 1     1     Crew Common Fresher
+ - CC0  -  1 00000 8     0     Crew Lounge
+ - PC0  -  1 00000 13    0     Cargo Hold Basic
+ - PF0  1 10 00000 2.5   0.6   Stateroom with Fresher
+ - PC0  - 10 00000 4     0     Passenger Lounge
+ - VO0 EL  1 00000 4     0.1   Air/Raft Enclosed
+ - VO1  -  1 00000 10    0     Hangar Lock
+ - VO0 EL  1 00000 4     0.1   ATV
+ - VO0  -  1 00000 1     1     Grapple
+ - VO0 MF  1 00000 35    16    Custom Fast Boat
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

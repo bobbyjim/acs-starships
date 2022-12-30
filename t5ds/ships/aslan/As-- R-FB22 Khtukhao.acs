@@ -1,0 +1,50 @@
+--- 
+ACS1.0: Wed Apr 13 17:13:50 2022
+Mission: Merchant
+QSP: R-FB22
+TL: 12 
+Name: Khtukhao
+Tons: 600
+Actual Tons: 639
+Overtonnage: 39
+
+MCr: 163.8
+Owner: Aslan
+Allegiance: As
+
+Crew comfort: 0
+Passenger demand: 0
+Cargo: 140
+FuelPercentage: 12
+Components:
+#  CODE R  # QREBS TONS  MCR   LABEL
+ - HH0  B  1 00000 600   18    Braced Hull
+ - HL1 n/  1 00000 -3    0     No Landers
+ - AA1 12  1 00000 0     0     AV=12. 1 Kinetic Plate
+ - DF0  -  1 00000 120   0     Jump Fuel (2  parsecs)
+ - DF0  -  1 00000 6     0     Plant Fuel (0.5 months)
+ - DP1  F  1 00000 19    19    PowerPlant-2 (F)
+ - DJ1  F  1 00000 35    35    Jump Drive-2 (F)
+ - DM1  F  1 00000 11    22    Maneuver Drive-2 (F)
+ - OC1  3  1 00000 3     10.5  Computer Model/3 std
+ - OL0  L  1 00000 2     2     Life Support Long Term
+ - OL0  X  1 00000 1     1     Life Support Luxury
+ - OL0  A  1 00000 1     1     Life Support Adaptable
+ - OB0  2  1 00000 10    0     Spacious Controls
+ - WW1 -2  6 00000 0.99  1.6   FR T1de Empty
+ - CF0  2  1 00000 1     1     Crew Common Fresher
+ - CS0  1  9 00000 2     0.1   Crew Stateroom
+ - CC0  -  5 00000 4     0     Crew Lounge
+ - PL0  -  1 00000 0.5   0.1   Low Berth
+ - PS0  1 16 00000 6     0.4   Luxury Stateroom
+ - PS0  1  8 00000 2     0.1   Standard Stateroom
+ - PC0  -  1 00000 140   0     Cargo Hold Basic
+ - PL0  - 30 00000 0.5   0.1   Low Berth
+ - PC0  -  4 00000 4     0     Passenger Lounge
+ - PF0  1  6 00000 0.5   0.5   Shared Fresher
+ - VO0 MC  1 00000 95    22    Cargo Shuttle
+ - VO0  -  1 00000 6     6     Shuttle Grapples
+ - VO0  -  1 00000 2     2     Grapple Set Single
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

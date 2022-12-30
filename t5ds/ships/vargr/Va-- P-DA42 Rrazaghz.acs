@@ -1,0 +1,61 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:35 2021
+Mission: Corsair
+QSP: P-DA42
+TL: 13 
+Name: Rrazaghz
+Tons: 400
+Actual Tons: 400
+
+MCr: 153.1
+Builder: Voukkoez
+Disposition: In Service
+Allegiance: Va
+
+Crew comfort: -1
+Passenger demand: -5
+Cargo: 40
+FuelPercentage: 15
+Components:
+ - HH0   A  1 00000 400   30  Airframe Hull
+ - HL1   K  1 00000   4    4  Landing legs with pads
+ - AC1   -  1 00000   0    0  AV=0. c Slick
+ - AA1  26  1 00000  16    0  AV=26. 2 Kinetic Plate
+ - DF0   -  1 00000  88    0  Jump Fuel (2  parsecs)
+ - DF0   -  1 00000 70.3    0  Plant Fuel (4 months)
+ - DF1  S1  1 00000   1  0.1  Fuel Scoops 100t/hr
+ - DF1  I1  1 00000   1  0.1  Fuel Intakes 40t/hr
+ - DF1  B1  1 00000   1  0.1  Fuel Bins 20t/hr
+ - DF1  P3  1 00000   3    3  Fuel Purifiers 12t/hr
+ - DJ1   2  1 8322A 12.5  12.5  Mod Jump Drive-2 (D)
+ - DP1   2  1 500E5 12.5  12.5  Mod PowerPlant-4 (H)
+ - DM1   2  1 100100 7.5   15  Mod Maneuver Drive-4 (H)
+ - OC1   5  1 00000   5   27  Computer Model/5 std
+ - OO1   -  1 00000   2    1  Clinic
+ - OO0   -  5 00000   1  0.5  Emergency Low Berth
+ - OO0   -  1 00000  18    1  Platoon Barracks
+ - OO0   -  2 00000   2    2  Life Support Long Term
+ - OB0   2  1 00000  14    0  Spacious Controls
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   4  1 00000   3  2.5  AR Ext Jammer
+ - SS1   -  1 00000   0  1.5  AR Surf Scope
+ - SS1   4  1 00000   3  2.5  AR Ext Neutrino Detector
+ - SS1   4  1 00000   3  2.5  AR Ext EMS
+ - SS1   4  1 00000   3  2.5  AR Ext Stealth Mask
+ - WS1   -  1 00000   0  0.6  Vd Surf Life Detector
+ - WS1   -  1 00000   0  0.6  Vd Surf Proximeter
+ - WW1   -  1 00000   1    6  AR T3 CommCaster
+ - WW1   2  1 00000   3    4  Vd B1 Plasma Gun
+ - WW1   5  1 00000  50  7.5  AR Bay Particle Accelerator
+ - WW1   3  1 00000   5  4.2  AR B2 Missile
+ - DD1  -1  1 00000   3    2  B Nuclear Damper
+ - CO0   -  2 00000   4    0  Crew Lounge
+ - CO0   -  5 00000   2  0.1  Crew Stateroom
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - PO0   -  1 00000   1    0  Mail Vault
+ - PO0   -  1 00000   1    0  Magazine
+ - PC0   -  1 00000  40    0  Cargo Hold Basic
+ - PO1   -  1 00000 0.5  0.1  Air Lock
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

@@ -1,0 +1,737 @@
+--- 
+components: 
+   - 
+      totalMCr: 17
+      eff: 1
+      target: 12
+      code: 'L'
+      preMult: 1
+      mult: 1
+      q: 0
+      config: 'Lift body'
+      r: 0
+      type: 'Hull'
+      tl: 12
+      notes: 'L, lifters'
+      b: 0
+      CP: 0
+      s: 0
+      category: 'Hull'
+      tons: 100
+      mcr: 17
+      e: 0
+      name: 'Hull'
+      label: 'Lift body Hull, lifters'
+      howMany: ''
+      Sq: 200
+      totalTons: 100
+
+   - 
+      s: 0
+      totalMCr: 0
+      eff: 1
+      CP: 0
+      tl: 12
+      target: 12
+      category: 'Jump Fuel'
+      b: 0
+      e: 0
+      totalTons: 20
+      mcr: 0
+      tons: 20
+      howMany: ''
+      label: 'Jump Fuel (2  parsecs)'
+      q: 0
+      notes: 'J2, 10t/pc'
+      r: 0
+      Sq: 40
+      type: 'Drive'
+
+   - 
+      s: 0
+      totalMCr: 0
+      eff: 1
+      CP: 0
+      tl: 12
+      target: 12
+      category: 'Powerplant Fuel'
+      b: 0
+      tons: 2
+      totalTons: 2
+      mcr: 0
+      e: 0
+      r: 0
+      label: 'Plant Fuel (one month)'
+      q: 0
+      notes: 'one month'
+      howMany: ''
+      Sq: 4
+      type: 'Drive'
+
+   - 
+      tl: 8
+      totalMCr: 0.1
+      b: 0
+      totalTons: 1
+      s: 0
+      target: 8
+      category: 'Fuel Scoops'
+      eff: 1
+      tons: 1
+      CP: 1
+      mcr: 0.1
+      e: 0
+      r: 0
+      label: 'Fuel Scoops 100t/hr'
+      q: 0
+      notes: '100t/hr'
+      count: 1
+      howMany: ''
+      Sq: 2
+      type: 'Drive'
+
+   - 
+      tl: 8
+      totalMCr: 0.1
+      eff: 1
+      CP: 1
+      s: 0
+      target: 8
+      e: 0
+      category: 'Fuel Intakes'
+      b: 0
+      tons: 1
+      totalTons: 1
+      mcr: 0.1
+      Sq: 2
+      r: 0
+      label: 'Fuel Intakes 40t/hr'
+      q: 0
+      notes: '40t/hr'
+      count: 1
+      howMany: ''
+      type: 'Drive'
+
+   - 
+      totalMCr: 1
+      eff: 1
+      basetl: 10
+      target: 9
+      mount: 'T2'
+      q: 0
+      notes: ''
+      r: 0
+      type: 'Weapon'
+      tl: 10
+      range: 'Vd'
+      config: 'Weapon'
+      b: 0
+      CP: 1
+      s: 0
+      category: 'Vd T2 Beam Laser'
+      e: 0
+      mcr: 1
+      tons: 1
+      name: 'Beam Laser'
+      label: 'Vd T2 Beam Laser'
+      mod: -1
+      howMany: ''
+      Sq: 2
+      totalTons: 1
+
+   - 
+      tl: 10
+      totalMCr: 0.4
+      eff: 1
+      CP: 0
+      s: 0
+      target: 10
+      b: 0
+      tons: 2
+      type: 'Crew'
+      totalSleeps: 4
+      mcr: 0.1
+      e: 0
+      howMany: 4
+      label: 'Crew Single Stateroom'
+      q: 0
+      notes: '1 crew'
+      Sq: 16
+      r: 0
+      sleeps: 1
+      totalTons: 8
+
+   - 
+      tl: 10
+      totalMCr: 1
+      b: 0
+      CP: 0
+      s: 0
+      target: 10
+      e: 0
+      eff: 1
+      tons: 1
+      type: 'Crew'
+      mcr: 1
+      Sq: 2
+      r: 0
+      label: 'Crew Common Fresher'
+      q: 0
+      notes: '10 crew'
+      howMany: ''
+      totalTons: 1
+
+   - 
+      s: 0
+      totalMCr: 0
+      eff: 1
+      CP: 0
+      tl: 10
+      target: 10
+      e: 0
+      b: 0
+      tons: 9
+      totalTons: 9
+      mcr: 0
+      Sq: 18
+      r: 0
+      label: 'Crew Lounge'
+      q: 0
+      notes: ''
+      howMany: ''
+      type: 'Crew'
+
+   - 
+      tl: 12
+      totalMCr: 0
+      eff: 1
+      type: 'Payload'
+      s: 0
+      target: 12
+      category: 'Cargo'
+      b: 0
+      e: 0
+      CP: 0
+      mcr: 0
+      tons: 3
+      r: 0
+      label: 'Cargo Hold Basic'
+      q: 0
+      notes: ''
+      howMany: ''
+      Sq: 6
+      totalTons: 3
+
+   - 
+      s: 0
+      totalMCr: 0.1
+      b: 0
+      totalTons: 1
+      tl: 8
+      target: 8
+      category: 'Fuel Bins'
+      eff: 1
+      e: 0
+      CP: 1
+      mcr: 0.1
+      tons: 1
+      howMany: ''
+      label: 'Fuel Bins 20t/hr'
+      q: 0
+      notes: '20t/hr'
+      count: 1
+      r: 0
+      Sq: 2
+      type: 'Drive'
+
+   - 
+      s: 0
+      code: 'ELPV'
+      b: 0
+      av: '9,0,4,0,4,0,24,0'
+      tl: 9
+      target: 9
+      load: 2
+      speed: 3
+      eff: 1
+      e: 0
+      totalTons: 4
+      CP: 0
+      totalMCr: 0.1
+      mcr: 0.1
+      tons: 4
+      howMany: ''
+      label: 'Air/Raft Enclosed'
+      q: 0
+      r: 0
+      Sq: 8
+      type: 'Vehicle'
+
+   - 
+      s: 0
+      totalMCr: 0
+      eff: 1
+      CP: 1
+      tl: '10'
+      target: '10'
+      q: 0
+      b: 0
+      tons: 2
+      totalTons: 2
+      mcr: 0
+      e: 0
+      r: 0
+      label: 'Vehicle Hangar Overhead'
+      mod: ''
+      notes: ''
+      howMany: ''
+      Sq: 4
+      type: 'Vehicle'
+
+   - 
+      totalMCr: 1.5
+      eff: 1
+      basetl: 8
+      target: 11
+      mount: 'Ant'
+      range: 'AR'
+      notes: ''
+      r: 0
+      type: 'Sensor'
+      tl: 10
+      q: 0
+      config: 'Sensor'
+      b: 0
+      CP: 1
+      s: 0
+      category: 'AR Ant Communicator'
+      tons: 1
+      mcr: 1.5
+      e: 0
+      name: 'Communicator'
+      label: 'AR Ant Communicator'
+      mod: 1
+      howMany: ''
+      Sq: 2
+      totalTons: 1
+
+   - 
+      totalMCr: 1.5
+      eff: 1
+      basetl: 9
+      target: 11
+      mount: 'Ant'
+      q: 0
+      config: 'Sensor'
+      r: 0
+      CP: 1
+      s: 0
+      range: 'AR'
+      notes: ''
+      b: 0
+      type: 'Sensor'
+      tl: 10
+      category: 'AR Ant Scope'
+      tons: 1
+      mcr: 1.5
+      e: 0
+      name: 'Scope'
+      label: 'AR Ant Scope'
+      mod: 1
+      howMany: ''
+      Sq: 2
+      totalTons: 1
+
+   - 
+      s: 0
+      totalMCr: 0
+      b: 0
+      type: 'Payload'
+      tl: 10
+      target: 10
+      eff: 1
+      tons: 1
+      CP: 0
+      mcr: 0
+      e: 0
+      howMany: ''
+      label: 'Mail Vault'
+      q: 0
+      notes: 'for express contracts'
+      r: 0
+      Sq: 2
+      totalTons: 1
+
+   - 
+      s: 0
+      totalMCr: 1
+      b: 0
+      totalTons: 2
+      tl: 10
+      target: 10
+      eff: 1
+      e: 0
+      type: 'Ops'
+      mcr: 1
+      tons: 2
+      r: 0
+      label: 'Clinic'
+      q: 0
+      notes: 'treats common injuries'
+      howMany: ''
+      Sq: 4
+      CP: 1
+
+   - 
+      totalMCr: 0
+      eff: 1
+      basetl: 9
+      target: 10
+      mount: 'Kinetic'
+      range: '1'
+      notes: ''
+      r: 0
+      CP: 1
+      tl: 10
+      q: 0
+      config: 'Armor'
+      b: 0
+      type: 'Armor'
+      s: 0
+      category: 'AV=5. 1 Kinetic Shell'
+      e: 0
+      mcr: 0
+      tons: 0
+      name: 'Shell'
+      label: 'AV=5. 1 Kinetic Shell'
+      mod: ''
+      howMany: ''
+      totalTons: 0
+
+   - 
+      tl: 8
+      totalMCr: 1
+      eff: 1
+      type: 'Drive'
+      s: 0
+      target: 8
+      category: 'Fuel Purifiers'
+      b: 0
+      e: 0
+      CP: 1
+      mcr: 1
+      tons: 1
+      howMany: ''
+      label: 'Fuel Purifiers 4t/hr'
+      q: 0
+      notes: '4t/hr'
+      count: 1
+      r: 0
+      Sq: 2
+      totalTons: 1
+
+   - 
+      totalMCr: 2.7
+      eff: 1
+      basetl: 12
+      target: 16
+      mount: 'Ext'
+      q: 0
+      config: 'Sensor'
+      r: 0
+      CP: 1
+      s: 0
+      range: 'AR'
+      notes: ''
+      b: 0
+      type: 'Sensor'
+      tl: 12
+      category: 'AR Ext EMS'
+      e: 0
+      mcr: 2.7
+      tons: 3
+      name: 'EMS'
+      label: 'AR Ext EMS, imported'
+      mod: 4
+      howMany: ''
+      Sq: 6
+      totalTons: 3
+
+   - 
+      s: 0
+      tonsPercent: 0
+      code: 'G'
+      eff: 1
+      type: 'Hull'
+      note: 'G'
+      target: 10
+      totalMCr: 1
+      category: 'jump field'
+      b: 0
+      tons: 0
+      totalTons: 0
+      tl: 10
+      mcr: 1
+      e: 0
+      name: 'Jump Grid'
+      howMany: ''
+      label: 'Jump Grid'
+      q: 0
+      mcrPerTon: 0
+      r: 0
+      mcrPerHullTon: 0.01
+      CP: 1
+
+   - 
+      s: 0
+      totalMCr: 0
+      b: 0
+      type: 'Crew'
+      tl: 10
+      target: 10
+      eff: 1
+      tons: 4
+      totalTons: 4
+      mcr: 0
+      e: 0
+      r: 0
+      label: 'Forward Lounge'
+      q: 0
+      notes: ''
+      howMany: ''
+      Sq: 8
+      CP: 0
+
+   - 
+      totalMCr: 4
+      B: 0
+      basetl: 9
+      target: 10
+      code: 'A'
+      rating: 2
+      eff: 1
+      powerFuelUsage: 0.01
+      E: 0
+      q: 0
+      notes: 'P 2'
+      r: 0
+      type: 'Drive'
+      s: 0
+      b: 0
+      autoAdjust: 1
+      tl: 10
+      category: 'PowerPlant'
+      tons: 4
+      CP: 1
+      Q: 0
+      mcr: 4
+      R: 0
+      e: 0
+      name: 'PowerPlant'
+      S: 0
+      label: 'PowerPlant-2 (A)'
+      howMany: ''
+      Sq: 8
+      totalTons: 4
+
+   - 
+      code: 'A'
+      B: 0
+      basetl: 9
+      target: 10
+      totalMCr: 4
+      rating: 2
+      eff: 1
+      E: 0
+      q: 0
+      notes: '2 G'
+      r: 0
+      CP: 1
+      s: 0
+      b: 0
+      autoAdjust: 1
+      tl: 10
+      category: 'Maneuver Drive'
+      tons: 2
+      type: 'Drive'
+      Q: 0
+      mcr: 4
+      R: 0
+      e: 0
+      name: 'Maneuver Drive'
+      S: 0
+      label: 'Maneuver Drive-2 (A)'
+      howMany: ''
+      Sq: 4
+      totalTons: 2
+
+   - 
+      code: 'A'
+      B: 0
+      basetl: 11
+      jumpFuelUsage: 0.1
+      target: 11
+      totalMCr: 10
+      rating: 2
+      eff: 1
+      E: 0
+      q: 0
+      notes: 'J 2'
+      r: 0
+      CP: 1
+      tl: 11
+      b: 0
+      autoAdjust: 1
+      s: 0
+      category: 'Jump Drive'
+      e: 0
+      type: 'Drive'
+      Q: 0
+      mcr: 10
+      R: 0
+      tons: 10
+      name: 'Jump Drive'
+      S: 0
+      label: 'Jump Drive-2 (A)'
+      howMany: ''
+      Sq: 20
+      totalTons: 10
+
+   - 
+      s: 0
+      label: 'Landing legs with pads'
+      code: 'K'
+      b: 0
+      type: 'Hull'
+      note: 'K'
+      target: 10
+      totalMCr: 1
+      category: 'landers'
+      eff: 1
+      tons: 1
+      CP: 1
+      tl: 10
+      mcr: 1
+      e: 0
+      name: 'Landing legs with pads'
+      r: 0
+      tonsPercent: 1
+      q: 0
+      mcrPerTon: 1
+      howMany: ''
+      Sq: 2
+      totalTons: 1
+
+   - 
+      s: 0
+      totalMCr: 1
+      b: 0
+      type: 'Ops'
+      tl: 10
+      target: 10
+      eff: 1
+      tons: 1
+      CP: 0
+      mcr: 1
+      e: 0
+      r: 0
+      label: 'Life Support Standard'
+      q: 0
+      notes: '10 person-months'
+      howMany: ''
+      Sq: 2
+      totalTons: 1
+
+   - 
+      totalMCr: 3
+      eff: 1
+      basetl: 0
+      target: 12
+      mount: 'Model/1bis'
+      range: 's'
+      notes: ''
+      r: 0
+      type: 'Ops'
+      tl: 10
+      q: 0
+      config: 'Ops'
+      b: 0
+      CP: 1
+      s: 0
+      category: 'Computer Model/1bis std'
+      tons: 1
+      mcr: 3
+      e: 0
+      name: 'Computer'
+      label: 'Computer Model/1bis std'
+      mod: 2
+      howMany: ''
+      Sq: 2
+      totalTons: 1
+
+   - 
+      s: 0
+      totalMCr: 0
+      b: 0
+      CP: 0
+      tl: 10
+      target: 12
+      category: 'Bridge'
+      eff: 1
+      e: 0
+      type: 'Ops'
+      mcr: 0
+      mod: 2
+      tons: 14
+      name: 'Bridge'
+      r: 0
+      label: 'Spacious Controls'
+      q: 0
+      notes: ''
+      howMany: ''
+      Sq: 28
+      totalTons: 14
+header: 
+   format: 'T5-ACS-1'
+   totalMCr: 52.2
+   mission: 'S'
+   missionLabel: 'Scout/Courier'
+   pf: 1
+   mult: 1
+   preMult: 1
+   spaciousness: 2
+   crewComfort: 0
+   crew: 7
+   troops: 0
+   staff: 0
+   comments: |
+      Using a 100-ton Lifting Body hull, the scout/courier is intended for exploration, survey, and courier duties, with many in service throughout known space. It mounts drives giving it jump-2 and 2-G acceleration. Installed on its bridge is a computer Model/1bis and attack-range sensors. Detached duty versions have an open lounge where survey sensors would typically go.
+      
+      There are four staterooms and no low berths. The ship has one hardpoint; installed on the hardpoint is one double turret beam laser. There is one ship's vehicle: an air/raft. Cargo capacity is 3 tons. The hull has scoops, bins, and a purification plant for wilderness refueling.
+      
+      The Scout, by its nature, is built as a one-person operation: a single crew person can handle all operations, albeit inefficiently.  On the other hand, the Scout can carry three non-commercial passengers in relative comfort, or up to seven with double occupancy.
+   totalCargoSpace: 3
+   config: 'L'
+   passengers: 1
+   demand: -5
+   shipname: 'Murphy'
+   low: 0
+   undertons: 1
+   tl: 10
+   jumpFuelPercentage: 0.1
+   lifeSupport: 1
+   powerFuelPercentage: 0.02
+   tons: 100
+   qsp: 'S-AL22'
+   lifters: 'y'
+   shifts: 1
+   disposition: 'In Service'
+   jf: 2
+   builder: 'Delvani'
+   flight: '173-1088'
+   controlConsoles: 1
+   tonsFree: 1
+   keel: '045-1087'
+   operatingConsoles: 5
+   overtons: 0.5
+   workstations: 1

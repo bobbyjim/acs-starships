@@ -1,0 +1,57 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:33 2021
+Mission: Packet
+QSP: U-CA33
+TL: 12 
+Name: Armed Packet
+Tons: 300
+Actual Tons: 300
+
+MCr: 115.3
+Owner: Imperial
+Allegiance: Im
+
+Crew comfort: 1
+Passenger demand: 1
+Cargo: 4
+FuelPercentage: 12
+Components:
+ - HH0   A  1 00000 300   26  Airframe Hull, lifters
+ - HL1   K  1 00000   3    3  Landing legs with pads
+ - HF1   D  1 00000   3    3  Flotation hull
+ - AA1  12  1 00000   0    0  AV=12. 1 Kinetic Plate
+ - DF0   -  1 00000  90    0  Jump Fuel (3  parsecs)
+ - DJ1   E  1 00000  30   30  Jump Drive-3 (E)
+ - DM1  -2  1 5B201   9    9  Gen Maneuver Drive-3 (E)
+ - DF0   -  1 00000   4    0  Plant Fuel (0.5 months)
+ - DP1   1  1 4A3A5  16   16  Imp PowerPlant E (R3)
+ - DF2  SP  1 00000   2  1.1  Fuel Scoops with Purifier
+ - DF2  IP  1 00000   2  1.1  Fuel Intakes with Purifier
+ - DF2  BP  1 00000   2  1.1  Fuel Bins with Purifier
+ - OC1   3  1 00000   3  10.5  Computer Model/3 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   -  1 00000   1    1  Life Support Luxury
+ - OO0   -  1 00000   1    1  Life Support Adaptable
+ - OO0   -  1 00000   4  0.2  Gunners' Barracks
+ - OO1   -  1 00000 4.5  1.5  Medic's Stateroom, fresher, and clinic
+ - OB0   2  1 00000  16  0.9  Spacious Bridge
+ - WW1  -2  1 00000   1  0.4  AR T1 Missile
+ - WW1  -2  2 00000   1  0.2  AR T1 Empty
+ - CO1   -  1 00000   6  0.4  Owner's Suite
+ - CO0   -  1 00000   2  0.1  Pilot's Stateroom
+ - CO0   -  1 00000   2  0.1  Chief Engineer's Stateroom
+ - CO0   -  2 00000   1  0.1  Spacer Niche
+ - CO0   -  1 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  1 00000  18    0  Crew Commons
+ - PO0   -  1 00000   1    0  Magazine
+ - PO0   -  1 00000   1    0  Mail Vault
+ - PC0   -  1 00000   4    0  Cargo Hold Basic
+ - PO0   -  6 00000   6  0.4  Luxury Stateroom
+ - PO0   -  2 00000 0.5  0.5  Shared Fresher
+ - PO0   -  4 00000 0.5  0.1  Low Berth
+ - PO0   -  4 00000   2  0.1  Standard Stateroom
+ - PO0   -  1 00000  16    0  Passenger Commons
+ - VO0  EL  1 00000   5  1.6  Air/Raft Enclosed - bracket SL
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

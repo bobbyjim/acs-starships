@@ -1,0 +1,98 @@
+--- 
+ACS1.0: Mon Nov 8 09:44:35 GMT-0600 2021
+
+Mission: Frontier Cruiser
+QSP: CF-Z2S111
+TL: 20
+Name: Stanislaw
+Actual Tons: 4670
+Allegiance: ImBT
+
+MCr: 5130.8
+Builder: Piorabanti
+Owner: Baraccai Technum
+Disposition: Detached Duty
+Crew comfort:     +0
+Passenger demand: -5
+
+Comments: Using a 4800-ton, TL20 hull, the Stanislaw Class Frontier Cruiser mounts jump drive-Z, maneuver drive-Z9, and power plant-Z9, giving a performance of jump-1 and 11G acceleration. Fuel tankage supports a 1 parsec jump, at 398t per parsec, and one month of operations. Attached to the bridge is a Computer Model/9 fib. There are 40 staterooms and no low berths. Installed weaponry include 1 Bay Particle Accelerator, 1 Bay CommCaster, 1 Bay Meson Gun, 1 Bay KK Missile, 1 Bay AM Missile, 1 Bay DataCaster, 1 Bay Stasis, 1 Bay Fusion Gun, 1 Bay Pulse Laser, 1 Bay Beam Laser, 1 Bay Sandcaster, 1 Bay Jump Damper, 1 Bay Tractor/Pressor, and 1 Bay Disruptor. Cargo capacity is 400 tons. The ship has a streamlined hull, with scoops, intakes, and bins for frontier refueling. 
+
+Carried craft include 5 Pinnace + Hangar spaces, and 5 Gig + Hangar spaces. The ship has 42 crew. 
+
+Components: 
+ - Hull 4800 1 290 D D 00000 0 Streamlined Hull, lifters, 48 a/l free 
+ - Hull 48 1 48 N N 00000 1 Landing legs with pads 
+ - Hull 0 1 48 N N 00000 1 Jump Grid 
+ - Hull 96 1 96 N N 00000 1 Submergence hull 
+ - Hull 48 1 96 N N 00000 1 Collapsing wings 
+ - Armor 384 1 0 N N 00000 1 AV=120. 3 EMP Charged 
+ - Drives 398 1 0 D D 00000 0 Jump Fuel (1  parsec) 
+ - Drives 403.2 1 0 D D 00000 0 Plant Fuel (one month) 
+ - Drives 105.75 1 1692 H N 831D3 13 Ult Maneuver Drive Z9 (R11) 
+ - Drives 164.25 1 1314 H N 535E2 19 Ult PowerPlant Z9 (R11) 
+ - Drives 31.25 1 250 H N 955E5 4 Ult Jump Drive Z (R1) 
+ - Drives 62.5 1 250 H N 55501 8 Ult Collector Z (R1) 
+ - Drives 41.25 1 125 K N 845E2 4 Adv Hop Drive Z (R1) 
+ - Drives 2 1 1.1 9 9 00000 2 Fuel Scoops with Purifier 
+ - Drives 20 10 11 9 9 00000 2 Fuel Bins with Purifier 
+ - Drives 10 5 5.5 9 9 00000 2 Fuel Intakes with Purifier 
+ - Drives 1 1 1 B B 00000 1 Fuel Transfer Pumps 
+ - Operations 18 1 127.5 N X 00000 1 Computer Model/9 fib 
+ - Operations 4 2 4 N N 00000 0 Life Support Long Term 
+ - Operations 2 2 2 N N 00000 0 Life Support Adaptable 
+ - Operations 2 1 1 N N 00000 1 Clinic 
+ - Operations 2 1 0.2 N N 00000 1 Counsellor 
+ - Operations 10 10 5 N N 00000 0 Emergency Low Berth 
+ - Operations 78 1 4.4 N Q 00000 0 Spacious Bridge 
+ - Vehicles 10 1 0 N N 00000 1 Hangar Lock 
+ - Vehicles 400 5 95 D D 00000 0 Pinnace + Hangar space 
+ - Vehicles 200 5 90 G G 00000 0 Gig + Hangar space 
+ - Crew 48 8 3.2 N N 00000 1 Officer Suite 
+ - Crew 80 20 0 N N 00000 0 Crew Commons 
+ - Crew 80 40 4 N N 00000 0 Crew Stateroom 
+ - Crew 4 4 4 N N 00000 0 Crew Common Fresher 
+ - Payload 1 1 1 N N 00000 0 Mail Vault 
+ - Payload 9 1 1.8 N N 00000 1 Large Cargo Lock 
+ - Payload 400 1 0 D D 00000 0 Cargo Hold Basic 
+ - Sensors 15 1 31 N Q 00000 1 DS B1de Communicator 
+ - Sensors 15 1 31 N Q 00000 1 DS B1de Jammer 
+ - Sensors 15 1 31 N Q 00000 1 DS B1de Neutrino Detector 
+ - Sensors 15 1 31 N Q 00000 1 DS B1de EMS 
+ - Sensors 15 1 31 N Q 00000 1 DS B1de Stealth Mask 
+ - Sensors 15 1 31 N Q 00000 1 DS B1de Grav Sensor 
+ - Sensors 15 1 31 N Q 00000 1 DS B1de HoloVisor 
+ - Sensors 15 1 31 N Q 00000 1 DS B1de CommPlus 
+ - Sensors 10 1 19 N Q 00000 1 LR B1de Scanner 
+ - Sensors 12 1 8.1 N S 00000 1 G Ext Mass Sensor 
+ - Sensors 12 1 8.1 N S 00000 1 G Ext Deep Radar 
+ - Sensors 12 1 8.1 N S 00000 1 G Ext Densitometer 
+ - Sensors 12 1 8.1 N S 00000 1 G Ext Life Detector 
+ - Sensors 12 1 8.1 N S 00000 1 G Ext Proximeter 
+ - Sensors 12 1 8.1 N S 00000 1 G Ext Activity Sensor 
+ - Sensors 12 1 8.1 N S 00000 1 G Ext Field Sensor 
+ - Weapons 50 1 7.5 N T 00000 1 AR Bay Particle Accelerator 
+ - Weapons 50 1 10 N T 00000 1 AR Bay CommCaster 
+ - Weapons 100 1 20 N T 00000 1 LR Bay Meson Gun 
+ - Weapons 150 1 28 N T 00000 1 DS Bay KK Missile 
+ - Weapons 50 1 10 N T 00000 1 AR Bay AM Missile 
+ - Weapons 50 1 6 N T 00000 1 Vd Bay DataCaster 
+ - Weapons 25 1 7.5 N T 00000 1 D Bay Stasis 
+ - Weapons 50 1 6.5 N T 00000 1 Vd Bay Fusion Gun 
+ - Weapons 50 1 5.3 N T 00000 1 Vd Bay Pulse Laser 
+ - Weapons 50 1 5.5 N T 00000 1 Vd Bay Beam Laser 
+ - Weapons 50 1 5.1 N T 00000 1 Vd Bay Sandcaster 
+ - Weapons 50 1 20 N T 00000 1 Vd Bay Jump Damper 
+ - Weapons 100 1 20 N T 00000 1 Or Bay Tractor/Pressor 
+ - Weapons 100 1 30 N T 00000 1 Or Bay Disruptor 
+ - Weapons 10 10 0 N N 00000 0 Magazine 
+ - Defenses 51 1 6 N T 00000 1 Bay Meson Screen 
+ - Defenses 52 1 6 N T 00000 1 Bay Nuclear Damper 
+ - Defenses 51 1 6 N T 00000 1 Bay Mag Scrambler 
+ - Defenses 51 1 9 N T 00000 1 Bay Black Globe 
+ - Defenses 51 1 7 N T 00000 1 Bay Grav Scrambler 
+ - Defenses 51 1 6 N T 00000 1 Bay Proton Screen 
+ - Defenses 51 1 15 N T 00000 1 Bay White Globe 
+
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

@@ -1,0 +1,48 @@
+Subsidized Liner MK-FU13 Glimmerdrift MCr137
+
+Builder: Ling Standard
+Owner: Judges Guild
+Disposition: In Service
+
+Using a 600-ton, TL12 hull, the MC&S Glimmerdrift-class Subsidized Liner mounts jump drive-J, maneuver drive-C, and power plant-J, giving a performance of jump-3 and 1G acceleration. Fuel tankage supports a 3 parsec jump, at 60t per parsec, and six weeks of operations. Attached to the bridge is a Computer Model/3. There are 30 staterooms and 80 low berths. Three empty single turrets are installed. Long-range sensors are present, including a front-mounted extendable radar dish. Cargo capacity is 124 tons. The hull is unstreamlined.
+
+The ship has nine crew (pilot, astrogator, medic, three engineers, and three stewards), and can carry 21 passengers and 80 low passengers. 
+
+Overtonnage: 37 tons
+Crew comfort:     +0
+Passenger demand: +1
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    600	 Unstreamlined Hull, lifters, 6 a/l 	   20	U, lifters, 6 a/l free
+      0	 AV=12. 1 Kinetic Plate             	    0	
+    180	 Jump Fuel (3  parsecs)             	    0	3 parsec jump, at 60t per parsec
+   32.4	 Plant Fuel (2 months)              	    0	2 months
+     50	 Jump Drive-3 (J)                   	   50	J 3
+      2	 Fuel Scoops with Purifier          	  1.1	100 t/hr
+      2	 Fuel Intakes with Purifier         	  1.1	40 t/hr
+      2	 Fuel Bins with Purifier            	  1.1	20 t/hr
+      5	 Maneuver Drive-1 (C)               	   10	R1
+     14	 Mod PowerPlant J (R3)              	   14	R3
+      1	 AR Ant Scope                       	  1.5	
+      0	 AR Surf Scope                      	    2	
+      0	 AR Surf Communicator               	    2	
+      3	 3x AR T1 Empty                     	  0.6	#3 
+      3	 Computer Model/3 std               	 10.5	
+      2	 Life Support Long Term             	    2	40 person-months
+      1	 Life Support Luxury                	    1	10 high passengers
+      1	 Life Support Adaptable             	    1	10 sophonts
+      8	 Standard Bridge                    	  0.8	1cc 6op 1ws
+      1	 Crew Common Fresher                	    1	10 crew
+     18	 Crew Lounge                        	    0	
+     18	 9x Crew Stateroom                  	  0.9	#9 1 crew
+     40	 80x Low Berth                      	    8	#80 1 passenger
+    124	 Cargo Hold Basic                   	    0	
+      4	 2x Cargo Lock                      	    0	#2 
+    126	 21x Luxury Stateroom               	  8.4	#21 1 passenger + fresher
+[/code]
+
+[code]
+[/code]
+

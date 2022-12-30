@@ -1,0 +1,46 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:31 2021
+Mission: Freighter
+QSP: F-TS13
+TL: 13 
+Name: Dakaar
+Tons: 1800
+Actual Tons: 1800
+Allegiance: Ca
+
+MCr: 340.1
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 928
+FuelPercentage: 13
+Components:
+ - HH0   S  1 00000 1800  110  Streamlined Hull
+ - AA1  13  1 00000   0    0  AV=13. 1 Kinetic Plate
+ - DF0   -  1 00000 540    0  Jump Fuel (3  parsecs)
+ - DF0   -  1 00000 59.4    0  Plant Fuel (one month)
+ - DP3  P2  1 101AD0 42.5  42.5  Mod PowerPlant-3 (P2)
+ - DM1   2  1 54101 8.5   17  Mod Maneuver Drive-1 (J)
+ - DJ5  P2  1 00000 145  145  Jump Drive-3 (P2)
+ - DF1  S1  1 00000   1  0.1  Fuel Scoops 100t/hr
+ - DF1  I1  1 00000   1  0.1  Fuel Intakes 40t/hr
+ - DF1  B1  1 00000   1  0.1  Fuel Bins 20t/hr
+ - DF1  P3  1 00000   3    3  Fuel Purifiers 12t/hr
+ - OC1   3  1 00000   3  10.5  Computer Model/3 std
+ - OO0   -  1 00000   4  0.2  Squad Barracks
+ - OO1   -  1 00000   2    1  Clinic
+ - OB0   -  1 00000  15    0  Standard Controls
+ - SS1   1  1 00000   1  1.5  AR Ant EMS
+ - WW1  -1  1 00000   1  0.7  AR T2 Missile
+ - WW1  -1  1 00000   1  0.8  Vd T2 Pulse Laser
+ - WW1  -1  1 00000   3  3.8  Vd T2de Pulse Laser
+ - WW1  -1  1 00000   1  0.6  Vd T2 Sandcaster
+ - CO0   -  2 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  8 00000   2  0.1  Crew Stateroom
+ - CO0   -  5 00000   4    0  Crew Lounge
+ - PC0   -  1 00000 928    0  Cargo Hold Basic
+ - PO1   -  1 00000   2    0  Cargo Lock
+ - PO0   -  1 00000   1    0  Mail Vault
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

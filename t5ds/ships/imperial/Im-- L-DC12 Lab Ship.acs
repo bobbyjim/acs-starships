@@ -1,0 +1,54 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:33 2021
+Mission: Lab Ship
+QSP: L-DC12
+TL: 15 
+Name: Laknir
+Tons: 400
+Actual Tons: 425
+Overtonnage: 25
+
+MCr: 138.4
+Builder: Bilstein Yards
+Disposition: In Service
+Allegiance: Im
+
+Crew comfort: 2
+Passenger demand: -5
+Cargo: 50
+FuelPercentage: 9
+Components:
+ - HH0   C  1 00000 400    8  Cluster Hull
+ - HL1  n/  1 00000  -2    0  No Landers
+ - AA1  30  1 00000   0    0  AV=30. 1 Rad Charged
+ - DF0   -  1 00000  66    0  Jump Fuel (2  parsecs)
+ - DF0   -  1 00000  32    0  Plant Fuel (5 months)
+ - DF1   -  1 00000   1    1  Fuel Purifiers 4t/hr
+ - DM1   B  1 00000   3    6  Maneuver Drive-1 (B)
+ - DP1   3  1 10AAE4 4.29   13  Adv PowerPlant-2 (D)
+ - DJ1   3  1 54403  10   30  Adv Jump Drive-2 (D)
+ - OC1   2  1 00000   2    5  Computer Model/2 std
+ - OO1   -  1 00000   4    2  Infirmary
+ - OL1   -  1 00000   3    3  Life support (120 people/month)
+ - OB0   -  1 00000   7    0  Standard Controls
+ - SS1   -  1 00000   0  3.5  DS Surf Communicator
+ - SS1   1  1 00000   3  3.5  DS Ant Neutrino Detector
+ - SS1   1  1 00000   3  3.5  DS Ant EMS
+ - SS1   -  1 00000   0  3.5  DS Surf Grav Sensor
+ - SS1   -  1 00000   0  3.5  DS Surf Visor
+ - WS1   -  1 00000   0  4.1  G Surf Mass Sensor
+ - WS1   -  1 00000   0  4.1  G Surf Deep Radar
+ - WS1   -  1 00000   0  4.1  G Surf Densitometer
+ - WS1   -  1 00000   0  4.1  G Surf Proximeter
+ - CO0   - 25 00000   2  0.1  Crew Single Stateroom
+ - CO0   - 10 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  4 00000   1    1  Crew Common Fresher
+ - CO0   -  1 00000 120    0  Lab/Conference/Work area
+ - PC0   -  1 00000  50    0  Cargo Hold Basic
+ - PO1   -  2 00000   4    1  Vehicle Lock
+ - VO0  MS  1 00000  40   18  Slow Pinnace
+ - VO1   -  1 00000   4    4  Small Craft External Bracket
+ - VO0  EL  2 00000   4  0.1  Air/Raft Enclosed
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

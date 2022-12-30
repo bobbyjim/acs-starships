@@ -1,0 +1,44 @@
+Frontier Beagle NF-CP11 Rock MCr63.6
+
+
+Beagle (Type NF): Using a 300-ton nickel-iron asteroid as the hull, the asteroid ship is a minimal configuration ship intended as an economical transportation system between stars, and is ideal for the the wanderer, the researcher, the casual traveller, and the clandestine observer. It mounts drives capable of jump-1, maneuver-1, and power plant-1. A fuel purification plant is installed on the drive deck. There is fuel tankage for 96 tons, sufficient for three consecutive jumps of jump-1 and for running the power plant and maneuver drive for two months. Adjacent to the bridge is a computer Model/2. Five staterooms provide quarters for the crew and non-commercial passengers. One triple turret mounts one beam laser and two missile racks. The ship has one custom-designed 25-ton ship's boat which serves as a refueling shuttle and allows access to world surfaces. There is cargo space for 11 tons; in addition, 4.5 tons of cargo can be routinely carried aboard the ship's boat.
+
+The asteroid ship requires up to five crew: pilot, astrogator, engineer, medic, and gunner. The pilot also operates the ship's boat.
+
+The boat well is a transverse shaft cut through the nickel-iron of the planetoid itself; it holds the ship's boat firmly in place with heavy bolts when the ship is in motion. Shutters above and below close off the length of the shaft and conceal its presence. With the boat in place, entry is impossible because the craft seals the shaft.
+
+
+Actual volume: 296.5 tons
+Crew comfort:     +4
+Passenger demand: -5
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    300	 Planetoid Hull, lifters, 3 a/l free	    3	P, lifters, 3 a/l free
+   -1.5	 No Landers                         	    0	
+     60	 AV=120. 6 Kinetic FeN              	    0	
+     90	 Jump Fuel (3  parsecs)             	    0	3 parsec jump, at 30t per parsec
+      6	 Plant Fuel (2 months)              	    0	2 months
+      3	 Maneuver Drive-1 (B)               	    6	1 G
+     15	 Jump Drive-1 (B)                   	   15	J 1
+      7	 PowerPlant-1 (B)                   	    7	P 1
+      1	 Fuel Purifier                      	    1	
+      1	 Fuel Transfer Pumps                	    1	
+      0	 AR Surf Basic                      	    6	
+      1	 Vd T3 Hybrid L-M-M                 	    2	
+      2	 Computer Model/2                   	    5	
+      2	 Clinic                             	    1	
+      2	 2x Life Support Luxury             	    2	#2 4 high passengers
+      2	 2x Life Support Adaptable          	    2	#2 4 sophonts
+     12	 Spacious Bridge                    	  0.6	1cc 4op 1ws
+     30	 5x Officer Suite                   	    2	#5 fresher + safe
+     16	 4x Crew Commons                    	    0	#4 
+     11	 Cargo Hold Basic                   	    0	
+     25	 Ship's Boat (2G)                   	  8.5	m1 C
+     12	 Hull Niche                         	  1.5	Half Vehicle Volume
+[/code]
+
+[code]
+[/code]
+

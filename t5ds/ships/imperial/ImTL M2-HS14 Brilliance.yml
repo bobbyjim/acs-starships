@@ -1,0 +1,735 @@
+--- 
+components: 
+   - 
+      config: 'Streamlined'
+      code: 'S'
+      CP: 0
+      tl: 12
+      notes: 'S'
+      target: 12
+      tons: 800
+      mcr: 50
+      r: 0
+      type: 'Hull'
+      s: 0
+      q: 0
+      howMany: 1
+      totalTons: 800
+      totalMCr: 50
+      b: 0
+      e: 0
+      mult: 1
+      preMult: 1
+      Sq: 1600
+      name: 'Hull'
+      label: 'Streamlined Hull'
+      category: 'Hull'
+      eff: 1
+
+   - 
+      s: 0
+      tl: 12
+      mcr: 0
+      b: 0
+      totalTons: 288
+      target: 12
+      totalMCr: 0
+      notes: 'J4, 72t/pc'
+      howMany: 1
+      e: 0
+      CP: 0
+      category: 'Jump Fuel'
+      tons: 288
+      eff: 1
+      Sq: 576
+      label: 'Jump Fuel (4  parsecs)'
+      q: 0
+      r: 0
+      type: 'Drive'
+
+   - 
+      s: 0
+      tl: 12
+      q: 0
+      Sq: 64
+      totalTons: 32
+      target: 12
+      totalMCr: 0
+      notes: 'one month'
+      howMany: 1
+      e: 0
+      CP: 0
+      category: 'Powerplant Fuel'
+      tons: 32
+      eff: 1
+      b: 0
+      label: 'Plant Fuel (one month)'
+      mcr: 0
+      r: 0
+      type: 'Drive'
+
+   - 
+      tl: 13
+      code: 'D'
+      B: 0
+      CP: 1
+      target: 13
+      notes: '1 G'
+      E: 0
+      tons: 7
+      q: 0
+      r: 0
+      type: 'Drive'
+      s: 0
+      mcr: 14
+      b: 0
+      totalTons: 7
+      totalMCr: 14
+      Sq: 14
+      basetl: 9
+      category: 'Maneuver Drive'
+      rating: 1
+      R: 0
+      howMany: 1
+      name: 'Maneuver Drive'
+      S: 0
+      label: 'Maneuver Drive-1 (D)'
+      Q: 0
+      autoAdjust: 1
+      eff: 1
+      e: 0
+
+   - 
+      tl: 13
+      CP: 1
+      config: 'Armor'
+      notes: ''
+      target: 13
+      tons: 0
+      mcr: 0
+      r: 0
+      type: 'Armor'
+      s: 0
+      q: 0
+      howMany: 1
+      totalTons: 0
+      totalMCr: 0
+      b: 0
+      e: 0
+      category: 'AV=6. 1 Kinetic Polymer'
+      range: '1'
+      eff: 1
+      basetl: 10
+      name: 'Polymer'
+      label: 'AV=6. 1 Kinetic Polymer'
+      mod: ''
+      mount: 'Kinetic'
+
+   - 
+      Sq: 6
+      config: 'Ops'
+      CP: 1
+      tl: 13
+      notes: ''
+      target: 16
+      tons: 3
+      q: 0
+      r: 0
+      type: 'Ops'
+      s: 0
+      mcr: 10.5
+      b: 0
+      totalTons: 3
+      totalMCr: 10.5
+      howMany: 1
+      e: 0
+      category: 'Computer Model/3 std'
+      range: 's'
+      eff: 1
+      basetl: 0
+      name: 'Computer'
+      label: 'Computer Model/3 std'
+      mod: 3
+      mount: 'Model/3'
+
+   - 
+      s: 0
+      tl: 13
+      q: 0
+      b: 0
+      totalTons: 2
+      target: 13
+      totalMCr: 2
+      notes: '40 person-months'
+      Sq: 4
+      e: 0
+      CP: 0
+      tons: 2
+      eff: 1
+      howMany: 1
+      label: 'Life Support Long Term'
+      mcr: 2
+      r: 0
+      type: 'Ops'
+
+   - 
+      s: 0
+      tl: 13
+      q: 0
+      howMany: 3
+      CP: 0
+      target: 13
+      totalMCr: 3
+      notes: '10 high passengers'
+      Sq: 6
+      e: 0
+      totalTons: 3
+      tons: 1
+      eff: 1
+      b: 0
+      label: 'Life Support Luxury'
+      mcr: 1
+      r: 0
+      type: 'Ops'
+
+   - 
+      s: 0
+      tl: 13
+      mcr: 0.4
+      b: 0
+      CP: 0
+      target: 13
+      totalMCr: 1.6
+      notes: '1 passenger + fresher'
+      Sq: 48
+      e: 0
+      totalTons: 24
+      type: 'Passenger'
+      tons: 6
+      eff: 1
+      howMany: 4
+      label: 'Luxury Stateroom'
+      q: 0
+      r: 0
+      sleeps: 1
+      totalSleeps: 4
+
+   - 
+      s: 0
+      tl: 13
+      mcr: 0.1
+      Sq: 48
+      CP: 0
+      target: 13
+      totalMCr: 1.2
+      notes: '1 passenger'
+      eff: 1
+      e: 0
+      totalTons: 24
+      type: 'Passenger'
+      tons: 2
+      b: 0
+      howMany: 12
+      totalSleeps: 12
+      q: 0
+      r: 0
+      sleeps: 1
+      label: 'Standard Stateroom'
+
+   - 
+      s: 0
+      tl: 14
+      code: 'MSQN'
+      b: 0
+      totalTons: 40
+      target: 14
+      totalMCr: 18
+      q: 0
+      speed: '2G'
+      Sq: 80
+      e: 0
+      CP: 0
+      load: 35
+      tons: 40
+      eff: 1
+      howMany: 1
+      label: 'Slow Pinnace'
+      mcr: 18
+      r: 0
+      av: '30,10,10,10,10,10,10'
+      type: 'Vehicle'
+
+   - 
+      s: '0'
+      tl: '13'
+      mcr: 0
+      mod: ''
+      howMany: 1
+      CP: 1
+      target: '13'
+      totalMCr: 0
+      notes: ''
+      eff: '1'
+      e: '0'
+      totalTons: 10
+      tons: 10
+      Sq: 20
+      b: '0'
+      label: 'Hangar Overhead'
+      q: '0'
+      r: '0'
+      type: 'Vehicle'
+
+   - 
+      b: 0
+      tl: 15
+      code: 'R'
+      B: 0
+      CP: 2
+      target: 15
+      notes: 'P 4'
+      E: 0
+      tons: 49
+      Sq: 98
+      q: 0
+      r: 0
+      type: 'Drive'
+      s: 0
+      mcr: 49
+      howMany: 1
+      totalTons: 49
+      totalMCr: 49
+      eff: 1
+      basetl: 11
+      Q: 0
+      rating: 4
+      R: 0
+      e: 0
+      name: 'PowerPlant'
+      S: 0
+      label: 'PowerPlant-4 (R)'
+      category: 'PowerPlant'
+      autoAdjust: 1
+      powerFuelUsage: 0.01
+
+   - 
+      tl: 14
+      code: 'R'
+      B: 0
+      CP: 3
+      original: 
+         b: 0
+         tl: 15
+         code: 'R'
+         B: 0
+         CP: 3
+         target: 15
+         notes: 'J 4'
+         E: 0
+         tons: 85
+         mcr: 85
+         r: 0
+         type: 'Drive'
+         s: 0
+         q: 0
+         Sq: 170
+         totalTons: 85
+         totalMCr: 85
+         howMany: 1
+         e: 0
+         jumpFuelUsage: 0.1
+         Q: 0
+         rating: 4
+         R: 0
+         basetl: 13
+         name: 'Jump Drive'
+         S: 0
+         label: 'Jump Drive-4 (R)'
+         category: 'Jump Drive'
+         mod: 0
+         autoAdjust: 1
+         eff: 1
+      target: 15
+      notes: 'J 4'
+      E: 0
+      eff: 1.1
+      tons: 85
+      mcr: 85
+      r: 0
+      type: 'Drive'
+      s: 0
+      q: 7
+      Sq: 170
+      totalTons: 85
+      totalMCr: 85
+      howMany: 1
+      basetl: 13
+      jumpFuelUsage: 0.1
+      Q: 0
+      rating: 4
+      R: 0
+      b: -1
+      name: 'Jump Drive'
+      S: 0
+      label: 'Imp Jump Drive-4 (R)'
+      category: 'Jump Drive'
+      mod: 1
+      autoAdjust: 1
+      stage: 'Imp'
+      e: -4
+
+   - 
+      s: 0
+      tl: 15
+      q: 0
+      b: 0
+      CP: 0
+      target: 15
+      totalMCr: 0
+      notes: ''
+      howMany: 10
+      e: 0
+      totalTons: 40
+      tons: 4
+      eff: 1
+      Sq: 80
+      label: 'Meeting Rooms'
+      mcr: 0
+      r: 0
+      type: 'Passenger'
+
+   - 
+      s: 0
+      tl: 15
+      q: 0
+      b: 0
+      CP: 0
+      target: 15
+      totalMCr: 3.6
+      notes: '1 passenger + fresher'
+      howMany: 12
+      e: 0
+      totalTons: 48
+      type: 'Passenger'
+      tons: 4
+      eff: 1
+      Sq: 96
+      totalSleeps: 12
+      mcr: 0.3
+      r: 0
+      sleeps: 1
+      label: 'Luxury Stateroom Small'
+
+   - 
+      s: 0
+      tl: 15
+      q: 0
+      b: 0
+      CP: 0
+      target: 15
+      totalMCr: 1
+      notes: '10 sophonts'
+      howMany: 1
+      e: 0
+      totalTons: 1
+      tons: 1
+      eff: 1
+      Sq: 2
+      label: 'Life Support Adaptable'
+      mcr: 1
+      r: 0
+      type: 'Ops'
+
+   - 
+      s: 0
+      tl: 12
+      mcr: 0
+      b: 0
+      CP: 0
+      target: 12
+      totalMCr: 0
+      notes: ''
+      Sq: 8
+      e: 0
+      totalTons: 4
+      category: 'Cargo'
+      tons: 4
+      eff: 1
+      howMany: 1
+      label: 'Cargo Hold Basic'
+      q: 0
+      r: 0
+      type: 'Payload'
+
+   - 
+      s: 0
+      tl: 13
+      q: 0
+      howMany: 1
+      totalTons: 32
+      target: 13
+      totalMCr: 0
+      notes: ''
+      eff: 1
+      e: 0
+      CP: 0
+      tons: 32
+      b: 0
+      Sq: 64
+      label: 'Dining Lounge'
+      mcr: 0
+      r: 0
+      type: 'Passenger'
+
+   - 
+      s: 0
+      tl: 15
+      q: 0
+      b: 0
+      CP: 0
+      target: 15
+      totalMCr: 1
+      notes: '10 crew'
+      howMany: 1
+      e: 0
+      totalTons: 1
+      tons: 1
+      eff: 1
+      Sq: 2
+      label: 'Crew Common Fresher'
+      mcr: 1
+      r: 0
+      type: 'Crew'
+
+   - 
+      s: 0
+      tl: 15
+      mcr: 0
+      b: 0
+      CP: 0
+      target: 15
+      totalMCr: 0
+      notes: ''
+      howMany: 1
+      e: 0
+      totalTons: 42
+      tons: 42
+      eff: 1
+      Sq: 84
+      label: 'Conference Center'
+      q: 0
+      r: 0
+      type: 'Passenger'
+
+   - 
+      s: '0'
+      tl: '15'
+      mcr: 1
+      b: '0'
+      CP: 0
+      target: '15'
+      totalMCr: 12
+      notes: ''
+      howMany: 12
+      e: '0'
+      totalTons: 12
+      tons: 1
+      eff: '1'
+      Sq: 24
+      label: 'Luxury Fresher'
+      q: '0'
+      mod: ''
+      r: '0'
+      type: 'Passenger'
+
+   - 
+      s: 0
+      tl: '15'
+      q: 0
+      mod: ''
+      b: 0
+      CP: 0
+      target: '15'
+      totalMCr: 0
+      notes: ''
+      howMany: 2
+      e: 0
+      totalTons: 32
+      tons: 16
+      eff: 1
+      Sq: 64
+      label: 'Shugilii Kitchen'
+      mcr: 0
+      r: 0
+      type: 'Passenger'
+
+   - 
+      s: 0
+      tl: 15
+      q: 0
+      b: 0
+      CP: 0
+      target: 15
+      totalMCr: 0
+      notes: ''
+      howMany: 2
+      e: 0
+      totalTons: 32
+      tons: 16
+      eff: 1
+      Sq: 64
+      label: 'Library/Study'
+      mcr: 0
+      r: 0
+      type: 'Passenger'
+
+   - 
+      s: 0
+      tl: 15
+      q: 0
+      b: 0
+      CP: 1
+      target: 15
+      totalMCr: 0.2
+      notes: ''
+      howMany: 1
+      e: 0
+      totalTons: 2
+      tons: 2
+      eff: 1
+      Sq: 4
+      label: 'Counsellor'
+      mcr: 0.2
+      r: 0
+      type: 'Ops'
+
+   - 
+      s: 0
+      tl: 13
+      mcr: 0
+      b: 0
+      totalTons: 8
+      target: 13
+      totalMCr: 0
+      notes: ''
+      howMany: 2
+      e: 0
+      CP: 0
+      tons: 4
+      eff: 1
+      Sq: 16
+      label: 'Crew Lounge'
+      q: 0
+      r: 0
+      type: 'Crew'
+
+   - 
+      s: 0
+      tl: 15
+      mcr: 0.1
+      b: 0
+      CP: 0
+      target: 15
+      totalMCr: 0.4
+      notes: '1 crew'
+      howMany: 4
+      e: 0
+      totalTons: 4
+      tons: 1
+      eff: 1
+      Sq: 8
+      label: 'Spacer Niche'
+      totalSleeps: 4
+      q: 0
+      r: 0
+      sleeps: 1
+      type: 'Crew'
+
+   - 
+      s: 0
+      tl: 13
+      q: 0
+      howMany: 5
+      totalTons: 10
+      target: 13
+      totalMCr: 0.5
+      notes: '1 crew'
+      Sq: 20
+      e: 0
+      CP: 0
+      type: 'Crew'
+      tons: 2
+      eff: 1
+      b: 0
+      label: 'Crew Stateroom'
+      mcr: 0.1
+      r: 0
+      sleeps: 1
+      totalSleeps: 5
+
+   - 
+      s: 0
+      tl: 15
+      mcr: 0
+      mod: 0
+      b: 0
+      CP: 0
+      target: 15
+      totalMCr: 0
+      notes: ''
+      howMany: 1
+      e: 0
+      totalTons: 9
+      category: 'Bridge'
+      tons: 9
+      eff: 1
+      Sq: 18
+      name: 'Bridge'
+      label: 'Standard Controls'
+      q: 0
+      r: 0
+      type: 'Ops'
+header: 
+   format: 'T5-ACS-1'
+   config: 'S'
+   totalCargoSpace: 4
+   passengers: 28
+   staff: 0
+   demand: 5
+   tl: 15
+   undertons: 10
+   jumpFuelPercentage: 0.09
+   powerFuelPercentage: 0.04
+   qsp: 'M2-HS14'
+   comments: |
+      Using an 800-ton hull, the Brilliance-class Long Liner is a corporate business and government luxury passenger ship. The Brilliance requires a crew of nine: pilot, boat pilot, astrogator, three engineers and three stewards. The pinnace is an added luxury for making side trips and for ferrying passengers remotely.
+      
+      Long liners operate along the Xboat route, typically jumping as many hexes as possible. Scheduled flights will often skip stops in order to better connect more important worlds; however, less important stops along the route can of course be chartered.
+      
+      Passengers aboard a Brilliance liner are not idle while aboard. Just the opposite: the passengers’ space is designed for planning meetings, breakout sessions, think-tanks and times of intense focus, problem-solving and even confrontation, compromise and deal-making. There is a lounge, several meeting rooms and a library. The four largest staterooms are luxury suites. Twelve more staterooms are double sized, and the remaining 12 are standard size.
+      
+      To balance out these intense sessions of work, passengers are subjected to excessive luxury. Stewards dote on guests, personalising each room to relax its occupant, preparing classical shugiili-quality Vilani meals, selecting music and reading material to suit the guest’s taste and organising various entertainments in the dining lounge, including booking guest lecturers on topics of interest, popular performers, star authors, discussion groups and workshops, games and so on. Luxury supplies of a bewildering variety are stocked in each stateroom.
+      
+      Because these liners are for corporate and government use, costs are absorbed by the company or government. If a civilian had the opportunity to fly Brilliance, it would be because a friend or associate had an extra ticket.
+   shipname: 'Brilliance'
+   shifts: 1
+   low: 0
+   tons: 800
+   jf: 4
+   controlConsoles: 2
+   tonsFree: -44
+   pf: 1
+   operatingConsoles: 4
+   mission: 'M2'
+   workstations: 3
+   missionLabel: 'Long Liner'
+   crew: 8
+   totalMCr: 253.9
+   overtons: 44
+   mult: 1
+   crewLocked: 'yes'
+   preMult: 1
+   crewComfort: -2
+   name: 'Brilliance'
+   troops: 0
+   spaciousness: 1

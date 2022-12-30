@@ -1,0 +1,39 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:33 2021
+Mission: Assault
+QSP: TB-ZC00
+TL: 14 
+Name: Xboat Station
+Tons: 2400
+Actual Tons: 913
+
+MCr: 264.9
+Owner: Imperial
+Allegiance: Im
+
+Crew comfort: 3
+Passenger demand: -5
+Cargo: 0
+FuelPercentage: 0
+Components:
+ - HH0   C  1 00000 2400   48  Cluster Hull
+ - AA1  28  1 00000   0    0  AV=28. 1 Kinetic Charged
+ - DF0   -  1 00000   0    0  Jump Fuel (0  parsec)
+ - DF0   -  1 00000   0    0  Plant Fuel (0 months)
+ - DG4  -2  1 534A2 108   27  Gen Gravitic Drive-1 (M)
+ - OC1   -  1 00000 0.5  0.1  Computer Model/0 std
+ - OO0   - 10 00000   2    2  Life Support Long Term
+ - OO1   -  1 00000   2    1  Clinic
+ - OO1   -  1 00000   2  0.2  Counsellor
+ - OB0  -2  1 00000 2.5    0  Cramped Controls
+ - SS1   4  1 00000   9  8.5  DS Ext Scope
+ - SS1   4  1 00000   9  8.5  DS Ext EMS
+ - SS1   8  1 00000 300   51  DS LBay Communicator
+ - CO0   -  2 00000 100    0  Observation Lounge
+ - CO0   - 10 00000  16    0  Crew Lounge
+ - CO0   - 50 00000   1  0.1  Spacer Niche
+ - CO0   -  5 00000   1    1  Crew Common Fresher
+ - VO0   - 45 00000   1    2  Grapples (1575 tons max)
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

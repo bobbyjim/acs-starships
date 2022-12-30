@@ -1,0 +1,1434 @@
+--- 
+header: 
+   tons: 237600
+   controlConsoles: 6
+   tl: 17
+   powerFuelPercentage: 0.06
+   jumpFuelPercentage: 0.1
+   qsp: 'C-ZundefinedU63'
+   preMult: 1
+   shifts: 1
+   jf: 3
+   shipname: 'Tula'
+   pf: 1
+   troops: 0
+   workstations: 21
+   mult: 99
+   staff: 0
+   crewComfort: -3
+   tonsFree: 261.5
+   totalCargoSpace: 2000
+   mission: 'C'
+   operatingConsoles: 514
+   low: 0
+   passengers: 0
+   owner: 'Republic of Regina'
+   demand: -5
+   missionLabel: 'Cruiser'
+   overtons: 48.5
+   crew: 595
+   totalMCr: 138488.1
+   crewLocked: 'no'
+   config: 'U'
+   lifters: 'y'
+   spaciousness: 2
+   format: 'T5-ACS-1'
+   undertons: 261.5
+   comments: ''
+components: 
+   - 
+      eff: 1
+      code: 'U'
+      tons: 237600
+      howMany: 1
+      target: 12
+      tl: 12
+      s: 0
+      e: 0
+      mult: 99
+      mcr: 9506
+      totalMCr: 9506
+      preMult: 1
+      r: 0
+      category: 'Hull'
+      type: 'Hull'
+      notes: 'U, lifters'
+      CP: 0
+      totalTons: 237600
+      label: 'Unstreamlined Hull, lifters'
+      b: 0
+      Sq: 475200
+      config: 'Unstreamlined'
+      name: 'Hull'
+      q: 0
+
+   - 
+      Sq: 142560
+      notes: '3 parsec jump, at 23760t per parsec'
+      tons: 71280
+      howMany: 1
+      q: 0
+      tl: 12
+      s: 0
+      e: 0
+      CP: 0
+      mcr: 0
+      totalTons: 71280
+      label: 'Jump Fuel (3  parsecs)'
+      b: 0
+      r: 0
+      category: 'Jump Fuel'
+      eff: 1
+      totalMCr: 0
+      type: 'Drive'
+      target: 12
+
+   - 
+      Sq: 28512
+      notes: 'one month'
+      tons: 14256
+      howMany: 1
+      q: 0
+      tl: 12
+      s: 0
+      e: 0
+      CP: 0
+      mcr: 0
+      totalTons: 14256
+      label: 'Plant Fuel (one month)'
+      b: 0
+      r: 0
+      category: 'Powerplant Fuel'
+      eff: 1
+      totalMCr: 0
+      type: 'Drive'
+      target: 12
+
+   - 
+      mod: 0
+      e: 0
+      tons: 30000
+      howMany: 1
+      target: 20
+      tl: 20
+      mount: 'SY'
+      eff: 1
+      r: 0
+      mcr: 45002.5
+      b: 0
+      s: 0
+      category: 'LR SY Particle Accelerator'
+      range: 'LR'
+      type: 'Weapon'
+      notes: ''
+      basetl: 12
+      CP: 1
+      totalTons: 30000
+      label: 'LR SY Particle Accelerator'
+      totalMCr: 45002.5
+      Sq: 60000
+      config: 'Weapon'
+      name: 'Particle Accelerator'
+      q: 0
+
+   - 
+      mod: ''
+      e: 0
+      tons: 47520
+      howMany: 1
+      target: 20
+      tl: 20
+      mount: 'Kinetic'
+      eff: 1
+      r: 0
+      mcr: 0
+      b: 0
+      s: 0
+      category: 'AV=240. 6 Kinetic Charged'
+      range: '6'
+      type: 'Armor'
+      notes: ''
+      basetl: 14
+      CP: 1
+      totalTons: 47520
+      label: 'AV=240. 6 Kinetic Charged'
+      totalMCr: 0
+      Sq: 95040
+      config: 'Armor'
+      name: 'Charged'
+      q: 0
+
+   - 
+      tonsPercent: 0
+      code: 'G'
+      tons: 0
+      howMany: 1
+      b: 0
+      mcrPerTon: 0
+      tl: 17
+      s: 0
+      type: 'Hull'
+      e: 0
+      CP: 1
+      mcr: 2376
+      totalTons: 0
+      label: 'Jump Grid'
+      q: 0
+      totalMCr: 2376
+      r: 0
+      note: 'G'
+      category: 'jump field'
+      eff: 1
+      name: 'Jump Grid'
+      mcrPerHullTon: 0.01
+      target: 17
+
+   - 
+      tonsPercent: -0.5
+      code: 'n/a'
+      tons: -1188
+      howMany: 1
+      b: 0
+      mcrPerTon: 0
+      tl: 17
+      s: 0
+      e: 0
+      CP: 1
+      mcr: 0
+      totalTons: -1188
+      label: 'No Landers'
+      q: 0
+      totalMCr: 0
+      r: 0
+      note: 'n/a'
+      category: 'landers'
+      eff: 1
+      name: 'No Landers'
+      type: 'Hull'
+      target: 17
+
+   - 
+      Sq: 42770
+      e: 0
+      r: 0
+      howMany: 1
+      q: 0
+      tl: 17
+      s: 0
+      code: 'Z297'
+      tons: 21385
+      rating: 6
+      mcr: 21385
+      name: 'PowerPlant'
+      powerFuelUsage: 0.01
+      B: 0
+      category: 'PowerPlant'
+      autoAdjust: 1
+      type: 'Drive'
+      Q: 0
+      notes: 'P 6'
+      R: 0
+      S: 0
+      E: 0
+      CP: 611
+      totalTons: 21385
+      label: 'PowerPlant-6 (Z297)'
+      basetl: 13
+      totalMCr: 21385
+      eff: 1
+      b: 0
+      target: 17
+
+   - 
+      Sq: 35650
+      jumpFuelUsage: 0.1
+      r: 0
+      howMany: 1
+      q: 0
+      tl: 17
+      s: 0
+      code: 'Z149'
+      tons: 17825
+      rating: 3
+      mcr: 17825
+      name: 'Jump Drive'
+      B: 0
+      category: 'Jump Drive'
+      autoAdjust: 1
+      type: 'Drive'
+      e: 0
+      Q: 0
+      notes: 'J 3'
+      R: 0
+      S: 0
+      E: 0
+      CP: 510
+      totalTons: 17825
+      label: 'Jump Drive-3 (Z149)'
+      basetl: 12
+      totalMCr: 17825
+      eff: 1
+      b: 0
+      target: 17
+
+   - 
+      Sq: 28510
+      e: 0
+      r: 0
+      howMany: 1
+      q: 0
+      tl: 17
+      s: 0
+      code: 'Z297'
+      tons: 14255
+      rating: 6
+      mcr: 28510
+      name: 'Maneuver Drive'
+      B: 0
+      category: 'Maneuver Drive'
+      autoAdjust: 1
+      type: 'Drive'
+      Q: 0
+      notes: '6 G'
+      R: 0
+      S: 0
+      E: 0
+      CP: 408
+      totalTons: 14255
+      label: 'Maneuver Drive-6 (Z297)'
+      basetl: 12
+      totalMCr: 28510
+      eff: 1
+      b: 0
+      target: 17
+
+   - 
+      Sq: 4000
+      notes: ''
+      tons: 2000
+      howMany: 1
+      target: 12
+      s: 0
+      type: 'Payload'
+      e: 0
+      r: 0
+      mcr: 0
+      totalTons: 2000
+      label: 'Cargo Hold Basic'
+      totalMCr: 0
+      category: 'Cargo'
+      eff: 1
+      tl: 12
+      b: 0
+      CP: 0
+      q: 0
+
+   - 
+      mod: 10
+      e: 0
+      tons: 201
+      howMany: 1
+      target: 27
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 21
+      b: 0
+      s: 0
+      category: 'M Meson Screen'
+      range: ''
+      type: 'Defense'
+      notes: ''
+      basetl: 11
+      CP: 1
+      totalTons: 201
+      label: 'M Meson Screen'
+      totalMCr: 21
+      Sq: 402
+      config: 'Defense'
+      name: 'Meson Screen'
+      q: 0
+
+   - 
+      mod: 10
+      e: 0
+      tons: 202
+      howMany: 2
+      q: 0
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 21
+      totalMCr: 42
+      s: 0
+      category: 'M Nuclear Damper'
+      range: ''
+      type: 'Defense'
+      notes: ''
+      basetl: 12
+      CP: 1
+      totalTons: 404
+      label: 'M Nuclear Damper'
+      name: 'Nuclear Damper'
+      Sq: 808
+      config: 'Defense'
+      b: 0
+      target: 27
+
+   - 
+      mod: 10
+      e: 0
+      tons: 201
+      howMany: 1
+      target: 27
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 21
+      b: 0
+      s: 0
+      category: 'M Mag Scrambler'
+      range: ''
+      type: 'Defense'
+      notes: ''
+      basetl: 14
+      CP: 1
+      totalTons: 201
+      label: 'M Mag Scrambler'
+      totalMCr: 21
+      Sq: 402
+      config: 'Defense'
+      name: 'Mag Scrambler'
+      q: 0
+
+   - 
+      mod: 10
+      e: 0
+      tons: 201
+      howMany: 1
+      target: 27
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 24
+      b: 0
+      s: 0
+      category: 'M Black Globe'
+      range: ''
+      type: 'Defense'
+      notes: ''
+      basetl: 16
+      CP: 1
+      totalTons: 201
+      label: 'M Black Globe'
+      totalMCr: 24
+      Sq: 402
+      config: 'Defense'
+      name: 'Black Globe'
+      q: 0
+
+   - 
+      mod: 10
+      e: 0
+      tons: 201
+      howMany: 1
+      target: 27
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 22
+      b: 0
+      s: 0
+      category: 'M Grav Scrambler'
+      range: ''
+      type: 'Defense'
+      notes: ''
+      basetl: 17
+      CP: 1
+      totalTons: 201
+      label: 'M Grav Scrambler'
+      totalMCr: 22
+      Sq: 402
+      config: 'Defense'
+      name: 'Grav Scrambler'
+      q: 0
+
+   - 
+      mod: ''
+      e: 0
+      tons: 0
+      howMany: 1
+      q: 0
+      tl: 17
+      mount: 'c'
+      r: 0
+      mcr: 0
+      b: 0
+      s: 0
+      category: 'AV=0. c Reflec'
+      range: ''
+      type: 'Armor'
+      notes: ''
+      basetl: 8
+      CP: 1
+      totalTons: 0
+      label: 'AV=0. c Reflec'
+      totalMCr: 0
+      eff: 1
+      config: 'Armor'
+      name: 'Reflec'
+      target: 17
+
+   - 
+      mod: 10
+      e: 0
+      tons: 200
+      howMany: 1
+      target: 27
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 21
+      b: 0
+      s: 0
+      category: 'AR M CommPlus'
+      range: 'AR'
+      type: 'Sensor'
+      notes: ''
+      basetl: 17
+      CP: 1
+      totalTons: 200
+      label: 'AR M CommPlus'
+      totalMCr: 21
+      Sq: 400
+      config: 'Sensor'
+      name: 'CommPlus'
+      q: 0
+
+   - 
+      mod: 10
+      e: 0
+      tons: 400
+      howMany: 1
+      target: 27
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 61
+      b: 0
+      s: 0
+      category: 'LR M Visor'
+      range: 'LR'
+      type: 'Sensor'
+      notes: ''
+      basetl: 15
+      CP: 1
+      totalTons: 400
+      label: 'LR M Visor'
+      totalMCr: 61
+      Sq: 800
+      config: 'Sensor'
+      name: 'Visor'
+      q: 0
+
+   - 
+      mod: 10
+      e: 0
+      tons: 400
+      howMany: 1
+      target: 27
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 61
+      b: 0
+      s: 0
+      category: 'LR M EMS'
+      range: 'LR'
+      type: 'Sensor'
+      notes: ''
+      basetl: 13
+      CP: 1
+      totalTons: 400
+      label: 'LR M EMS'
+      totalMCr: 61
+      Sq: 800
+      config: 'Sensor'
+      name: 'EMS'
+      q: 0
+
+   - 
+      mod: 10
+      e: 0
+      tons: 400
+      howMany: 1
+      target: 27
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 61
+      b: 0
+      s: 0
+      category: 'LR M Communicator'
+      range: 'LR'
+      type: 'Sensor'
+      notes: ''
+      basetl: 9
+      CP: 1
+      totalTons: 400
+      label: 'LR M Communicator'
+      totalMCr: 61
+      Sq: 800
+      config: 'Sensor'
+      name: 'Communicator'
+      q: 0
+
+   - 
+      mod: 10
+      e: 0
+      tons: 200
+      howMany: 1
+      target: 27
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 20.1
+      b: 0
+      s: 0
+      category: 'Vd M Proximeter'
+      range: 'Vd'
+      type: 'Sensor'
+      notes: ''
+      basetl: 10
+      CP: 1
+      totalTons: 200
+      label: 'Vd M Proximeter'
+      totalMCr: 20.1
+      Sq: 400
+      config: 'Sensor'
+      name: 'Proximeter'
+      q: 0
+
+   - 
+      Sq: 1
+      notes: '1 passenger'
+      tons: 0.5
+      howMany: 1
+      q: 0
+      tl: 17
+      s: 0
+      e: 0
+      r: 0
+      mcr: 0.1
+      totalTons: 0.5
+      label: 'Low Berth'
+      totalMCr: 0.1
+      type: 'Payload'
+      eff: 1
+      b: 0
+      CP: 0
+      target: 17
+
+   - 
+      mod: 10
+      e: 0
+      tons: 400
+      howMany: 5
+      q: 0
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 65
+      totalMCr: 325
+      s: 0
+      category: 'LR M Meson Gun'
+      range: 'LR'
+      type: 'Weapon'
+      notes: ''
+      basetl: 14
+      CP: 1
+      totalTons: 2000
+      label: 'LR M Meson Gun'
+      name: 'Meson Gun'
+      Sq: 4000
+      config: 'Weapon'
+      b: 0
+      target: 27
+
+   - 
+      mod: 10
+      e: 0
+      tons: 400
+      howMany: 5
+      q: 0
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 70
+      totalMCr: 350
+      s: 0
+      category: 'LR M Salvo Rack'
+      range: 'LR'
+      type: 'Weapon'
+      notes: ''
+      basetl: 11
+      CP: 1
+      totalTons: 2000
+      label: 'LR M Salvo Rack'
+      name: 'Salvo Rack'
+      Sq: 4000
+      config: 'Weapon'
+      b: 0
+      target: 27
+
+   - 
+      mod: 10
+      e: 0
+      tons: 200
+      howMany: 5
+      q: 0
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 21
+      totalMCr: 105
+      s: 0
+      category: 'Vd M DataCaster'
+      range: 'Vd'
+      type: 'Weapon'
+      notes: ''
+      basetl: 10
+      CP: 1
+      totalTons: 1000
+      label: 'Vd M DataCaster'
+      name: 'DataCaster'
+      Sq: 2000
+      config: 'Weapon'
+      b: 0
+      target: 27
+
+   - 
+      mod: 10
+      e: 0
+      tons: 200
+      howMany: 5
+      q: 0
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 21.5
+      totalMCr: 107.5
+      s: 0
+      category: 'Vd M Fusion Gun'
+      range: 'Vd'
+      type: 'Weapon'
+      notes: ''
+      basetl: 12
+      CP: 1
+      totalTons: 1000
+      label: 'Vd M Fusion Gun'
+      name: 'Fusion Gun'
+      Sq: 2000
+      config: 'Weapon'
+      b: 0
+      target: 27
+
+   - 
+      mod: 10
+      e: 0
+      tons: 100
+      howMany: 5
+      q: 0
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 10.5
+      totalMCr: 52.5
+      s: 0
+      category: 'D M Beam Laser'
+      range: 'D'
+      type: 'Weapon'
+      notes: ''
+      basetl: 9
+      CP: 1
+      totalTons: 500
+      label: 'D M Beam Laser'
+      name: 'Beam Laser'
+      Sq: 1000
+      config: 'Weapon'
+      b: 0
+      target: 27
+
+   - 
+      mod: 10
+      e: 0
+      tons: 200
+      howMany: 5
+      q: 0
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 21
+      totalMCr: 105
+      s: 0
+      category: 'Vd M Plasma Gun'
+      range: 'Vd'
+      type: 'Weapon'
+      notes: ''
+      basetl: 10
+      CP: 1
+      totalTons: 1000
+      label: 'Vd M Plasma Gun'
+      name: 'Plasma Gun'
+      Sq: 2000
+      config: 'Weapon'
+      b: 0
+      target: 27
+
+   - 
+      mod: 10
+      e: 0
+      tons: 66.59
+      howMany: 5
+      q: 0
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 10.1
+      totalMCr: 50.5
+      s: 0
+      category: 'L M Sandcaster'
+      range: 'L'
+      type: 'Weapon'
+      notes: ''
+      basetl: 7
+      CP: 1
+      totalTons: 332.95000000000005
+      label: 'L M Sandcaster'
+      name: 'Sandcaster'
+      Sq: 665.9000000000001
+      config: 'Weapon'
+      b: 0
+      target: 27
+
+   - 
+      mod: 10
+      e: 0
+      tons: 200
+      howMany: 5
+      q: 0
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 35
+      totalMCr: 175
+      s: 0
+      category: 'Vd M Jump Damper'
+      range: 'Vd'
+      type: 'Weapon'
+      notes: ''
+      basetl: 14
+      CP: 1
+      totalTons: 1000
+      label: 'Vd M Jump Damper'
+      name: 'Jump Damper'
+      Sq: 2000
+      config: 'Weapon'
+      b: 0
+      target: 27
+
+   - 
+      mod: 10
+      e: 0
+      tons: 200
+      howMany: 5
+      q: 0
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 25
+      totalMCr: 125
+      s: 0
+      category: 'Vd M Tractor/Pressor'
+      range: 'Vd'
+      type: 'Weapon'
+      notes: ''
+      basetl: 16
+      CP: 1
+      totalTons: 1000
+      label: 'Vd M Tractor/Pressor'
+      name: 'Tractor/Pressor'
+      Sq: 2000
+      config: 'Weapon'
+      b: 0
+      target: 27
+
+   - 
+      mod: 10
+      e: 0
+      tons: 100
+      howMany: 5
+      q: 0
+      tl: 17
+      mount: 'M'
+      eff: 1
+      r: 0
+      mcr: 25
+      totalMCr: 125
+      s: 0
+      category: 'D M Disruptor'
+      range: 'D'
+      type: 'Weapon'
+      notes: ''
+      basetl: 17
+      CP: 1
+      totalTons: 500
+      label: 'D M Disruptor'
+      name: 'Disruptor'
+      Sq: 1000
+      config: 'Weapon'
+      b: 0
+      target: 27
+
+   - 
+      eff: 1
+      notes: '(5) R1 R1 R2 R2 R3'
+      tons: 4
+      howMany: 51
+      target: 17
+      tl: 17
+      s: 0
+      e: 0
+      CP: 0
+      mcr: 0.2
+      totalTons: 204
+      label: "Gunners' Barracks"
+      totalMCr: 10.2
+      r: 0
+      Sq: 408
+      b: 0
+      type: 'Ops'
+      q: 0
+
+   - 
+      eff: 1
+      notes: '1 crew'
+      tons: 2
+      howMany: 50
+      target: 17
+      tl: 17
+      s: 0
+      e: 0
+      CP: 0
+      mcr: 0.1
+      totalTons: 100
+      label: 'Crew Stateroom'
+      b: 0
+      r: 0
+      totalSleeps: 50
+      Sq: 200
+      sleeps: 1
+      totalMCr: 5
+      type: 'Crew'
+      q: 0
+
+   - 
+      eff: 1
+      notes: '1 crew'
+      tons: 0.5
+      howMany: 100
+      target: 17
+      tl: 17
+      s: 0
+      e: 0
+      CP: 0
+      mcr: 0.1
+      totalTons: 50
+      label: 'Spacer Bunks'
+      b: 0
+      r: 0
+      totalSleeps: 200
+      Sq: 100
+      sleeps: 2
+      totalMCr: 10
+      type: 'Crew'
+      q: 0
+
+   - 
+      eff: 1
+      notes: '6 crew/3 shifts'
+      tons: 0.5
+      howMany: 40
+      target: 17
+      tl: 17
+      s: 0
+      e: 0
+      CP: 0
+      mcr: 0.1
+      totalTons: 20
+      label: 'Spacer Hotbunks'
+      b: 0
+      r: 0
+      totalSleeps: 240
+      Sq: 40
+      sleeps: 6
+      totalMCr: 4
+      type: 'Crew'
+      q: 0
+
+   - 
+      eff: 1
+      notes: '10 crew'
+      tons: 1
+      howMany: 60
+      CP: 0
+      tl: 17
+      s: 0
+      e: 0
+      r: 0
+      mcr: 1
+      totalTons: 60
+      label: 'Crew Common Fresher'
+      target: 17
+      totalMCr: 60
+      Sq: 120
+      b: 0
+      type: 'Crew'
+      q: 0
+
+   - 
+      Sq: 2
+      notes: '12t/hr'
+      tons: 1
+      howMany: 1
+      q: 0
+      tl: 17
+      s: 0
+      e: 0
+      r: 0
+      mcr: 1
+      totalTons: 1
+      label: 'Container Handler'
+      totalMCr: 1
+      type: 'Payload'
+      eff: 1
+      b: 0
+      CP: 0
+      target: 17
+
+   - 
+      eff: 1
+      notes: ''
+      tons: 4
+      howMany: 10
+      target: 17
+      tl: 17
+      s: 0
+      e: 0
+      CP: 1
+      mcr: 3
+      totalTons: 40
+      label: 'Surgery'
+      b: 0
+      r: 0
+      Sq: 80
+      totalMCr: 30
+      type: 'Ops'
+      q: 0
+
+   - 
+      eff: 1
+      notes: ''
+      tons: 2
+      howMany: 10
+      target: 17
+      tl: 17
+      s: 0
+      e: 0
+      CP: 1
+      mcr: 1
+      totalTons: 20
+      label: 'Clinic'
+      b: 0
+      r: 0
+      Sq: 40
+      totalMCr: 10
+      type: 'Ops'
+      q: 0
+
+   - 
+      eff: 1
+      notes: ''
+      tons: 2
+      howMany: 10
+      target: 17
+      tl: 17
+      s: 0
+      e: 0
+      CP: 1
+      mcr: 0.2
+      totalTons: 20
+      label: 'Counsellor'
+      b: 0
+      r: 0
+      Sq: 40
+      totalMCr: 2
+      type: 'Ops'
+      q: 0
+
+   - 
+      Sq: 4
+      notes: ''
+      tons: 2
+      howMany: 1
+      q: 0
+      tl: 17
+      s: 0
+      e: 0
+      CP: 1
+      mcr: 0
+      totalTons: 2
+      label: 'Cargo Lock'
+      b: 0
+      r: 0
+      eff: 1
+      totalMCr: 0
+      type: 'Payload'
+      target: 17
+
+   - 
+      Sq: 1
+      notes: ''
+      tons: 0.5
+      howMany: 1
+      q: 0
+      tl: 17
+      s: 0
+      e: 0
+      CP: 1
+      mcr: 0.1
+      totalTons: 0.5
+      label: 'Air Lock'
+      b: 0
+      r: 0
+      eff: 1
+      totalMCr: 0.1
+      type: 'Payload'
+      target: 17
+
+   - 
+      eff: 1
+      notes: '50 x Size-5'
+      tons: 1
+      howMany: 100
+      CP: 0
+      tl: 17
+      s: 0
+      e: 0
+      r: 0
+      mcr: 0
+      totalTons: 100
+      label: 'Magazine'
+      target: 17
+      totalMCr: 0
+      Sq: 200
+      b: 0
+      type: 'Weapon'
+      q: 0
+
+   - 
+      eff: 1
+      code: 'S'
+      tons: 1
+      howMany: 100
+      target: 8
+      tl: 8
+      s: 0
+      e: 0
+      CP: 1
+      mcr: 0.1
+      totalTons: 100
+      label: 'Fuel Scoops'
+      b: 0
+      r: 0
+      category: 'Fuel Scoops'
+      Sq: 200
+      totalMCr: 10
+      type: 'Drive'
+      q: 0
+
+   - 
+      eff: 1
+      code: 'B'
+      tons: 1
+      howMany: 100
+      target: 8
+      tl: 8
+      s: 0
+      e: 0
+      CP: 1
+      mcr: 0.1
+      totalTons: 100
+      label: 'Fuel Bins'
+      b: 0
+      r: 0
+      category: 'Fuel Bins'
+      Sq: 200
+      totalMCr: 10
+      type: 'Drive'
+      q: 0
+
+   - 
+      Sq: 400
+      code: 'P'
+      tons: 1
+      howMany: 200
+      q: 0
+      tl: 8
+      s: 0
+      e: 0
+      CP: 1
+      mcr: 0.1
+      totalTons: 200
+      label: 'Fuel Purifiers'
+      b: 0
+      r: 0
+      category: 'Fuel Purifiers'
+      eff: 1
+      totalMCr: 20
+      type: 'Drive'
+      target: 8
+
+   - 
+      eff: 1
+      notes: 'days endurance'
+      tons: 40
+      howMany: 80
+      b: 0
+      target: 14
+      s: 0
+      av: '40,10,10,20,10,10,10'
+      code: 'HMAFQF'
+      r: 0
+      mcr: 144
+      totalTons: 3200
+      tl: 14
+      CP: 0
+      e: 0
+      label: 'Fighter Heavy'
+      Sq: 6400
+      totalMCr: 11520
+      speed: '7G'
+      type: 'Vehicle'
+      load: 2
+      q: 0
+
+   - 
+      eff: 1
+      notes: '1 crew'
+      tons: 1
+      howMany: 180
+      target: 17
+      tl: 17
+      s: 0
+      e: 0
+      CP: 0
+      mcr: 0.1
+      totalTons: 180
+      label: 'Spacer Niche'
+      b: 0
+      r: 0
+      totalSleeps: 180
+      Sq: 360
+      sleeps: 1
+      totalMCr: 18
+      type: 'Crew'
+      q: 0
+
+   - 
+      Sq: 560
+      notes: ''
+      tons: 8
+      howMany: 35
+      q: 0
+      tl: 17
+      s: 0
+      e: 0
+      CP: 0
+      mcr: 0
+      totalTons: 280
+      label: 'Crew Lounge'
+      totalMCr: 0
+      r: 0
+      eff: 1
+      b: 0
+      type: 'Crew'
+      target: 17
+
+   - 
+      eff: 1
+      notes: '40 person-months'
+      tons: 2
+      howMany: 30
+      CP: 0
+      tl: 17
+      s: 0
+      e: 0
+      r: 0
+      mcr: 2
+      totalTons: 60
+      label: 'Life Support Long Term'
+      target: 17
+      totalMCr: 60
+      Sq: 120
+      b: 0
+      type: 'Ops'
+      q: 0
+
+   - 
+      eff: 1
+      notes: '10 sophonts'
+      tons: 1
+      howMany: 25
+      CP: 0
+      tl: 17
+      s: 0
+      e: 0
+      r: 0
+      mcr: 1
+      totalTons: 25
+      label: 'Life Support Adaptable'
+      target: 17
+      totalMCr: 25
+      Sq: 50
+      b: 0
+      type: 'Ops'
+      q: 0
+
+   - 
+      eff: 1
+      notes: '10 high passengers'
+      tons: 1
+      howMany: 10
+      CP: 0
+      tl: 17
+      s: 0
+      e: 0
+      r: 0
+      mcr: 1
+      totalTons: 10
+      label: 'Life Support Luxury'
+      target: 17
+      totalMCr: 10
+      Sq: 20
+      b: 0
+      type: 'Ops'
+      q: 0
+
+   - 
+      eff: 1
+      notes: ''
+      tons: 10
+      howMany: 8
+      target: 17
+      tl: 17
+      s: 0
+      e: 0
+      CP: 1
+      mcr: 0
+      totalTons: 80
+      label: 'Large Vehicle Lock'
+      b: 0
+      r: 0
+      Sq: 160
+      totalMCr: 0
+      type: 'Vehicle'
+      q: 0
+
+   - 
+      eff: 1
+      notes: '(70) 3 pl + O3 O2 R5 R3'
+      tons: 60
+      howMany: 6
+      target: 17
+      tl: 17
+      s: 0
+      e: 0
+      CP: 0
+      mcr: 3
+      totalTons: 360
+      label: 'Company Barracks'
+      totalMCr: 18
+      r: 0
+      Sq: 720
+      b: 0
+      type: 'Ops'
+      q: 0
+
+   - 
+      Sq: 1140
+      code: 'MCQS'
+      tons: 95
+      howMany: 6
+      CP: 0
+      tl: 11
+      s: 0
+      eff: 1
+      e: 0
+      r: 0
+      mcr: 22
+      totalTons: 570
+      target: 11
+      b: 0
+      label: 'Assault Shuttle'
+      av: '10,10,10,20,10,10,10'
+      totalMCr: 132
+      speed: '3G'
+      type: 'Vehicle'
+      load: 72
+      q: 0
+
+   - 
+      mod: 2
+      e: 0
+      tons: 1082
+      howMany: 1
+      q: 0
+      tl: 17
+      s: 0
+      ws: 21
+      cc: 6
+      mcr: 53.6
+      totalMCr: 53.6
+      Sq: 2164
+      r: 0
+      category: 'Bridge'
+      type: 'Ops'
+      notes: '6cc 514op 21ws'
+      CP: 0
+      totalTons: 1082
+      label: 'Spacious Bridge'
+      b: 0
+      eff: 1
+      name: 'Bridge'
+      target: 19
+      op: 514

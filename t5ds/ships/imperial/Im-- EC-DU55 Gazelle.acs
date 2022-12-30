@@ -1,0 +1,57 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:33 2021
+Mission: Close Escort
+QSP: EC-DU55
+TL: 14 
+Name: Gazelle
+Tons: 400
+Actual Tons: 517
+Overtonnage: 117
+
+MCr: 275.4
+Builder: Bilstein Yards
+Disposition: In Service
+Allegiance: Im
+
+Crew comfort: -1
+Passenger demand: -5
+Cargo: 0
+FuelPercentage: 15
+Components:
+ - HH0   U  1 00000 400   14  Unstreamlined Hull
+ - HL1   K  1 00000   4    4  Landing legs with pads
+ - AA1  56  1 00000  16    0  AV=56. 2 Kinetic Charged
+ - DF0   -  1 00000  80    0  Jump Fuel (2  parsecs)
+ - DF0   -  1 00000  60    0  Plant Fuel (3 months)
+ - DJ2   K  1 00000  55   55  Jump Drive-5 (K)
+ - DF1  S1  1 00000   1  0.1  Fuel Scoops 100t/hr
+ - DP1   K  1 00000  31   31  PowerPlant-5 (K)
+ - DM1   K  1 00000  19   38  Maneuver Drive-5 (K)
+ - DF1  I1  1 00000   1  0.1  Fuel Intakes 40t/hr
+ - DF1  P2  1 00000   2    2  Fuel Purifiers 8t/hr
+ - OO0   -  2 00000   2    2  Life Support Long Term
+ - OO1   -  2 00000  60  3.8  Pod A6-S
+ - OO0   -  8 00000   1  0.5  Emergency Low Berth
+ - OC1   6  1 00000   6   39  Computer Model/6 std
+ - OO0   -  1 00000   4  0.2  Squad Barracks
+ - OB0   2  1 00000  18    0  Spacious Controls
+ - SS1   -  1 00000   0  2.5  LR Surf Communicator
+ - SS1   -  1 00000   0  2.5  LR Surf EMS
+ - SS1   -  1 00000   0  2.5  LR Surf Visor
+ - SS1   -  1 00000   0  2.5  LR Surf Jammer
+ - SS1   -  1 00000   0  2.5  LR Surf Neutrino Detector
+ - SS1   -  1 00000   0  2.5  LR Surf Stealth Mask
+ - WW1   -  2 00000   1  1.5  Vd T3 Beam Laser
+ - WW1   3  2 00000   5  6.5  AR B2 Particle Accelerator
+ - DD1  -1  1 00000   2    2  B Meson Screen
+ - DD1  -1  1 00000   3    2  B Nuclear Damper
+ - CO0   -  4 00000   2  0.1  Crew Stateroom
+ - CO0   -  8 00000   1  0.1  Spacer Niche
+ - CO0   -  4 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  1 00000  19    0  Crew Lounge
+ - VO0  LM  1 00000  20   28  Gig
+ - VO1   -  1 00000  10    1  Hull Niche for Gig
+ - VO0   -  1 00000   4    8  Droptank grapples
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

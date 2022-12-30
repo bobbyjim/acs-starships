@@ -1,0 +1,40 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:34 2021
+Mission: Express Courier
+QSP: X-AU04
+TL: 13 
+Name: Express Boat
+Tons: 100
+Actual Tons: 100
+
+MCr: 54.3
+Owner: Imperium Government
+Disposition: In Service
+Allegiance: Im
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 1
+FuelPercentage: 14
+Components:
+ - HH0   U  1 00000 100    6  Unstreamlined Hull, lifters
+ - HJ1   G  1 00000   0    1  Jump Grid
+ - HL1  n/  1 00000 -0.5    0  No Landers
+ - AA1  15  1 00000   0    0  AV=15. 1 Rad Plate
+ - DF0   -  1 00000  50    0  Jump Fuel (5  parsecs)
+ - DF0   -  1 00000   4    0  Plant Fuel (one month)
+ - DF1  X1  1 00000   1    1  Fuel Transfer Pumps 
+ - DJ1   B  1 00000  15   15  Jump Drive-4 (B)
+ - DP1   B  1 00000   7    7  PowerPlant-4 (B)
+ - OC1   4  1 00000   4   18  Computer Model/4 std
+ - OB0   2  1 00000   6    0  Spacious Controls
+ - SS1   -  1 00000   0  3.5  DS Surf Communicator
+ - CO0   -  1 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  2 00000   2  0.1  Crew Stateroom
+ - CO0   -  1 00000   6    0  Crew Lounge
+ - PO0   -  1 00000 0.5  0.5  Medical Console
+ - PC0   -  1 00000   1    1  Life Support
+ - PO0   -  1 00000 1.5    0  Cargo Hold Basic
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

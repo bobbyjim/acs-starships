@@ -1,0 +1,50 @@
+Transport T-Q2U14 World MCr846.5
+
+
+Al Morai maintains a homogenous fleet of 53 type MK Mora-class cargo carriers.  The quantity 53 allows one ship to be present at each world along Al Morai's routes, as well as one ship in maintenance at each of the two overhaul facilities.
+   
+Al Morai's World class ships are named for the worlds on the company routes, for example, Regina, Fornice, Bendor, and Jewell.  Two additional ships are named Imperial Glory and Imperial Reign.
+
+Using a 3000-ton, TL14 hull, the World class Transport mounts jump drive-V3, maneuver drive-Q, and power plant-V3, giving a performance of jump-4 and 1G acceleration. Fuel tankage supports a 4 parsec jump, at 270t per parsec, and one month of operations. Attached to the bridge is a Computer Model/4. There are 30 passenger staterooms and no low berths. Cargo capacity is 1200 tons. The ship is unstreamlined. Its overtonnage is compensated for by its power plant.
+
+Carried craft include 3 Light Shuttles for ground contact. The ship requires 18 crew: captain, two pilots, astrogator, sensop, medic, six engineers, three stewards, and three freightmasters. It can carry 24 high passengers, and 6 middle passengers.
+
+
+Overtonnage: 6.5 tons
+Crew comfort:     +0
+Passenger demand: +0
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+   3000	 Unstreamlined Hull, lifters, 30 a/l	   92	U, lifters, 30 a/l free
+    -15	 No Landers                         	    0	
+      0	 AV=28. 1 Rad Charged               	    0	
+   1080	 Jump Fuel (4  parsecs)             	    0	4 parsec jump, at 270t per parsec
+    114	 Plant Fuel (one month)             	    0	one month
+      1	 Fuel Transfer Pumps                	    1	
+   7.25	 Ult Maneuver Drive Q (R1)          	  116	R1
+  157.5	 Mod Jump Drive V3 (R4)             	157.5	R4
+  45.75	 Ult PowerPlant V3 (R5)             	  366	R5
+      0	 AR Surf Basic                      	    6	
+      4	 Computer Model/4                   	   18	
+      6	 6x Life Support Luxury             	    6	#6 4 high passengers
+      1	 Life Support Standard              	    1	21 people
+     36	 Spacious Bridge                    	  1.4	1cc 8op 9ws
+     10	 10x Spacer Niche                   	    1	#10 1 crew
+     12	 2x Officer Suite                   	  0.8	#2 fresher + safe
+     12	 6x Crew Stateroom                  	  0.6	#6 1 crew
+      2	 2x Crew Common Fresher             	    2	#2 10 crew
+     40	 10x Crew Commons                   	    0	#10 
+   1200	 Cargo Hold Basic                   	    0	
+      4	 Passenger Commons                  	    0	
+      1	 Common Fresher                     	    1	10 passengers
+    144	 24x Luxury Stateroom               	  9.6	#24 1 passenger + fresher
+     12	 3x Standard Suite                  	  0.6	#3 2 passengers
+    120	 3x Light Shuttle                   	   54	#3 m1bis 3 B S
+     12	 12x Shuttle Grapples               	   12	#12 1 pair per 35t
+[/code]
+
+[code]
+[/code]
+

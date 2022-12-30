@@ -1,0 +1,48 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:35 2021
+Mission: Liner
+QSP: M-FU13
+TL: 12 
+Name: Dhaztuen
+Tons: 600
+Actual Tons: 598.5
+
+MCr: 155.7
+Builder: Gashidda No. 3
+Disposition: In Service
+Allegiance: Va
+
+Crew comfort: -1
+Passenger demand: 0
+Cargo: 33
+FuelPercentage: 13
+Components:
+ - HH0   U  1 00000 600   20  Unstreamlined Hull
+ - AA1  12  1 00000   0    0  AV=12. 1 Kinetic Plate
+ - DF0   -  1 00000 180    0  Jump Fuel (3  parsecs)
+ - DF0   -  1 00000  18    0  Plant Fuel (one month)
+ - DJ2   J  1 00000  50   50  Jump Drive-3 (J)
+ - DM1   C  1 00000   5   10  Maneuver Drive-1 (C)
+ - DP1   J  1 00000  28   28  PowerPlant-3 (J)
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   -  1 00000   1    1  Life Support Luxury
+ - OO0   -  1 00000   1    1  Life Support Adaptable
+ - OC1   3  1 00000   3  7.5  Computer Model/2bis std
+ - OB0   2  1 00000  24    0  Spacious Controls
+ - WW1  -2  2 00000   1  0.7  Vd T1 Beam Laser
+ - WW1  -2  2 00000   1  0.4  AR T1 Missile
+ - WW1  -2  2 00000   1  0.3  Vd T1 Sandcaster
+ - CO0   -  2 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - CO0   - 12 00000   2  0.1  Crew Stateroom
+ - CO0   -  3 00000   4    0  Crew Lounge
+ - PO0   - 10 00000 0.5  0.1  Low Berth
+ - PC0   -  1 00000  33    0  Cargo Hold Basic
+ - PO0   - 24 00000   2  0.1  Standard Stateroom
+ - PO0   - 12 00000   4    0  Passenger Lounge
+ - PO0   -  7 00000 0.5  0.5  Shared Fresher
+ - VO0  MC  1 00000  95   22  Cargo Shuttle
+ - VO1   -  1 00000  10    0  Shuttle Hangar
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

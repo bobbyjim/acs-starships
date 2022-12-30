@@ -1,0 +1,59 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:33 2021
+Mission: Surveyor
+QSP: N-DU23
+TL: 15 
+Name: Donosev
+Tons: 400
+Actual Tons: 395
+
+MCr: 189.6
+Allegiance: Im
+
+Crew comfort: -1
+Passenger demand: -5
+Cargo: 20
+FuelPercentage: 10
+Components:
+ - HH0   U  1 00000 400   14  Unstreamlined Hull, lifters, 4 a/l free
+ - HL1  n/  1 00000  -2    0  No Landers
+ - AA1  30  1 00000   0    0  AV=30. 1 EMP Charged
+ - DF0   -  1 00000  99    0  Jump Fuel (3  parsecs)
+ - DF0   -  1 00000  25    0  Plant Fuel (2.5 months)
+ - DF1   P  1 00000   1    1  Fuel Purifier
+ - DM1   D  1 00000   7   14  Maneuver Drive-2 (D)
+ - DJ1   3  1 00000 11.55   35  Adv Jump Drive-3 (F)
+ - DP1   3  1 00000 6.27   19  Adv PowerPlant-3 (F)
+ - OC1   5  1 00000   5   27  Computer Model/5 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO1   -  1 00000   2    1  Clinic
+ - OO1   -  1 00000   2  0.2  Counsellor
+ - OO1   - 14 00000   1  0.1  Mission Space
+ - OO0   -  2 00000   1  0.5  Emergency Low Berth
+ - OB0   2  1 00000  22  1.1  Spacious Bridge
+ - SS1   1  1 00000   1  1.5  AR Ant Communicator
+ - SS1   1  1 00000   1  1.5  AR Ant Neutrino Detector
+ - SS1   1  1 00000   1  1.5  AR Ant EMS
+ - SS1   1  1 00000   1  1.5  AR Ant Grav Sensor
+ - SS1   -  1 00000   0    2  AR Surf Visor
+ - WS1   1  1 00000   1  0.6  Vd Ant Sound Sensor
+ - WS1   1  1 00000   1  0.6  Vd Ant Mass Sensor
+ - WS1   1  1 00000   1  0.6  Vd Ant Deep Radar
+ - WS1   1  1 00000   1  0.6  Vd Ant Analyzer/Sniffer
+ - WS1   1  1 00000   1  0.6  Vd Ant Densitometer
+ - WS1   1  1 00000   1  0.6  Vd Ant Life Detector
+ - WS1   1  1 00000   1  0.6  Vd Ant Proximeter
+ - WS1   1  1 00000   1  0.6  Vd Ant Activity Sensor
+ - WS1   1  1 00000   1  0.6  Vd Ant Field Sensor
+ - WW1  -2  4 00000   1  0.2  AR T1 Empty
+ - CO0   - 11 00000   2  0.1  Crew Stateroom
+ - CO0   -  3 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  5 00000   4    0  Crew Commons
+ - PC0   -  1 00000  20    0  Cargo Hold Basic
+ - VO1   -  1 00000  10    0  Hangar Lock
+ - VO0  EL  2 00000   4  0.1  Air/Raft Enclosed
+ - VF0  MQ  1 00000  50   28  Modular (Fuel) Cutter
+ - VO0  MQ  1 00000  50   28  Modular (Transport) Cutter
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

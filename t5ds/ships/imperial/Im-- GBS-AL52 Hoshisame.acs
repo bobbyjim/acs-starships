@@ -1,0 +1,46 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:33 2021
+Mission: Gunboat
+QSP: GBS-AL52
+TL: 13 
+Name: Hoshisame
+Tons: 100
+Actual Tons: 99.5
+
+MCr: 83.6
+Allegiance: Im
+
+Crew comfort: -4
+Passenger demand: -5
+Cargo: 1
+FuelPercentage: 13
+Components:
+ - HH0   L  1 00000 100   16  Lift body Hull, lifters, 1 a/l free
+ - HL1   K  1 00000   1    1  Landing legs with pads
+ - AA1  65  1 00000  16    0  AV=65. 5 Blast Plate
+ - DF0   -  1 00000  18    0  Jump Fuel (2  parsecs)
+ - DF0   -  1 00000 4.5    0  Plant Fuel (one month)
+ - DF2  SP  1 00000   2  1.1  Fuel Scoops with Purifier
+ - DF2  IP  1 00000   2  1.1  Fuel Intakes with Purifier
+ - DF2  BP  1 00000   2  1.1  Fuel Bins with Purifier
+ - DP1   1  1 61AB4  10   10  Imp PowerPlant C (R5)
+ - DM1   2  1 950C2 2.5    5  Mod Maneuver Drive C (R5)
+ - DJ1   1  1 500A3  10   10  Imp Jump Drive A (R2)
+ - OC1   3  1 00000   6  15.7  Computer Model/3 fib
+ - OO0   -  1 00000   1    1  Life Support Standard
+ - OO1   -  1 00000   2  0.2  Counsellor
+ - OO0   -  1 00000 0.5  0.5  Med Console
+ - OB0  -2  1 00000 2.5  0.6  Cramped Bridge
+ - SS1   1  1 00000   2  2.5  LR Ant Jammer
+ - SS1   1  1 00000   2  2.5  LR Ant Communicator
+ - SS1   1  1 00000   2  2.5  LR Ant Neutrino Detector
+ - SS1   1  1 00000   2  2.5  LR Ant EMS
+ - SS1   1  1 00000   2  2.5  LR Ant Stealth Mask
+ - WW1   3  1 00000   5  6.5  AR B2 PA + Missile Launcher
+ - CO0   -  3 00000 0.5  0.1  Spacer Hotbunks
+ - CO0   -  2 00000 0.5  0.5  Crew Shared Fresher
+ - PO0   -  1 00000   1    0  Magazine
+ - PC0   -  1 00000   1    0  Cargo Hold Basic
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

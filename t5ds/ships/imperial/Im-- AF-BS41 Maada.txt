@@ -1,0 +1,45 @@
+Fast Trader AF-BS41 Maada MCr66.4
+
+
+Using a 200-ton, TL11 hull, the Maada class Fast Trader is a well-equipped high-G ship, often employed beyond the Imperial border.  It mounts jump drive-A, maneuver drive-D, and power plant-D, giving a performance of jump-1 and 4G acceleration. Fuel tankage supports a 1 parsec jump, at 18t per parsec, and one month of operations. Attached to the bridge is a Computer Model/1. There are 9 staterooms and 10 low berths. There are two single turrets; no weaponry is mounted. Cargo capacity is 64 tons. The ship has a streamlined hull, with scoops, intakes, and bins for frontier refueling. Its undertonnage design allows it to move at 5G in atmosphere 2+.
+
+The ship has 3 crew: pilot/astrogator, engineer, and steward.  A medic and gunners may be added. It can carry 6 high passengers and 10 low passengers.
+
+Actual volume: 196.5 tons
+Crew comfort:     +0
+Passenger demand: +1
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    200	 Streamlined hull                   	   14	
+      2	 Landing legs with pads             	    2	
+      1	 Fins                               	    1	
+      0	 AV=11. 1 Rad Plate                 	    0	
+     18	 Jump Fuel (1  parsec)              	    0	1 parsec jump, at 18t per parsec
+      8	 Plant Fuel (one month)             	    0	one month
+      1	 Fuel Scoops                        	  0.1	100 t/hr
+      1	 Fuel Intakes                       	  0.1	40 t/hr
+      1	 Fuel Bins                          	  0.1	20 t/hr
+     13	 PowerPlant-4 (D)                   	   13	P 4
+      7	 Maneuver Drive-4 (D)               	   14	4 G
+     10	 Mod Jump Drive A (R1)              	    5	R1
+      0	 AR Surf Basic                      	    6	
+      2	 2x AR T1 Empty                     	  0.4	#2 
+      1	 Computer Model/1 std               	  1.5	
+      1	 Life Support Standard              	    1	21 people
+      2	 Clinic                             	    1	
+      2	 2x Life Support Luxury             	    2	#2 4 high passengers
+      5	 Standard Bridge                    	  0.6	1cc 4op 0ws
+    0.5	 Crew Shared Fresher                	  0.5	4 crew
+      6	 3x Crew Stateroom                  	  0.3	#3 1 crew
+      8	 2x Crew Commons                    	    0	#2 
+     64	 Cargo Hold Basic                   	    0	
+      2	 Cargo Lock                         	  0.4	
+      5	 10x Low Berth                      	    1	#10 1 passenger
+     36	 6x Luxury Stateroom                	  2.4	#6 1 passenger + fresher
+[/code]
+
+[code]
+[/code]
+

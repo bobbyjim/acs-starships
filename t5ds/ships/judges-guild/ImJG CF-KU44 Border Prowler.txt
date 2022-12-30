@@ -1,0 +1,72 @@
+Frontier Cruiser CF-KU44 Border Prowler MCr391.6
+
+
+Using a 1000-ton, TL14 hull, the Border Prowler Class Frontier Cruiser mounts jump drive-V, maneuver drive-V, and power plant-V, giving a performance of jump-4 and 4G acceleration. Fuel tankage supports a 3 parsec jump, at 90t per parsec, and one month of operations. Attached to the bridge is a Computer Model/4. There are 12 staterooms and no low berths. Installed weaponry include 1 B2 Particle Accelerator, 2 T2 Fusion Guns, 1 T3 Sandcaster, 2 T3 Missiles, and 4 T3 Beam Lasers. Cargo capacity is 200 tons. The ship has an unstreamlined hull, with scoops, intakes, and bins for frontier refueling. 
+
+The ship carries two 50 ton fuel pods on grapples. The ship has 18 crew, and can carry 6 passengers. 
+
+These heavily-armed vessels are designed for multiple missions. The normal configuration is Jump-4 capable with 200 tons of cargo. Removing the demountable fuel tanks reduces the range to Jump 3, but increases cargo capacity to 300 tons. A special module was built which fits into the cargo bay and provides staterooms and life support for 100 troops in middle passage. A low passage module was also built which provided for 250 men in low passage, 50 tons of equipment, and stateroom for 10 command personnel. Another special module provides for 20 troops, 20 tons of equipment, and semi-external carriage of a pair of 40-ton attack shuttles.
+ 
+The designed mission of the Border Prowler Class is to maintain the Imperial presence upon the most far-flung borders. It has also proven an excellent ship for long-range scouting missions. In case of war, it should prove suitable as a commerce raider.  The class has proved invaluable in conveying critical cargos with lower risks. They hold a fair amount of cargo and are heavily armed to discourage pirates.  The ship also serves well as a Modular Merchant Cruiser and Colonial Fleet Cruiser.
+
+
+Actual volume: 975 tons
+Crew comfort:     -1
+Passenger demand: +0
+
+[code]
+   Tons	 Component                  	  MCr	Notes
+  -----	 ---------------------------	-----	--------------------
+   1000	 Unstreamlined Hull         	   32	U, 10 airlocks
+      0	 AV=0. c Reflec             	    0	
+      0	 AV=28. 1 Kinetic Charged   	    0	
+    270	 Jump Fuel (3  parsecs)     	    0	3 pc, 90t/pc
+     40	 Plant Fuel (one month)     	    0	one month
+      2	 Fuel Scoops with Purifier  	  1.1	100 t/hr
+      2	 Fuel Intakes with Purifier 	  1.1	40 t/hr
+      2	 Fuel Bins with Purifier    	  1.1	20 t/hr
+    105	 Imp Jump Drive V (R4)      	  105	R4
+     39	 Maneuver Drive-4 (V)       	   78	R4
+     61	 PowerPlant-4 (V)           	   61	R4
+      2	 LR Ant Neutrino Detector   	  2.5	
+      0	 LR Surf Communicator       	    4	
+      0	 LR Surf Jammer             	    4	
+      0	 LR Surf EMS                	    4	
+      0	 LR Surf Stealth Mask       	    4	
+      0	 LR Surf Grav Sensor        	    4	
+      0	 Or Surf Deep Radar         	  3.1	
+      0	 Or Surf Activity Sensor    	  3.1	
+      0	 Or Surf Field Sensor       	  3.1	
+      0	 Or Surf Proximeter         	  3.1	
+     10	 LR B2 Particle Accelerator 	 14.5	
+      1	 Vd T3 Sandcaster           	  1.1	
+      2	 2x AR T3 Missile           	  2.4	#2 
+      4	 4x Magazine                	    0	#4 50 x Size-5
+      4	 4x Vd T3 Beam Laser        	    6	#4 
+      2	 2x Vd T2 Fusion Gun        	    4	#2 
+      2	 B Meson Screen             	    2	
+      3	 B Nuclear Damper           	    2	
+      2	 B Mag Scrambler            	    2	
+      4	 Computer Model/4 std       	   18	
+      2	 Life Support Long Term     	    2	40 person-months
+      1	 Life Support Luxury        	    1	10 high passengers
+      1	 Life Support Adaptable     	    1	10 sophonts
+      2	 Clinic                     	    1	
+      2	 Counsellor                 	  0.2	
+      8	 2x Gunner Barracks         	  0.4	#2 (5) R1 R1 R2 R2 R3
+    100	 2x Fuel Pod A5-S           	  6.4	#2 req 2 pair grapples
+     32	 Spacious Bridge            	  1.9	4cc 10op 2ws
+      1	 Crew Common Fresher        	    1	10 crew
+     12	 6x Officer Stateroom       	  0.6	#6 1 crew
+     20	 5x Crew Commons            	    0	#5 
+      4	 4x Spacer Niche            	  0.4	#4 1 crew
+    200	 Cargo Hold Basic           	    0	
+     12	 6x Standard Stateroom      	  0.6	#6 1 passenger
+      1	 2x Shared Fresher          	    1	#2 4 passengers
+     12	 3x Passenger Commons       	    0	#3 
+      8	 8x Grapples                	    8	#8 1 pair per 35t
+[/code]
+
+[code]
+[/code]
+

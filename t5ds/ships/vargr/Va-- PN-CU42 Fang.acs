@@ -1,0 +1,58 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:35 2021
+Mission: Marauder
+QSP: PN-CU42
+TL: 12 
+Name: Fang
+Tons: 300
+Actual Tons: 297
+
+MCr: 127.4
+Owner: Vargr
+Allegiance: Va
+
+Crew comfort: -1
+Passenger demand: -5
+Cargo: 45
+FuelPercentage: 14
+Components:
+ - HH0   U  1 00000 300   11  Unstreamlined Hull, lifters, 3 a/l free
+ - HW1   W  1 00000   6    3  Wings and fins
+ - AA1  18  1 00000  24    0  AV=18. 3 Kinetic Polymer
+ - AC1   -  1 00000   0    0  AV=0. c Reflec
+ - AC1   -  1 00000   0    0  AV=0. c Slick
+ - DF0   -  1 00000  60    0  Jump Fuel (2  parsecs)
+ - DF0   -  1 00000  12    0  Plant Fuel (one month)
+ - DM1   F  1 00000  11   22  Maneuver Drive-4 (F)
+ - DJ1   C  1 00000  20   20  Jump Drive-2 (C)
+ - DP1   F  1 00000  19   19  PowerPlant-4 (F)
+ - DF1   S  1 00000   1  0.1  Fuel Scoops
+ - DF1   I  1 00000   1  0.1  Fuel Intakes
+ - DF1   B  1 00000   1  0.1  Fuel Bins
+ - OC1   2  1 00000   2    5  Computer Model/2 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO1   -  1 00000   2    1  Clinic
+ - OO0   -  1 00000   4  0.2  Gunner Barracks
+ - OO0   -  2 00000   1  0.5  Emergency Low Berth
+ - OB0   2  1 00000  18    1  Spacious Bridge
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   -  1 00000   0  1.5  AR Surf Jammer
+ - SS1   1  1 00000   1  1.5  AR Ant EMS
+ - SS1   -  1 00000   0  1.5  AR Surf Scope
+ - SS1   1  1 00000   1  1.5  AR Ant Stealth Mask
+ - SS1   -  1 00000   0  1.5  AR Surf Scope
+ - SS1   1  6 00000   1  1.5  AR Ant EMS (Fang)
+ - WW1  -1  2 00000   1  0.7  AR T2 Missile
+ - WW1   -  1 00000   1  1.5  Vd T3 Beam Laser
+ - DD1  -1  1 00000   3    2  B Nuclear Damper
+ - CO1   -  1 00000   6  0.4  Officer Suite
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - CO0   -  2 00000   2  0.1  Crew Double
+ - CO0   -  2 00000   4    0  Crew Commons
+ - PO1   -  1 00000   2  0.4  Cargo Lock
+ - PC0   -  1 00000  45    0  Cargo Hold Basic
+ - VO0   -  2 00000   1    1  Grapple
+ - VO0  MF  1 00000  30   15  Fast Boat
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

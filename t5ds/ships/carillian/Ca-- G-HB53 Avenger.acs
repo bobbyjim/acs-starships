@@ -1,0 +1,51 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:31 2021
+Mission: Frigate
+QSP: G-HB53
+TL: 13 
+Name: Avenger
+Tons: 800
+Actual Tons: 800
+Allegiance: Ca
+
+MCr: 301
+Owner: Carrillian
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 58
+FuelPercentage: 14
+Components:
+ - HH0   B  1 00000 800   24  Braced Hull
+ - AA1  26  1 00000  32    0  AV=26. 2 Blast Plate
+ - DF0   -  1 00000 240    0  Jump Fuel (3  parsecs)
+ - DF0   -  1 00000  36    0  Plant Fuel (one month)
+ - DJ2   M  1 00000  65   65  Jump Drive-3 (M)
+ - DM2   2  1 80405 19.5   39  Mod Maneuver Drive-5 (V)
+ - DP2   1  1 7C0D2  61   61  Imp PowerPlant-5 (V)
+ - OC1   3  1 00000   3  10.5  Computer Model/3 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   -  1 00000   1    1  Life Support Adaptable
+ - OO0   -  1 00000  18    1  Platoon Barracks
+ - OO0   -  2 00000   4  0.2  Gunner Barracks
+ - OB0   2  1 00000  14    0  Spacious Controls
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   -  1 00000   0  1.5  AR Surf Jammer
+ - SS1   -  1 00000   0  1.5  AR Surf Scope
+ - SS1   -  1 00000   0  1.5  AR Surf Neutrino Detector
+ - SS1   -  1 00000   0  1.5  AR Surf EMS
+ - SS1   -  1 00000   0  1.5  AR Surf Stealth Mask
+ - WW1   -  1 00000   1  1.1  Vd T3 Sandcaster
+ - WW1   3  3 00000   5  4.2  AR B2 Missile
+ - WW1   3  2 00000   5  6.5  AR B2 Particle Accelerator
+ - WW1  -1  2 00000   1    1  Vd T2 Beam Laser
+ - CO0   - 14 00000   2  0.1  Crew Stateroom
+ - CO0   -  8 00000   4    0  Crew Lounge
+ - CO0   -  3 00000   1    1  Crew Common Fresher
+ - PC0   -  1 00000  58    0  Cargo Hold Basic
+ - PO0   -  1 00000   1    0  Magazine
+ - PO1   -  1 00000 0.5  0.1  Air Lock
+ - VO0  MF  3 00000  50   18  Pinnace, hangared
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

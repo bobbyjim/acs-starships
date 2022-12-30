@@ -1,0 +1,52 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:31 2021
+Mission: Gunned Escort
+QSP: EG-DU44
+TL: 15 
+Name: Route Protector
+Tons: 400
+Actual Tons: 405
+Overtonnage: 5
+Allegiance: ImAl
+
+MCr: 171.8
+Owner: Al Morai
+
+Crew comfort: -1
+Passenger demand: -5
+Cargo: 10
+FuelPercentage: 14
+Components:
+ - HH0   U  1 00000 400   14  Unstreamlined Hull, lifters, 4 a/l free
+ - HL1   K  1 00000   4    4  Landing legs with pads
+ - AA1  90  1 00000  32    0  AV=90. 3 Kinetic Charged
+ - DF0   -  1 00000 160    0  Jump Fuel (4  parsecs)
+ - DF0   -  1 00000  16    0  Plant Fuel (one month)
+ - DJ2   H  1 00000  45   45  Jump Drive-4 (H)
+ - DP1   H  1 00000  25   25  PowerPlant-4 (H)
+ - DM1   H  1 00000  15   30  Maneuver Drive-4 (H)
+ - DF2  SP  1 00000   2  1.1  Fuel Scoops with Purifier
+ - DF2  IP  1 00000   2  1.1  Fuel Intakes with Purifier
+ - DF2  BP  1 00000   2  1.1  Fuel Bins with Purifier
+ - OC1   4  1 00000   4   18  Computer Model/4 std
+ - OO0   -  1 00000   1    1  Life Support Standard
+ - OO0   -  1 00000   4  0.2  Squad Barracks
+ - OB0   2  1 00000  16  0.9  Spacious Bridge
+ - WW1   2  1 00000   3  5.5  AR B1 Particle Accelerator
+ - WW1   -  1 00000   1  1.2  AR T3 Missile
+ - WW1   -  1 00000   1  1.1  Vd T3 Sandcaster
+ - WW1   -  1 00000   1  1.5  Vd T3 Beam Laser
+ - CO1   -  1 00000   6  0.4  Officer Suite
+ - CO0   -  1 00000   2  0.1  Crew Stateroom
+ - CO0   -  1 00000   2  0.1  Crew Cramped
+ - CO0   -  1 00000   2  0.1  Crew Double
+ - CO0   -  4 00000   4    0  Crew Commons
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - PC0   -  1 00000  10    0  Cargo Hold Basic
+ - PO0   -  1 00000   1    0  Mail Vault
+ - PO0   -  1 00000   1    0  Magazine
+ - VO0   -  1 00000  10  1.5  Hull Niche
+ - VO0  LM  1 00000  20   18  Gig
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

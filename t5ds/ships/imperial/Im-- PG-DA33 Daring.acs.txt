@@ -1,0 +1,109 @@
+--- 
+ACS1.0: Sat Apr 23 23:10:59 2022
+Mission: Patrol Frigate
+QSP: PG-DA33 
+Cx: 
+Vx: B1 F2
+Name: Daring
+Tons: 400
+TL: 14 
+Undertonnage: 5
+MCr: 259
+Allegiance: Im
+
+Crew comfort: -2
+Passengers: 0
+Passenger demand: -5
+Low berths: 
+Cargo: 0
+Fuel: 118
+Fuel treatment: SP
+Computer: Model/4
+
+Comments: |-
+   The Daring-class Type PG Patrol Frigate is an intermediate naval vessel deployed in a offensive role; the ship is tailored for long-term operations (patrol).
+   
+   The 400-ton airframe hull is equipped with Landing Wheels and Lifters for limited hover and repositioning. It is enhanced with Wings (providing +1G in Atmosphere) and Folding Fins (Agility+1 in Atmosphere). In combat, the ship ideally sheds its two Fighters and Ship's Boat to create an undertonnage (348 tons) and Agility +2 (total in Atmosphere +3). The Folding Fins must be folded before the ship can land on a world surface. The Hull has two layer of Charged Armor. In addition to Armor, the Nuclear Damper-14 provides protection against nuclear weapons.
+   
+   The drive suite has F-class drives, giving 3G (increased to 4G in Atmosphere) and Jump-3. The Jump Drive uses the Jump Bubble principle with standard Jump Flash. Fuel tankage includes 108 tons supporting one Jump-1 and 10 tons (tanked in the Wings) supporting operations for about a month. The ship has Fuel Scoops and Purifier.
+   
+   The Bridge has four Consoles (Comms, Astrogation, Pilot, and Sensors) and Computer Model/4. An auxiliary Bridge forward has Consoles for Pilot and Astrogator. Thirteen other consoles support ship operations.
+   
+   Crew consists of Captain (also Astrogator), six officers (Pilot, three Engineers, Medic, and Sensors Officer), eight Petty Officers, and 24 crew = 39 total crew supporting Level 1 staffing.
+   
+   The ship has Life Support for 7,200 Person-Days. 
+   The ship has a Medical Clinic.
+   The ship has a Vault for classified documents.
+   The ship has no Cargo Hold.
+   The ship has a Ship's Locker with appropriate contents. 
+   The ship has a 30-ton Ship's Boat (itself carrying a 4-ton enclosed Air/Raft), and two wing-mounted 10-ton Fighters.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   400   . Airframe Hull                      30.0  ,HH.0  A .....
+ -    12   . Landing wheels                      6.0  ,HL.1  M .....
+ -     0   . Folding fins                        2.0  ,HW.1  G .....
+ -    16   . Armor: 2 Blast Charged              0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   108   . Jump Fuel (3  parsecs)              0.0  ,DF.0  . .....
+ -    10   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     2   . Fuel Scoops with Purifier           1.1  ,DF.2 SP .....
+ -     3   . Adv Maneuver Drive-3 (F)           22.0  ,DM31  3 .....
+ -    17   . Mod Jump Drive-3 (F)               17.5  ,DJ31  2 .....
+ -     6   . Adv PowerPlant-3 (F)               19.0  ,DP31  3 .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . Computer Model/4                   18.0  ,OC41  . .....
+ -    12  6x Life Support Long Term             12.0  ,OLL0  . .....
+ -     2   . Clinic                              1.0  ,OM.1  . .....
+ -    38   . Spacious Bridge                     3.8  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Adv DS Surf Communicator            6.0  ,SS.1  3 1030B5
+ -     0   . Ear AR Surf CommPlus                4.0  ,SS.1 -3 702C0
+ -     0   . AR Surf Visor                       2.0  ,SS.1  . .....
+ -     0   . Mod DS Surf Neutrino Detector       3.0  ,SS.1  2 924CC
+ -     1   . Mod AR Ant EMS                      0.7  ,SS.1  3 55AE4
+ -     0   . AR Surf Grav Sensor                 2.0  ,SS.1  . .....
+#
+#   TONS   # W-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . G Surf Life Detector                8.1  ,WS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     6  2x Ult DS T3 Missile                  20.8  ,WW.1  4 935B4
+ -     8  2x Imp G T3 Beam Laser                17.0  ,WW.1  1 53AA0
+#
+#   TONS   # DEFENSES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     3   . Mod B Nuclear Damper                1.0  ,DD.1  1 440A1
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     6   . Captain's Suite                     0.4  ,CS.1  1 .....
+ -    12  6x Officers Staterooms                 0.6  ,CS.0  1 .....
+ -    31   . Crew Commons                        0.0  ,CC.0  . .....
+ -     4  4x Crew Common Fresher                 4.0  ,CF.0  2 .....
+ -    16  8x Petty Officers (Double)             0.8  ,CO.0  2 .....
+ -    22 22x Ratings Niches                      2.2  ,CO.0  1 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2   . Locker and Vault                    1.0  ,PC.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Grapple                             1.0  ,VO.0  . .....
+ -    20  2x Fighter, wing mount                33.0  ,VO.0 MQ .....
+ -     2  2x Bracket Streamlined                 4.0  ,VO.0  . .....
+ -    30   . Fast Boat (+2 SR +A/R)             15.0  ,VO.0 MF .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

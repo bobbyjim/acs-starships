@@ -1,0 +1,46 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:32 2021
+Mission: Excursion Ship
+QSP: K2-FC03
+TL: 18 
+Name: ANNIC NOVA
+Tons: 600
+Actual Tons: 549.5
+
+MCr: 213.7
+Allegiance: Im
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 
+FuelPercentage: 11
+Components:
+ - HH0   C  1 00000 600   16  Cluster Hull, no lifters
+ - HL1  no  1 00000  -6   -6  No landing gear
+ - AA1   9  1 00000   0    0  AV=9. 1 Rad Organic
+ - DF0   -  1 00000   0    0  Jump Fuel (0  parsec)
+ - DF0   -  1 00000   0    0  Plant Fuel (0 months)
+ - DC5   Q  1 00000 150   75  Collector-5 (Q)
+ - DJ1   2  1 023D3 17.5  17.5  Mod Jump Drive-2 (F)
+ - DJ2  -2  1 032DA  25   25  Gen Jump Drive-3 (J)
+ - OC1   3  1 00000   6   21  Computer Model/3 flu
+ - OB0   2  1 00000  20    0  Spacious bridge
+ - OO1   -  4 00000   4  0.4  Hydroponic Garden
+ - SS1   -  1 00000   0    1  AR Surf Communicator
+ - SS1   1  1 00000   1  1.5  AR Ant EMS
+ - SS1   -  1 00000   0    1  AR Surf HoloVisor
+ - WS1   -  1 00000   0  0.1  G Surf Deep Radar
+ - WS1   -  1 00000   0  0.1  G Surf Proximeter
+ - WW1  -3  2 00000   1  0.7  Vd T1 Beam Laser
+ - CO0   -  4 00000   4  0.5  Crew Single Stateroom
+ - CO0   -  4 00000   4  0.5  Crew Double Stateroom
+ - CO0   -  5 00000   4  0.5  Crew Lounge
+ - PO1   -  1 00000  10    0  Machine Shop
+ - PO1   -  1 00000   5    0  Electronics Shop
+ - PO1   -  1 00000   5    0  Metallurgical Shop
+ - PC0   -  1 00000 150    0  Cargo Hold Basic
+ - VO0  MF  2 00000  40   18  Pinnace
+ - VO0   -  8 00000   2    2  Grapples
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

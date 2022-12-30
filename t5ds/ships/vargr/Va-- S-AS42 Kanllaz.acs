@@ -1,0 +1,47 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:35 2021
+Mission: Scout/Courier
+QSP: S-AS42
+TL: 12 
+Name: Kanllaz
+Tons: 100
+Actual Tons: 100
+
+MCr: 66.9
+Allegiance: Va
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 0
+FuelPercentage: 14
+Components:
+ - HH0   S  1 00000 100    9  Streamlined Hull, lifters
+ - HJ1   G  1 00000   0    1  Jump Grid
+ - HF1   E  1 00000   2    4  Submergence hull
+ - HW1   W  1 00000   2  2.5  Wings and fins
+ - AA1  12  1 00000   0    0  AV=12. 1 Kinetic Plate
+ - DF0   -  1 00000  20    0  Jump Fuel (2  parsecs)
+ - DF0   -  1 00000   8    0  Plant Fuel (2 months)
+ - DF1   -  1 00000   1  0.1  Fuel Scoops 100t/hr
+ - DF1   -  1 00000   1  0.1  Fuel Intakes 40t/hr
+ - DP1   B  1 00000   7    7  PowerPlant-4 (B)
+ - DM1   B  1 00000   3    6  Maneuver Drive-4 (B)
+ - DJ1   A  1 00000  10   10  Jump Drive-2 (A)
+ - DF1   -  1 00000   1  0.1  Fuel Bins 20t/hr
+ - DF1   -  1 00000   1    1  Fuel Purifiers 4t/hr
+ - OC1   4  1 00000   4   18  Computer Model/4 std
+ - OB0   2  1 00000   8    0  Spacious Controls
+ - SS1   1  1 00000   1  1.5  AR Ant Radar
+ - SS1   1  1 00000   1  1.5  AR Ant Scope
+ - WW1   -  1 00000   1    2  Vd T3 Hybrid L-S-M
+ - CO0   -  4 00000   2  0.1  Crew Stateroom
+ - CO0   -  1 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  3 00000   4    0  Crew Lounge
+ - PO0   -  8 00000   0    0  Cargo Hold Basic
+ - PO0   -  1 00000   1    0  Mail Vault
+ - PO0   -  1 00000 0.5  0.5  Medical Console
+ - PO0   -  1 00000   1    1  Life Support
+ - VO0  FP  1 00000   6  0.2  Grav Speeder
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

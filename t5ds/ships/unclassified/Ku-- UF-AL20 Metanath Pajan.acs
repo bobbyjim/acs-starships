@@ -1,0 +1,46 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:34 2021
+Mission: Fast Packet
+QSP: UF-AL20
+TL: 19 
+Name: Metanath Pajan
+Tons: 100
+Actual Tons: 37.5
+
+MCr: 72.2
+Owner: Kursae
+Allegiance: Ku
+
+Crew comfort: -3
+Passenger demand: -5
+Cargo: 0
+FuelPercentage: 1
+Components:
+ - HH0   L  1 00000 100   17  Lift body Hull, lifters
+ - HJ1   G  1 00000   0    1  Jump Grid
+ - HL1   K  1 00000   1    1  Landing legs with pads
+ - HF1   E  1 00000   2    4  Submergence hull
+ - AA1  38  1 00000   0    0  AV=38. 1 Kinetic Charged
+ - DF0   -  1 00000   0    0  Jump Fuel (0  parsec)
+ - DF0   -  1 00000 4.5    0  Plant Fuel (3 months)
+ - DP1   4  1 1054A3   1    8  Ult PowerPlant A (R2)
+ - DM1   4  1 1055E5 0.5    8  Ult Maneuver Drive A (R2)
+ - DF1   I  1 00000   1  0.1  Fuel Intakes
+ - DF1   S  1 00000   1  0.1  Fuel Scoops
+ - DF1   P  2 00000   1  0.1  Fuel Purifiers
+ - DH1   2  1 955B0 7.5  7.5  Mod Hop Drive B (R2), E=5
+ - OC1   2  1 00000   2    5  Computer Model/2 std
+ - OO0   -  1 00000   1    1  Life Support Standard
+ - OO0   -  1 00000   1    1  Life Support Adaptable
+ - OB0  -2  1 00000 1.5  0.6  Cramped Bridge
+ - WW1   -  1 00000 0.5  5.5  SR T3 AM Missile
+ - WW1   -  1 00000 0.5  5.5  D T3 Tractor/Pressor
+ - WW1   -  1 00000 0.5  1.5  D T3 DataCaster
+ - CO0   -  1 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  2 00000 1.5  0.1  Spacer Niche
+ - PO0   -  4 00000 0.5  0.1  Stasis Berth
+ - PO1   -  1 00000 0.5  0.1  Air Lock
+ - VO0   -  4 00000   1    1  Grapple (1)
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

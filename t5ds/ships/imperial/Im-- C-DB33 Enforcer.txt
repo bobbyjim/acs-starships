@@ -1,0 +1,51 @@
+Cruiser C-DB33 Enforcer MCr135.1
+
+
+Using a 400-ton, TL12 hull, the Zirunkariish Enforcer is a generic naval vessel (marketed as a Cruiser; more appropriately called a Patrol or Picket) sold to poorer systems for routine operations.
+
+It mounts jump drive-F, maneuver drive-F, and power plant-F, giving a performance of jump-3 and 3G acceleration. Fuel tankage supports a 3 parsec jump, at 40t per parsec, and one month of operations. Attached to the bridge is a Computer Model/3. There are 8 crew staterooms, four luxury passenger staterooms, and 10 low berths. A platoon barracks houses up to 22, including gunners and troops. Installed weaponry include two T3 Missiles and two T3 Beam Lasers. Cargo capacity is 5 tons; however, the ship's boats can each carry an additional 19 tons. The ship has a braced hull, and cannot skim fuel. Its boats can each skim up to 19 tons per hour.
+
+There are two 25-ton Ship's Boats. The ship has 10 crew: pilot, astrogator, sensop, 3 engineers, 4 gunners, and a medic. It can carry 4 high passengers and 10 low passengers. 
+
+Actual volume: 391.5 tons
+Crew comfort:     +0
+Passenger demand: +1
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    400	 Braced Hull, lifters, 4 a/l free   	   12	B, lifters, 4 a/l free
+     -2	 No Landers                         	    0	
+     32	 AV=36. 3 Kinetic Plate             	    0	
+    120	 Jump Fuel (3  parsecs)             	    0	3 parsec jump, at 40t per parsec
+   10.8	 Plant Fuel (one month)             	    0	one month
+     35	 Jump Drive-3 (F)                   	   35	J 3
+    9.5	 Mod PowerPlant F (R3)              	  9.5	R3
+    5.5	 Mod Maneuver Drive F (R3)          	   11	R3
+      1	 Fuel Purifier                      	    1	
+      0	 LR Surf Communicator               	    4	
+      0	 LR Surf Radar                      	    4	
+      0	 LR Surf Scope                      	    4	
+      0	 LR Surf Neutrino Detector          	    4	
+      2	 LR Ant Jammer                      	  2.5	
+      2	 2x AR T3 Missile                   	  2.4	#2 
+      2	 2x Vd T3 Beam Laser                	    3	#2 
+      3	 Computer Model/3                   	 10.5	
+      1	 Life Support Luxury                	    1	4 high passengers
+      2	 2x Life Support Adaptable          	    2	#2 4 sophonts
+      2	 Clinic                             	    1	
+      2	 Counsellor                         	  0.2	
+     18	 Platoon Barracks                   	    1	(22) 4 sq + R4 O1/O2
+      2	 Life Support Long Term             	    2	84 people
+     22	 Spacious Bridge                    	  1.6	6cc 4op 1ws
+     36	 2x Crew Cluster                    	  1.8	#2 4 + common + fresher
+      5	 Cargo Hold Basic                   	    0	
+      5	 10x Low Berth                      	    1	#10 1 passenger
+     24	 4x Luxury Stateroom                	  1.6	#4 1 passenger + fresher
+     50	 2x Ship's Boat                     	   17	#2 m1 C
+      2	 2x Grapple                         	    2	#2 1 pair per 35t
+[/code]
+
+[code]
+[/code]
+

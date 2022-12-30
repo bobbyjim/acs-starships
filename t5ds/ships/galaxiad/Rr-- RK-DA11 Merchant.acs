@@ -1,0 +1,50 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:30 2021
+Mission: Subsidized Merchant
+QSP: RK-DA11
+TL: 17 
+Name: TL17-Merchant
+Tons: 400
+Actual Tons: 396.5
+
+MCr: 110.1
+Allegiance: Rr
+
+Crew comfort: 1
+Passenger demand: 0
+Cargo: 150
+FuelPercentage: 11
+Components:
+ - HH0   A  1 00000 400   30  Airframe Hull
+ - AA1  34  1 00000   0    0  AV=34. 1 Blast Charged
+ - DF0   -  1 00000   0    0  Jump Fuel (0  parsec)
+ - DF0   -  1 00000   4    0  Plant Fuel (one month)
+ - DP1   B  1 00000   7    7  PowerPlant-1 (B)
+ - DJ1   B  1 00000  15   15  Jump Drive-1 (B)
+ - DM1   B  1 00000   3    6  Maneuver Drive-1 (B)
+ - DH1   B  1 00000  15   15  Hop Drive-1 (B)
+ - DC2   D  1 00000  40   20  Collector-2 (D)
+ - DF1   S  1 00000   1  0.1  Fuel Scoops
+ - DF1   I  1 00000   1  0.1  Fuel Intakes
+ - OC1   1  1 00000   1  1.5  Computer Model/1 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   -  1 00000   1    1  Life Support Luxury
+ - OO0   -  1 00000   1    1  Life Support Adaptable
+ - OO1   -  1 00000   2    1  Clinic
+ - OO1   -  1 00000   2  0.2  Counsellor
+ - OB0   2  1 00000  14  0.8  Spacious Bridge
+ - CO0   -  7 00000   2  0.1  Crew Stateroom
+ - CO0   -  7 00000   4    0  Crew Lounge
+ - CO0   -  2 00000 0.5  0.5  Crew Shared Fresher
+ - PO0   -  1 00000   4    0  Passenger Lounge
+ - PC0   -  1 00000 150    0  Cargo Hold Basic
+ - PO0   - 10 00000 0.5  0.1  Low Berth
+ - PO0   - 10 00000   2  0.1  Standard Stateroom
+ - PO0   - 10 00000   6  0.4  Luxury Stateroom
+ - PO0   -  3 00000 0.5  0.5  Shared Fresher
+ - PO1   -  2 00000 0.5  0.1  Air Lock
+ - PO1   -  1 00000   2    0  Cargo Lock
+ - PO0   -  1 00000   1    0  Mail Vault
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

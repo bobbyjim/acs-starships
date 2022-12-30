@@ -1,0 +1,64 @@
+Destroyer Escort VE-KU64 Chrysanthemum MCr651.2
+
+
+The Chrysanthemum class destroyer escort is a small, fast vessel intended for fleet and squadron escort duties. The design is old, but efficient, with examples of the ship serving in the Imperial Navy for over a century. Chrysanthemums are ubiquitous, being encountered with larger fleet elements as well as working alone.
+
+This class of destroyer escort has been pressed into service in a variety of non-escort duties, including orbital patrols, police operations, garrison duties, and even limited strike missions.
+
+Using a 1000-ton, TL15 hull, the Chrysanthemum class Destroyer Escort mounts jump drive-V, maneuver drive-Q2, and power plant-Q2, giving a performance of jump-4 and 6G acceleration. Fuel tankage supports a 4 parsec jump, at 90t per parsec, and 2 months of operations. Attached to the bridge is a Computer Model/6 fib. There are 6 staterooms, 10 rating niches, and no low berths. Installed weaponry include 2 T3 Missiles, 2 B1 Particle Accelerators, 1 B2 Fusion Gun, and 5 T3 Sandcasters. Cargo capacity is 10 tons. The ship has an unstreamlined hull, with scoops and intakes for frontier refueling. 
+
+The ship carries 1 Modular Cutter. The ship has 16 crew. 
+
+Actual volume: 928 tons
+Crew comfort:     +0
+Passenger demand: -5
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+   1000	 Unstreamlined Hull, lifters, 10 a/l	   32	U, lifters, 10 a/l free
+     10	 Landing legs with pads             	   10	
+     20	 Submergence hull                   	   20	
+     40	 AV=60. 2 Kinetic Charged           	    0	
+    360	 Jump Fuel (4  parsecs)             	    0	4 parsec jump, at 90t per parsec
+    100	 Plant Fuel (2 months)              	    0	2 months
+      8	 4x Fuel Scoops with Purifier       	  4.4	#4 100 t/hr
+     16	 8x Fuel Intakes with Purifier      	  8.8	#8 40 t/hr
+   52.5	 Mod Jump Drive V (R4)              	 52.5	R4
+   12.5	 Ult Maneuver Drive N2 (R6)         	  200	R6
+   26.4	 Adv PowerPlant N2 (R6)             	   80	R6
+     16	 8x Fuel Bins with Purifier         	  8.8	#8 20 t/hr
+      0	 DS Surf EMS                        	    6	
+      0	 DS Surf Grav Sensor                	    6	
+      3	 DS Ant Communicator                	  3.5	
+      3	 DS Ant Jammer                      	  3.5	
+      3	 DS Ant Scope                       	  3.5	
+      9	 DS Ext Neutrino Detector           	    6	
+      3	 DS Ant Visor                       	  3.5	
+      9	 DS Ext Stealth Mask                	    6	
+      0	 G Surf Mass Sensor                 	  8.1	
+      0	 G Surf Densitometer                	  8.1	
+      0	 G Surf Activity Sensor             	  8.1	
+      0	 G Surf Proximeter                  	  8.1	
+      0	 G Surf Field Sensor                	  8.1	
+      6	 2x DS T3 Missile                   	 10.4	#2 
+     12	 2x LR B1 Particle Accelerator      	   23	#2 
+     10	 Or B2 Fusion Gun                   	 13.5	
+     10	 5x Or T3 Sandcaster                	 15.5	#5 
+     12	 Computer Model/6 fib               	 58.5	
+      1	 Life Support Standard              	    1	21 people
+      2	 Clinic                             	    1	
+      2	 Counsellor                         	  0.2	
+     28	 Spacious Bridge                    	  1.5	2cc 11op 1ws
+      2	 2x Crew Common Fresher             	    2	#2 10 crew
+     10	 10x Spacer Niche                   	    1	#10 1 crew
+     12	 6x Crew Stateroom                  	  0.6	#6 1 crew
+     60	 15x Crew Commons                   	    0	#15 
+     10	 Cargo Hold Basic                   	    0	
+     50	 Modular Cutter                     	   28	m3bis 3
+     10	 Hangar Lock                        	    0	
+[/code]
+
+[code]
+[/code]
+

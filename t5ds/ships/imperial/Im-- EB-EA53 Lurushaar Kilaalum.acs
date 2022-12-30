@@ -1,0 +1,77 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:32 2021
+Mission: Corvette
+QSP: EB-EA53
+TL: 13 
+Name: Lurushaar Kilaalum
+Tons: 500
+Actual Tons: 499.5
+
+MCr: 308.2
+Builder: Clan Severn
+Disposition: In Service
+Allegiance: Im
+
+Crew comfort: 1
+Passenger demand: -5
+Cargo: 6
+FuelPercentage: 13
+Components:
+ - HH0   A  1 00000 500   42  Airframe Hull, lifters
+ - HW1   W  1 00000  10   10  Wings and fins
+ - HF1   D  1 00000   5    5  Flotation hull
+ - HL1   K  1 00000   5    5  Landing legs with pads
+ - AA1   6  1 00000   0    0  AV=6. 1 Blast Organic
+ - AA1  13  1 00000  20    0  AV=13. 1 Rad Plate
+ - AC1   -  1 00000   0    0  AV=0. c Ablat
+ - DF0   -  1 00000 135    0  Jump Fuel (3  parsecs)
+ - DF0   -  1 00000 67.5    0  Plant Fuel (3 months)
+ - DF1  S1  1 00000   1  0.1  Fuel Scoops 100t/hr
+ - DF1  I1  1 00000   1  0.1  Fuel Intakes 40t/hr
+ - DF1  B2  1 00000   2  0.2  Fuel Bins 40t/hr
+ - DF1  P4  1 00000   4    4  Fuel Purifiers 16t/hr
+ - DM1   3  1 815A3 8.25   50  Adv Maneuver Drive-5 (N)
+ - DJ2   1  1 830D0  45   45  Imp Jump Drive-3 (H)
+ - DP2   1  1 6522B  40   40  Imp PowerPlant-5 (N)
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   -  1 00000   1    1  Life Support Adaptable
+ - OO0   -  2 00000   4  0.2  Squad Barracks
+ - OO0   -  2 00000   1  0.5  Emergency Low Berth
+ - OO0   -  1 00000   2    1  Frozen Watch
+ - OO0   -  1 00000   1  0.5  Medical Low Berth
+ - OO1   -  1 00000   2  0.2  Counsellor
+ - OO1   -  1 00000   4    3  Surgery
+ - OC1   3  1 00000   3  10.5  Computer Model/3 std
+ - OB0   2  1 00000  26    0  Spacious Controls
+ - SS1   -  1 00000   0  3.5  DS Surf Communicator
+ - SS1   -  1 00000   0  3.5  DS Surf Jammer
+ - SS1   -  1 00000   0  3.5  DS Surf Scope
+ - SS1   -  1 00000   0  3.5  DS Surf Neutrino Detector
+ - SS1   -  1 00000   0  2.5  LR Surf EMS
+ - SS1   -  1 00000   0  2.5  LR Surf Stealth Mask
+ - WS1   -  1 00000   0  0.6  Vd Surf Proximeter
+ - WS1   -  1 00000   0  0.6  Vd Surf Life Detector
+ - WS1   -  1 00000   0  0.6  Vd Surf Activity Sensor
+ - WS1   -  1 00000   0  0.6  Vd Surf Field Sensor
+ - WS1   -  1 00000   0  0.6  Vd Surf Densitometer
+ - WS1   -  1 00000   0  0.6  Vd Surf Mass Sensor
+ - WW1   2  2 00000   3  3.2  AR B1 Missile
+ - WW1   1  1 00000   3  12.5  DS T4 CommCaster
+ - WW1   1  1 00000   1  2.5  Vd T4 DataCaster
+ - WW1   2  1 00000   3  3.5  Vd B1 Beam Laser
+ - DD1  -1  1 00000   2    2  B Meson Screen
+ - DD1  -1  1 00000   3    2  B Nuclear Damper
+ - CO1   -  1 00000   6  0.4  Commander's Suite
+ - CO0   -  3 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  6 00000   4    0  Crew Lounge
+ - CO0   -  6 00000   2  0.1  Crew Stateroom
+ - PO0   -  2 00000   1    0  Mail Vault
+ - PO1   -  1 00000 0.5  0.1  Air Lock
+ - PO0   -  1 00000   6    0  Cargo Hold Basic
+ - VO0  LM  1 00000  20   28  Gig
+ - VO0  EL  1 00000   4  0.1  Air/Raft Enclosed
+ - VO1   -  1 00000  10  1.5  Hull Niche (Gig)
+ - VO1   -  1 00000   1    2  SL Bracket (Air/Raft)
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

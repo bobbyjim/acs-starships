@@ -1,0 +1,491 @@
+--- 
+components: 
+   - 
+      tons: 2400
+      category: 'Hull'
+      label: 'Cluster Hull'
+      type: 'Hull'
+      mcr: 48
+      code: 'C'
+      name: 'Hull'
+      howMany: 1
+      totalMCr: 48
+      eff: 1
+      q: 0
+      totalTons: 2400
+      Sq: 4800
+      r: 0
+      s: 0
+      mult: 1
+      preMult: 1
+      b: 0
+      target: 12
+      e: 0
+      notes: 'C'
+      tl: 12
+      CP: 0
+      config: 'Cluster'
+
+   - 
+      s: 0
+      tons: 0
+      category: 'Jump Fuel'
+      label: 'Jump Fuel (0  parsec)'
+      type: 'Drive'
+      mcr: 0
+      b: 0
+      e: 0
+      notes: 'J0, 0t/pc'
+      target: 12
+      howMany: 1
+      tl: 12
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 0
+      r: 0
+      totalMCr: 0
+
+   - 
+      s: 0
+      tons: 0
+      category: 'Powerplant Fuel'
+      label: 'Plant Fuel (0 months)'
+      type: 'Drive'
+      mcr: 0
+      b: 0
+      e: 0
+      notes: '0 months'
+      target: 12
+      howMany: 1
+      tl: 12
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 0
+      r: 0
+      totalMCr: 0
+
+   - 
+      stage: 'Gen'
+      basetl: 8
+      B: 0
+      category: 'Gravitic Drive'
+      label: 'Gen Gravitic Drive-1 (M)'
+      type: 'Drive'
+      name: 'Gravitic Drive'
+      tons: 108
+      E: 0
+      mod: -2
+      mcr: 27
+      howMany: 1
+      code: 'M'
+      eff: 0.9
+      q: 5
+      totalTons: 108
+      Sq: 216
+      r: 3
+      totalMCr: 27
+      rating: 1
+      s: 2
+      autoAdjust: 1
+      b: -1
+      target: 11
+      e: 4
+      original: 
+         basetl: 8
+         B: 0
+         category: 'Gravitic Drive'
+         label: 'Gravitic Drive-1 (M)'
+         type: 'Drive'
+         name: 'Gravitic Drive'
+         tons: 108
+         code: 'M'
+         mod: 0
+         mcr: 54
+         howMany: 1
+         E: 0
+         eff: 1
+         q: 0
+         totalTons: 108
+         Sq: 216
+         r: 0
+         totalMCr: 54
+         rating: 1
+         s: 0
+         autoAdjust: 1
+         b: 0
+         target: 14
+         e: 0
+         Q: 0
+         tl: 14
+         CP: 4
+         S: 0
+         notes: '1 G'
+         R: 0
+      Q: 0
+      tl: 13
+      CP: 4
+      S: 0
+      notes: '1 G'
+      R: 0
+
+   - 
+      tons: 0
+      label: 'AV=28. 1 Kinetic Charged'
+      type: 'Armor'
+      name: 'Charged'
+      category: 'AV=28. 1 Kinetic Charged'
+      mod: ''
+      mcr: 0
+      howMany: 1
+      totalMCr: 0
+      eff: 1
+      q: 0
+      totalTons: 0
+      r: 0
+      s: 0
+      b: 0
+      range: '1'
+      mount: 'Kinetic'
+      target: 14
+      basetl: 14
+      notes: ''
+      tl: 14
+      CP: 1
+      config: 'Armor'
+      e: 0
+
+   - 
+      tons: 0.5
+      label: 'Computer Model/0 std'
+      type: 'Ops'
+      name: 'Computer'
+      category: 'Computer Model/0 std'
+      mod: 0
+      mcr: 0.1
+      howMany: 1
+      totalMCr: 0.1
+      eff: 1
+      q: 0
+      totalTons: 0.5
+      Sq: 1
+      r: 0
+      s: 0
+      b: 0
+      range: 's'
+      mount: 'Model/0'
+      target: 14
+      basetl: 0
+      notes: ''
+      tl: 14
+      CP: 1
+      config: 'Ops'
+      e: 0
+
+   - 
+      tons: 9
+      label: 'DS Ext Scope'
+      type: 'Sensor'
+      name: 'Scope'
+      category: 'DS Ext Scope'
+      mod: 4
+      mcr: 8.5
+      howMany: 1
+      totalMCr: 8.5
+      eff: 1
+      q: 0
+      totalTons: 9
+      Sq: 18
+      r: 0
+      s: 0
+      b: 0
+      range: 'DS'
+      mount: 'Ext'
+      target: 18
+      basetl: 11
+      notes: ''
+      tl: 14
+      CP: 1
+      config: 'Sensor'
+      e: 0
+
+   - 
+      tons: 9
+      label: 'DS Ext EMS'
+      type: 'Sensor'
+      name: 'EMS'
+      category: 'DS Ext EMS'
+      mod: 4
+      mcr: 8.5
+      howMany: 1
+      totalMCr: 8.5
+      eff: 1
+      q: 0
+      totalTons: 9
+      Sq: 18
+      r: 0
+      s: 0
+      b: 0
+      range: 'DS'
+      mount: 'Ext'
+      target: 18
+      basetl: 14
+      notes: ''
+      tl: 14
+      CP: 1
+      config: 'Sensor'
+      e: 0
+
+   - 
+      tons: 300
+      label: 'DS LBay Communicator'
+      type: 'Sensor'
+      name: 'Communicator'
+      category: 'DS LBay Communicator'
+      mod: 8
+      mcr: 51
+      howMany: 1
+      totalMCr: 51
+      eff: 1
+      q: 0
+      totalTons: 300
+      Sq: 600
+      r: 0
+      s: 0
+      b: 0
+      range: 'DS'
+      mount: 'LBay'
+      target: 22
+      basetl: 10
+      notes: ''
+      tl: 14
+      CP: 1
+      config: 'Sensor'
+      e: 0
+
+   - 
+      s: 0
+      tons: 2
+      label: 'Life Support Long Term'
+      type: 'Ops'
+      mcr: 2
+      b: 0
+      e: 0
+      notes: '40 person-months'
+      target: 14
+      howMany: 10
+      tl: 14
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 20
+      Sq: 40
+      r: 0
+      totalMCr: 20
+
+   - 
+      s: 0
+      tons: 2
+      label: 'Clinic'
+      type: 'Ops'
+      target: 14
+      b: 0
+      e: 0
+      notes: ''
+      mcr: 1
+      howMany: 1
+      tl: 14
+      CP: 1
+      eff: 1
+      q: 0
+      totalTons: 2
+      Sq: 4
+      r: 0
+      totalMCr: 1
+
+   - 
+      s: 0
+      tons: 2
+      label: 'Counsellor'
+      type: 'Ops'
+      target: 14
+      b: 0
+      e: 0
+      notes: ''
+      mcr: 0.2
+      howMany: 1
+      tl: 14
+      CP: 1
+      eff: 1
+      q: 0
+      totalTons: 2
+      Sq: 4
+      r: 0
+      totalMCr: 0.2
+
+   - 
+      s: 0
+      tons: 100
+      label: 'Observation Lounge'
+      type: 'Crew'
+      mcr: 0
+      b: 0
+      e: 0
+      mod: ''
+      notes: ''
+      target: '14'
+      howMany: 2
+      tl: '14'
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 200
+      Sq: 400
+      r: 0
+      totalMCr: 0
+
+   - 
+      s: 0
+      tons: 16
+      label: 'Crew Lounge'
+      type: 'Crew'
+      mcr: 0
+      b: 0
+      e: 0
+      notes: ''
+      target: 14
+      howMany: 10
+      tl: 14
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 160
+      Sq: 320
+      r: 0
+      totalMCr: 0
+
+   - 
+      s: 0
+      tons: 1
+      label: 'Spacer Niche'
+      type: 'Crew'
+      sleeps: 1
+      mcr: 0.1
+      b: 0
+      e: 0
+      notes: '1 crew'
+      target: 14
+      howMany: 50
+      tl: 14
+      CP: 0
+      totalSleeps: 50
+      eff: 1
+      q: 0
+      totalTons: 50
+      Sq: 100
+      r: 0
+      totalMCr: 5
+
+   - 
+      s: 0
+      tons: 1
+      label: 'Crew Common Fresher'
+      type: 'Crew'
+      mcr: 1
+      b: 0
+      e: 0
+      notes: '10 crew'
+      target: 14
+      howMany: 5
+      tl: 14
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 5
+      Sq: 10
+      r: 0
+      totalMCr: 5
+
+   - 
+      s: 0
+      tons: 1
+      label: 'Grapples (1575 tons max)'
+      type: 'Vehicle'
+      mcr: 2
+      b: 0
+      e: 0
+      mod: ''
+      notes: 'up to 35t'
+      target: '14'
+      howMany: 45
+      tl: '14'
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 45
+      Sq: 90
+      r: 0
+      totalMCr: 90
+
+   - 
+      s: 0
+      tons: 2.5
+      target: 12
+      category: 'Bridge'
+      label: 'Cramped Controls'
+      type: 'Ops'
+      name: 'Bridge'
+      b: 0
+      e: 0
+      mod: -2
+      notes: ''
+      mcr: 0
+      howMany: 1
+      tl: 14
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 2.5
+      Sq: 5
+      r: 0
+      totalMCr: 0
+header: 
+   powerFuelPercentage: 0
+   jf: 0
+   qsp: 'TB-ZC00'
+   pf: 0
+   tons: 2400
+   shifts: 1
+   tonsFree: 1487
+   crew: 5
+   owner: 'Imperial'
+   mission: 'TB'
+   missionLabel: 'Assault'
+   controlConsoles: 1
+   totalMCr: 264.9
+   shipname: 'Xboat Station'
+   workstations: 0
+   low: 0
+   mult: 1
+   preMult: 1
+   spaciousness: 0.5
+   troops: 0
+   operatingConsoles: 4
+   staff: 0
+   crewComfort: 3
+   totalCargoSpace: 0
+   comments: |
+      Built on the modular Imperial Assault Carrier frame, this Xboat Station exists to serve as a communications link between incoming and departing Xboats. The communicator array is mounted in an attached modular deep space large bay, for exceptional power and reach.
+      
+      There are crew niches for 50 persons, typically allocated for replacement crew.  The cramped living quarters are compensated for by ten large crew lounges (16 tons each) plus two breathtaking observation lounges overlooking the ship structure and space (100 tons each). There are enough army-surplus meals to feed 400 people for a month.
+      
+      This model has grapples for holding up to 1575 tons of auxiliaries; typically most of these are used by fuel barges, for refueling support shuttles and Scout craft, but there are usually grapples available (roll Good Flux for the actual number available) for use by ships displacing up to 105 tons.
+      
+   passengers: 1
+   demand: -5
+   tl: 14
+   config: 'C'
+   format: 'T5-ACS-1'
+   undertons: 1487
+   jumpFuelPercentage: 0

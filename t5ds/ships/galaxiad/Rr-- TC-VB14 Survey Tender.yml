@@ -1,0 +1,664 @@
+--- 
+components: 
+   - 
+      e: 0
+      r: 0
+      mcr: 60
+      target: 12
+      s: 0
+      tl: 12
+      CP: 0
+      category: 'Hull'
+      howMany: 1
+      Sq: 4000
+      code: 'B'
+      preMult: 1
+      config: 'Braced'
+      totalTons: 2000
+      label: 'Braced Hull, lifters, 20 a/l free'
+      name: 'Hull'
+      totalMCr: 60
+      notes: 'B, lifters, 20 a/l free'
+      eff: 1
+      b: 0
+      type: 'Hull'
+      tons: 2000
+      mult: 1
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      mcr: 0
+      q: 0
+      Sq: 40
+      s: 0
+      totalTons: 20
+      tl: 12
+      totalMCr: 0
+      CP: 0
+      category: 'Cargo'
+      eff: 1
+      b: 0
+      type: 'Payload'
+      howMany: 1
+      notes: ''
+      tons: 20
+      target: 12
+      label: 'Cargo Hold Basic'
+
+   - 
+      totalTons: 720
+      r: 0
+      label: 'Jump Fuel (4  parsecs)'
+      CP: 0
+      Sq: 1440
+      s: 0
+      e: 0
+      tons: 720
+      totalMCr: 0
+      target: 12
+      category: 'Jump Fuel'
+      eff: 1
+      b: 0
+      type: 'Drive'
+      howMany: 1
+      notes: '4 parsec jump, at 180t per parsec'
+      tl: 12
+      q: 0
+      mcr: 0
+
+   - 
+      e: 0
+      r: 0
+      mcr: 0
+      CP: 0
+      Sq: 264
+      s: 0
+      totalTons: 132
+      tons: 132
+      totalMCr: 0
+      q: 0
+      category: 'Powerplant Fuel'
+      eff: 1
+      b: 0
+      type: 'Drive'
+      howMany: 1
+      notes: '2 months'
+      tl: 12
+      target: 12
+      label: 'Plant Fuel (2 months)'
+
+   - 
+      mcrPerTon: 0
+      e: 0
+      r: 0
+      mcr: 0
+      CP: 1
+      s: 0
+      name: 'No Landers'
+      tons: -10
+      totalMCr: 0
+      note: 'n/a'
+      q: 0
+      category: 'landers'
+      eff: 1
+      b: 0
+      tonsPercent: -0.5
+      howMany: 1
+      code: 'n/a'
+      tl: 14
+      type: 'Hull'
+      totalTons: -10
+      target: 14
+      label: 'No Landers'
+
+   - 
+      e: 0
+      r: 0
+      mcr: 38
+      q: 0
+      s: 0
+      tl: 14
+      rating: 1
+      target: 14
+      category: 'Maneuver Drive'
+      B: 0
+      howMany: 1
+      Sq: 38
+      code: 'K'
+      Q: 0
+      tons: 19
+      E: 0
+      R: 0
+      label: 'Maneuver Drive-1 (K)'
+      S: 0
+      name: 'Maneuver Drive'
+      totalMCr: 38
+      notes: '1 G'
+      autoAdjust: 1
+      eff: 1
+      totalTons: 19
+      type: 'Drive'
+      basetl: 9
+      b: 0
+      CP: 1
+
+   - 
+      e: 1
+      r: 0
+      mcr: 210
+      q: 5
+      s: 1
+      tl: 13
+      target: 14
+      category: 'Jump Drive'
+      B: 0
+      totalTons: 210
+      howMany: 1
+      Sq: 420
+      code: 'V2'
+      Q: 0
+      basetl: 13
+      original: 
+         e: 0
+         r: 0
+         mcr: 210
+         q: 0
+         s: 0
+         tons: 210
+         CP: 6
+         category: 'Jump Drive'
+         B: 0
+         howMany: 1
+         Sq: 420
+         code: 'V2'
+         Q: 0
+         tl: 14
+         totalTons: 210
+         R: 0
+         label: 'Jump Drive-4 (V2)'
+         S: 0
+         name: 'Jump Drive'
+         totalMCr: 210
+         notes: 'J 4'
+         autoAdjust: 1
+         eff: 1
+         b: 0
+         type: 'Drive'
+         jumpFuelUsage: 0.1
+         basetl: 13
+         rating: 4
+         E: 0
+         target: 14
+         mod: 0
+      R: 0
+      label: 'Imp Jump Drive V2 (R4)'
+      S: 0
+      name: 'Jump Drive'
+      totalMCr: 210
+      notes: 'R4'
+      autoAdjust: 1
+      eff: 1.1
+      b: 0
+      type: 'Drive'
+      jumpFuelUsage: 0.1
+      tons: 210
+      rating: 4
+      stage: 'Imp'
+      E: 0
+      CP: 6
+      mod: 1
+
+   - 
+      powerFuelUsage: 0.01
+      e: 3
+      r: 3
+      mcr: 122
+      target: 14
+      s: 1
+      basetl: 11
+      CP: 4
+      category: 'PowerPlant'
+      B: 0
+      howMany: 1
+      Sq: 80.52
+      code: 'V2'
+      Q: 0
+      tons: 40.26
+      E: 0
+      R: 0
+      label: 'Adv PowerPlant V2 (R4)'
+      S: 0
+      original: 
+         powerFuelUsage: 0.01
+         e: 0
+         r: 0
+         mcr: 122
+         CP: 4
+         s: 0
+         basetl: 11
+         q: 0
+         category: 'PowerPlant'
+         B: 0
+         howMany: 1
+         Sq: 244
+         code: 'V2'
+         Q: 0
+         tons: 122
+         E: 0
+         R: 0
+         label: 'PowerPlant-4 (V2)'
+         S: 0
+         name: 'PowerPlant'
+         totalMCr: 122
+         notes: 'P 4'
+         autoAdjust: 1
+         eff: 1
+         b: 0
+         type: 'Drive'
+         tl: 14
+         rating: 4
+         totalTons: 122
+         target: 14
+         mod: 0
+      totalMCr: 122
+      notes: 'R4'
+      autoAdjust: 1
+      eff: 1.2
+      name: 'PowerPlant'
+      b: -5
+      type: 'Drive'
+      tl: 11
+      rating: 4
+      stage: 'Adv'
+      totalTons: 40.26
+      q: 4
+      mod: 3
+
+   - 
+      e: 0
+      r: 0
+      range: 's'
+      target: 20
+      s: 0
+      config: 'Ops'
+      mcr: 39
+      q: 0
+      category: 'Computer Model/6 std'
+      mount: 'Model/6'
+      howMany: 1
+      Sq: 12
+      tl: 14
+      totalTons: 6
+      label: 'Computer Model/6 std'
+      name: 'Computer'
+      totalMCr: 39
+      notes: ''
+      eff: 1
+      b: 0
+      type: 'Ops'
+      tons: 6
+      basetl: 14
+      CP: 1
+      mod: 6
+
+   - 
+      e: 0
+      r: 0
+      range: 'LR'
+      q: 0
+      s: 0
+      tl: 14
+      mcr: 4
+      CP: 1
+      category: 'LR Ext Communicator'
+      mount: 'Ext'
+      howMany: 1
+      Sq: 12
+      config: 'Sensor'
+      totalTons: 6
+      label: 'LR Ext Communicator'
+      name: 'Communicator'
+      totalMCr: 4
+      notes: ''
+      eff: 1
+      b: 0
+      type: 'Sensor'
+      tons: 6
+      basetl: 9
+      target: 18
+      mod: 4
+
+   - 
+      e: 0
+      r: 0
+      range: 'LR'
+      CP: 1
+      s: 0
+      config: 'Sensor'
+      mcr: 4
+      q: 0
+      category: 'LR Ext Jammer'
+      mount: 'Ext'
+      howMany: 1
+      Sq: 12
+      tons: 6
+      totalTons: 6
+      label: 'LR Ext Jammer'
+      name: 'Jammer'
+      totalMCr: 4
+      notes: ''
+      eff: 1
+      b: 0
+      type: 'Sensor'
+      tl: 14
+      basetl: 9
+      target: 18
+      mod: 4
+
+   - 
+      e: 0
+      r: 0
+      mcr: 4
+      CP: 1
+      s: 0
+      tons: 6
+      range: 'LR'
+      q: 0
+      category: 'LR Ext Neutrino Detector'
+      mount: 'Ext'
+      howMany: 1
+      Sq: 12
+      config: 'Sensor'
+      totalTons: 6
+      label: 'LR Ext Neutrino Detector'
+      name: 'Neutrino Detector'
+      totalMCr: 4
+      notes: ''
+      eff: 1
+      b: 0
+      type: 'Sensor'
+      tl: 14
+      basetl: 11
+      target: 18
+      mod: 4
+
+   - 
+      e: 0
+      r: 0
+      range: 'LR'
+      q: 0
+      s: 0
+      tons: 6
+      mcr: 4
+      target: 18
+      category: 'LR Ext EMS'
+      mount: 'Ext'
+      howMany: 1
+      Sq: 12
+      config: 'Sensor'
+      totalTons: 6
+      label: 'LR Ext EMS'
+      name: 'EMS'
+      tl: 14
+      notes: ''
+      eff: 1
+      b: 0
+      type: 'Sensor'
+      basetl: 13
+      totalMCr: 4
+      CP: 1
+      mod: 4
+
+   - 
+      e: 0
+      r: 0
+      range: 'LR'
+      q: 0
+      s: 0
+      config: 'Sensor'
+      mcr: 4
+      CP: 1
+      category: 'LR Ext Stealth Mask'
+      mount: 'Ext'
+      tons: 6
+      Sq: 12
+      howMany: 1
+      basetl: 13
+      totalTons: 6
+      label: 'LR Ext Stealth Mask'
+      name: 'Stealth Mask'
+      totalMCr: 4
+      notes: ''
+      eff: 1
+      b: 0
+      type: 'Sensor'
+      tl: 14
+      target: 18
+      mod: 4
+
+   - 
+      e: 0
+      r: 0
+      range: 'LR'
+      q: 0
+      s: 0
+      config: 'Sensor'
+      mcr: 4
+      CP: 1
+      category: 'LR Ext Grav Sensor'
+      mount: 'Ext'
+      howMany: 1
+      Sq: 12
+      basetl: 14
+      totalTons: 6
+      label: 'LR Ext Grav Sensor'
+      name: 'Grav Sensor'
+      totalMCr: 4
+      notes: ''
+      eff: 1
+      b: 0
+      type: 'Sensor'
+      tl: 14
+      tons: 6
+      target: 18
+      mod: 4
+
+   - 
+      e: 0
+      r: 0
+      mcr: 2
+      q: 0
+      s: 0
+      basetl: 14
+      range: 'AR'
+      target: 18
+      category: 'AR Ext Visor'
+      mount: 'Ext'
+      howMany: 1
+      Sq: 6
+      config: 'Sensor'
+      totalTons: 3
+      label: 'AR Ext Visor'
+      name: 'Visor'
+      totalMCr: 2
+      notes: ''
+      eff: 1
+      b: 0
+      type: 'Sensor'
+      tl: 14
+      tons: 3
+      CP: 1
+      mod: 4
+
+   - 
+      e: 0
+      r: 0
+      range: 'AR'
+      CP: 1
+      s: 0
+      basetl: 7
+      mcr: 0.7
+      q: 0
+      category: 'AR T2 Missile'
+      mount: 'T2'
+      howMany: 4
+      Sq: 8
+      tl: 14
+      totalTons: 4
+      label: 'AR T2 Missile'
+      name: 'Missile'
+      totalMCr: 2.8
+      notes: ''
+      eff: 1
+      b: 0
+      type: 'Weapon'
+      tons: 1
+      config: 'Weapon'
+      target: 13
+      mod: -1
+
+   - 
+      e: 0
+      r: 0
+      mcr: 1.5
+      target: 13
+      s: 0
+      tl: 14
+      range: 'Vd'
+      q: 0
+      category: 'Vd T2 DataCaster'
+      mount: 'T2'
+      howMany: 4
+      Sq: 8
+      basetl: 10
+      totalTons: 4
+      label: 'Vd T2 DataCaster'
+      name: 'DataCaster'
+      totalMCr: 6
+      notes: ''
+      eff: 1
+      b: 0
+      type: 'Weapon'
+      tons: 1
+      config: 'Weapon'
+      CP: 1
+      mod: -1
+
+   - 
+      e: 0
+      r: 0
+      mcr: 1
+      q: 0
+      s: 0
+      tons: 1
+      range: 'Vd'
+      target: 13
+      category: 'Vd T2 Beam Laser'
+      mount: 'T2'
+      config: 'Weapon'
+      Sq: 8
+      howMany: 4
+      tl: 14
+      totalTons: 4
+      label: 'Vd T2 Beam Laser'
+      name: 'Beam Laser'
+      totalMCr: 4
+      notes: ''
+      eff: 1
+      b: 0
+      type: 'Weapon'
+      basetl: 10
+      CP: 1
+      mod: -1
+
+   - 
+      e: 0
+      r: 0
+      mcr: 0.6
+      CP: 1
+      s: 0
+      config: 'Weapon'
+      range: 'Vd'
+      target: 13
+      category: 'Vd T2 Sandcaster'
+      mount: 'T2'
+      howMany: 4
+      Sq: 8
+      basetl: 9
+      totalTons: 4
+      label: 'Vd T2 Sandcaster'
+      name: 'Sandcaster'
+      totalMCr: 2.4
+      notes: ''
+      eff: 1
+      b: 0
+      type: 'Weapon'
+      tl: 14
+      tons: 1
+      q: 0
+      mod: -1
+
+   - 
+      e: 0
+      r: 0
+      mcr: 1.2
+      CP: 0
+      s: 0
+      tons: 20
+      target: 16
+      category: 'Bridge'
+      howMany: 1
+      Sq: 40
+      totalTons: 20
+      label: 'Spacious Bridge'
+      name: 'Bridge'
+      cc: 2
+      totalMCr: 1.2
+      notes: '2cc 8op 0ws'
+      eff: 1
+      ws: 0
+      type: 'Ops'
+      tl: 14
+      b: 0
+      op: 8
+      q: 0
+      mod: 2
+header: 
+   tons: 2000
+   format: 'T5-ACS-1'
+   crew: 11
+   troops: 0
+   missionLabel: 'Tender'
+   staff: 0
+   spaciousness: 2
+   totalCargoSpace: 20
+   config: 'B'
+   controlConsoles: 2
+   passengers: 0
+   preMult: 1
+   operatingConsoles: 8
+   demand: -5
+   comments: |
+      Using a 2000-ton, TL14 hull, the Survey Tender Class Tender mounts jump drive-V2, maneuver drive-K, and power plant-V2, giving a performance of jump-4 and 1G acceleration. Fuel tankage supports a 4 parsec jump, at 180t per parsec, and 2 months of operations. Attached to the bridge is a Computer Model/6 std. There are 0 staterooms and no low berths. Installed weaponry include 4 T2 Missiles, 4 T2 DataCasters, 4 T2 Beam Lasers, and 4 T2 Sandcasters. Cargo capacity is 20 tons. The ship has a braced hull. 
+      
+      The ship has 11 crew. 
+   workstations: 0
+   lifters: 'y'
+   undertons: 788
+   low: 0
+   mission: 'TC'
+   shipname: 'Survey Tender'
+   jumpFuelPercentage: 0.09
+   jf: 4
+   crewComfort: -5
+   powerFuelPercentage: 0.033
+   pf: 2
+   totalMCr: 511.4
+   owner: 'Republic of Regina'
+   qsp: 'TC-VB14'
+   tl: 14
+   shifts: 1
+   mult: 1
+   tonsFree: 788

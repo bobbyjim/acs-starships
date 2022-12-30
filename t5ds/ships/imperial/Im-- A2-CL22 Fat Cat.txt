@@ -1,0 +1,42 @@
+Far Trader A2-CL22 Fat Cat MCr106.5
+
+Disposition: In Service
+
+Using a 300-ton, TL14 hull, the Fat Cat-class Far Trader mounts C-class drives, giving a performance of jump-2 and 2G acceleration. Fuel tankage supports a 2 parsec jump, at 24t per parsec, and 2 months of operations. Attached to the bridge is a Computer Model/1bis. There is a crew suite and barracks, and 8 double passenger staterooms. No weapons are mounted. Cargo capacity is 100 tons. The ship has a lifting body hull, with scoops for frontier refueling. It is slightly undertonned, giving it 3G in atmosphere 2+.
+
+The ship carries 1 Air/Raft (in cargo). The ship requires 4 crew: captain/pilot, astrogator, engineer, and steward.  It can add crew as needed.  It can carry 16 passengers. 
+
+Actual volume: 292.5 tons
+Crew comfort:     -1
+Passenger demand: -1
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    300	 Lift body Hull, lifters, 3 a/l free	   40	L, lifters, 3 a/l free
+      9	 Landing wheels                     	  4.5	
+      0	 AV=7. 1 Rad Polymer                	    0	
+     12	 AV=14. 2 Kinetic Plate             	    0	
+     49	 Jump Fuel (2  parsecs)             	    0	2 parsec jump, at 24t per parsec
+    9.6	 Plant Fuel (2 months)              	    0	2 months
+      4	 2x Fuel Scoops with Purifier       	  2.2	#2 100 t/hr
+     10	 Adv Jump Drive C (R2)              	   20	R2
+    3.3	 Adv PowerPlant C (R2)              	   10	R2
+      2	 Adv Maneuver Drive C (R2)          	   10	R2
+      0	 AR Surf Basic (C,E,N,V)            	    8	
+      1	 Life Support Standard              	    1	21 people
+      2	 Clinic                             	    1	
+      1	 Computer Model/1bis                	    3	
+     18	 Spacious Bridge                    	  0.6	1cc 4op 1ws
+      6	 Captain/Pilot Suite                	  0.4	fresher + safe
+      8	 Crew Barracks                      	  0.5	3 crew
+    100	 Cargo Hold Basic                   	    0	
+      2	 Cargo Lock                         	  0.4	
+     36	 8x Stateroom Double                	  4.8	#8 2 passengers
+     16	 4x Passenger Commons               	    0	#4 
+      4	 Air/Raft (in cargo)                	  0.1	
+[/code]
+
+[code]
+[/code]
+

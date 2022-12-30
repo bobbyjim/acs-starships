@@ -1,0 +1,58 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:35 2021
+Mission: Cruiser
+QSP: C-VS44
+TL: 14 
+Name: Council Cruiser
+Tons: 2000
+Actual Tons: 1998.5
+
+MCr: 956.4
+Owner: Zhodani
+Allegiance: Zh
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 53
+FuelPercentage: 12
+Components:
+ - HH0   S  1 00000 2000  142  Streamlined Hull, lifters
+ - HL1   K  1 00000  20   20  Landing legs with pads
+ - HF1   D  1 00000  20   20  Flotation hull
+ - AA1  84  1 00000 160    0  AV=84. 3 Kinetic Charged
+ - DF0   -  1 00000 1080    0  Jump Fuel (6  parsecs)
+ - DF0   -  1 00000  66    0  Plant Fuel (one month)
+ - DF1   S  1 00000   1  0.1  Fuel Scoops
+ - DF1   I  1 00000   1  0.1  Fuel Intakes
+ - DF1   P  2 00000   1  0.1  Fuel Purifiers
+ - DM3  V2  1 755B5 19.75  316  Ult Maneuver Drive-4 (V2)
+ - DJ6  V2  1 4D4B3 205  205  Imp Jump Drive-4 (V2)
+ - DP4  V2  1 552D3 39.93  121  Adv PowerPlant-4 (V2)
+ - OM1   9  1 905E4 1.25   27  Model/5 phot
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO1   -  1 00000   2    1  Clinic
+ - OO0   -  2 00000   4  0.2  Gunner Barracks
+ - OO0   -  8 00000   1  0.5  Emergency Low Berth
+ - OB0   2  1 00000  24    0  Spacious Controls
+ - SS1   1  1 00000   1  1.5  AR Ant Communicator
+ - SS1   1  1 00000   1  1.5  AR Ant Jammer
+ - SS1   1  1 00000   1  1.5  AR Ant Neutrino Detector
+ - SS1   1  1 00000   1  1.5  AR Ant EMS
+ - SS1   1  1 00000   1  1.5  AR Ant Stealth Mask
+ - SS1   1  1 00000   1  1.5  AR Ant Visor
+ - WW1   3  2 00000   5  4.2  AR B2 Missile
+ - WW1   3  2 00000   5  6.5  AR B2 Particle Accelerator
+ - WW1   2  1 00000   3  5.5  AR B1 Particle Accelerator
+ - WW1   2  1 00000   3  3.2  AR B1 Missile
+ - DD1   2  1 00000   4    4  B1 Meson Screen
+ - DD1   2  1 00000   5    4  B1 Nuclear Damper
+ - CO0   - 17 00000   2  0.1  Crew Stateroom
+ - CO0   - 10 00000   4    0  Crew Lounge
+ - CO0   -  2 00000   1    1  Crew Common Fresher
+ - PC0   -  1 00000  53    0  Cargo Hold Basic
+ - VO0  Al  1 00000   9    5  GCarrier + bracket
+ - VO0  MC  1 00000 110   22  Ninz-class Scout + hangar
+ - VO0  MS  1 00000  50   18  Slow Pinnace + hangar
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

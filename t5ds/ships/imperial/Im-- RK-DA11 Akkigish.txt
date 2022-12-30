@@ -1,0 +1,43 @@
+Subsidized Merchant RK-DA11 Akkigish MCr90.8
+
+
+Using a 400-ton airframe hull, the subsidized merchant (often called the fat trader) is a trading vessel intended to meet the trading needs of clusters of worlds, usually under a subsidy. It has class B drives capable of producing jump-1 and 1G acceleration. Fuel tankage supports a 1 parsec jump, at 40t per parsec, and one month of operations. Fuel scoops are integral with the hull, and a fuel purification plant allows use of unrefined fuel. The standard bridge is complemented with a Model/1 computer. The ship has thirteen staterooms (five for the crew; eight for high or middle passengers); there are nine low berths. The ship has two hardpoints; no weapons are mounted. There is one ship's vehicle: a 20-ton launch in a hull niche. Cargo capacity is 200 tons. The ship is undertonned, giving it 3G acceleration in atmosphere 2+.
+
+The crew consists of a captain/pilot, astrogator, engineer, medic, and steward. Up to two gunners may be added. The launch is piloted by the astrogator or engineer. The ship can carry eight high or middle passengers and nine low passengers.
+
+References: Traders & Gunboats (19), The Traveller Adventure (129), and Traveller5 Book 2 (36).
+
+Actual volume: 391.5 tons
+Crew comfort:     +0
+Passenger demand: +1
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    400	 Airframe Hull, lifters, 4 a/l free 	   30	A, lifters, 4 a/l free
+      0	 AV=11. 1 Rad Plate                 	    0	
+     40	 Jump Fuel (1  parsec)              	    0	1 parsec jump, at 40t per parsec
+      4	 Plant Fuel (one month)             	    0	one month
+      3	 Maneuver Drive-1 (B)               	    6	1 G
+     15	 Jump Drive-1 (B)                   	   15	J 1
+      7	 PowerPlant-1 (B)                   	    7	P 1
+      2	 Fuel Scoops with Purifier          	  1.1	100 t/hr
+      0	 AR Surf Basic (C,R,S)              	    6	
+      1	 Computer Model/1                   	  1.5	
+      2	 2x Life Support Luxury             	    2	#2 4 high passengers
+      2	 Clinic                             	    1	
+      8	 Standard Bridge                    	  0.7	1cc 4op 3ws
+      1	 2x Crew Shared Fresher             	    1	#2 4 crew
+     10	 5x Crew Stateroom                  	  0.5	#5 1 crew
+     12	 3x Crew Commons                    	    0	#3 
+    200	 Cargo Hold Basic                   	    0	
+    4.5	 9x Low Berth                       	  0.9	#9 1 passenger
+      2	 Cargo Lock                         	  0.4	
+     48	 8x Luxury Stateroom                	  3.2	#8 1 passenger + fresher
+     20	 Launch                             	   13	m1bis C L0
+     10	 Hull Niche                         	  1.5	Half Vehicle Volume
+[/code]
+
+[code]
+[/code]
+

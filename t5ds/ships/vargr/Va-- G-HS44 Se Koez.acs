@@ -1,0 +1,61 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:34 2021
+Mission: Frigate
+QSP: G-HS44
+TL: 13 
+Name: Se Koez
+Tons: 800
+Actual Tons: 797
+
+MCr: 323.2
+Allegiance: Va
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 30
+FuelPercentage: 14
+Components:
+ - HH0   S  1 00000 800   50  Streamlined Hull
+ - HJ1   P  1 00000   0  0.8  Jump Plates
+ - HL1   K  1 00000   8    8  Landing legs with pads
+ - HW1   F  1 00000   4    2  Fins
+ - AA1  26  1 00000  32    0  AV=26. 2 Kinetic Plate
+ - DF0   -  1 00000 320    0  Jump Fuel (4  parsecs)
+ - DF0   -  1 00000 35.1    0  Plant Fuel (one month)
+ - DJ3   R  1 00000  85   85  Jump Drive-4 (R)
+ - DF1  S1  1 00000   1  0.1  Fuel Scoops 100t/hr
+ - DF1  P1  1 00000   1    1  Fuel Purifiers 4t/hr
+ - DP2   2  1 53402 24.5  24.5  Mod PowerPlant-4 (R)
+ - DM1   2  1 712D0 15.5   31  Mod Maneuver Drive-4 (R)
+ - OC1   5  1 00000   5   27  Computer Model/5 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   -  5 00000   1  0.5  Emergency Low Berth
+ - OO0   -  2 00000  18    1  Platoon Barracks
+ - OB0   -  1 00000   7    0  Standard Controls
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   -  1 00000   0  1.5  AR Surf Scope
+ - SS1   4  1 00000   3  2.5  AR Ext Jammer
+ - SS1   4  1 00000   3  2.5  AR Ext Neutrino Detector
+ - SS1   4  1 00000   3  2.5  AR Ext Stealth Mask
+ - SS1   1  1 00000   1  1.5  AR Ant EMS
+ - WS1   -  1 00000   0  4.1  G Surf Proximeter
+ - WW1   1  1 00000   1  6.5  AR T4 CommCaster
+ - WW1   -  2 00000   1  1.5  Vd T3 Beam Laser
+ - WW1   5  1 00000  50  7.5  AR Bay Particle Accelerator
+ - WW1   3  3 00000   5  4.2  AR B2 Missile
+ - DD1   3  1 00000   7    5  B2 Nuclear Damper
+ - CO0   -  4 00000   4    0  Crew Lounge
+ - CO0   -  2 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  2 00000   1  0.1  Spacer Niche
+ - CO0   -  5 00000   2  0.1  Crew Stateroom
+ - PO0   -  1 00000   1    0  Magazine
+ - PC0   -  1 00000  30    0  Cargo Hold Basic
+ - VO0  Al  1 00000   8    3  GCarrier
+ - VO0  LM  1 00000  35   11  Light Shuttle
+ - VO0  MQ  1 00000  10   18  Fighter
+ - VO1   -  1 00000   4    1  Fighter Niche
+ - VO1   -  1 00000  10    0  Shuttle Hangar Overhead
+ - VO1   -  1 00000   4    1  GCarrier Niche
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

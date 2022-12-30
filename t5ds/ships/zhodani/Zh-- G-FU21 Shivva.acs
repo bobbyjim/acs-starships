@@ -1,0 +1,54 @@
+--- 
+ACS1.0: Thu Dec  2 19:45:20 2021
+Mission: 
+QSP: G-FU21
+TL: 13 
+Name: Jadsva
+Tons: 600
+Actual Tons: 599.5
+
+MCr: 318.2
+Owner: Zhodani
+Allegiance: Zh
+
+Crew comfort: -2
+Passenger demand: -5
+Cargo: 3
+FuelPercentage: 13
+Components:
+ - HH0   U  1 00000 600   20  Unstreamlined hull
+ - AA1  26  1 00000  24    0  AV=26. 2 Kinetic Plate
+ - DP0   L  1 00000  37   37  PowerPlant-4 (L)
+ - DM0   F  1 00000  11   22  Maneuver Drive-2 (F)
+ - DF0   -  1 00000 216    0  Jump Fuel (4  parsecs)
+ - DF0   -  1 00000  24    0  Plant Fuel (one month)
+ - DF1  P5  1 00000   5    5  Fuel Purifiers 20t/hr
+ - DJ0   1  1 730CA  65   65  Imp Jump Drive-4 (L)
+ - OC1   4  1 00000   4   18  Computer Model/4 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OB0   2  1 00000  22    0  Spacious Controls
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   -  1 00000   0  1.5  AR Surf Jammer
+ - SS1   -  1 00000   0  1.5  AR Surf Scope
+ - SS1   -  1 00000   0  1.5  AR Surf Neutrino Detector
+ - SS1   -  1 00000   0  1.5  AR Surf EMS
+ - SS1   -  1 00000   0  1.5  AR Surf Stealth Mask
+ - WW1   2  1 00000   3  5.5  AR B1 Particle Accelerator
+ - WW1   2  1 00000   3    8  AR B1 CommCaster
+ - WW1   2  1 00000   3  3.2  AR B1 Missile
+ - WW1   1  1 00000   1  2.5  Vd T4 DataCaster
+ - WW1   1  1 00000   1    2  Vd T4 Beam Laser
+ - WW1   1  1 00000   1  1.6  Vd T4 Sandcaster
+ - CO0   -  1 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  2 00000   4    0  Crew Lounge
+ - CO1   -  1 00000   6  0.4  Captain's Suite
+ - CO0   -  8 00000   1  0.1  Spacer Niche
+ - CO0   -  9 00000   2  0.1  Crew Stateroom
+ - PC0   -  1 00000   3    0  Cargo Hold Basic
+ - VO0  HM  8 00000   8   10  Fighter
+ - VO0  MQ  1 00000  50   13  Modular Cutter
+ - VO0   -  8 00000   2    2  Fighter Grapples
+ - VO0   -  1 00000   4    4  Cutter Grapples
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

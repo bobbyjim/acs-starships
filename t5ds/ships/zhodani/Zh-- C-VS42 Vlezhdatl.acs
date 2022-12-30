@@ -1,0 +1,59 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:35 2021
+Mission: 
+QSP: C-VS42
+TL: 14 
+Name: Vlezhdatl
+Tons: 2000
+Actual Tons: 1983.5
+
+MCr: 1061
+Owner: Zhodani
+Allegiance: Zh
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 90
+FuelPercentage: 14
+Components:
+ - HH0   S  1 00000 2000  122  Streamlined hull
+ - HL1   K  1 00000  20   20  Landing legs with pads
+ - AA1 140  1 00000 320    0  AV=140. 5 Kinetic Charged
+ - DF0   -  1 00000 400    0  Jump Fuel (2  parsecs)
+ - DF0   -  1 00000  80    0  Plant Fuel (one month)
+ - DJ3   V  1 00000 105  105  Jump Drive-2 (V)
+ - DP4  V2  1 00000 121  121  PowerPlant-4 (V2)
+ - DM3  V2  1 00000  79  158  Maneuver Drive-4 (V2)
+ - DF1  P6  1 00000   6    6  Fuel Purifiers 24t/hr
+ - DF1  I2  1 00000   2  0.2  Fuel Intakes 80t/hr
+ - DF1  S1  1 00000   1  0.1  Fuel Scoops 100t/hr
+ - DF1  B4  1 00000   4  0.4  Fuel Bins 80t/hr
+ - OC1   5  1 00000  10  40.5  Computer Model/5 fib
+ - OO0   - 20 00000   4  0.2  Squad Barracks
+ - OO0   -  2 00000   2    2  Life Support Long Term
+ - OO0   -  4 00000   2    1  Frozen Watch
+ - OO0   -  4 00000   1  0.5  Emergency Low Berth
+ - OO1   -  2 00000   4    3  Surgery
+ - OO1   -  2 00000   2    1  Clinic
+ - OO1   -  1 00000   2  0.2  Counsellor
+ - OB0   2  1 00000  22    0  Spacious Controls
+ - SS1   -  1 00000   0  2.5  LR Surf Communicator
+ - SS1   -  1 00000   0  2.5  LR Surf Jammer
+ - SS1   -  1 00000   0  2.5  LR Surf Neutrino Detector
+ - SS1   -  1 00000   0  2.5  LR Surf EMS
+ - SS1   -  1 00000   0  2.5  LR Surf Stealth Mask
+ - SS1   -  1 00000   0  1.5  AR Surf Visor
+ - WW1  10  1 00000 200  22.5  AR M Particle Accelerator
+ - WW1   5  2 00000  50    8  AR Bay KK Missile
+ - WW1   2  1 00000   3    8  AR B1 CommCaster
+ - WW1   2 16 00000   3  3.5  Vd B1 Beam Laser
+ - DD1  -1 35 00000   2    2  B Meson Screen
+ - CO0   -  9 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   - 14 00000   2  0.1  Crew Stateroom
+ - CO0   -  8 00000   4    0  Crew Lounge
+ - PC0   -  1 00000  90    0  Cargo Hold Basic
+ - VO0   -  4 00000   2    2  Grapple Set Single
+ - VO0  MF  4 00000  30   66  Vlezhdest
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

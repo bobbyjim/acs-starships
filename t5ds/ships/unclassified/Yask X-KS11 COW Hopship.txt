@@ -1,0 +1,43 @@
+Express Courier X-KS11 COW Hopship MCr627.6
+
+
+Using a 1000-ton, TL24 hull, the COW Hopship is a Mediating Particle between COWs. It mounts jump drive-E, maneuver drive-E, and power plant-Q2, giving a performance of jump-1 and 1G acceleration and Hop-6. Fuel tankage supports a 60 parsec hop, at 90t per 10 parsecs, and one month of operations. Attached to the bridge is a Computer Model/9. There are 8 staterooms and no low berths. Cargo capacity is 2 tons. The ship has a streamlined hull. 
+
+The ship has 8 crew. 
+
+
+Actual volume: 915 tons
+Crew comfort:     +1
+Passenger demand: -5
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+   1000	 Streamlined Hull, lifters, 10 a/l f	   62	S, lifters, 10 a/l free
+     10	 Landing legs with pads             	   10	
+     20	 Submergence hull                   	   20	
+    540	 Jump Fuel (6  parsecs)             	    0	6 parsec jump, at 90t per parsec
+     53	 Plant Fuel (one month)             	    0	one month
+     23	 Ult PowerPlant Q2 (R7)             	  184	R7
+    9.9	 Adv Jump Drive E (R1)              	   30	R1
+   2.25	 Ult Maneuver Drive E (R1)          	   36	R1
+    160	 Imp Hop Drive Q2 (R6)              	  160	R6
+      0	 AR Surf Basic                      	    6	
+      9	 DS Ext Jammer                      	    6	
+      9	 DS Ext Stealth Mask                	    6	
+      0	 DS Surf Scanner                    	    6	
+      0	 DS Surf HoloVisor                  	    6	
+      0	 DS Surf CommPlus                   	    6	
+      9	 Computer Model/9                   	   85	
+      1	 Life Support Standard              	    1	21 people
+      2	 Clinic                             	    1	
+     16	 Spacious Bridge                    	  0.9	1cc 7op 0ws
+      1	 Crew Common Fresher                	    1	10 crew
+     16	 8x Crew Stateroom                  	  0.8	#8 1 crew
+     32	 8x Crew Commons                    	    0	#8 
+      2	 Cargo Hold Basic                   	    0	
+[/code]
+
+[code]
+[/code]
+

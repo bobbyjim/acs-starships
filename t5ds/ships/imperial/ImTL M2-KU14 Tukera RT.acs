@@ -1,0 +1,47 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:34 2021
+Mission: Long Liner
+QSP: M2-KU14
+TL: 15 
+Name: Tukera RT
+Tons: 1000
+Actual Tons: 1033
+Overtonnage: 33
+
+MCr: 254.3
+Owner: Tukera
+Allegiance: ImTL
+
+Crew comfort: -1
+Passenger demand: 2
+Cargo: 130
+FuelPercentage: 13
+Components:
+ - HH0   U  1 00000 1000   42  Unstreamlined Hull, lifters
+ - AA1  13  1 00000   0    0  AV=13. 1 Kinetic Plate
+ - DF0   -  1 00000 360    0  Jump Fuel (4  parsecs)
+ - DF0   -  1 00000  44    0  Plant Fuel (one month)
+ - DM1   2  1 8A5C1 4.5    9  Mod Maneuver Drive-1 (E)
+ - DJ3   1  1 510AA 105  105  Imp Jump Drive-4 (V)
+ - DP2   2  1 10A215 30.5  30.5  Mod PowerPlant-4 (V)
+ - OC1   4  1 00000   4   18  Computer Model/4 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   -  3 00000   1    1  Life Support Luxury
+ - OO0   -  1 00000   1    1  Life Support Adaptable
+ - OO0   -  5 00000   1  0.5  Emergency Low Berth
+ - OB0   -  1 00000  14    0  Standard Controls
+ - WW1   -  1 00000   1    2  Vd T3 Hybrid L-S-M
+ - WW1  -2  4 00000   1  0.2  AR T1 Empty
+ - CO0   - 13 00000   2  0.1  Crew Stateroom
+ - CO0   -  3 00000   4    0  Crew Lounge
+ - CO0   -  4 00000 0.5  0.5  Crew Shared Fresher
+ - PC0   -  1 00000 130    0  Cargo Hold Basic
+ - PO0   - 14 00000 0.5  0.1  Low Berth
+ - PO0   - 36 00000   6  0.4  Luxury Stateroom
+ - PO0   -  2 00000   8    0  Passenger Lounge
+ - PO0   -  3 00000   8    0  Passenger Dining Area
+ - VO0  MS  1 00000  20   16  Launch
+ - VO0   -  1 00000   2    2  Grapple Set Single
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

@@ -1,0 +1,340 @@
+--- 
+header: 
+   format: 'T5-ACS-1'
+   totalCargoSpace: 200
+   passengers: 0
+   demand: 0
+   shipname: 'Chamaxi Sleeper Ship'
+   tl: 9
+   undertons: 81
+   jumpFuelPercentage: 0
+   spaciousness: 4
+   powerFuelPercentage: 0.01
+   qsp: 'Z-V2U00'
+   crewComfort: -5
+   shifts: 1
+   config: 'U'
+   jf: 0
+   pf: 10
+   comments: |
+      A relic sleeper ship from the doomed planet of Chamax, this vessel carries Chamaxi refugees in suspended animation. 
+      
+      Typically displacing 1,000 to 4,000 tons, it relies on a single NAFAL-1 drive for propulsion, engineered with exceptional quality in order to last the long journey.
+      
+      The ship accelerates for a short time, then cuts out and coasts. After that, the ship powers down everything but computer monitors. The passengers hibernate in irregular-sized rooms. 
+      
+      Each ton of hibernation space accommodates up to four Chamax sophonts. This 4,000 ton ship has room for about 10,000 hibernating Chamaxi. The ships' internal power sources are sufficient to preseve the occupants for journeys lasting centuries.
+   controlConsoles: 1
+   operatingConsoles: 3
+   low: 0
+   lifeSupport: 403
+   workstations: 2
+   crew: 6
+   owner: 'kärvîkvriyä'
+   totalMCr: 708.1
+   mission: 'Z'
+   disposition: 'Lost'
+   missionLabel: 'Unclassified'
+   tons: 4000
+   tonsFree: 81
+   crewLocked: 'no'
+   preMult: 1
+   builder: 'šahî Shipyards'
+   mult: 2
+   lifters: 'y'
+   troops: 0
+   staff: 0
+components: 
+   - 
+      notes: 'U, lifters'
+      CP: 0
+      Sq: 8000
+      target: 12
+      code: 'U'
+      tl: 12
+      category: 'Hull'
+      config: 'Unstreamlined'
+      r: 0
+      type: 'Hull'
+      s: 0
+      q: 0
+      howMany: ''
+      b: 0
+      totalTons: 4000
+      totalMCr: 162
+      eff: 1
+      e: 0
+      mult: 2
+      mcr: 162
+      tons: 4000
+      name: 'Hull'
+      label: 'Unstreamlined Hull, lifters'
+      preMult: 1
+
+   - 
+      s: 0
+      notes: 'J0, 0t/pc'
+      howMany: ''
+      b: 0
+      totalTons: 0
+      totalMCr: 0
+      tl: 12
+      q: 0
+      eff: 1
+      e: 0
+      CP: 0
+      target: 12
+      mcr: 0
+      category: 'Jump Fuel'
+      tons: 0
+      label: 'Jump Fuel (0  parsec)'
+      r: 0
+      type: 'Drive'
+
+   - 
+      s: 0
+      notes: '10 months'
+      howMany: ''
+      b: 0
+      totalTons: 400
+      Sq: 800
+      totalMCr: 0
+      tl: 12
+      q: 0
+      eff: 1
+      CP: 0
+      type: 'Drive'
+      target: 12
+      mcr: 0
+      category: 'Powerplant Fuel'
+      e: 0
+      label: 'Plant Fuel (10 months)'
+      r: 0
+      tons: 400
+
+   - 
+      tonsPercent: 1
+      code: 'D'
+      mcrPerTon: 1
+      howMany: ''
+      b: 0
+      totalTons: 40
+      Sq: 80
+      s: 0
+      totalMCr: 40
+      tl: 9
+      q: 0
+      eff: 1
+      CP: 1
+      type: 'Hull'
+      target: 9
+      note: 'D'
+      mcr: 40
+      category: 'fittings'
+      e: 0
+      name: 'Flotation hull'
+      label: 'Flotation hull'
+      r: 0
+      tons: 40
+
+   - 
+      code: 'V'
+      B: 0
+      CP: 2
+      Sq: 122
+      target: 9
+      notes: 'P 1'
+      E: 0
+      tl: 9
+      category: 'PowerPlant'
+      autoAdjust: 1
+      r: 0
+      type: 'Drive'
+      s: 0
+      q: 0
+      howMany: ''
+      b: 0
+      totalTons: 61
+      totalMCr: 61
+      eff: 1
+      basetl: 8
+      tons: 61
+      Q: 0
+      mcr: 61
+      R: 0
+      e: 0
+      name: 'PowerPlant'
+      S: 0
+      label: 'PowerPlant-1 (V)'
+      rating: 1
+      powerFuelUsage: 0.01
+
+   - 
+      notes: '0 G'
+      B: 0
+      CP: 2
+      Sq: 80
+      target: 9
+      code: 'V'
+      E: 0
+      tl: 9
+      category: 'NAFAL'
+      autoAdjust: 1
+      r: 0
+      type: 'Drive'
+      s: 0
+      q: 0
+      howMany: ''
+      b: 0
+      totalTons: 40
+      totalMCr: 40
+      eff: 1
+      basetl: 9
+      e: 0
+      Q: 0
+      mcr: 40
+      R: 0
+      tons: 40
+      name: 'NAFAL'
+      S: 0
+      label: 'NAFAL-1 (V)'
+      rating: 1
+
+   - 
+      notes: ''
+      range: '1'
+      CP: 1
+      target: 9
+      tl: 9
+      category: 'AV=9. 1 Kinetic Plate'
+      mount: 'Kinetic'
+      config: 'Armor'
+      r: 0
+      type: 'Armor'
+      s: 0
+      mod: ''
+      q: 0
+      howMany: ''
+      b: 0
+      totalTons: 0
+      totalMCr: 0
+      eff: 1
+      basetl: 8
+      tons: 0
+      mcr: 0
+      e: 0
+      name: 'Plate'
+      label: 'AV=9. 1 Kinetic Plate'
+
+   - 
+      notes: ''
+      range: 's'
+      CP: 1
+      Sq: 2
+      target: 10
+      tl: 9
+      category: 'Computer Model/1 std'
+      mount: 'Model/1'
+      config: 'Ops'
+      r: 0
+      type: 'Ops'
+      s: 0
+      mod: 1
+      howMany: ''
+      b: 0
+      totalTons: 1
+      totalMCr: 1.5
+      q: 0
+      eff: 1
+      basetl: 0
+      tons: 1
+      mcr: 1.5
+      e: 0
+      name: 'Computer'
+      label: 'Computer Model/1 std'
+
+   - 
+      s: 0
+      notes: ''
+      howMany: ''
+      b: 0
+      CP: 0
+      Sq: 400
+      target: 12
+      tl: 12
+      q: 0
+      eff: 1
+      tons: 200
+      totalMCr: 0
+      mcr: 0
+      category: 'Cargo'
+      e: 0
+      totalTons: 200
+      label: 'Cargo Hold Basic'
+      r: 0
+      type: 'Payload'
+
+   - 
+      s: 0
+      notes: ''
+      howMany: ''
+      b: 0
+      CP: 0
+      Sq: 5500
+      target: 9
+      tl: 9
+      eff: 1
+      e: 0
+      totalTons: 2750
+      totalMCr: 0
+      mcr: 0
+      tons: 2750
+      label: 'Hibernation Rooms'
+      q: 0
+      r: 0
+      type: 'Passenger'
+
+   - 
+      s: 0
+      notes: '16120 people/month'
+      howMany: ''
+      b: 0
+      totalTons: 403
+      Sq: 806
+      target: 9
+      tl: 9
+      q: 0
+      eff: 1
+      CP: 41
+      type: 'Ops'
+      totalMCr: 403
+      mcr: 403
+      category: 'Life Support'
+      e: 0
+      name: 'life support'
+      label: 'Life support (16120 people/month)'
+      r: 0
+      tons: 403
+
+   - 
+      s: 0
+      mod: 2
+      notes: ''
+      howMany: ''
+      b: 0
+      CP: 0
+      Sq: 48
+      target: 11
+      tl: 9
+      q: 0
+      eff: 1
+      totalTons: 24
+      type: 'Ops'
+      totalMCr: 0
+      mcr: 0
+      category: 'Bridge'
+      e: 0
+      name: 'Bridge'
+      label: 'Spacious Controls'
+      r: 0
+      tons: 24

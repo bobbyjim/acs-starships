@@ -1,0 +1,42 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:29 2021
+Mission: Far Trader
+QSP: A2-AU20
+TL: 18 
+Name: Compact Trader-18
+Tons: 100
+Actual Tons: 139.5
+Overtonnage: 39.5
+Allegiance: Rr
+MCr: 31.3
+Allegiance: Rr
+
+Crew comfort: 0
+Passenger demand: 0
+Cargo: 50
+FuelPercentage: 2
+Components:
+ - HH0   U  1 00000 100    5  Unstreamlined Hull
+ - AA1  36  1 00000   0    0  AV=36. 1 Blast Charged
+ - DF0   -  1 00000   0    0  Jump Fuel (0  parsec)
+ - DF0   -  1 00000   2    0  Plant Fuel (one month)
+ - DP1   A  1 00000   4    4  PowerPlant-2 (A)
+ - DM1   A  1 00000   2    4  Maneuver Drive-2 (A)
+ - DH1   A  1 00000  10   10  Hop Drive-2 (A)
+ - OC1   1  1 00000   1  1.5  Computer Model/1 std
+ - OO0   -  1 00000   1    1  Life Support Standard
+ - OO0   -  1 00000   1    1  Life Support Luxury
+ - OO0   -  1 00000   1    1  Life Support Adaptable
+ - OB0   2  1 00000   6  0.3  Spacious Bridge
+ - CO0   -  1 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  4 00000   2  0.1  Crew Stateroom
+ - CO0   -  3 00000   4    0  Crew Lounge
+ - PF0   -  1 00000   4    0  Hop Fuel
+ - PO0   -  8 00000   2  0.1  Standard Stateroom
+ - PO0   -  2 00000 0.5  0.5  Shared Fresher
+ - PO0   -  4 00000   4    0  Passenger Lounge
+ - PO0   -  8 00000 0.5  0.1  Low Berth
+ - PC0   -  1 00000  50    0  Cargo Hold Basic
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

@@ -1,0 +1,49 @@
+Barge W-AU11 Shumshuga MCr37.1
+
+
+Displacing 100 tons, the Type W Barge is a low-tech level, utilitarian vessel designed to haul small amounts of critical material across space as cheaply as possible.  As a result, the ship is slow (Jump-1), and uncomfortable, with a cramped bridge and a crew barracks. Attached to the bridge is a computer Model/1. 
+
+The ship is bulky and overtonned, making it ungainly and difficult to use by inexperienced operators. The barge typically carries 12 tons of fuel – sufficient for a one parsec jump and one month of operations – and frontier refueling capabilities. Cargo capacity is 70 tons. It is unstreamlined.
+
+The ship has four grapples, suitable for attaching up to four 35-ton small craft or pods. The ship requires a pilot, astrogator, and engineer. The barracks can accommodate an additional two people.
+
+NOTES 
+
+This barge is essentially a 40 ton ship's boat, gutted and filled with drives. The cargo hold is an 88 ton pod hull welded to the refitted boat. The crew space is what used to be the boat's old cockpit and a bit of leftover space.
+
+The “bridge” and barracks are "on their sides" when the ship is landed - it lands like a ships boat, to provide proper access to the huge cargo bay and its bay lock. In space, the bridge and barracks level uses grav plates, and it works like a 7 ton crew area.
+
+Most owners reposition the fittings in the crew compartment so that it’s usable when landed, and never turn on the internal grav plates.
+
+The engineering section has a 1.5m x 1.5m access crawlway, when landed, with several sections divided by hatches.  In space, the engineering section is in zero G, and is easier to transit. Wall rungs permit access to all machines there.  You ought to have Zero-G skill.
+
+Overtonnage: 28.5 tons
+Crew comfort:     -5
+Passenger demand: -5
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    100	 Unstreamlined Hull, lifters, 1 a/l 	    5	U, lifters, 1 a/l free
+      1	 Landing legs with pads             	    1	
+     10	 Jump Fuel (1  parsec)              	    0	1 parsec jump, at 10t per parsec
+      2	 Plant Fuel (2 months)              	    0	2 months
+      2	 Fuel Scoops with Purifier          	  1.1	100 t/hr
+      2	 Fuel Intakes with Purifier         	  1.1	40 t/hr
+      2	 Fuel Bins with Purifier            	  1.1	20 t/hr
+      2	 Maneuver Drive-1 (A)               	    4	1 G
+     10	 Jump Drive-1 (A)                   	   10	J 1
+      4	 PowerPlant-1 (A)                   	    4	P 1
+    0.5	 SR Ant Communicator                	  1.2	
+      1	 Computer Model/1                   	  1.5	
+      4	 Squad Barracks                     	  0.2	(5) R1 R1 R2 R2 R3
+      3	 Cramped Bridge                     	  0.7	1cc 5op 0ws
+      9	 Large Cargo Lock                   	  1.8	
+      2	 Cargo Lock                         	  0.4	
+     70	 Cargo Hold Basic                   	    0	
+      4	 4x Grapple                         	    4	#4 1 pair per 35t
+[/code]
+
+[code]
+[/code]
+

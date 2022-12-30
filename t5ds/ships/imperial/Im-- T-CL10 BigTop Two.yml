@@ -1,0 +1,833 @@
+--- 
+header: 
+   crewComfort: 0
+   pf: 0.5
+   totalMCr: 165
+   format: 'T5-ACS-1'
+   mult: 1
+   crewLocked: 'yes'
+   preMult: 1
+   spaciousness: 2
+   lifters: 'y'
+   config: 'L'
+   id: '0913'
+   troops: 0
+   tons: 300
+   staff: 0
+   tonsFree: 0
+   totalCargoSpace: 10
+   builder: 'Bilstein Yards'
+   passengers: 1
+   controlConsoles: 2
+   demand: -5
+   tl: 14
+   operatingConsoles: 4
+   disposition: 'Reserve'
+   workstations: 0
+   undertons: 12
+   shipname: 'BigTop Two'
+   powerFuelPercentage: 0.01
+   low: 0
+   jumpFuelPercentage: 0
+   shifts: 1
+   jf: 0
+   qsp: 'T-CL10'
+   crew: 7
+   comments: 'Originally designed as a troop carrier, this ship sports barracks for a platoon of marines with equipment (battledress and support weapons) and multipurpose living space.  Even with all of the open space, the ship feels too small.'
+   mission: 'T'
+   overtons: 2
+   missionLabel: 'Transport'
+components: 
+   - 
+      totalTons: 300
+      totalMCr: 43
+      eff: 1
+      code: 'L'
+      mult: 1
+      type: 'Hull'
+      preMult: 1
+      label: 'Lift body Hull, lifters'
+      config: 'Lift body'
+      tons: 300
+      q: 0
+      notes: 'L, lifters'
+      r: 0
+      CP: 0
+      tl: 12
+      target: 12
+      mcr: 43
+      b: 0
+      s: 0
+      e: 0
+      Sq: 600
+      category: 'Hull'
+      name: 'Hull'
+      howMany: 1
+
+   - 
+      totalTons: 0
+      tl: 12
+      target: 12
+      category: 'Jump Fuel'
+      b: 0
+      eff: 1
+      s: 0
+      totalMCr: 0
+      type: 'Drive'
+      notes: 'J0, 0t/pc'
+      e: 0
+      label: 'Jump Fuel (0  parsec)'
+      CP: 0
+      tons: 0
+      q: 0
+      mcr: 0
+      r: 0
+      howMany: 1
+
+   - 
+      CP: 0
+      tl: 12
+      totalMCr: 0
+      notes: '0.5 months'
+      b: 0
+      eff: 1
+      s: 0
+      target: 12
+      type: 'Drive'
+      category: 'Powerplant Fuel'
+      Sq: 3
+      label: 'Plant Fuel (0.5 months)'
+      totalTons: 1.5
+      tons: 1.5
+      q: 0
+      mcr: 0
+      r: 0
+      howMany: 1
+      e: 0
+
+   - 
+      totalTons: 3
+      tl: 14
+      totalMCr: 3
+      mcr: 3
+      b: 0
+      eff: 1
+      CP: 1
+      note: 'K'
+      target: 14
+      type: 'Hull'
+      e: 0
+      name: 'Landing legs with pads'
+      code: 'K'
+      s: 0
+      tonsPercent: 1
+      tons: 3
+      r: 0
+      label: 'Landing legs with pads'
+      q: 0
+      category: 'landers'
+      mcrPerTon: 1
+      howMany: 1
+      Sq: 6
+
+   - 
+      totalTons: 3
+      tl: 14
+      totalMCr: 3
+      mcr: 3
+      b: 0
+      eff: 1
+      s: 0
+      note: 'D'
+      target: 14
+      type: 'Hull'
+      e: 0
+      mcrPerTon: 1
+      label: 'Flotation hull'
+      CP: 1
+      tonsPercent: 1
+      tons: 3
+      r: 0
+      code: 'D'
+      q: 0
+      category: 'fittings'
+      name: 'Flotation hull'
+      howMany: 1
+      Sq: 6
+
+   - 
+      totalTons: 3
+      totalMCr: 6
+      B: 0
+      eff: 1
+      basetl: 9
+      code: 'B'
+      type: 'Drive'
+      E: 0
+      autoAdjust: 1
+      label: 'Maneuver Drive-1 (B)'
+      rating: 1
+      tons: 3
+      q: 0
+      mcr: 6
+      r: 0
+      CP: 1
+      tl: 14
+      target: 14
+      notes: '1 G'
+      b: 0
+      s: 0
+      e: 0
+      Q: 0
+      R: 0
+      Sq: 6
+      S: 0
+      category: 'Maneuver Drive'
+      name: 'Maneuver Drive'
+      howMany: 1
+
+   - 
+      totalTons: 7
+      totalMCr: 7
+      B: 0
+      eff: 1
+      basetl: 8
+      label: 'PowerPlant-1 (B)'
+      rating: 1
+      E: 0
+      autoAdjust: 1
+      code: 'B'
+      type: 'Drive'
+      tons: 7
+      powerFuelUsage: 0.01
+      mod: 0
+      original: 
+         totalTons: 7
+         totalMCr: 7
+         B: 0
+         eff: 1
+         basetl: 8
+         code: 'B'
+         rating: 1
+         E: 0
+         powerFuelUsage: 0.01
+         label: 'PowerPlant-1 (B)'
+         type: 'Drive'
+         tons: 7
+         autoAdjust: 1
+         name: 'PowerPlant'
+         q: 0
+         notes: 'P 1'
+         r: 0
+         s: 0
+         tl: 14
+         target: 14
+         mcr: 7
+         b: 0
+         CP: 1
+         Sq: 14
+         Q: 0
+         R: 0
+         e: 0
+         S: 0
+         category: 'PowerPlant'
+         mod: 0
+         howMany: 1
+      q: 0
+      mcr: 7
+      r: 0
+      s: 0
+      tl: 14
+      target: 14
+      notes: 'P 1'
+      b: 0
+      CP: 1
+      e: 0
+      stage: 'Std'
+      Q: 0
+      R: 0
+      Sq: 14
+      S: 0
+      category: 'PowerPlant'
+      name: 'PowerPlant'
+      howMany: 1
+
+   - 
+      totalTons: 0
+      totalMCr: 0
+      mod: ''
+      eff: 1
+      basetl: 14
+      label: 'AV=28. 1 Kinetic Charged'
+      config: 'Armor'
+      type: 'Armor'
+      tons: 0
+      q: 0
+      notes: ''
+      r: 0
+      CP: 1
+      tl: 14
+      target: 14
+      mcr: 0
+      b: 0
+      s: 0
+      range: '1'
+      e: 0
+      category: 'AV=28. 1 Kinetic Charged'
+      name: 'Charged'
+      howMany: 1
+      mount: 'Kinetic'
+
+   - 
+      totalTons: 3
+      totalMCr: 10.5
+      name: 'Computer'
+      eff: 1
+      basetl: 0
+      label: 'Computer Model/3 std'
+      config: 'Ops'
+      type: 'Ops'
+      tons: 3
+      q: 0
+      notes: ''
+      r: 0
+      CP: 1
+      tl: 14
+      target: 17
+      range: 's'
+      b: 0
+      s: 0
+      mcr: 10.5
+      Sq: 6
+      e: 0
+      category: 'Computer Model/3 std'
+      mod: 3
+      howMany: 1
+      mount: 'Model/3'
+
+   - 
+      totalTons: 0
+      totalMCr: 1.5
+      name: 'Communicator'
+      eff: 1
+      basetl: 8
+      label: 'AR Surf Communicator'
+      config: 'Sensor'
+      type: 'Sensor'
+      tons: 0
+      q: 0
+      range: 'AR'
+      r: 0
+      CP: 1
+      tl: 14
+      target: 14
+      mcr: 1.5
+      b: 0
+      s: 0
+      notes: ''
+      e: 0
+      category: 'AR Surf Communicator'
+      mod: 0
+      howMany: 1
+      mount: 'Surf'
+
+   - 
+      totalTons: 0
+      totalMCr: 1.5
+      mod: 0
+      eff: 1
+      basetl: 8
+      label: 'AR Surf Jammer'
+      config: 'Sensor'
+      type: 'Sensor'
+      tons: 0
+      q: 0
+      notes: ''
+      r: 0
+      CP: 1
+      tl: 14
+      target: 14
+      range: 'AR'
+      b: 0
+      s: 0
+      mcr: 1.5
+      e: 0
+      category: 'AR Surf Jammer'
+      name: 'Jammer'
+      howMany: 1
+      mount: 'Surf'
+
+   - 
+      totalTons: 0
+      totalMCr: 1.5
+      mod: 0
+      eff: 1
+      basetl: 10
+      label: 'AR Surf Neutrino Detector'
+      config: 'Sensor'
+      type: 'Sensor'
+      tons: 0
+      q: 0
+      mcr: 1.5
+      r: 0
+      CP: 1
+      tl: 14
+      target: 14
+      range: 'AR'
+      b: 0
+      s: 0
+      notes: ''
+      e: 0
+      category: 'AR Surf Neutrino Detector'
+      name: 'Neutrino Detector'
+      howMany: 1
+      mount: 'Surf'
+
+   - 
+      totalTons: 1
+      totalMCr: 1.5
+      name: 'EMS'
+      eff: 1
+      basetl: 12
+      label: 'AR Ant EMS'
+      config: 'Sensor'
+      type: 'Sensor'
+      tons: 1
+      q: 0
+      mcr: 1.5
+      r: 0
+      CP: 1
+      tl: 14
+      target: 15
+      notes: ''
+      b: 0
+      s: 0
+      range: 'AR'
+      Sq: 2
+      e: 0
+      category: 'AR Ant EMS'
+      mod: 1
+      howMany: 1
+      mount: 'Ant'
+
+   - 
+      totalTons: 0
+      totalMCr: 1.5
+      name: 'Stealth Mask'
+      eff: 1
+      basetl: 12
+      label: 'AR Surf Stealth Mask'
+      config: 'Sensor'
+      type: 'Sensor'
+      tons: 0
+      q: 0
+      notes: ''
+      r: 0
+      CP: 1
+      tl: 14
+      target: 14
+      range: 'AR'
+      b: 0
+      s: 0
+      mcr: 1.5
+      e: 0
+      category: 'AR Surf Stealth Mask'
+      mod: 0
+      howMany: 1
+      mount: 'Surf'
+
+   - 
+      totalTons: 0
+      totalMCr: 1.5
+      name: 'Visor'
+      eff: 1
+      basetl: 14
+      label: 'AR Surf Visor'
+      config: 'Sensor'
+      type: 'Sensor'
+      tons: 0
+      q: 0
+      range: 'AR'
+      r: 0
+      s: 0
+      tl: 14
+      target: 14
+      notes: ''
+      b: 0
+      CP: 1
+      mcr: 1.5
+      e: 0
+      category: 'AR Surf Visor'
+      mod: 0
+      howMany: 1
+      mount: 'Surf'
+
+   - 
+      totalTons: 3
+      totalMCr: 5.5
+      mod: 2
+      eff: 1
+      basetl: 11
+      label: 'AR B1 Particle Accelerator'
+      config: 'Weapon'
+      type: 'Weapon'
+      tons: 3
+      q: 0
+      mcr: 5.5
+      r: 0
+      s: 0
+      tl: 14
+      target: 16
+      notes: ''
+      b: 0
+      CP: 1
+      range: 'AR'
+      Sq: 6
+      e: 0
+      category: 'AR B1 Particle Accelerator'
+      name: 'Particle Accelerator'
+      howMany: 1
+      mount: 'B1'
+
+   - 
+      totalTons: 1
+      totalMCr: 1.5
+      name: 'Beam Laser'
+      eff: 1
+      basetl: 10
+      label: 'Vd T3 Beam Laser'
+      config: 'Weapon'
+      type: 'Weapon'
+      tons: 1
+      q: 0
+      notes: ''
+      r: 0
+      CP: 1
+      tl: 14
+      target: 14
+      range: 'Vd'
+      b: 0
+      s: 0
+      mcr: 1.5
+      Sq: 2
+      e: 0
+      category: 'Vd T3 Beam Laser'
+      mod: 0
+      howMany: 1
+      mount: 'T3'
+
+   - 
+      totalTons: 1
+      totalMCr: 1.1
+      name: 'Sandcaster'
+      eff: 1
+      basetl: 9
+      label: 'Vd T3 Sandcaster'
+      config: 'Weapon'
+      type: 'Weapon'
+      tons: 1
+      q: 0
+      range: 'Vd'
+      r: 0
+      CP: 1
+      tl: 14
+      target: 14
+      notes: ''
+      b: 0
+      s: 0
+      mcr: 1.1
+      Sq: 2
+      e: 0
+      category: 'Vd T3 Sandcaster'
+      mod: 0
+      howMany: 1
+      mount: 'T3'
+
+   - 
+      totalTons: 4
+      tl: 14
+      totalMCr: 3
+      mcr: 3
+      b: 0
+      eff: 1
+      CP: 1
+      target: 14
+      type: 'Ops'
+      e: 0
+      label: 'Medical Bay'
+      s: 0
+      tons: 4
+      q: 0
+      notes: ''
+      r: 0
+      howMany: 1
+      Sq: 8
+
+   - 
+      CP: 0
+      tl: 14
+      totalMCr: 1.2
+      notes: '1 crew'
+      b: 0
+      eff: 1
+      totalTons: 48
+      target: 14
+      type: 'Crew'
+      Sq: 96
+      label: 'Officer Stateroom'
+      s: 0
+      totalSleeps: 12
+      tons: 4
+      sleeps: 1
+      q: 0
+      mcr: 0.1
+      r: 0
+      howMany: 12
+      e: 0
+
+   - 
+      s: 0
+      tl: 14
+      target: 14
+      mcr: 0.1
+      b: 0
+      eff: 1
+      totalTons: 12
+      totalMCr: 0.6
+      type: 'Crew'
+      e: 0
+      label: 'Crew Stateroom'
+      CP: 0
+      totalSleeps: 6
+      tons: 2
+      sleeps: 1
+      q: 0
+      notes: '1 crew'
+      r: 0
+      howMany: 6
+      Sq: 24
+
+   - 
+      CP: 0
+      tl: 14
+      totalMCr: 2
+      mcr: 1
+      b: 0
+      eff: 1
+      s: 0
+      target: 14
+      type: 'Crew'
+      e: 0
+      label: 'Crew Common Fresher'
+      totalTons: 2
+      tons: 1
+      q: 0
+      notes: '10 crew'
+      r: 0
+      howMany: 2
+      Sq: 4
+
+   - 
+      s: 0
+      tl: 14
+      totalMCr: 0
+      mcr: 0
+      b: 0
+      eff: 1
+      CP: 0
+      target: 14
+      type: 'Crew'
+      Sq: 24
+      label: 'Galley/Lounge'
+      totalTons: 12
+      tons: 4
+      q: 0
+      notes: ''
+      r: 0
+      howMany: 3
+      e: 0
+
+   - 
+      totalTons: 40
+      tl: 14
+      target: 14
+      mcr: 0.2
+      b: 0
+      eff: 1
+      s: 0
+      totalMCr: 0.8
+      type: 'Ops'
+      Sq: 80
+      label: 'Troop Barracks (16 each)'
+      CP: 0
+      tons: 10
+      q: 0
+      notes: '(5) R1 R1 R2 R2 R3'
+      r: 0
+      howMany: 4
+      e: 0
+
+   - 
+      CP: 0
+      tl: 14
+      target: 14
+      mcr: 2
+      b: 0
+      eff: 1
+      s: 0
+      totalMCr: 4
+      type: 'Ops'
+      e: 0
+      label: 'Life Support Long Term'
+      totalTons: 4
+      tons: 2
+      q: 0
+      notes: '40 person-months'
+      r: 0
+      howMany: 2
+      Sq: 8
+
+   - 
+      CP: 1
+      tl: 14
+      totalMCr: 0
+      notes: ''
+      b: 0
+      eff: 1
+      totalTons: 16
+      target: 14
+      type: 'Vehicle'
+      Sq: 32
+      label: 'Vehicle Lock'
+      s: 0
+      tons: 4
+      q: 0
+      mcr: 0
+      r: 0
+      howMany: 4
+      e: 0
+
+   - 
+      CP: 1
+      tl: 14
+      totalMCr: 0.1
+      mcr: 0.1
+      b: 0
+      eff: 1
+      s: 0
+      target: 14
+      type: 'Payload'
+      e: 0
+      label: 'Air Lock'
+      totalTons: 0.5
+      tons: 0.5
+      q: 0
+      notes: ''
+      r: 0
+      howMany: 1
+      Sq: 1
+
+   - 
+      totalTons: 100
+      tl: '14'
+      target: '14'
+      notes: ''
+      b: 0
+      eff: 1
+      s: 0
+      totalMCr: 0
+      type: 'Payload'
+      Sq: 200
+      label: 'Center Stage'
+      CP: 0
+      tons: 100
+      r: 0
+      q: 0
+      mcr: 0
+      mod: ''
+      howMany: 1
+      e: 0
+
+   - 
+      CP: 0
+      tl: 14
+      totalMCr: 0
+      mcr: 0
+      b: 0
+      eff: 1
+      totalTons: 10
+      target: 14
+      type: 'Payload'
+      Sq: 20
+      label: 'Cargo Hold Basic'
+      s: 0
+      tons: 10
+      q: 0
+      notes: ''
+      r: 0
+      howMany: 1
+      e: 0
+
+   - 
+      totalTons: 9
+      tl: '14'
+      totalMCr: 63
+      mcr: 7
+      b: '0'
+      eff: '1'
+      CP: 0
+      target: '14'
+      type: 'Vehicle'
+      Sq: 18
+      label: 'Grapples'
+      s: '0'
+      tons: 1
+      r: '0'
+      q: '0'
+      notes: 'up to 35t'
+      mod: ''
+      howMany: 9
+      e: '0'
+
+   - 
+      totalTons: 4
+      tl: 14
+      target: 14
+      notes: ''
+      b: 0
+      eff: 1
+      CP: 1
+      totalMCr: 0
+      type: 'Payload'
+      e: 0
+      label: 'Cargo Lock'
+      s: 0
+      tons: 2
+      q: 0
+      mcr: 0
+      r: 0
+      howMany: 2
+      Sq: 8
+
+   - 
+      s: 0
+      tl: 14
+      target: 16
+      mcr: 0
+      b: 0
+      eff: 1
+      label: 'Spacious Controls'
+      totalMCr: 0
+      type: 'Ops'
+      notes: ''
+      Sq: 24
+      r: 0
+      CP: 0
+      tons: 12
+      name: 'Bridge'
+      q: 0
+      totalTons: 12
+      category: 'Bridge'
+      mod: 2
+      howMany: 1
+      e: 0

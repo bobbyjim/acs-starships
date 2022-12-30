@@ -1,0 +1,46 @@
+Merchant R-EU12 Maru MCr125.4
+
+
+Using a 500-ton, TL13 hull, the Maru class Heavy Merchant mounts jump drive-E, maneuver drive-C, and power plant-E, giving a performance of jump-2 and 1G acceleration. Fuel tankage supports a 2 parsec jump, at 50t per parsec, and one month of operations. Attached to the bridge is a Computer Model/3. There are 16 staterooms and 14 low berths. Installed weaponry include 2 T3 Sandcasters and 3 T3 Pulse Lasers. Cargo capacity is 190 tons. The ship has an unstreamlined hull. 
+
+Carried craft include 1 Lifeboat. The ship requires 9 crew: captain/pilot, astrogator, two engineers, steward, medic, and three gunners. Additional gunners may be added. It can carry 7 high or medium passengers and 14 low passengers.
+
+Actual volume: 486.5 tons
+Crew comfort:     +0
+Passenger demand: +2
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    500	 Unstreamlined Hull, lifters, 5 a/l 	   17	U, lifters, 5 a/l free
+      0	 AV=28. 1 Kinetic Charged           	    0	
+    100	 Jump Fuel (2  parsecs)             	    0	2 parsec jump, at 50t per parsec
+     10	 Plant Fuel (one month)             	    0	one month
+      5	 Maneuver Drive-1 (C)               	   10	1 G
+     30	 Jump Drive-2 (E)                   	   30	J 2
+     16	 PowerPlant-2 (E)                   	   16	P 2
+      0	 LR Surf Communicator               	    4	
+      0	 LR Surf Neutrino Detector          	    4	
+      0	 LR Surf EMS                        	    4	
+      0	 LR Surf Scope                      	    4	
+      2	 2x Vd T3 Sandcaster                	  2.2	#2 
+      3	 3x Vd T3 Pulse Laser               	  3.9	#3 
+      3	 Computer Model/3                   	 10.5	
+      1	 Life Support Standard              	    1	21 people
+      2	 Clinic                             	    1	
+     14	 Spacious Bridge                    	  0.7	1cc 4op 2ws
+     30	 5x Officer Suite                   	    2	#5 fresher + safe
+      8	 4x Crew Stateroom                  	  0.4	#4 1 crew
+      4	 Crew Commons                       	    0	
+    0.5	 Crew Shared Fresher                	  0.5	4 crew
+      7	 14x Low Berth                      	  1.4	#14 1 passenger
+    190	 Cargo Hold Basic                   	    0	
+     42	 7x Luxury Stateroom                	  2.8	#7 1 passenger + fresher
+      8	 2x Passenger Commons               	    0	#2 
+      1	 Bracket                            	    1	Up to 10 tons
+     10	 Lifeboat                           	    9	m1bis C L0
+[/code]
+
+[code]
+[/code]
+

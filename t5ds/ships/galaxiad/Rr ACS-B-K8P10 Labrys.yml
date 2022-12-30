@@ -1,0 +1,414 @@
+--- 
+header: 
+   workstations: 1
+   lifters: 'y'
+   format: 'T5-ACS-1'
+   shipname: 'Labrys'
+   crewComfort: -5
+   demand: -5
+   passengers: 0
+   mission: 'B'
+   totalMCr: 1753.2
+   undertons: 644
+   controlConsoles: 1
+   jumpFuelPercentage: 0
+   jf: 0
+   config: 'P'
+   powerFuelPercentage: 0.01
+   mult: 8
+   tl: 16
+   qsp: 'B-K8P10'
+   preMult: 1
+   tons: 8000
+   comments: ''
+   pf: 2
+   shifts: 1
+   tonsFree: 644
+   low: 0
+   crewLocked: 'no'
+   troops: 0
+   crew: 7
+   staff: 0
+   missionLabel: 'Monitor'
+   owner: 'Republic of Regina'
+   spaciousness: 2
+   operatingConsoles: 5
+   totalCargoSpace: 20
+components: 
+   - 
+      CP: 0
+      r: 0
+      q: 0
+      s: 0
+      totalTons: 8000
+      e: 0
+      totalMCr: 80
+      notes: 'P, lifters, 80 a/l free'
+      eff: 1
+      tons: 8000
+      code: 'P'
+      mult: 8
+      tl: 10
+      preMult: 1
+      config: 'Planetoid'
+      mcr: 80
+      label: 'Planetoid Hull, lifters, 80 a/l free'
+      name: 'Hull'
+      category: 'Hull'
+      type: 'Hull'
+      b: 0
+      howMany: 1
+      target: 10
+      Sq: 16000
+
+   - 
+      CP: 0
+      mcr: 0
+      r: 0
+      label: 'Cargo Hold Basic'
+      q: 0
+      s: 0
+      totalTons: 20
+      e: 0
+      totalMCr: 0
+      notes: ''
+      eff: 1
+      type: 'Payload'
+      tons: 20
+      category: 'Cargo'
+      b: 0
+      howMany: 1
+      tl: 10
+      target: 10
+      Sq: 40
+
+   - 
+      e: 0
+      r: 0
+      mount: 'Surf'
+      q: 0
+      s: 0
+      totalTons: 0
+      CP: 1
+      totalMCr: 6
+      notes: ''
+      eff: 1
+      tons: 0
+      category: 'AR Surf Basic C-R-T'
+      tl: 10
+      config: 'Sensor'
+      mcr: 6
+      label: 'AR Surf Basic C-R-T'
+      basetl: 10
+      range: 'AR'
+      name: 'Basic C-R-T'
+      b: 0
+      type: 'Sensor'
+      mod: 0
+      howMany: 1
+      target: 10
+
+   - 
+      mcr: 0
+      r: 0
+      label: 'Jump Fuel (0  parsec)'
+      tl: 10
+      q: 0
+      s: 0
+      totalTons: 0
+      CP: 0
+      totalMCr: 0
+      notes: '0 parsec jump, at 0t per parsec'
+      category: 'Jump Fuel'
+      type: 'Drive'
+      tons: 0
+      b: 0
+      eff: 1
+      howMany: 1
+      e: 0
+      target: 10
+
+   - 
+      mcr: 0
+      r: 0
+      label: 'Plant Fuel (2 months)'
+      tl: 10
+      q: 0
+      s: 0
+      totalTons: 160
+      CP: 0
+      totalMCr: 0
+      notes: '2 months'
+      category: 'Powerplant Fuel'
+      type: 'Drive'
+      tons: 160
+      b: 0
+      eff: 1
+      howMany: 1
+      e: 0
+      target: 10
+      Sq: 320
+
+   - 
+      tons: -40
+      CP: 1
+      e: 0
+      r: 0
+      label: 'No Landers'
+      category: 'landers'
+      q: 0
+      s: 0
+      totalTons: -40
+      mcr: 0
+      tonsPercent: -0.5
+      note: 'n/a'
+      name: 'No Landers'
+      b: 0
+      type: 'Hull'
+      totalMCr: 0
+      mcrPerTon: 0
+      code: 'n/a'
+      eff: 1
+      howMany: 1
+      tl: 16
+      target: 16
+
+   - 
+      e: 0
+      r: 0
+      autoAdjust: 1
+      target: 16
+      s: 0
+      totalTons: 78
+      CP: 3
+      totalMCr: 156
+      notes: '1 G'
+      B: 0
+      tons: 78
+      code: 'V2'
+      eff: 1
+      tl: 16
+      Q: 0
+      E: 0
+      R: 0
+      label: 'Maneuver Drive-1 (V2)'
+      rating: 1
+      basetl: 9
+      S: 0
+      name: 'Maneuver Drive'
+      b: 0
+      type: 'Drive'
+      category: 'Maneuver Drive'
+      howMany: 1
+      mcr: 156
+      q: 0
+      Sq: 156
+
+   - 
+      e: 0
+      r: 0
+      autoAdjust: 1
+      q: 0
+      s: 0
+      totalTons: 122
+      CP: 4
+      totalMCr: 122
+      notes: 'P 1'
+      B: 0
+      tons: 122
+      code: 'V2'
+      eff: 1
+      rating: 1
+      Q: 0
+      mcr: 122
+      R: 0
+      label: 'PowerPlant-1 (V2)'
+      tl: 16
+      basetl: 8
+      S: 0
+      powerFuelUsage: 0.01
+      name: 'PowerPlant'
+      b: 0
+      type: 'Drive'
+      category: 'PowerPlant'
+      howMany: 1
+      E: 0
+      target: 16
+      Sq: 244
+
+   - 
+      e: 0
+      r: 0
+      mount: 'EMP'
+      q: 0
+      s: 0
+      totalTons: 2240
+      CP: 1
+      mod: ''
+      totalMCr: 0
+      notes: ''
+      eff: 1
+      config: 'Armor'
+      tl: 16
+      tons: 2240
+      mcr: 0
+      label: 'AV=160. 8 EMP FeN'
+      basetl: 5
+      range: '8'
+      name: 'FeN'
+      category: 'AV=160. 8 EMP FeN'
+      type: 'Armor'
+      b: 0
+      howMany: 1
+      target: 16
+      Sq: 4480
+
+   - 
+      e: 0
+      r: 0
+      mount: 'Model/6'
+      q: 0
+      s: 0
+      totalTons: 12
+      CP: 1
+      mod: 6
+      totalMCr: 58.5
+      notes: ''
+      eff: 1
+      config: 'Ops'
+      tl: 16
+      tons: 12
+      mcr: 58.5
+      label: 'Computer Model/6 fib'
+      basetl: 15
+      range: 'f'
+      name: 'Computer'
+      category: 'Computer Model/6 fib'
+      type: 'Ops'
+      b: 0
+      howMany: 1
+      target: 22
+      Sq: 24
+
+   - 
+      e: 0
+      r: 0
+      mount: 'Surf'
+      q: 0
+      s: 0
+      totalTons: 0
+      CP: 1
+      mod: 0
+      totalMCr: 10
+      notes: ''
+      eff: 1
+      config: 'Sensor'
+      tl: 16
+      tons: 0
+      mcr: 10
+      label: 'LR Surf Basic C-E-N-T'
+      basetl: 13
+      range: 'LR'
+      name: 'Basic C-E-N-T'
+      category: 'LR Surf Basic C-E-N-T'
+      type: 'Sensor'
+      b: 0
+      howMany: 1
+      target: 16
+
+   - 
+      e: 0
+      r: 0
+      mount: 'M'
+      q: 0
+      s: 0
+      totalTons: 3200
+      CP: 1
+      mod: 10
+      totalMCr: 520
+      notes: ''
+      eff: 1
+      config: 'Weapon'
+      tl: 16
+      tons: 400
+      mcr: 65
+      label: 'LR M Meson Gun'
+      basetl: 14
+      range: 'LR'
+      name: 'Meson Gun'
+      category: 'LR M Meson Gun'
+      type: 'Weapon'
+      b: 0
+      howMany: 8
+      target: 26
+      Sq: 6400
+
+   - 
+      e: 0
+      CP: 0
+      r: 0
+      label: 'Grapple'
+      target: 16
+      s: 0
+      totalTons: 50
+      mcr: 1
+      totalMCr: 50
+      notes: '1 pair per 35t'
+      b: 0
+      type: 'Vehicle'
+      tons: 1
+      eff: 1
+      howMany: 50
+      tl: 16
+      q: 0
+      Sq: 100
+
+   - 
+      speed: '6G'
+      mcr: 15
+      r: 0
+      label: 'Fast Boat'
+      load: 16
+      target: 13
+      s: 0
+      totalTons: 1500
+      e: 0
+      totalMCr: 750
+      tl: 13
+      notes: 'm1bis 3'
+      eff: 1
+      type: 'Vehicle'
+      tons: 30
+      code: 'MFQB'
+      av: 13
+      b: 0
+      howMany: 50
+      CP: 0
+      q: 0
+      Sq: 3000
+
+   - 
+      CP: 0
+      r: 0
+      q: 0
+      s: 0
+      totalTons: 14
+      e: 0
+      mod: 2
+      ws: 1
+      notes: '1cc 5op 1ws'
+      eff: 1
+      totalMCr: 0.7
+      tons: 14
+      cc: 1
+      tl: 16
+      mcr: 0.7
+      label: 'Spacious Bridge'
+      op: 5
+      name: 'Bridge'
+      b: 0
+      type: 'Ops'
+      category: 'Bridge'
+      howMany: 1
+      target: 18
+      Sq: 28

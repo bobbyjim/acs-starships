@@ -1,0 +1,62 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:35 2021
+Mission: Privateer
+QSP: PQ-DA41
+TL: 17 
+Name: Aedokhaz
+Tons: 400
+Actual Tons: 397
+
+MCr: 187.4
+Owner: Vargr
+Allegiance: Va
+
+Crew comfort: -1
+Passenger demand: -5
+Cargo: 74
+FuelPercentage: 13
+Components:
+ - HL1   K  1 00000   4    4  Landing legs with pads
+ - HH0   A  1 00000 400   30  Airframe Hull
+ - AA1  34  1 00000  16    0  AV=34. 2 Kinetic Plate
+ - AC1   -  1 00000   0    0  AV=0. c Ablat
+ - DF0   -  1 00000  80    0  Jump Fuel (2  parsecs)
+ - DF0   -  1 00000 14.4    0  Plant Fuel (one month)
+ - DF1   S  1 00000   1  0.1  Fuel Scoops
+ - DF1   I  1 00000   1  0.1  Fuel Intakes
+ - DF1   P  2 00000   1  0.1  Fuel Purifiers
+ - DH1   B  1 00000  15   15  Hop Drive-1 (B)
+ - DP1   1  1 90AB0  25   25  Imp PowerPlant H (R4)
+ - DM1   1  1 75104  15   30  Imp Maneuver Drive H (R4)
+ - DJ1   1  1 50503  15   15  Imp Jump Drive B (R1)
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO1   -  1 00000   4    3  Surgery
+ - OO0   -  4 00000   4  0.2  Squad Barracks
+ - OC1   2  1 00000   2    5  Computer Model/2 std
+ - OB0   -  1 00000   9    1  Standard Bridge
+ - SS1   3  1 00000   2    2  AR Ext Jammer
+ - SS1   3  1 00000   2    2  AR Ext Neutrino Detector
+ - SS1   3  1 00000   2    2  AR Ext EMS
+ - SS1   -  1 00000   0  1.5  AR Surf CommPlus
+ - SS1   -  1 00000   0  1.5  AR Surf Visor
+ - SS1   3  1 00000   2    2  AR Ext Stealth Mask
+ - WS1   3  1 00000   2  1.1  Vd Ext Proximeter
+ - WS1   3  1 00000   2  1.1  Vd Ext Activity Sensor
+ - WW1   -  2 00000   1  1.2  AR T3 Missile
+ - WW1   -  1 00000   1   16  Vd T3 Jump Damper
+ - WW1   -  3 00000 0.33    1  L T3 Beam Laser
+ - CO0   -  1 00000   4  0.2  XO Stateroom
+ - CO1   -  1 00000   6  0.4  Captain's Suite
+ - CO0   -  2 00000   2  0.1  Crew Stateroom
+ - CO0   -  2 00000   4    0  Crew Lounge
+ - CO0   -  4 00000   1  0.1  Spacer Niche
+ - CO0   -  2 00000 0.5  0.5  Crew Shared Fresher
+ - PO0   - 12 00000 0.5  0.1  Low Berth
+ - PO1   -  1 00000   2    0  Cargo Lock
+ - PO1   -  2 00000 0.5  0.1  Air Lock
+ - PC0   -  1 00000  74    0  Cargo Hold Basic
+ - VO1   -  1 00000  10    0  Large Vehicle Lock
+ - VO0  MF  1 00000  40   18  Pinnace in hangar
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

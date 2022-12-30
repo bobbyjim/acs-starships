@@ -1,0 +1,81 @@
+--- 
+ACS1.0: Sun May  8 22:27:34 2022
+Mission: Trader
+QSP: A-BA11 
+Cx: 
+Vx: 
+Name: Perseus
+Tons: 200
+TL: 12 
+Undertonnage: 1
+MCr: 52.5
+Builder: Ling Standard
+Owner: Judges Guild
+Disposition: In Service
+Allegiance: ImJG
+Architect: M. McCabe
+
+Crew comfort: 0
+Passengers: 6
+Passenger demand: 1
+Low berths: 20
+Cargo: 82
+Fuel: 20
+Fuel treatment: B,S
+Computer: Model/1 std
+
+Comments: |-
+   Using a 200-ton, TL12 hull, the Perseus-class Free Trader mounts A-series drives, giving it jump-1 and 1G acceleration. Fuel tankage supports a 1 parsec jump, at 20t per parsec, and one month of operations. Attached to the bridge is a Computer Model/1. There are 10 staterooms and 20 low berths. There are two empty single turrets. Cargo capacity is 82 tons. The ship has an airframe hull, with scoops, intakes, and bins for frontier refueling. It is also capable of wilderness and water landings.
+   
+   The ship carries 4 crew -- pilot/astrogator, engineer, steward, medic, and can carry up to 6 passengers and 20 low passengers. Up to two gunners may be added, which would reduce the number of passengers carried.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   200   . Airframe Hull                      16.0  ,HH.0  A .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    18   . Jump Fuel (1  parsec)               0.0  ,DF.0  . .....
+ -     2   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     4   . PowerPlant-1 (A)                    4.0  ,DP11  A .....
+ -     2   . Maneuver Drive-1 (A)                4.0  ,DM11  A .....
+ -     1   . Fuel Bins                           0.1  ,DF.1  B .....
+ -     1   . Fuel Purifier                       1.0  ,DF.1  P .....
+ -     1   . Fuel Scoops                         0.1  ,DF.1  S .....
+ -    10   . Imp Jump Drive A (R1)              10.0  ,DJ11  1 6A1D4
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Computer Model/1 std                1.5  ,OC11  . .....
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -     0   . Med Console                         0.5  ,OM.0  . .....
+ -     2  2x Life Support Luxury                 2.0  ,OLU0  . .....
+ -     5   . Standard Bridge                     0.6  ,OB.0  . .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Communicator                2.0  ,SS.1  . .....
+ -     0   . AR Surf EMS                         2.0  ,SS.1  . .....
+ -     0   . AR Surf Scope                       2.0  ,SS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2  2x AR T1 Empty                         0.4  ,WW.1 -2 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Crew Shared Fresher                 0.5  ,CF.0  1 .....
+ -     8  4x Crew Stateroom                      0.4  ,CS.0  1 .....
+ -    10   . Crew Commons                        0.0  ,CC.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    82   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -    10 20x Low Berth                           2.0  ,PL.0  . .....
+ -     2   . Cargo Lock                          0.0  ,PO.1  . .....
+ -    36  6x Luxury Stateroom                    2.4  ,PS.0  1 .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

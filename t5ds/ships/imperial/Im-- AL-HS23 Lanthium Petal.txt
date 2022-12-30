@@ -1,0 +1,67 @@
+Exploratory Trader AL-HS23 Lanthium Petal MCr253.1
+
+
+Using an 800-ton streamlined hull, the Lanthium Petal class exploratory trader is intended for frontier speculative trade, with a strong emphasis on safety rather than profit-making. It is equipped with the LSP L/3 Starpoint jump drive, the Dupree 220m maneuver drive, and a Lesler-Khalan #155e power plant, giving performance of Jump-3 and 2G acceleration. Fuel tankage supports the power plant and one jump-3; fuel scoops and purification plants allow wilderness refueling. It has four triple turret beam lasers and two double turret sandcasters. A mining laser turret gives the ship flexibility to perform some prospecting. There are 250 tons of cargo.
+
+The ship carries three craft: a fast boat and lifeboat in a hangar, and an air/raft stored in cargo. 
+
+The ship requires 8 crew: Pilot, Astrogator, 4 Engineers, Sensop, and Medic. A Steward and up to 4 Gunners may be added. Four luxury staterooms are set aside for high passengers, or more likely, senior merchants, negotiators and salespeople. A laboratory is supplied for immediate analysis of local products.
+
+A variant is the Aslan Spice Trader: a long-range cargo hauler that travels from the Hierate states to distant source markets, such as the Aramis Trace in the Spinward Marches. The Spice Trader has a downgraded maneuver drive and power plant, and lacks the pinnace and extra appointments, to bring cargo space up to 400 tons.
+
+
+
+Actual volume: 794.5 tons
+Crew comfort:     +0
+Passenger demand: +3
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    800	 Streamlined Hull, lifters, 8 a/l fr	   50	S, lifters, 8 a/l free
+      8	 Landing legs with pads             	    8	
+      8	 Flotation hull                     	    8	
+      0	 AV=12. 1 Kinetic Plate             	    0	
+    240	 Jump Fuel (3  parsecs)             	    0	3 parsec jump, at 80t per parsec
+   21.6	 Plant Fuel (one month)             	    0	one month
+     65	 Jump Drive-3 (M)                   	   65	J 3
+      2	 Fuel Scoops with Purifier          	  1.1	100 t/hr
+    7.5	 Mod Maneuver Drive H (R2)          	   15	R2
+   18.5	 Mod PowerPlant M (R3)              	 18.5	R3
+      2	 Fuel Intakes with Purifier         	  1.1	40 t/hr
+      2	 Fuel Bins with Purifier            	  1.1	20 t/hr
+      0	 LR Surf Communicator               	    4	
+      0	 LR Surf Jammer                     	    4	
+      0	 LR Surf Radar                      	    4	
+      0	 LR Surf Scope                      	    4	
+      0	 LR Surf Neutrino Detector          	    4	
+      0	 AR Surf EMS                        	    2	
+      0	 AR Surf Stealth Mask               	    2	
+      0	 Vd Surf Activity Sensor            	  1.1	
+      0	 Vd Surf Field Sensor               	  1.1	
+      1	 Vd T1 Mining Laser                 	  0.7	
+      2	 2x Vd T2 Sandcaster                	  1.2	#2 
+      2	 2x AR T3 Missile                   	  2.4	#2 
+      1	 Magazine                           	    0	50 x Size-5
+      2	 2x Vd T3 Beam Laser                	    3	#2 
+      3	 Computer Model/3                   	 10.5	
+      1	 Life Support Standard              	    1	21 people
+      1	 Life Support Luxury                	    1	4 high passengers
+      2	 Clinic                             	    1	
+     28	 Spacious Bridge                    	  1.4	2cc 8op 4ws
+      1	 Crew Common Fresher                	    1	10 crew
+     18	 9x Crew Stateroom                  	  0.9	#9 1 crew
+     20	 5x Crew Commons                    	    0	#5 
+      2	 Cargo Lock                         	  0.4	
+    250	 Cargo Hold Basic                   	    0	
+     24	 4x Luxury Stateroom                	  1.6	#4 1 passenger + fresher
+      8	 Lab                                	    8	Sophisticated equipment
+      4	 Air/Raft Enclosed (cargo)          	  0.1	
+     10	 Hangar Lock                        	    0	
+     10	 Lifeboat (hangar)                  	   10	m1bis C L0
+     30	 Fast Boat (hangar)                 	   15	m1bis 3
+[/code]
+
+[code]
+[/code]
+

@@ -1,0 +1,51 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:32 2021
+Mission: Escort
+QSP: E-HA86
+TL: 17 
+Name: Warlock
+Tons: 800
+Actual Tons: 796
+
+MCr: 1293.6
+Owner: D. Hevelin
+Allegiance: NaHu
+
+Crew comfort: 3
+Passenger demand: -5
+Cargo: 30
+FuelPercentage: 19
+Components:
+ - HH0   A  1 00000 800   66  Airframe Hull, lifters
+ - HF1   E  1 00000  16   32  Submergence hull
+ - HL1   K  1 00000   8    8  Landing legs with pads
+ - HW1   W  1 00000  16   16  Wings and fins
+ - AA1 102  1 00000 160    0  AV=102. 3 Kinetic Charged
+ - DF0   -  1 00000   0    0  Jump Fuel (0  parsec)
+ - DF0   -  1 00000 70.3    0  Plant Fuel (one month)
+ - DF1  S1  1 00000   1  0.1  Fuel Scoops 100t/hr
+ - DF1  I1  1 00000   1  0.1  Fuel Intakes 40t/hr
+ - DF1  B2  1 00000   2  0.2  Fuel Bins 40t/hr
+ - DP3  R2  1 00000 120.5  120.5  Mod PowerPlant-8 (V4)
+ - DM2  R2  1 00000 39.75  636  Ult Maneuver Drive-8 (V4)
+ - DJ4   2  1 00000 152.5  152.5  Mod Jump Drive-6 (V3)
+ - OP1   6  1 00000  12  58.5  Positronic Brain Model/6 fib
+ - OO0   -  1 00000   4  0.2  Squad Barracks
+ - OB0   2  1 00000  18    0  Spacious Controls
+ - WW1   9  1 511D3  25   50  Ult LR Bay Salvo Rack
+ - WW1   7  2 633E1 2.5   29  Ult LR B2 Particle Accelerator
+ - WW1   7  1 1021D5 2.5  24.4  Ult LR B2 Missile
+ - WW1   7  2 1032D5 0.41  4.2  Ult L B2 Sandcaster
+ - WW1   5  6 1052D1 0.08  2.4  Ult *FP* L T4 Beam Laser
+ - DD1   7  1 1054E5 1.75   10  Ult B2 Nuclear Damper
+ - DD1   7  1 940C3 1.5   10  Ult B2 Meson Screen
+ - CO0   -  1 00000  80    4  Crew Module
+ - PO0   -  1 00000   1    0  Magazine
+ - PO0   -  1 00000   1    0  Mail Vault
+ - PO1   -  2 00000 0.5  0.1  Air Lock
+ - PC0   -  1 00000  30    0  Cargo Hold Basic
+ - VO0  Ad  1 00000  15   23  CORSAIR-F Adv Fighter
+ - VO1   -  1 00000  10    0  Large Vehicle Lock
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

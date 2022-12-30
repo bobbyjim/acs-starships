@@ -1,0 +1,53 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:35 2021
+Mission: Corvette
+QSP: EB-FS41
+TL: 13 
+Name: Sesavetl
+Tons: 600
+Actual Tons: 598
+
+MCr: 321.5
+Owner: Zhodani
+Allegiance: Zh
+
+Crew comfort: -2
+Passenger demand: -5
+Cargo: 24
+FuelPercentage: 12
+Components:
+ - HH0   S  1 00000 600   38  Streamlined Hull
+ - AA1  28  1 00000   0    0  AV=28. 1 Kinetic Charged
+ - DF0   -  1 00000 216    0  Jump Fuel (4  parsecs)
+ - DF0   -  1 00000 21.5    0  Plant Fuel (one month)
+ - DJ1   1  1 00000  65   65  Imp Jump Drive-4 (L)
+ - DP2   1  1 50131  37   37  Imp PowerPlant-4 (M)
+ - DM1   3  1 1025A2 7.59   46  Adv Maneuver Drive-4 (M)
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OC1   5  1 00000   5   27  Computer Model/5 std
+ - OO0   -  2 00000   4  0.2  Squad/Gunnery Barracks
+ - OB0   2  1 00000  18    0  Spacious Controls
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   -  1 00000   0  1.5  AR Surf Jammer
+ - SS1   -  1 00000   0  1.5  AR Surf Scope
+ - SS1   -  1 00000   0  1.5  AR Surf Neutrino Detector
+ - SS1   -  1 00000   0  1.5  AR Surf EMS
+ - SS1   -  1 00000   0  1.5  AR Surf Stealth Mask
+ - WW1   5  1 00000  50  5.2  AR Bay Missile
+ - WW1   2  1 00000   3  3.1  Vd B1 Sandcaster
+ - WW1   2  1 00000   3    4  Vd B1 DataCaster
+ - WW1   2  1 00000   3  3.5  Vd B1 Beam Laser
+ - WW1   3  2 00000   5  6.5  AR B2 Particle Accelerator
+ - CO0   -  2 00000   4    0  Crew Lounge
+ - CO1   -  1 00000   6  0.4  Captain's Suite
+ - CO0   -  6 00000   2  0.1  Crew Stateroom
+ - CO0   -  4 00000   1  0.1  Spacer Niche
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - PC0   -  1 00000  24    0  Cargo Hold Basic
+ - VO0  MQ  1 00000  50   13  Modular Cutter
+ - VO0   -  1 00000   4    4  Cutter Grapples
+ - VO0  HM  4 00000   8   10  Fighter
+ - VO0   -  4 00000   2    2  Fighter Grapples
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

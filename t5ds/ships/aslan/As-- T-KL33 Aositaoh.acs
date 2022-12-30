@@ -1,0 +1,59 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:31 2021
+Mission: Transport
+QSP: T-KL33
+TL: 14 
+Name: Aositaoh
+Tons: 1000
+Actual Tons: 999
+
+MCr: 470.7
+Allegiance: As
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 88
+FuelPercentage: 11
+Components:
+ - HH0   L  1 00000 1000  134  Lift body Hull, lifters
+ - HL1   K  1 00000  10   10  Landing legs with pads
+ - HF1   D  1 00000  10   10  Flotation hull
+ - AA1  84  1 00000  80    0  AV=84. 3 Kinetic Charged
+ - DF0   -  1 00000 270    0  Jump Fuel (3  parsecs)
+ - DF0   -  1 00000  27    0  Plant Fuel (one month)
+ - DF1   S  1 00000   1  0.1  Fuel Scoops
+ - DF1   I  1 00000   1  0.1  Fuel Intakes
+ - DF1   P  2 00000   1  0.1  Fuel Purifiers
+ - DJ3   1  1 54203  80   80  Imp Jump Drive-3 (Q)
+ - DP2   1  1 601C0  46   46  Imp PowerPlant-3 (Q)
+ - DM1   3  1 955A5 9.57   58  Adv Maneuver Drive-3 (Q)
+ - OC1   5  1 00000   5   27  Computer Model/5 std
+ - OO0   -  3 00000   2    2  Life Support Long Term
+ - OO0   -  4 00000  18    1  Platoon Barracks
+ - OO0   -  1 00000   4  0.2  Gunner's Barracks
+ - OB0   2  1 00000  24    0  Spacious Controls
+ - SS1   4  1 00000   3  2.5  AR Ext Jammer
+ - SS1   4  1 00000   3  2.5  AR Ext Neutrino Detector
+ - SS1   4  1 00000   3  2.5  AR Ext EMS
+ - SS1   4  1 00000   3  2.5  AR Ext Stealth Mask
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   -  1 00000   0  1.5  AR Surf Visor
+ - WS1   4  1 00000   6  4.6  Or Ext Activity Sensor
+ - WW1   -  3 00000   1  1.1  Vd T3 Sandcaster
+ - WW1   5  1 00000  50  7.5  AR Bay Particle Accelerator
+ - WW1   5  1 00000  50   15  AR Bay Salvo Rack
+ - WW1   -  3 00000   1  1.5  Vd T3 Beam Laser
+ - DD1   2  1 00000   5    4  B1 Nuclear Damper
+ - DD1   2  1 00000   4    4  B1 Meson Screen
+ - CO0   - 10 00000   2  0.1  Crew Stateroom
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - CO0   -  5 00000   4    0  Crew Lounge
+ - PC0   -  1 00000  88    0  Cargo Hold Basic
+ - PO1   -  1 00000 0.5  0.1  Air Lock
+ - VO0  MS  1 00000  30   16  Launch + hangar
+ - VO0  MS  1 00000  50   18  Slow Pinnace + hangar
+ - VO0  EL  1 00000   5  1.6  Air/Raft Enclosed + niche SL
+ - VO0  EL  1 00000   4  0.1  ATV (cargo)
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

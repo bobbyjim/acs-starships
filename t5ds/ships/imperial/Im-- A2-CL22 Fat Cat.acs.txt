@@ -1,0 +1,76 @@
+--- 
+ACS1.0: Fri May  6 11:39:14 2022
+Mission: Far Trader
+QSP: A2-CL22 
+Cx: ABCE
+Vx: V1
+Name: Fat Cat
+Tons: 300
+TL: 14 
+Undertonnage: 7.5
+MCr: 106.5
+Disposition: In Service
+Allegiance: Im
+Architect: David Blalock
+
+Crew comfort: -1
+Passengers: 16
+Passenger demand: -1
+Low berths: 
+Cargo: 100
+Fuel: 59
+Fuel treatment: SP
+Computer: Model/1bis  
+
+Comments: |-
+   Using a 300-ton, TL14 hull, the Fat Cat-class Far Trader mounts C-class drives, giving a performance of jump-2 and 2G acceleration. Fuel tankage supports a 2 parsec jump, at 24t per parsec, and 2 months of operations. Attached to the bridge is a Computer Model/1bis. There is a crew suite and barracks, and 8 double passenger staterooms. No weapons are mounted. Cargo capacity is 100 tons. The ship has a lifting body hull, with scoops for frontier refueling. It is slightly undertonned, giving it 3G in atmosphere 2+.
+   
+   The ship carries 1 Air/Raft (in cargo). The ship carries 1 Air/Raft (in cargo). The ship requires 4 crew: captain/pilot, astrogator, engineer, and steward.  It can add crew as needed.  It can carry 16 passengers.  
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   300   . Lift body Hull                     40.0  ,HH.0  L .....
+ -     9   . Landing wheels                      4.5  ,HL.1  M .....
+ -     0   . AV=7. 1 Rad Polymer                 0.0  ,HA.1  . .....
+ -    12   . Armor: 2 Kinetic Plate              0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    49   . Jump Fuel (2  parsecs)              0.0  ,DF.0  . .....
+ -     9   . Plant Fuel (2 months)               0.0  ,DF.0  . .....
+ -     4  2x Fuel Scoops with Purifier           2.2  ,DF.2 SP .....
+ -    10   . Adv Jump Drive C (R2)              20.0  ,DJ21  3 851B5
+ -     3   . Adv PowerPlant C (R2)              10.0  ,DP21  3 745A0
+ -     2   . Adv Maneuver Drive C (R2)          10.0  ,DM21  3 610B4
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -     2   . Clinic                              1.0  ,OM.1  . .....
+ -     1   . Computer Model/1bis                 3.0  ,OC21  . .....
+ -    18   . Spacious Bridge                     0.6  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Basic (C,E,N,V)             8.0  ,SS.1  . .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     6   . Captain/Pilot Suite                 0.4  ,CS.1  1 .....
+ -     8   . Crew Barracks                       0.5  ,CO.0  3 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   100   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -    36  8x Stateroom Double                    4.8  ,PS.0  2 .....
+ -    16  4x Passenger Commons                   0.0  ,PC.0  . .....
+ -     2   . Cargo Lock                          0.4  ,PO.1  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . Air/Raft (in cargo)                 0.1  ,VO.0 EL .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

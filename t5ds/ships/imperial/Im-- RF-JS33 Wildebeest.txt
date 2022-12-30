@@ -1,0 +1,56 @@
+Frontier Merchant RF-JS33 Wildebeest MCr259
+
+
+Using a 900-ton, TL12 hull, the Wildebeest Class Frontier Merchant mounts jump drive-P, maneuver drive-P, and power plant-P, giving a performance of jump-3 and 3G acceleration. Fuel tankage supports a 3 parsec jump, at 90t per parsec, and one month of operations. Attached to the bridge is a Computer Model/3. There are 28 staterooms, two gunners' barracks, and 20 low berths. Installed weaponry include 3 T1 Beam Lasers, 3 T1 Sandcasters, and 3 T1 Missiles. Cargo capacity is 200 tons. The ship has a streamlined hull, with scoops, intakes, and bins for frontier refueling. Its undertonnage design gives it 4G acceleration in atmosphere 2+.
+
+The ship carries one vehicle: a Slow Pinnace. The ship has 12 crew, and can carry 16 high passengers and 20 low passengers. 
+
+Actual volume: 891 tons
+Crew comfort:     +0
+Passenger demand: +1
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    900	 Streamlined Hull, lifters, 9 a/l fr	   56	S, lifters, 9 a/l free
+      9	 Landing legs with pads             	    9	
+      0	 AV=28. 1 Kinetic Charged           	    0	
+    270	 Jump Fuel (3  parsecs)             	    0	3 parsec jump, at 90t per parsec
+   24.3	 Plant Fuel (one month)             	    0	one month
+      2	 Fuel Scoops with Purifier          	  1.1	100 t/hr
+     75	 Jump Drive-3 (P)                   	   75	J 3
+   13.5	 Mod Maneuver Drive P (R3)          	   27	R3
+   21.5	 Mod PowerPlant P (R3)              	 21.5	R3
+      4	 2x Fuel Intakes with Purifier      	  2.2	#2 40 t/hr
+      8	 4x Fuel Bins with Purifier         	  4.4	#4 20 t/hr
+      0	 AR Surf Communicator               	    2	
+      0	 AR Surf EMS                        	    2	
+      0	 AR Surf Neutrino Detector          	    2	
+      0	 AR Surf Scope                      	    2	
+      0	 AR Surf Stealth Mask               	    2	
+      0	 AR Surf Jammer                     	    2	
+      3	 3x Vd T1 Beam Laser                	    2	#3 
+      3	 3x Vd T1 Sandcaster                	  0.9	#3 
+      3	 3x AR T1 Missile                   	  1.2	#3 
+      2	 Life Support Long Term             	    2	40 person-months
+      1	 Life Support Adaptable             	    1	10 sophonts
+      2	 Clinic                             	    1	
+      8	 2x Gunner Barracks                 	  0.4	#2 (5) R1 R1 R2 R2 R3
+      4	 4x Life Support Luxury             	    4	#4 10 high passengers
+      3	 Computer Model/3                   	 10.5	
+     24	 Spacious Bridge                    	  1.2	2cc 7op 3ws
+      1	 Crew Common Fresher                	    1	10 crew
+     20	 5x Crew Commons                    	    0	#5 
+     12	 2x Officer Suite                   	  0.8	#2 fresher + safe
+     20	 10x Crew Stateroom                 	    1	#10 1 crew
+      2	 Cargo Lock                         	  0.4	
+     10	 20x Low Berth                      	    2	#20 1 passenger
+    200	 Cargo Hold Basic                   	    0	
+     96	 16x Luxury Stateroom               	  6.4	#16 1 passenger + fresher
+     10	 Hangar Lock                        	    0	
+     40	 Slow Pinnace                       	   15	m1bis C
+[/code]
+
+[code]
+[/code]
+

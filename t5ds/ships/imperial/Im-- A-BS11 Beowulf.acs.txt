@@ -1,0 +1,76 @@
+--- 
+ACS1.0: Sun May  8 21:54:53 2022
+Mission: Trader
+QSP: A-BS11 
+Cx: ACDE
+Vx: 
+Name: Beowulf
+Tons: 200
+TL: 10 
+Overtonnage: 5.5
+MCr: 50.6
+Allegiance: Im
+
+Crew comfort: 0
+Passengers: 6
+Passenger demand: 1
+Low berths: 20
+Cargo: 82
+Fuel: 21
+Fuel treatment: S,I,B
+Computer: Model/1 std
+
+Comments: |-
+   Using a 200-ton hull, the free trader is an elementary interstellar merchant ship plying the space lanes carrying cargo and passengers. It has jump drive-A, maneuver drive-A, and power plant-A, giving performance of jump-1 and 1-G acceleration. Fuel tankage supports the power plant and one jump-1. Adjacent to the bridge is a computer Model/1. There are ten staterooms and twenty low berths. There are two hardpoints, but no weapons are mounted. There are no ship's vehicles. Cargo capacity is 82 tons. The hull is streamlined.
+   
+   The free trader requires a crew of four: pilot, engineer, medic, and steward. Up to two gunners may be added. The ship can carry six high or middle passengers and twenty low passengers.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   200   . Streamlined hull                   14.0  ,HH.0  S .....
+ -     2   . Landing legs with pads              2.0  ,HL.1  K .....
+ -     0   . Armor: 1 Kinetic Plate              0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    20   . Jump Fuel (1  parsec)               0.0  ,DF.0  . .....
+ -     1   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     1   . Fuel Scoops                         0.1  ,DF.1  S .....
+ -     1   . Fuel Intakes                        0.1  ,DF.1  I .....
+ -     1   . Fuel Bins                           0.1  ,DF.1  B .....
+ -    10   . Jump Drive-1 (A)                   10.0  ,DJ11  A .....
+ -     2   . Mod PowerPlant A (R1)               2.0  ,DP11  2 55520
+ -     2   . Maneuver Drive-1 (A)                4.0  ,DM11  A .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Computer Model/1 std                1.5  ,OC11  . .....
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -     2  2x Life Support Luxury                 2.0  ,OLU0  . .....
+ -     2   . Clinic                              1.0  ,OM.1  . .....
+ -    10   . Spacious Bridge                     0.6  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Basic                       6.0  ,SS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2  2x AR T1 Empty                         0.4  ,WW.1 -2 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     8  4x Crew Stateroom                      0.4  ,CS.0  1 .....
+ -    10   . Crew Commons                        0.0  ,CC.0  . .....
+ -     1   . Crew Common Fresher                 1.0  ,CF.0  2 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    82   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -    10 20x Low Berth                           2.0  ,PL.0  . .....
+ -    36  6x Luxury Stateroom                    2.4  ,PS.0  1 .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

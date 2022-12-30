@@ -1,0 +1,39 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:31 2021
+Mission: Freighter
+QSP: F-K5S11
+TL: 9 
+Name: Hercules
+Tons: 5000
+Actual Tons: 5001.5
+Overtonnage: 1.5
+
+MCr: 658.8
+Owner: Akerut
+Allegiance: ImAk
+
+Crew comfort: -2
+Passenger demand: -5
+Cargo: 4069
+FuelPercentage: 11
+Components:
+ - HH0   S  1 00000 5000  302  Streamlined Hull
+ - AA1   9  1 00000   0    0  AV=9. 1 Kinetic Plate
+ - DF0   -  1 00000 500    0  Jump Fuel (1  parsec)
+ - DF0   -  1 00000  50    0  Plant Fuel (one month)
+ - DP3  N2  1 00000  79   79  PowerPlant-1 (N2)
+ - DJ4  N2  1 00000 135  135  Jump Drive-1 (N2)
+ - DM2  N2  1 00000  51  102  Maneuver Drive-1 (N2)
+ - OC1   3  1 00000   3  7.5  Computer Model/2bis std
+ - OO0   -  1 00000   1    1  Life Support Standard
+ - OB0   2  1 00000  28    0  Spacious Controls
+ - WW1   -  4 00000 1.5  2.5  D T3de Beam Laser
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - CO0   -  1 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   - 14 00000   2  0.1  Crew Stateroom
+ - PC0   -  1 00000 4069    0  Cargo Hold Basic
+ - VO0  MS  1 00000  40   18  Slow Pinnace
+ - VO1   -  1 00000  10    0  Large Vehicle Lock
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

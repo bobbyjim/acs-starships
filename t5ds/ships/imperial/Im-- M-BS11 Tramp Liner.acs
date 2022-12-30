@@ -1,0 +1,47 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:30 2021
+Mission: Liner
+QSP: M-BS11
+TL: 10 
+Name: Tramp Liner
+Tons: 200
+Actual Tons: 198
+Allegiance: Im
+
+MCr: 37
+
+Crew comfort: -1
+Passenger demand: -1
+Cargo: 51
+FuelPercentage: 12
+Components:
+ - HH0   S  1 00000 200   14  Streamlined hull
+ - HJ1   P  1 00000   0  0.2  Jump Plates
+ - AA1  10  1 00000   0    0  AV=10. 1 Kinetic Plate
+ - DF0   -  1 00000  22    0  Jump Fuel (1  parsec)
+ - DF0   -  1 00000 2.1    0  Plant Fuel (one month)
+ - DF1  I1  1 00000   1  0.1  Fuel Intakes 40t/hr
+ - DF1  S1  1 00000   1  0.1  Fuel Scoops 100t/hr
+ - DP1  -2  1 5A51A   4    2  Gen PowerPlant-1 (A)
+ - DM1  -2  1 520D1   2    2  Gen Maneuver Drive-1 (A)
+ - DJ1  -2  1 301D3  10    5  Gen Jump Drive-1 (A)
+ - OC1  -1  1 5A410   1  0.7  Gen Computer Model/1 std
+ - OB0   -  1 00000 7.5    0  Standard Controls
+ - WW1  -2  1 00000   1    0  Hardpoint
+ - WW1  -2  1 00000   1    0  Hardpoint
+ - CO0   -  5 00000   2  0.1  Crew Stateroom
+ - CO0   -  1 00000   8    0  Crew Lounge
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - PO0   -  1 00000 0.5  0.5  Med Console
+ - PO0   -  1 00000   3    3  Life Support
+ - PO0   - 20 00000   2  0.1  Standard Stateroom
+ - PO0   -  1 00000  20    0  Passenger Lounge
+ - PO0   -  2 00000   1    1  Common Fresher
+ - PO0   -  1 00000   2    0  Stowage, Air/Raft
+ - PO0   -  8 00000 0.5  0.1  Low Berth
+ - PF0   - 24 00000   0  0.1  Collapsable Fuel Tankage 24 ton
+ - PC0   -  1 00000  51    0  Cargo Hold Basic
+ - VO0  EL  1 00000   4  0.1  Air/Raft Enclosed
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

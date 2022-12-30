@@ -1,0 +1,52 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:33 2021
+Mission: Yacht
+QSP: Y-EU42
+TL: 14 
+Name: Bakaal Sunflower
+Tons: 500
+Actual Tons: 499.5
+
+MCr: 195.7
+Builder: Tukera
+Allegiance: Im
+
+Crew comfort: 3
+Passenger demand: 5
+Cargo: 20
+FuelPercentage: 11
+Components:
+ - HH0   U  1 00000 500   22  Unstreamlined Hull, lifters
+ - AA1   7  1 00000   0    0  AV=7. 1 Kinetic Organic
+ - DF0   -  1 00000  83    0  Jump Fuel (2  parsecs)
+ - DF0   -  1 00000 82.5    0  Plant Fuel (5 months)
+ - DF1  S1  1 00000   1  0.1  Fuel Scoops 100t/hr
+ - DF1  P1  1 00000  12   12  Fuel Purifiers 48t/hr
+ - DJ1   3  1 00000 9.9   30  Adv Jump Drive-2 (E)
+ - DP1   3  1 00000 10.23   31  Adv PowerPlant-4 (K)
+ - DM1   3  1 00000 6.27   38  Adv Maneuver Drive-4 (K)
+ - DF1  B3  1 00000   3  0.3  Fuel Bins 60t/hr
+ - DF1  I2  1 00000   2  0.2  Fuel Intakes 80t/hr
+ - OC1   3  1 00000   3  10.5  Computer Model/3 std
+ - OO0   -  2 00000   1    1  Life Support Luxury
+ - OO0   -  2 00000   2    2  Life Support Long Term
+ - OB0   2  1 00000  22    0  Spacious Controls
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   -  1 00000   0  1.5  AR Surf Neutrino Detector
+ - SS1   -  1 00000   0  1.5  AR Surf EMS
+ - SS1   -  1 00000   0  1.5  AR Surf Stealth Mask
+ - SS1   -  1 00000   0  1.5  AR Surf Visor
+ - WS1   -  1 00000   0  4.1  G Surf Proximeter
+ - WW1   -  5 00000   1    1  AR T3 Empty
+ - CO0   - 12 00000   4    0  Crew Lounge
+ - CO0   - 12 00000   4  0.6  Crew Suite w/fresher
+ - PC0   -  1 00000  20    0  Cargo Hold Basic
+ - PO0   -  1 00000  12  0.8  Owner's Suite
+ - PO0   -  8 00000   8  0.5  Luxury Suite
+ - PO0   -  4 00000   4    0  Passenger Lounge
+ - VO0  EL  1 00000   1    1  ATV in Cargo Hold/Boat
+ - VO0  MF  1 00000  40   14  Fast Boat + Hangar
+ - VO0  EL  1 00000   5  1.1  Air/Raft + Bracket
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

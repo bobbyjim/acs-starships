@@ -1,0 +1,754 @@
+--- 
+components: 
+   - 
+      e: 0
+      r: 0
+      category: 'Hull'
+      howMany: 1
+      s: 0
+      CP: 0
+      code: 'S'
+      totalTons: 1000
+      totalMCr: 62
+      notes: 'S, lifters, 10 a/l free'
+      label: 'Streamlined Hull, lifters, 10 a/l free'
+      eff: 1
+      name: 'Hull'
+      tons: 1000
+      mult: 1
+      tl: 10
+      preMult: 1
+      config: 'Streamlined'
+      type: 'Hull'
+      mcr: 62
+      b: 0
+      Sq: 2000
+      q: 0
+      target: 10
+
+   - 
+      e: 0
+      r: 0
+      category: 'LR Surf Basic'
+      s: 0
+      mod: 0
+      q: 0
+      CP: 1
+      howMany: 1
+      totalTons: 0
+      mount: 'Surf'
+      totalMCr: 6
+      notes: ''
+      label: 'AR Surf Basic'
+      eff: 1
+      name: 'Basic'
+      tons: 0
+      tl: 10
+      config: 'Sensor'
+      type: 'Sensor'
+      mcr: 6
+      basetl: 10
+      range: 'LR'
+      b: 0
+      target: 10
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: '6 parsec jump, at 90t per parsec'
+      label: 'Jump Fuel (6  parsecs)'
+      category: 'Jump Fuel'
+      s: 0
+      r: 0
+      totalTons: 540
+      eff: 1
+      howMany: 1
+      tl: 10
+      tons: 540
+      Sq: 1080
+      CP: 0
+      q: 0
+      b: 0
+      type: 'Drive'
+      mcr: 0
+      target: 10
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: 'one month'
+      label: 'Plant Fuel (one month)'
+      category: 'Powerplant Fuel'
+      s: 0
+      r: 0
+      totalTons: 53
+      eff: 1
+      howMany: 1
+      tl: 10
+      tons: 53
+      Sq: 106
+      CP: 0
+      q: 0
+      b: 0
+      type: 'Drive'
+      mcr: 0
+      target: 10
+
+   - 
+      q: 0
+      totalMCr: 10
+      e: 0
+      r: 0
+      note: 'K'
+      tonsPercent: 1
+      s: 0
+      name: 'Landing legs with pads'
+      tons: 10
+      label: 'Landing legs with pads'
+      totalTons: 10
+      category: 'landers'
+      howMany: 1
+      tl: 24
+      mcrPerTon: 1
+      Sq: 20
+      CP: 1
+      eff: 1
+      code: 'K'
+      b: 0
+      type: 'Hull'
+      mcr: 10
+      target: 24
+
+   - 
+      q: 0
+      totalMCr: 20
+      e: 0
+      r: 0
+      note: 'E'
+      tonsPercent: 2
+      s: 0
+      name: 'Submergence hull'
+      tons: 20
+      label: 'Submergence hull'
+      totalTons: 20
+      category: 'fittings'
+      howMany: 1
+      tl: 24
+      mcrPerTon: 2
+      Sq: 40
+      CP: 1
+      eff: 1
+      code: 'E'
+      b: 0
+      type: 'Hull'
+      mcr: 20
+      target: 24
+
+   - 
+      e: 2
+      r: 5
+      type: 'Drive'
+      category: 'PowerPlant'
+      s: 4
+      target: 24
+      mod: 4
+      howMany: 1
+      B: 0
+      CP: 3
+      code: 'Q2'
+      Sq: 46
+      totalTons: 23
+      Q: 0
+      totalMCr: 184
+      E: 0
+      R: 0
+      label: 'Ult PowerPlant Q2 (R7)'
+      eff: 1.3
+      autoAdjust: 1
+      S: 0
+      name: 'PowerPlant'
+      tons: 23
+      original: 
+         e: 0
+         r: 0
+         type: 'Drive'
+         category: 'PowerPlant'
+         s: 0
+         target: 24
+         mod: 0
+         howMany: 1
+         B: 0
+         CP: 3
+         code: 'Q2'
+         totalTons: 92
+         Q: 0
+         totalMCr: 92
+         E: 0
+         R: 0
+         label: 'PowerPlant-6 (Q2)'
+         eff: 1
+         autoAdjust: 1
+         S: 0
+         name: 'PowerPlant'
+         tons: 92
+         rating: 6
+         b: 0
+         notes: 'P 6'
+         mcr: 92
+         tl: 24
+         basetl: 13
+         Sq: 184
+         powerFuelUsage: 0.01
+         q: 0
+      rating: 7
+      b: -3
+      notes: 'R7'
+      mcr: 184
+      tl: 20
+      basetl: 13
+      stage: 'Ult'
+      powerFuelUsage: 0.01
+      q: 8
+
+   - 
+      e: -2
+      r: 1
+      Sq: 19.8
+      category: 'Jump Drive'
+      s: -1
+      mod: 3
+      howMany: 1
+      B: 0
+      CP: 1
+      code: 'E'
+      type: 'Drive'
+      totalTons: 9.9
+      Q: 0
+      totalMCr: 30
+      E: 0
+      notes: 'R1'
+      label: 'Adv Jump Drive E (R1)'
+      eff: 1.2
+      autoAdjust: 1
+      S: 0
+      name: 'Jump Drive'
+      jumpFuelUsage: 0.1
+      original: 
+         e: 0
+         r: 0
+         category: 'Jump Drive'
+         s: 0
+         q: 0
+         mod: 0
+         howMany: 1
+         B: 0
+         CP: 1
+         code: 'E'
+         totalTons: 30
+         Q: 0
+         totalMCr: 30
+         E: 0
+         notes: 'J 1'
+         label: 'Jump Drive-1 (E)'
+         eff: 1
+         autoAdjust: 1
+         S: 0
+         name: 'Jump Drive'
+         jumpFuelUsage: 0.1
+         rating: 1
+         tons: 30
+         Sq: 60
+         mcr: 30
+         tl: 24
+         basetl: 9
+         b: 0
+         type: 'Drive'
+         target: 24
+         R: 0
+      rating: 1
+      tons: 9.9
+      R: 0
+      mcr: 30
+      tl: 21
+      basetl: 9
+      b: -5
+      stage: 'Adv'
+      q: 10
+      target: 24
+
+   - 
+      e: 0
+      r: 5
+      type: 'Drive'
+      category: 'Maneuver Drive'
+      s: 3
+      mod: 4
+      howMany: 1
+      B: 0
+      CP: 1
+      code: 'E'
+      Sq: 4.5
+      totalTons: 2.25
+      Q: 0
+      totalMCr: 36
+      E: 0
+      notes: 'R1'
+      label: 'Ult Maneuver Drive E (R1)'
+      eff: 1.3
+      autoAdjust: 1
+      S: 0
+      name: 'Maneuver Drive'
+      tons: 2.25
+      original: 
+         e: 0
+         r: 0
+         category: 'Maneuver Drive'
+         s: 0
+         notes: '1 G'
+         mod: 0
+         howMany: 1
+         B: 0
+         CP: 1
+         code: 'E'
+         totalTons: 9
+         Q: 0
+         totalMCr: 18
+         E: 0
+         R: 0
+         label: 'Maneuver Drive-1 (E)'
+         eff: 1
+         autoAdjust: 1
+         S: 0
+         name: 'Maneuver Drive'
+         tons: 9
+         rating: 1
+         b: 0
+         type: 'Drive'
+         mcr: 18
+         tl: 24
+         basetl: 9
+         Sq: 18
+         q: 0
+         target: 24
+      rating: 1
+      b: -1
+      R: 0
+      mcr: 36
+      tl: 20
+      basetl: 9
+      stage: 'Ult'
+      q: 5
+      target: 24
+
+   - 
+      e: 3
+      r: -1
+      Sq: 320
+      category: 'Hop Drive'
+      s: 0
+      mod: 1
+      howMany: 1
+      B: 0
+      CP: 5
+      code: 'Q2'
+      type: 'Drive'
+      totalTons: 160
+      Q: 0
+      totalMCr: 160
+      E: 0
+      notes: 'R6'
+      label: 'Imp Hop Drive Q2 (R6)'
+      eff: 1.1
+      autoAdjust: 1
+      S: 0
+      name: 'Hop Drive'
+      jumpFuelUsage: 0.1
+      original: 
+         e: 0
+         r: 0
+         category: 'Hop Drive'
+         s: 0
+         q: 0
+         mod: 0
+         howMany: 1
+         B: 0
+         CP: 5
+         code: 'Q2'
+         totalTons: 160
+         Q: 0
+         totalMCr: 160
+         E: 0
+         notes: 'H 6'
+         label: 'Hop Drive-6 (Q2)'
+         eff: 1
+         autoAdjust: 1
+         S: 0
+         name: 'Hop Drive'
+         jumpFuelUsage: 0.1
+         rating: 6
+         tons: 160
+         Sq: 320
+         mcr: 160
+         tl: 24
+         basetl: 23
+         b: 0
+         type: 'Drive'
+         target: 24
+         R: 0
+      rating: 6
+      tons: 160
+      R: 0
+      mcr: 160
+      tl: 23
+      basetl: 23
+      b: -2
+      stage: 'Imp'
+      q: 9
+      target: 24
+
+   - 
+      e: 0
+      r: 0
+      category: 'Computer Model/9  '
+      s: 0
+      mod: 9
+      howMany: 1
+      CP: 1
+      target: 33
+      totalTons: 9
+      mount: 'Model/9'
+      totalMCr: 85
+      notes: ''
+      label: 'Computer Model/9  '
+      eff: 1
+      name: 'Computer'
+      config: 'Ops'
+      tl: 24
+      tons: 9
+      type: 'Ops'
+      mcr: 85
+      basetl: 17
+      range: 's'
+      b: 0
+      Sq: 18
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'DS Ext Jammer'
+      s: 0
+      mod: 4
+      howMany: 1
+      CP: 1
+      target: 28
+      totalTons: 9
+      mount: 'Ext'
+      totalMCr: 6
+      notes: ''
+      label: 'DS Ext Jammer'
+      eff: 1
+      name: 'Jammer'
+      config: 'Sensor'
+      tl: 24
+      tons: 9
+      type: 'Sensor'
+      mcr: 6
+      basetl: 10
+      range: 'DS'
+      b: 0
+      Sq: 18
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'DS Ext Stealth Mask'
+      s: 0
+      mod: 4
+      howMany: 1
+      CP: 1
+      target: 28
+      totalTons: 9
+      mount: 'Ext'
+      totalMCr: 6
+      notes: ''
+      label: 'DS Ext Stealth Mask'
+      eff: 1
+      name: 'Stealth Mask'
+      config: 'Sensor'
+      tl: 24
+      tons: 9
+      type: 'Sensor'
+      mcr: 6
+      basetl: 14
+      range: 'DS'
+      b: 0
+      Sq: 18
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'DS Surf Scanner'
+      s: 0
+      mod: 0
+      howMany: 1
+      CP: 1
+      q: 0
+      totalTons: 0
+      mount: 'Surf'
+      totalMCr: 6
+      notes: ''
+      label: 'DS Surf Scanner'
+      eff: 1
+      name: 'Scanner'
+      config: 'Sensor'
+      tl: 24
+      tons: 0
+      type: 'Sensor'
+      mcr: 6
+      basetl: 21
+      range: 'DS'
+      b: 0
+      target: 24
+
+   - 
+      e: 0
+      r: 0
+      category: 'DS Surf HoloVisor'
+      s: 0
+      mod: 0
+      howMany: 1
+      CP: 1
+      q: 0
+      totalTons: 0
+      mount: 'Surf'
+      totalMCr: 6
+      notes: ''
+      label: 'DS Surf HoloVisor'
+      eff: 1
+      name: 'HoloVisor'
+      config: 'Sensor'
+      tl: 24
+      tons: 0
+      type: 'Sensor'
+      mcr: 6
+      basetl: 20
+      range: 'DS'
+      b: 0
+      target: 24
+
+   - 
+      e: 0
+      r: 0
+      category: 'DS Surf CommPlus'
+      s: 0
+      mod: 0
+      howMany: 1
+      CP: 1
+      q: 0
+      totalTons: 0
+      mount: 'Surf'
+      totalMCr: 6
+      notes: ''
+      label: 'DS Surf CommPlus'
+      eff: 1
+      name: 'CommPlus'
+      config: 'Sensor'
+      tl: 24
+      tons: 0
+      type: 'Sensor'
+      mcr: 6
+      basetl: 19
+      range: 'DS'
+      b: 0
+      target: 24
+
+   - 
+      totalMCr: 1
+      e: 0
+      notes: '21 people'
+      label: 'Life Support Standard'
+      eff: 1
+      s: 0
+      r: 0
+      totalTons: 1
+      howMany: 1
+      tl: 24
+      tons: 1
+      Sq: 2
+      mcr: 1
+      q: 0
+      b: 0
+      type: 'Ops'
+      CP: 0
+      target: 24
+
+   - 
+      totalMCr: 1
+      e: 0
+      notes: ''
+      label: 'Clinic'
+      eff: 1
+      s: 0
+      r: 0
+      totalTons: 2
+      howMany: 1
+      tl: 24
+      tons: 2
+      Sq: 4
+      mcr: 1
+      q: 0
+      b: 0
+      type: 'Ops'
+      CP: 1
+      target: 24
+
+   - 
+      totalMCr: 1
+      e: 0
+      notes: '10 crew'
+      label: 'Crew Common Fresher'
+      eff: 1
+      s: 0
+      r: 0
+      totalTons: 1
+      howMany: 1
+      tl: 24
+      tons: 1
+      Sq: 2
+      mcr: 1
+      q: 0
+      b: 0
+      type: 'Crew'
+      CP: 0
+      target: 24
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: ''
+      label: 'Cargo Hold Basic'
+      type: 'Payload'
+      eff: 1
+      s: 0
+      r: 0
+      category: 'Cargo'
+      howMany: 1
+      tons: 2
+      Sq: 4
+      mcr: 0
+      tl: 10
+      q: 0
+      b: 0
+      totalTons: 2
+      CP: 0
+      target: 10
+
+   - 
+      totalMCr: 0.8
+      e: 0
+      notes: '1 crew'
+      label: 'Crew Stateroom'
+      type: 'Crew'
+      eff: 1
+      s: 0
+      target: 24
+      r: 0
+      sleeps: 1
+      howMany: 8
+      tl: 24
+      tons: 2
+      Sq: 32
+      CP: 0
+      totalSleeps: 8
+      b: 0
+      totalTons: 16
+      mcr: 0.1
+      q: 0
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: ''
+      label: 'Crew Commons'
+      type: 'Crew'
+      eff: 1
+      s: 0
+      r: 0
+      howMany: 8
+      tl: 24
+      tons: 4
+      Sq: 64
+      mcr: 0
+      target: 24
+      b: 0
+      totalTons: 32
+      CP: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Bridge'
+      mod: 2
+      howMany: 1
+      s: 0
+      CP: 0
+      target: 26
+      totalTons: 16
+      cc: 1
+      ws: 0
+      notes: '1cc 7op 0ws'
+      label: 'Spacious Bridge'
+      eff: 1
+      totalMCr: 0.9
+      name: 'Bridge'
+      tons: 16
+      op: 7
+      tl: 24
+      b: 0
+      type: 'Ops'
+      mcr: 0.9
+      Sq: 32
+      q: 0
+header: 
+   crew: 8
+   format: 'T5-ACS-1'
+   staff: 0
+   missionLabel: 'Express Courier'
+   totalCargoSpace: 2
+   spaciousness: 2
+   operatingConsoles: 7
+   controlConsoles: 1
+   workstations: 0
+   lifters: 'y'
+   passengers: 0
+   shipname: 'COW Hopship'
+   crewComfort: 1
+   demand: -5
+   mission: 'X'
+   comments: |
+      Using a 1000-ton, TL24 hull, the COW Hopship is a Mediating Particle between COWs. It mounts jump drive-E, maneuver drive-E, and power plant-Q2, giving a performance of jump-1 and 1G acceleration and Hop-6. Fuel tankage supports a 60 parsec hop, at 90t per 10 parsecs, and one month of operations. Attached to the bridge is a Computer Model/9. There are 8 staterooms and no low berths. Cargo capacity is 2 tons. The ship has a streamlined hull. 
+      
+      The ship has 8 crew. 
+      
+   undertons: 85
+   jumpFuelPercentage: 0.09
+   jf: 6
+   low: 0
+   tons: 1000
+   powerFuelPercentage: 0.053
+   pf: 1
+   tl: 24
+   qsp: 'X-KS11'
+   totalMCr: 627.6
+   config: 'S'
+   mult: 1
+   shifts: 1
+   tonsFree: 85
+   preMult: 1
+   architect: 'Yaskoydray'
+   crewLocked: 'no'
+   troops: 0

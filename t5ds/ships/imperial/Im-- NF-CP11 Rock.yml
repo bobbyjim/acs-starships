@@ -1,0 +1,572 @@
+--- 
+components: 
+   - 
+      e: 0
+      r: 0
+      totalTons: 300
+      q: 0
+      s: 0
+      totalMCr: 3
+      notes: 'P, lifters, 3 a/l free'
+      eff: 1
+      code: 'P'
+      tl: 10
+      mult: 1
+      CP: 0
+      label: 'Planetoid Hull, lifters, 3 a/l free'
+      tons: 300
+      Sq: 600
+      mcr: 3
+      name: 'Hull'
+      config: 'Planetoid'
+      preMult: 1
+      category: 'Hull'
+      type: 'Hull'
+      howMany: 1
+      b: 0
+      target: 10
+
+   - 
+      e: 0
+      r: 0
+      totalTons: 0
+      target: 10
+      s: 0
+      totalMCr: 6
+      notes: ''
+      eff: 1
+      config: 'Sensor'
+      tl: 10
+      CP: 1
+      mod: 0
+      label: 'AR Surf Basic'
+      basetl: 10
+      mcr: 6
+      name: 'Basic'
+      tons: 0
+      range: 'LR'
+      category: 'LR Surf Basic'
+      type: 'Sensor'
+      mount: 'Surf'
+      howMany: 1
+      b: 0
+      q: 0
+
+   - 
+      CP: 0
+      e: 0
+      r: 0
+      label: 'Jump Fuel (3  parsecs)'
+      totalTons: 90
+      Sq: 180
+      mcr: 0
+      s: 0
+      tl: 10
+      totalMCr: 0
+      q: 0
+      notes: '3 parsec jump, at 30t per parsec'
+      category: 'Jump Fuel'
+      type: 'Drive'
+      howMany: 1
+      b: 0
+      eff: 1
+      tons: 90
+      target: 10
+
+   - 
+      CP: 0
+      e: 0
+      r: 0
+      label: 'Plant Fuel (2 months)'
+      totalTons: 6
+      Sq: 12
+      mcr: 0
+      s: 0
+      tl: 10
+      totalMCr: 0
+      q: 0
+      notes: '2 months'
+      category: 'Powerplant Fuel'
+      type: 'Drive'
+      howMany: 1
+      b: 0
+      eff: 1
+      tons: 6
+      target: 10
+
+   - 
+      CP: 1
+      e: 0
+      r: 0
+      label: 'No Landers'
+      totalTons: -1.5
+      q: 0
+      mcr: 0
+      s: 0
+      name: 'No Landers'
+      mcrPerTon: 0
+      tons: -1.5
+      totalMCr: 0
+      category: 'landers'
+      type: 'Hull'
+      tonsPercent: -0.5
+      howMany: 1
+      note: 'n/a'
+      b: 0
+      eff: 1
+      tl: 9
+      target: 9
+      code: 'n/a'
+
+   - 
+      e: 0
+      r: 0
+      totalTons: 3
+      target: 9
+      s: 0
+      totalMCr: 6
+      autoAdjust: 1
+      notes: '1 G'
+      B: 0
+      eff: 1
+      code: 'B'
+      tons: 3
+      Q: 0
+      CP: 1
+      E: 0
+      R: 0
+      label: 'Maneuver Drive-1 (B)'
+      basetl: 9
+      Sq: 6
+      mcr: 6
+      S: 0
+      name: 'Maneuver Drive'
+      tl: 9
+      rating: 1
+      b: 0
+      type: 'Drive'
+      howMany: 1
+      category: 'Maneuver Drive'
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      totalTons: 15
+      q: 0
+      s: 0
+      totalMCr: 15
+      autoAdjust: 1
+      notes: 'J 1'
+      B: 0
+      eff: 1
+      code: 'B'
+      tons: 15
+      Q: 0
+      CP: 1
+      E: 0
+      R: 0
+      label: 'Jump Drive-1 (B)'
+      basetl: 9
+      Sq: 30
+      mcr: 15
+      S: 0
+      name: 'Jump Drive'
+      tl: 9
+      rating: 1
+      b: 0
+      type: 'Drive'
+      howMany: 1
+      category: 'Jump Drive'
+      target: 9
+      jumpFuelUsage: 0.1
+
+   - 
+      e: 0
+      r: 0
+      totalTons: 7
+      q: 0
+      s: 0
+      totalMCr: 7
+      autoAdjust: 1
+      notes: 'P 1'
+      B: 0
+      eff: 1
+      code: 'B'
+      tons: 7
+      Q: 0
+      CP: 1
+      E: 0
+      powerFuelUsage: 0.01
+      label: 'PowerPlant-1 (B)'
+      basetl: 8
+      Sq: 14
+      mcr: 7
+      S: 0
+      name: 'PowerPlant'
+      R: 0
+      tl: 9
+      rating: 1
+      b: 0
+      type: 'Drive'
+      howMany: 1
+      category: 'PowerPlant'
+      target: 9
+
+   - 
+      CP: 1
+      e: 0
+      r: 0
+      label: 'Fuel Purifier'
+      totalTons: 1
+      Sq: 2
+      mcr: 1
+      s: 0
+      code: 'P'
+      tl: 8
+      totalMCr: 1
+      q: 0
+      category: 'Fuel Purifier'
+      type: 'Drive'
+      howMany: 1
+      notes: ''
+      b: 0
+      eff: 1
+      tons: 1
+      target: 8
+
+   - 
+      e: 0
+      r: 0
+      totalTons: 60
+      q: 0
+      s: 0
+      totalMCr: 0
+      notes: ''
+      eff: 1
+      tons: 60
+      basetl: 5
+      CP: 1
+      mod: ''
+      label: 'AV=120. 6 Kinetic FeN'
+      config: 'Armor'
+      Sq: 120
+      mcr: 0
+      name: 'FeN'
+      tl: 9
+      range: '6'
+      category: 'AV=120. 6 Kinetic FeN'
+      type: 'Armor'
+      mount: 'Kinetic'
+      howMany: 1
+      b: 0
+      target: 9
+
+   - 
+      e: 0
+      r: 0
+      totalTons: 2
+      q: 0
+      s: 0
+      totalMCr: 5
+      notes: ''
+      eff: 1
+      tons: 2
+      basetl: 10
+      CP: 1
+      mod: 2
+      label: 'Computer Model/2  '
+      config: 'Ops'
+      Sq: 4
+      mcr: 5
+      name: 'Computer'
+      tl: 10
+      range: 's'
+      category: 'Computer Model/2  '
+      type: 'Ops'
+      mount: 'Model/2'
+      howMany: 1
+      b: 0
+      target: 12
+
+   - 
+      e: 0
+      r: 0
+      totalTons: 1
+      target: 10
+      s: 0
+      totalMCr: 2
+      notes: ''
+      eff: 1
+      basetl: 10
+      tons: 1
+      CP: 1
+      mod: 0
+      label: 'Vd T3 Hybrid L-M-M'
+      config: 'Weapon'
+      Sq: 2
+      mcr: 2
+      name: 'Hybrid L-S-M'
+      tl: 10
+      range: 'Vd'
+      category: 'Vd T3 Hybrid L-S-M'
+      type: 'Weapon'
+      mount: 'T3'
+      howMany: 1
+      b: 0
+      q: 0
+
+   - 
+      CP: 1
+      e: 0
+      r: 0
+      label: 'Clinic'
+      totalTons: 2
+      Sq: 4
+      mcr: 1
+      s: 0
+      tl: 9
+      totalMCr: 1
+      q: 0
+      notes: ''
+      b: 0
+      type: 'Ops'
+      howMany: 1
+      eff: 1
+      tons: 2
+      target: 9
+
+   - 
+      CP: 1
+      e: 0
+      r: 0
+      label: 'Officer Suite'
+      totalTons: 30
+      Sq: 60
+      mcr: 0.4
+      s: 0
+      target: 9
+      tl: 9
+      totalMCr: 2
+      totalSleeps: 5
+      notes: 'fresher + safe'
+      b: 0
+      type: 'Crew'
+      sleeps: 1
+      howMany: 5
+      eff: 1
+      tons: 6
+      q: 0
+
+   - 
+      CP: 0
+      e: 0
+      r: 0
+      label: 'Crew Commons'
+      totalTons: 16
+      Sq: 32
+      mcr: 0
+      s: 0
+      tons: 4
+      totalMCr: 0
+      target: 9
+      notes: ''
+      b: 0
+      type: 'Crew'
+      howMany: 4
+      eff: 1
+      tl: 9
+      q: 0
+
+   - 
+      CP: 0
+      e: 0
+      r: 0
+      label: 'Cargo Hold Basic'
+      totalTons: 11
+      Sq: 22
+      mcr: 0
+      s: 0
+      tl: 10
+      totalMCr: 0
+      target: 10
+      notes: ''
+      category: 'Cargo'
+      eff: 1
+      howMany: 1
+      b: 0
+      type: 'Payload'
+      tons: 11
+      q: 0
+
+   - 
+      CP: 1
+      e: 0
+      r: 0
+      label: 'Fuel Transfer Pumps'
+      totalTons: 1
+      Sq: 2
+      mcr: 1
+      s: 0
+      tons: 1
+      totalMCr: 1
+      q: 0
+      category: 'Fuel Transfer Pumps'
+      type: 'Drive'
+      howMany: 1
+      code: 'X'
+      b: 0
+      eff: 1
+      tl: 10
+      target: 10
+
+   - 
+      speed: '3G'
+      e: '0'
+      r: '0'
+      totalTons: 25
+      target: '10'
+      s: '0'
+      av: 10
+      totalMCr: 8.5
+      notes: 'm1 C'
+      eff: '1'
+      code: 'MSQB'
+      tl: '10'
+      CP: 0
+      mod: ''
+      label: "Ship's Boat (2G)"
+      load: 20
+      Sq: 50
+      mcr: 8.5
+      loc: ''
+      tons: 25
+      b: '0'
+      type: 'Vehicle'
+      howMany: 1
+      q: '0'
+
+   - 
+      CP: 0
+      e: 0
+      r: 0
+      label: 'Life Support Luxury'
+      totalTons: 2
+      Sq: 4
+      mcr: 1
+      s: 0
+      tons: 1
+      totalMCr: 2
+      target: 9
+      notes: '4 high passengers'
+      b: 0
+      type: 'Ops'
+      howMany: 2
+      eff: 1
+      tl: 9
+      q: 0
+
+   - 
+      CP: 0
+      e: 0
+      r: 0
+      label: 'Life Support Adaptable'
+      totalTons: 2
+      Sq: 4
+      mcr: 1
+      s: 0
+      tons: 1
+      totalMCr: 2
+      target: 9
+      notes: '4 sophonts'
+      b: 0
+      type: 'Ops'
+      howMany: 2
+      eff: 1
+      tl: 9
+      q: 0
+
+   - 
+      CP: 0
+      e: 0
+      r: 0
+      label: 'Hull Niche'
+      totalTons: 12
+      Sq: 24
+      mcr: 1.5
+      s: 0
+      tons: 12
+      totalMCr: 1.5
+      target: 9
+      notes: 'Half Vehicle Volume'
+      b: 0
+      type: 'Vehicle'
+      howMany: 1
+      eff: 1
+      tl: 9
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      totalTons: 12
+      q: 0
+      s: 0
+      ws: 1
+      totalMCr: 0.6
+      notes: '1cc 4op 1ws'
+      eff: 1
+      op: 4
+      tons: 12
+      CP: 0
+      mod: 2
+      label: 'Spacious Bridge'
+      tl: 9
+      Sq: 24
+      mcr: 0.6
+      name: 'Bridge'
+      category: 'Bridge'
+      type: 'Ops'
+      cc: 1
+      howMany: 1
+      b: 0
+      target: 11
+header: 
+   operatingConsoles: 4
+   demand: -5
+   format: 'T5-ACS-1'
+   workstations: 1
+   shipname: 'Rock'
+   undertons: 3.5
+   crewComfort: 4
+   mission: 'NF'
+   totalMCr: 63.6
+   jumpFuelPercentage: 0.1
+   jf: 3
+   powerFuelPercentage: 0.01
+   pf: 2
+   lifters: 'y'
+   qsp: 'NF-CP11'
+   config: 'P'
+   shifts: 1
+   mult: 1
+   comments: |
+      Beagle (Type NF): Using a 300-ton nickel-iron asteroid as the hull, the asteroid ship is a minimal configuration ship intended as an economical transportation system between stars, and is ideal for the the wanderer, the researcher, the casual traveller, and the clandestine observer. It mounts drives capable of jump-1, maneuver-1, and power plant-1. A fuel purification plant is installed on the drive deck. There is fuel tankage for 96 tons, sufficient for three consecutive jumps of jump-1 and for running the power plant and maneuver drive for two months. Adjacent to the bridge is a computer Model/2. Five staterooms provide quarters for the crew and non-commercial passengers. One triple turret mounts one beam laser and two missile racks. The ship has one custom-designed 25-ton ship's boat which serves as a refueling shuttle and allows access to world surfaces. There is cargo space for 11 tons; in addition, 4.5 tons of cargo can be routinely carried aboard the ship's boat.
+      
+      The asteroid ship requires up to five crew: pilot, astrogator, engineer, medic, and gunner. The pilot also operates the ship's boat.
+      
+      The boat well is a transverse shaft cut through the nickel-iron of the planetoid itself; it holds the ship's boat firmly in place with heavy bolts when the ship is in motion. Shutters above and below close off the length of the shaft and conceal its presence. With the boat in place, entry is impossible because the craft seals the shaft.
+      
+   tonsFree: 3.5
+   tons: 300
+   low: 0
+   troops: 0
+   tl: 9
+   crew: 6
+   staff: 0
+   spaciousness: 2
+   totalCargoSpace: 11
+   controlConsoles: 1
+   passengers: 0
+   preMult: 1
+   missionLabel: 'Frontier Beagle'

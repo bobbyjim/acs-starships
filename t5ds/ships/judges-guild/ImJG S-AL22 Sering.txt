@@ -1,0 +1,48 @@
+Scout/Courier S-AL22 Sering MCr42.1
+
+Builder: Ling Standard
+Owner: Judges Guild
+Disposition: In Service
+
+Using a 100-ton, TL12 hull, the MC&S Sering class Scout mounts A-series drives, giving a performance of jump-2 and 2G acceleration. Fuel tankage supports a 2 parsec jump, at 10t per parsec, and two months of operations. Attached to the bridge is a Computer Model/2. There are 4 staterooms and no low berths. An empty double turret is installed. Cargo capacity is 3 tons. The hull is streamlined, with scoops for frontier refueling.
+
+The ship carries an enclosed Air/Raft. 
+
+Actual volume: 99.5 tons
+Crew comfort:     +2
+Passenger demand: -5
+
+[code]
+   Tons	 Component                  	  MCr	Notes
+  -----	 ---------------------------	-----	--------------------
+    100	 Lift body Hull             	   16	L, 2 airlocks
+      1	 Landing legs with pads     	    1	
+      4	 AV=24. 2 Kinetic Plate     	    0	
+     20	 Jump Fuel (2  parsecs)     	    0	2 pc, 10t/pc
+    3.6	 Plant Fuel (2 months)      	    0	2 months
+      2	 Fuel Scoops with Purifier  	  1.1	100 t/hr
+      2	 Fuel Intakes with Purifier 	  1.1	40 t/hr
+      2	 Fuel Bins with Purifier    	  1.1	20 t/hr
+     10	 Jump Drive-2 (A)           	   10	J 2
+      4	 Mod PowerPlant A (R2)      	    2	R2
+      2	 Mod Maneuver Drive A (R2)  	    2	R2
+      0	 Mod AR Surf Communicator   	    1	R0
+      0	 Mod AR Surf Neutrino Det.  	    1	R0
+      0	 Mod AR Surf Scope          	    1	R0
+      0	 Mod AR Surf Radar          	    1	R0
+      1	 AR T2 Empty                	  0.5	
+      1	 Life Support Standard      	    1	10 person-months
+      1	 Mod Computer Model/1 std   	  0.7	R0
+      6	 Spacious Bridge            	  0.5	2cc 1op 0ws
+    0.5	 Crew Shared Fresher        	  0.5	4 crew
+     12	 4x Crew Stateroom          	  0.4	#4 1 crew
+     16	 4x Crew Commons            	    0	#4 
+      3	 Cargo Hold Basic           	    0	
+    0.5	 Personnel Air Lock         	  0.1	
+      4	 Air/Raft Enclosed          	  0.1	
+      4	 Air/Raft Lock              	    0	
+[/code]
+
+[code]
+[/code]
+

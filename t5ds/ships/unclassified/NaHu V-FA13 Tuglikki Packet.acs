@@ -1,0 +1,52 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:32 2021
+Mission: Corvette
+QSP: V-FA13
+TL: 12 
+Name: Tuglikki Packet
+Tons: 600
+Actual Tons: 599
+
+MCr: 201.7
+Builder: Humbolt Systems
+Allegiance: NaHu
+
+Crew comfort: 0
+Passenger demand: 0
+Cargo: 75
+FuelPercentage: 13
+Components:
+ - HH0   A  1 00000 600   50  Airframe Hull, lifters
+ - HL1   K  1 00000   6    6  Landing legs with pads
+ - HF1   D  1 00000   6    6  Flotation hull
+ - AA1  24  1 00000  24    0  AV=24. 2 Kinetic Plate
+ - DF0   -  1 00000 180    0  Jump Fuel (3  parsecs)
+ - DF0   -  1 00000  18    0  Plant Fuel (one month)
+ - DP1   J  1 00000  28   28  PowerPlant-3 (J)
+ - DJ2   J  1 00000  50   50  Jump Drive-3 (J)
+ - DM1   C  1 00000   5   10  Maneuver Drive-1 (C)
+ - OC1   3  1 00000   3  10.5  Computer Model/3 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   -  1 00000   1    1  Life Support Luxury
+ - OB0   2  1 00000  20    0  Spacious Controls
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   -  1 00000   0  1.5  AR Surf Scope
+ - SS1   1  1 00000   1  1.5  AR Ant EMS
+ - WW1  -1  3 00000   1  0.7  AR T2 Missile
+ - WW1  -1  3 00000   1    1  Vd T2 Beam Laser
+ - CO0   - 10 00000   2  0.1  Crew Stateroom
+ - CO0   -  5 00000   4    0  Crew Lounge
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - PO0   -  1 00000   1    1  Container Handler
+ - PC0   -  1 00000  75    0  Cargo Hold Basic
+ - PO0   -  8 00000   6  0.4  Luxury Stateroom
+ - PO0   - 11 00000   2  0.1  Standard Stateroom
+ - PO0   -  2 00000   4    0  Passenger Lounge
+ - PO0   -  4 00000 0.5  0.5  Shared Fresher
+ - PO0   -  1 00000   1    0  Magazine
+ - PO0   -  1 00000   1    0  Mail Vault
+ - VO0  MF  1 00000  40   18  Pinnace
+ - VO1   -  1 00000  10    0  Large Vehicle Lock
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

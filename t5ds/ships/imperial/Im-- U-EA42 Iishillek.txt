@@ -1,0 +1,52 @@
+Packet U-EA42 Iishillek MCr201.2
+
+
+Using a 500-ton, TL12 hull, the Iishillek-class Packet mounts jump drive-E, maneuver drive-K, and power plant-K, giving a performance of jump-2 and 4G acceleration. Fuel tankage supports a 2 parsec jump, at 50t per parsec, and one month of operations. Attached to the bridge is a Computer Model/4. There are five empty hardpoints; the buyer is expected to purchase and install whatever weapons are needed. It has one ship's vehicle: an air/raft. The ship can fill its tank with pure fuel from gas giants (in a bit over 1 hour), water sources (in about three hours), or ice (in about six hours).
+
+There is an officer's suite, 5 crew staterooms, two spacer niches, a gunners' barracks, 12 passenger staterooms, and 8 low berths. Cargo capacity is 80 tons. The ship is capable of wilderness, water, and submerged operations. Its airframe design gives it 5G performance in atmosphere 2+.
+
+The ship requires a crew of 7: Pilot, Astrogator, three Engineers, a Steward, and a Medic. It can carry up to 5 gunners, 12 passengers, and 8 low passengers. 
+
+Actual volume: 485 tons
+Crew comfort:     +1
+Passenger demand: +1
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    500	 Airframe Hull, lifters, 5 a/l free 	   37	A, lifters, 5 a/l free
+      5	 Landing legs with pads             	    5	
+     10	 Submergence hull                   	   10	
+     20	 AV=24. 2 Blast Plate               	    0	
+    100	 Jump Fuel (2  parsecs)             	    0	2 parsec jump, at 50t per parsec
+     20	 Plant Fuel (one month)             	    0	one month
+      6	 All fuel processors                	  3.3	S/I/B +P
+     19	 Maneuver Drive-4 (K)               	   38	R4
+     30	 Jump Drive-2 (E)                   	   30	R2
+     31	 PowerPlant-4 (K)                   	   31	R4
+      0	 AR Surf Basic C-R-T                	    6	
+      0	 AR Surf Basic C-E-N-T              	    5	
+      4	 Computer Model/4                   	   18	
+      2	 Life Support Long Term             	    2	84 people
+      1	 Life Support Adaptable             	    1	4 sophonts
+      4	 Gunners' Barracks                  	  0.2	5 gunners
+      4	 4x Life Support Luxury             	    4	#4 4 high passengers
+     14	 Spacious Bridge                    	  0.7	1cc 5op 1ws
+      6	 Officer Suite                      	  0.4	fresher + safe
+    0.5	 Crew Shared Fresher                	  0.5	4 crew
+    4.5	 Medic's Stateroom + Clinic         	  1.5	1 crew + fresher
+     20	 5x Crew Commons                    	    0	#5 
+     17	 Crew Cluster                       	  0.9	4 + common + fresher
+      2	 2x Spacer Niche                    	  0.2	#2 1 crew
+      1	 Mail Vault                         	    1	for express contracts
+      4	 8x Low Berth                       	  0.8	#8 1 passenger
+     80	 Cargo Hold Basic                   	    0	
+     51	 3x Stateroom Cluster               	  2.7	#3 4 + common + fresher
+     24	 6x Passenger Commons               	    0	#6 
+      1	 Bracket Streamlined                	    2	Up to 10 tons
+      4	 Air/Raft Enclosed                  	  0.1	
+[/code]
+
+[code]
+[/code]
+

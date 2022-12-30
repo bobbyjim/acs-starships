@@ -1,0 +1,79 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:34 2021
+Mission: Cruiser
+QSP: C-ZundefinedU63
+TL: 17 
+Name: Tula
+Tons: 237600
+Actual Tons: 237338.5
+
+MCr: 138488.1
+Owner: Republic of Regina
+Allegiance: Rr
+
+Crew comfort: -3
+Passenger demand: -5
+Cargo: 2000
+FuelPercentage: 16
+Components:
+ - HH0   U  1 00000 237600  9506  Unstreamlined Hull, lifters
+ - HJ1   G  1 00000   0  2376  Jump Grid
+ - HL1  n/  1 00000 -1188    0  No Landers
+ - AA1 240  1 00000 47520    0  AV=240. 6 Kinetic Charged
+ - AC1   -  1 00000   0    0  AV=0. c Reflec
+ - DF0   -  1 00000 71280    0  Jump Fuel (3  parsecs)
+ - DF0   -  1 00000 14256    0  Plant Fuel (one month)
+ - DP611  Z2  1 00000 21385  21385  PowerPlant-6 (Z297)
+ - DJ510  Z1  1 00000 17825  17825  Jump Drive-3 (Z149)
+ - DM408  Z2  1 00000 14255  28510  Maneuver Drive-6 (Z297)
+ - DF1   S 100 00000   1  0.1  Fuel Scoops
+ - DF1   B 100 00000   1  0.1  Fuel Bins
+ - DF1   P 200 00000   1  0.1  Fuel Purifiers
+ - OO0   - 51 00000   4  0.2  Gunners' Barracks
+ - OO1   - 10 00000   4    3  Surgery
+ - OO1   - 10 00000   2    1  Clinic
+ - OO1   - 10 00000   2  0.2  Counsellor
+ - OO0   - 30 00000   2    2  Life Support Long Term
+ - OO0   - 25 00000   1    1  Life Support Adaptable
+ - OO0   - 10 00000   1    1  Life Support Luxury
+ - OO0   -  6 00000  60    3  Company Barracks
+ - OB0   2  1 00000 1082  53.6  Spacious Bridge
+ - SS1  10  1 00000 200   21  AR M CommPlus
+ - SS1  10  1 00000 400   61  LR M Visor
+ - SS1  10  1 00000 400   61  LR M EMS
+ - SS1  10  1 00000 400   61  LR M Communicator
+ - WS1  10  1 00000 200  20.1  Vd M Proximeter
+ - WW1   -  1 00000 30000  45002.5  LR SY Particle Accelerator
+ - WW1  10  5 00000 400   65  LR M Meson Gun
+ - WW1  10  5 00000 400   70  LR M Salvo Rack
+ - WW1  10  5 00000 200   21  Vd M DataCaster
+ - WW1  10  5 00000 200  21.5  Vd M Fusion Gun
+ - WW1  10  5 00000 100  10.5  D M Beam Laser
+ - WW1  10  5 00000 200   21  Vd M Plasma Gun
+ - WW1  10  5 00000 66.59  10.1  L M Sandcaster
+ - WW1  10  5 00000 200   35  Vd M Jump Damper
+ - WW1  10  5 00000 200   25  Vd M Tractor/Pressor
+ - WW1  10  5 00000 100   25  D M Disruptor
+ - DD1  10  1 00000 201   21  M Meson Screen
+ - DD1  10  2 00000 202   21  M Nuclear Damper
+ - DD1  10  1 00000 201   21  M Mag Scrambler
+ - DD1  10  1 00000 201   24  M Black Globe
+ - DD1  10  1 00000 201   22  M Grav Scrambler
+ - CO0   - 50 00000   2  0.1  Crew Stateroom
+ - CO0   - 100 00000 0.5  0.1  Spacer Bunks
+ - CO0   - 40 00000 0.5  0.1  Spacer Hotbunks
+ - CO0   - 60 00000   1    1  Crew Common Fresher
+ - CO0   - 180 00000   1  0.1  Spacer Niche
+ - CO0   - 35 00000   8    0  Crew Lounge
+ - PC0   -  1 00000 2000    0  Cargo Hold Basic
+ - PO0   -  1 00000 0.5  0.1  Low Berth
+ - PO0   -  1 00000   1    1  Container Handler
+ - PO1   -  1 00000   2    0  Cargo Lock
+ - PO1   -  1 00000 0.5  0.1  Air Lock
+ - PO0   - 100 00000   1    0  Magazine
+ - VO0  HM 80 00000  40  144  Fighter Heavy
+ - VO1   -  8 00000  10    0  Large Vehicle Lock
+ - VO0  MC  6 00000  95   22  Assault Shuttle
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

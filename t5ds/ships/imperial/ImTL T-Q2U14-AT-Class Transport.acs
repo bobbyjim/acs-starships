@@ -1,0 +1,49 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:34 2021
+Mission: Transport
+QSP: T-Q2U14
+TL: 13 
+Name: Tukera AT
+Tons: 3000
+Actual Tons: 3013
+Overtonnage: 13
+
+MCr: 697.8
+Builder: Tukera
+Owner: Tukera
+Allegiance: ImTL
+
+Crew comfort: 2
+Passenger demand: 2
+Cargo: 800
+FuelPercentage: 13
+Components:
+ - HH0   U  1 00000 3000   92  Unstreamlined Hull
+ - AA1  13  1 00000   0    0  AV=13. 1 Kinetic Plate
+ - DF0   -  1 00000 1200    0  Jump Fuel (4  parsecs)
+ - DF0   -  1 00000 107.9    0  Plant Fuel (one month)
+ - DJ9  V3  1 00000 305  305  Jump Drive-4 (V3)
+ - DP6  V3  1 712A2 181  181  Imp PowerPlant-4 (V3)
+ - DM1   3  1 85501 9.57   58  Adv Maneuver Drive-1 (Q)
+ - OC1   4  1 00000   4   18  Computer Model/4 std
+ - OO0   -  2 00000   4  0.2  Squad Barracks
+ - OO0   -  2 00000   2    2  Life Support Long Term
+ - OO0   -  2 00000   1    1  Life Support Adaptable
+ - OO0   -  3 00000   1    1  Life Support Luxury
+ - OB0   -  1 00000  18    0  Standard Controls
+ - WW1  -2  3 00000   1  0.7  Vd T1 Beam Laser
+ - WW1  -2  3 00000   1  0.4  AR T1 Missile
+ - WW1  -2  3 00000   1  0.3  Vd T1 Sandcaster
+ - CO0   - 12 00000   2  0.1  Crew Stateroom
+ - CO0   -  2 00000   1    1  Crew Common Fresher
+ - CO0   - 15 00000   4    0  Crew Lounge
+ - PO1   -  1 00000   2    0  Cargo Lock
+ - PO0   - 36 00000   2  0.1  Standard Stateroom
+ - PO0   -  4 00000   1    1  Common Fresher
+ - PO0   - 44 00000   4    0  Passenger Lounge
+ - PC0   -  1 00000 800    0  Cargo Hold Basic
+ - VO0  MS  1 00000  20   16  Launch
+ - VO0   -  1 00000   2    2  Grapple Set Single
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

@@ -1,0 +1,48 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:30 2021
+Mission: Rider Carrier
+QSP: TY-ZU90
+TL: 15 
+Name: Traitor
+Tons: 2400
+Actual Tons: 2037.5
+Allegiance: Im
+
+MCr: 1002.6
+
+Crew comfort: -2
+Passenger demand: -5
+Cargo: 20
+FuelPercentage: 9
+Components:
+ - HH0   U  1 00000 2400   74  Unstreamlined Hull, lifters, 24 a/l free
+ - HL1   K  1 00000  24   24  Landing legs with pads
+ - AA1 150  1 00000 384    0  AV=150. 5 Kinetic Charged
+ - DF0   -  1 00000   0    0  Jump Fuel (0  parsec)
+ - DF0   -  1 00000 216    0  Plant Fuel (one month)
+ - DM7  X5  1 00000 215  430  Maneuver Drive-9 (X5)
+ - DP10  X5  1 00000 335  335  PowerPlant-9 (X5)
+ - OC1   7  1 00000   7   52  Computer Model/7 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   - 10 00000  60    3  Company Barracks
+ - OB0   2  1 00000  22  1.4  Spacious Bridge
+ - SS1   -  1 00000   0  2.5  LR Surf Communicator
+ - WW1   2  8 00000 1.5  1.6  D B1 Sandcaster
+ - WW1   2  8 00000 1.5    2  D B1 Beam Laser
+ - WW1   -  4 00000   1  0.6  D T3 Sandcaster
+ - DD1   5  1 00000  51    6  Bay Meson Screen
+ - DD1   5  1 00000  52    6  Bay Nuclear Damper
+ - DD1   5  1 00000  51    6  Bay Mag Scrambler
+ - CO1   -  1 00000   6  0.4  Officer Suite
+ - CO0   -  1 00000   2  0.1  Crew Stateroom
+ - CO0   -  1 00000   2    0  Crew Suite
+ - CO0   -  1 00000   2  0.1  Crew Double
+ - CO0   -  1 00000   2  0.1  Crew Triple
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - CO0   -  1 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  3 00000   1  0.1  Spacer Niche
+ - CO0   -  3 00000   4    0  Crew Commons
+ - PC0   -  1 00000  20    0  Cargo Hold Basic
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

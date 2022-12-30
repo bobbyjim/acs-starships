@@ -1,0 +1,741 @@
+--- 
+header: 
+   mission: 'UF'
+   missionLabel: 'Fast Packet'
+   tons: 100
+   crewComfort: -3
+   totalMCr: 72.2
+   tonsFree: 62.5
+   owner: 'Kursae'
+   shipname: 'Metanath Pajan'
+   low: 0
+   config: 'L'
+   tl: 19
+   troops: 0
+   crewLocked: 'yes'
+   mult: 1
+   staff: 0
+   spaciousness: 0.5
+   preMult: 1
+   format: 'T5-ACS-1'
+   comments: |
+      Using a 100-ton, TL19 hull, the Metanath Pajan Fast Packet mounts maneuver drive-A and power plant-A, giving a performance of 2G acceleration. A modified hop drive gives performance of Hop-2.  Fuel tankage supports 3 months of operations, or 1 month of operations and 3 hop-1s. Attached to the bridge is a Computer Model/2. There are 2 large spacer niches and 4 stasis berths. Installed firmpoint weaponry includes 1 T3 AM Missile, 1 T3 Tractor/Pressor, and 1 T3 DataCaster. The 37 ton "core" ship does not have cargo space. The ship has a lift body hull, with scoops and intakes for frontier refueling.  
+      
+      The ship has 4 grapples, designed to connect to four pods.  Each pod may displace up to 35 tons.  Common pods include fuel tankage, cargo pods, or additional living space. When the total volume is over 150 tons, the ship is capable of Hop-1, Maneuver-1, and Power-1.
+      
+   passengers: 0
+   demand: -5
+   lifters: 'y'
+   undertons: 62.5
+   controlConsoles: 3
+   totalCargoSpace: 0
+   powerFuelPercentage: 0.015
+   jf: 0
+   workstations: 0
+   pf: 3
+   jumpFuelPercentage: 0
+   shifts: 1
+   operatingConsoles: 0
+   qsp: 'UF-AL20'
+   crew: 5
+components: 
+   - 
+      type: 'Hull'
+      mult: 1
+      target: 12
+      mcr: 17
+      totalTons: 100
+      totalMCr: 17
+      Sq: 200
+      howMany: 1
+      eff: 1
+      config: 'Lift body'
+      notes: 'L, lifters'
+      tl: 12
+      q: 0
+      name: 'Hull'
+      code: 'L'
+      label: 'Lift body Hull, lifters'
+      b: 0
+      s: 0
+      category: 'Hull'
+      e: 0
+      preMult: 1
+      CP: 0
+      r: 0
+      tons: 100
+
+   - 
+      s: 0
+      type: 'Drive'
+      q: 0
+      label: 'Jump Fuel (0  parsec)'
+      b: 0
+      totalTons: 0
+      totalMCr: 0
+      category: 'Jump Fuel'
+      target: 12
+      mcr: 0
+      e: 0
+      CP: 0
+      howMany: 1
+      eff: 1
+      notes: '0 parsec jump, at 0t per parsec'
+      tl: 12
+      r: 0
+      tons: 0
+
+   - 
+      s: 0
+      type: 'Drive'
+      q: 0
+      label: 'Plant Fuel (3 months)'
+      b: 0
+      totalTons: 4.5
+      totalMCr: 0
+      Sq: 9
+      category: 'Powerplant Fuel'
+      target: 12
+      mcr: 0
+      e: 0
+      CP: 0
+      howMany: 1
+      eff: 1
+      notes: '3 months'
+      tl: 12
+      r: 0
+      tons: 4.5
+
+   - 
+      code: 'G'
+      type: 'Hull'
+      q: 0
+      label: 'Jump Grid'
+      mcr: 1
+      totalTons: 0
+      s: 0
+      note: 'G'
+      category: 'jump field'
+      tonsPercent: 0
+      b: 0
+      e: 0
+      mcrPerTon: 0
+      mcrPerHullTon: 0.01
+      CP: 1
+      howMany: 1
+      eff: 1
+      target: 19
+      name: 'Jump Grid'
+      tl: 19
+      totalMCr: 1
+      r: 0
+      tons: 0
+
+   - 
+      code: 'K'
+      type: 'Hull'
+      q: 0
+      label: 'Landing legs with pads'
+      mcr: 1
+      totalTons: 1
+      s: 0
+      note: 'K'
+      Sq: 2
+      category: 'landers'
+      tonsPercent: 1
+      b: 0
+      e: 0
+      mcrPerTon: 1
+      totalMCr: 1
+      CP: 1
+      howMany: 1
+      eff: 1
+      target: 19
+      name: 'Landing legs with pads'
+      tl: 19
+      r: 0
+      tons: 1
+
+   - 
+      code: 'E'
+      type: 'Hull'
+      q: 0
+      label: 'Submergence hull'
+      mcr: 4
+      totalTons: 2
+      s: 0
+      note: 'E'
+      Sq: 4
+      category: 'fittings'
+      tonsPercent: 2
+      b: 0
+      e: 0
+      mcrPerTon: 2
+      totalMCr: 4
+      CP: 1
+      howMany: 1
+      eff: 1
+      target: 19
+      name: 'Submergence hull'
+      tl: 19
+      r: 0
+      tons: 2
+
+   - 
+      type: 'Drive'
+      target: 19
+      mcr: 8
+      totalTons: 1
+      totalMCr: 8
+      Sq: 2
+      howMany: 1
+      eff: 1.3
+      B: 0
+      E: 0
+      rating: 2
+      basetl: 9
+      powerFuelUsage: 0.01
+      notes: 'R2'
+      stage: 'Ult'
+      tl: 15
+      q: 10
+      name: 'PowerPlant'
+      code: 'A'
+      label: 'Ult PowerPlant A (R2)'
+      b: -1
+      autoAdjust: 1
+      s: 3
+      category: 'PowerPlant'
+      r: 5
+      original: 
+         type: 'Drive'
+         target: 19
+         mcr: 4
+         totalTons: 4
+         totalMCr: 4
+         Sq: 8
+         howMany: 1
+         eff: 1
+         B: 0
+         E: 0
+         rating: 2
+         basetl: 9
+         powerFuelUsage: 0.01
+         notes: 'P 2'
+         tl: 19
+         q: 0
+         r: 0
+         code: 'A'
+         label: 'PowerPlant-2 (A)'
+         b: 0
+         autoAdjust: 1
+         s: 0
+         category: 'PowerPlant'
+         name: 'PowerPlant'
+         mod: 0
+         Q: 0
+         R: 0
+         e: 0
+         S: 0
+         CP: 1
+         tons: 4
+      mod: 4
+      Q: 0
+      R: 0
+      e: 4
+      S: 0
+      CP: 1
+      tons: 1
+
+   - 
+      type: 'Drive'
+      target: 19
+      mcr: 8
+      totalTons: 0.5
+      totalMCr: 8
+      Sq: 1
+      howMany: 1
+      eff: 1.3
+      B: 0
+      E: 0
+      rating: 2
+      basetl: 9
+      notes: 'R2'
+      stage: 'Ult'
+      tl: 15
+      q: 10
+      name: 'Maneuver Drive'
+      code: 'A'
+      label: 'Ult Maneuver Drive A (R2)'
+      b: -5
+      autoAdjust: 1
+      s: 5
+      category: 'Maneuver Drive'
+      r: 5
+      original: 
+         type: 'Drive'
+         target: 19
+         mcr: 4
+         totalTons: 2
+         totalMCr: 4
+         Sq: 4
+         howMany: 1
+         eff: 1
+         B: 0
+         E: 0
+         rating: 2
+         basetl: 9
+         notes: '2 G'
+         tl: 19
+         q: 0
+         name: 'Maneuver Drive'
+         code: 'A'
+         label: 'Maneuver Drive-2 (A)'
+         b: 0
+         autoAdjust: 1
+         s: 0
+         category: 'Maneuver Drive'
+         r: 0
+         mod: 0
+         Q: 0
+         R: 0
+         e: 0
+         S: 0
+         CP: 1
+         tons: 2
+      mod: 4
+      Q: 0
+      R: 0
+      e: 5
+      S: 0
+      CP: 1
+      tons: 0.5
+
+   - 
+      code: 'I'
+      type: 'Drive'
+      q: 0
+      label: 'Fuel Intakes'
+      mcr: 0.1
+      totalTons: 1
+      s: 0
+      totalMCr: 0.1
+      Sq: 2
+      category: 'Fuel Intakes'
+      target: 8
+      b: 0
+      e: 0
+      CP: 1
+      howMany: 1
+      eff: 1
+      tl: 8
+      r: 0
+      tons: 1
+
+   - 
+      code: 'S'
+      type: 'Drive'
+      q: 0
+      label: 'Fuel Scoops'
+      mcr: 0.1
+      totalTons: 1
+      s: 0
+      totalMCr: 0.1
+      Sq: 2
+      category: 'Fuel Scoops'
+      target: 8
+      b: 0
+      e: 0
+      CP: 1
+      howMany: 1
+      eff: 1
+      tl: 8
+      r: 0
+      tons: 1
+
+   - 
+      type: 'Armor'
+      target: 19
+      mcr: 0
+      totalTons: 0
+      totalMCr: 0
+      howMany: 1
+      eff: 1
+      config: 'Armor'
+      notes: ''
+      tl: 19
+      q: 0
+      basetl: 14
+      range: '1'
+      name: 'Charged'
+      s: 0
+      mount: 'Kinetic'
+      label: 'AV=38. 1 Kinetic Charged'
+      b: 0
+      category: 'AV=38. 1 Kinetic Charged'
+      e: 0
+      mod: ''
+      CP: 1
+      r: 0
+      tons: 0
+
+   - 
+      type: 'Ops'
+      target: 21
+      mcr: 5
+      totalTons: 2
+      totalMCr: 5
+      Sq: 4
+      howMany: 1
+      eff: 1
+      config: 'Ops'
+      notes: ''
+      tl: 19
+      q: 0
+      basetl: 0
+      range: 's'
+      name: 'Computer'
+      s: 0
+      mount: 'Model/2'
+      label: 'Computer Model/2 std'
+      b: 0
+      category: 'Computer Model/2 std'
+      e: 0
+      mod: 2
+      CP: 1
+      r: 0
+      tons: 2
+
+   - 
+      s: 0
+      type: 'Ops'
+      q: 0
+      label: 'Life Support Standard'
+      mcr: 1
+      totalTons: 1
+      totalMCr: 1
+      Sq: 2
+      howMany: 1
+      target: 19
+      b: 0
+      e: 0
+      CP: 0
+      eff: 1
+      notes: '10 person-months'
+      tl: 19
+      r: 0
+      tons: 1
+
+   - 
+      s: 0
+      type: 'Ops'
+      q: 0
+      label: 'Life Support Adaptable'
+      mcr: 1
+      totalTons: 1
+      totalMCr: 1
+      Sq: 2
+      howMany: 1
+      target: 19
+      b: 0
+      e: 0
+      CP: 0
+      eff: 1
+      notes: '10 sophonts'
+      tl: 19
+      r: 0
+      tons: 1
+
+   - 
+      s: 0
+      type: 'Crew'
+      q: 0
+      label: 'Crew Shared Fresher'
+      mcr: 0.5
+      totalTons: 0.5
+      totalMCr: 0.5
+      Sq: 1
+      howMany: 1
+      target: 19
+      b: 0
+      e: 0
+      CP: 0
+      eff: 1
+      notes: '4 crew'
+      tl: 19
+      r: 0
+      tons: 0.5
+
+   - 
+      s: 0
+      type: 'Payload'
+      label: 'Stasis Berth'
+      mcr: 0.1
+      totalTons: 2
+      totalMCr: 0.4
+      Sq: 4
+      howMany: 4
+      target: 19
+      b: 0
+      e: 0
+      CP: 0
+      eff: 1
+      notes: '1 passenger'
+      tl: 19
+      q: 0
+      r: 0
+      tons: 0.5
+
+   - 
+      type: 'Weapon'
+      target: 19
+      mcr: 5.5
+      totalTons: 0.5
+      totalMCr: 5.5
+      Sq: 1
+      howMany: 1
+      eff: 1
+      config: 'Weapon'
+      notes: ''
+      tl: 19
+      q: 0
+      basetl: 19
+      range: 'SR'
+      name: 'AM Missile'
+      s: 0
+      mount: 'T3'
+      label: 'SR T3 AM Missile'
+      b: 0
+      category: 'SR T3 AM Missile'
+      e: 0
+      mod: 0
+      CP: 1
+      r: 0
+      tons: 0.5
+
+   - 
+      type: 'Weapon'
+      target: 19
+      mcr: 5.5
+      totalTons: 0.5
+      totalMCr: 5.5
+      Sq: 1
+      howMany: 1
+      eff: 1
+      config: 'Weapon'
+      notes: ''
+      tl: 19
+      q: 0
+      basetl: 15
+      range: 'D'
+      name: 'Tractor/Pressor'
+      s: 0
+      mount: 'T3'
+      label: 'D T3 Tractor/Pressor'
+      b: 0
+      category: 'D T3 Tractor/Pressor'
+      e: 0
+      mod: 0
+      CP: 1
+      r: 0
+      tons: 0.5
+
+   - 
+      type: 'Weapon'
+      target: 19
+      mcr: 1.5
+      totalTons: 0.5
+      totalMCr: 1.5
+      Sq: 1
+      howMany: 1
+      eff: 1
+      config: 'Weapon'
+      notes: ''
+      tl: 19
+      q: 0
+      basetl: 9
+      range: 'D'
+      name: 'DataCaster'
+      s: 0
+      mount: 'T3'
+      label: 'D T3 DataCaster'
+      b: 0
+      category: 'D T3 DataCaster'
+      e: 0
+      mod: 0
+      CP: 1
+      r: 0
+      tons: 0.5
+
+   - 
+      code: 'P'
+      type: 'Drive'
+      label: 'Fuel Purifiers'
+      mcr: 0.1
+      totalTons: 2
+      s: 0
+      totalMCr: 0.2
+      Sq: 4
+      category: 'Fuel Purifiers'
+      target: 8
+      b: 0
+      e: 0
+      CP: 1
+      howMany: 2
+      eff: 1
+      tl: 8
+      q: 0
+      r: 0
+      tons: 1
+
+   - 
+      type: 'Drive'
+      CP: 1
+      target: 19
+      mcr: 7.5
+      totalTons: 7.5
+      totalMCr: 7.5
+      Sq: 15
+      howMany: 1
+      eff: 0.9
+      B: 0
+      E: 0
+      rating: 2
+      basetl: 17
+      notes: 'R2'
+      stage: 'Mod'
+      tl: 17
+      q: 9
+      r: 5
+      code: 'B'
+      label: 'Mod Hop Drive B (R2), E=5'
+      b: -2
+      autoAdjust: 1
+      s: 0
+      category: 'Hop Drive'
+      name: 'Hop Drive'
+      original: 
+         type: 'Drive'
+         CP: 1
+         target: 19
+         mcr: 15
+         totalTons: 15
+         totalMCr: 15
+         Sq: 30
+         howMany: 1
+         eff: 1
+         B: 0
+         E: 0
+         rating: 3
+         basetl: 17
+         notes: 'H 3'
+         tl: 19
+         q: 0
+         r: 0
+         code: 'B'
+         label: 'Hop Drive-3 (B)'
+         b: 0
+         autoAdjust: 1
+         s: 0
+         category: 'Hop Drive'
+         name: 'Hop Drive'
+         mod: 0
+         Q: 0
+         R: 0
+         e: 0
+         S: 0
+         tons: 15
+      mod: 2
+      Q: 0
+      R: 0
+      e: 5
+      S: 0
+      tons: 7.5
+
+   - 
+      s: 0
+      type: 'Payload'
+      q: 0
+      label: 'Air Lock'
+      mcr: 0.1
+      totalTons: 0.5
+      totalMCr: 0.1
+      Sq: 1
+      howMany: 1
+      target: 19
+      b: 0
+      e: 0
+      CP: 1
+      eff: 1
+      notes: ''
+      tl: 19
+      r: 0
+      tons: 0.5
+
+   - 
+      s: 0
+      type: 'Crew'
+      sleeps: 1
+      label: 'Spacer Niche'
+      mcr: 0.1
+      totalTons: 3
+      totalMCr: 0.2
+      Sq: 6
+      howMany: 2
+      target: 19
+      b: 0
+      e: 0
+      CP: 0
+      eff: 1
+      notes: '1 crew'
+      totalSleeps: 2
+      tl: 19
+      q: 0
+      r: 0
+      tons: 1.5
+
+   - 
+      s: 0
+      type: 'Vehicle'
+      q: 0
+      label: 'Grapple (1)'
+      mcr: 1
+      totalTons: 4
+      totalMCr: 4
+      Sq: 8
+      howMany: 4
+      target: 19
+      b: 0
+      e: 0
+      CP: 0
+      eff: 1
+      notes: 'up to 35t'
+      tl: 19
+      r: 0
+      tons: 1
+
+   - 
+      type: 'Ops'
+      target: 17
+      mcr: 0.6
+      totalTons: 1.5
+      totalMCr: 0.6
+      Sq: 3
+      howMany: 1
+      eff: 1
+      cc: 3
+      op: 0
+      notes: '3cc 0op 0ws'
+      ws: 0
+      tl: 19
+      q: 0
+      name: 'Bridge'
+      s: 0
+      label: 'Cramped Bridge'
+      b: 0
+      category: 'Bridge'
+      e: 0
+      mod: -2
+      CP: 0
+      r: 0
+      tons: 1.5

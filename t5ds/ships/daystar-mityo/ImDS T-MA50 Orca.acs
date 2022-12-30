@@ -1,0 +1,65 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:32 2021
+Mission: Transport
+QSP: T-MA50
+TL: 17 
+Name: Orca
+Tons: 1200
+Actual Tons: 1198
+
+MCr: 526.5
+Builder: Clan Severn
+Owner: Oberlindes
+Allegiance: ImDS
+
+Crew comfort: 0
+Passenger demand: 0
+Cargo: 500
+FuelPercentage: 13
+Components:
+ - HH0   A  1 00000 1200   86  Airframe Hull, lifters, 12 a/l free
+ - HL1   K  1 00000  12   12  Landing legs with pads
+ - HF1   D  1 00000  12   12  Flotation hull
+ - AA1  34  1 00000   0    0  AV=34. 1 EMP Charged
+ - DF0   -  1 00000 120    0  Jump Fuel (1  parsec)
+ - DF0   -  1 00000 39.6    0  Plant Fuel (one month)
+ - DH1   F  1 00000  35   35  Hop Drive-1 (F)
+ - DM2   4  1 540C1 11.75  188  Ult Maneuver Drive Z (R5)
+ - DP3   3  1 950C5 24.09   73  Adv PowerPlant Z (R4)
+ - DF2  SP  1 00000   2  1.1  Fuel Scoops with Purifier
+ - DF2  IP  1 00000   2  1.1  Fuel Intakes with Purifier
+ - DF2  BP  1 00000   2  1.1  Fuel Bins with Purifier
+ - OC1   6  1 00000   6  19.5  Computer Model/6 phot
+ - OO0   -  1 00000   4  0.2  Gunners' Barracks
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   -  2 00000   1    1  Life Support Luxury
+ - OO0   -  2 00000   1    1  Life Support Adaptable
+ - OO1   -  1 00000   4    2  Clinic
+ - OB0   2  1 00000  32  1.5  Spacious Bridge
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   -  1 00000   0  1.5  AR Surf Visor
+ - SS1   -  1 00000   0  1.5  AR Surf CommPlus
+ - SS1   -  1 00000   0  1.5  AR Surf EMS
+ - WS1   -  1 00000   0  0.6  Vd Surf Life Detector
+ - WS1   -  1 00000   0  0.6  Vd Surf Field Sensor
+ - WS1   -  1 00000   0  0.6  Vd Surf Activity Sensor
+ - WS1   -  1 00000   0  0.6  Vd Surf Proximeter
+ - WS1   -  1 00000   0  0.6  Vd Surf Densitometer
+ - WW1   -  2 00000   1    6  Vd T3 Tractor/Pressor
+ - WW1   2  1 00000   3  4.5  Vd B1 Fusion Gun
+ - DD1   8  2 00000 101   14  LBay Black Globe
+ - CO1   -  1 00000   6  0.4  Captain's Suite
+ - CO0   - 10 00000   4    0  Crew Commons
+ - CO0   -  3 00000   2  0.1  Crew Stateroom
+ - CO0   -  4 00000   2  0.1  Crew Double
+ - CO0   -  2 00000   1    1  Crew Common Fresher
+ - PO0   - 10 00000   4    0  Passenger Commons
+ - PO0   -  7 00000   3  0.6  Stateroom Double with Fresher
+ - PO0   -  2 00000   4  0.6  Stateroom Suite
+ - PO0   -  6 00000   4    0  Guest Lounge
+ - PC0   -  1 00000 500    0  Cargo Hold Basic
+ - VO0  LM  4 00000   4    5  Lifeboat
+ - VO0   -  4 00000   2  1.5  Hull Niche for Lifeboat
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

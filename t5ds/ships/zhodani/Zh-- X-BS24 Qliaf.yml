@@ -1,0 +1,851 @@
+--- 
+header: 
+   crew: 6
+   totalMCr: 95.5
+   operatingConsoles: 3
+   comments: |
+      Using a 200-ton hull, the Qliaf courier is a private vessel used by government officials for travel and diplomatic purposes. It sports the Shozatinj type 54 jump drive, the Chiata Impulse B2 maneuver drive, and the Df-4 Diafrpa power plant, and is capable of Jump-4 and 2G acceleration. Fuel tankage supports 2 weeks of standard operations and one jump-4. Installed on the bridge is an advanced Model/5 fib computer, with a semi-organic brain-3. There are 9 staterooms and no low berths. The ship has one deployable, hybrid triple turret, which serves as en emergency lifepod. There is one ship's vehicle: a TL14 five-ton grav speeder. Cargo capacity is 16 tons. The ship is streamlined.
+      
+      The Zhodani courier requires a crew of four: pilot/astrogator, engineer, medic and gunner. A qualified crewman operates the speeder. The ship can carry four passengers – the owner and his retinue – and an optional steward or fifth passenger.
+      
+   workstations: 1
+   pf: 0.5
+   shipname: 'Qliaf'
+   mult: 1
+   format: 'T5-ACS-1'
+   crewLocked: 'yes'
+   preMult: 1
+   spaciousness: 1
+   troops: 0
+   owner: 'Zhodani'
+   crewComfort: 1
+   totalCargoSpace: 16
+   passengers: 5
+   tl: 14
+   staff: 0
+   demand: 1
+   config: 'S'
+   undertons: 5
+   tons: 200
+   jumpFuelPercentage: 0.09
+   tonsFree: 0
+   powerFuelPercentage: 0.033
+   qsp: 'X-BS24'
+   lifters: 'y'
+   shifts: 1
+   low: 0
+   controlConsoles: 1
+   mission: 'X'
+   overtons: 3
+   jf: 4
+   missionLabel: 'Express Courier'
+components: 
+   - 
+      totalTons: 200
+      howMany: 1
+      totalMCr: 16
+      eff: 1
+      label: 'Streamlined Hull, lifters'
+      name: 'Hull'
+      mult: 1
+      preMult: 1
+      Sq: 400
+      code: 'S'
+      q: 0
+      type: 'Hull'
+      notes: 'S, lifters'
+      s: 0
+      CP: 0
+      config: 'Streamlined'
+      b: 0
+      tl: 12
+      tons: 200
+      e: 0
+      mcr: 16
+      r: 0
+      category: 'Hull'
+      target: 12
+
+   - 
+      s: 0
+      howMany: 1
+      CP: 0
+      b: 0
+      eff: 1
+      tl: 12
+      totalTons: 72
+      tons: 72
+      totalMCr: 0
+      e: 0
+      mcr: 0
+      label: 'Jump Fuel (4  parsecs)'
+      Sq: 144
+      r: 0
+      category: 'Jump Fuel'
+      q: 0
+      target: 12
+      type: 'Drive'
+      notes: 'J4, 18t/pc'
+
+   - 
+      s: 0
+      howMany: 1
+      CP: 0
+      b: 0
+      eff: 1
+      tl: 12
+      totalTons: 3.3
+      tons: 3.3
+      totalMCr: 0
+      e: 0
+      mcr: 0
+      label: 'Plant Fuel (0.5 months)'
+      Sq: 6.6
+      r: 0
+      category: 'Powerplant Fuel'
+      q: 0
+      target: 12
+      type: 'Drive'
+      notes: '0.5 months'
+
+   - 
+      mcrPerTon: 1
+      howMany: 1
+      CP: 1
+      b: 0
+      eff: 1
+      note: 'K'
+      s: 0
+      tons: 2
+      type: 'Hull'
+      name: 'Landing legs with pads'
+      code: 'K'
+      mcr: 2
+      label: 'Landing legs with pads'
+      totalTons: 2
+      Sq: 4
+      totalMCr: 2
+      e: 0
+      r: 0
+      category: 'landers'
+      q: 0
+      target: 14
+      tonsPercent: 1
+      tl: 14
+
+   - 
+      totalTons: 3
+      howMany: 1
+      totalMCr: 6
+      B: 0
+      eff: 1
+      label: 'Maneuver Drive-2 (B)'
+      S: 0
+      basetl: 9
+      name: 'Maneuver Drive'
+      rating: 2
+      E: 0
+      Sq: 6
+      code: 'B'
+      q: 0
+      r: 0
+      tl: 14
+      s: 0
+      CP: 1
+      b: 0
+      autoAdjust: 1
+      notes: '2 G'
+      tons: 3
+      e: 0
+      mcr: 6
+      Q: 0
+      R: 0
+      type: 'Drive'
+      category: 'Maneuver Drive'
+      target: 14
+
+   - 
+      s: 0
+      howMany: 1
+      CP: 1
+      b: 0
+      eff: 1
+      totalTons: 1
+      tons: 1
+      totalMCr: 0.1
+      e: 0
+      mcr: 0.1
+      label: 'Fuel Scoops'
+      Sq: 2
+      code: 'S'
+      r: 0
+      category: 'Fuel Scoops'
+      q: 0
+      target: 8
+      type: 'Drive'
+      tl: 8
+
+   - 
+      s: 0
+      howMany: 1
+      CP: 1
+      b: 0
+      eff: 1
+      totalTons: 1
+      tons: 1
+      totalMCr: 0.1
+      e: 0
+      mcr: 0.1
+      label: 'Fuel Purifiers'
+      Sq: 2
+      code: 'P'
+      r: 0
+      category: 'Fuel Purifiers'
+      q: 0
+      target: 8
+      type: 'Drive'
+      tl: 8
+
+   - 
+      s: 0
+      howMany: 1
+      CP: 1
+      b: 0
+      eff: 1
+      totalTons: 1
+      tons: 1
+      totalMCr: 0.1
+      e: 0
+      mcr: 0.1
+      label: 'Fuel Intakes'
+      Sq: 2
+      code: 'I'
+      r: 0
+      category: 'Fuel Intakes'
+      q: 0
+      target: 8
+      type: 'Drive'
+      tl: 8
+
+   - 
+      totalTons: 0
+      howMany: 1
+      totalMCr: 0
+      eff: 1
+      label: 'AV=28. 1 Kinetic Charged'
+      basetl: 14
+      name: 'Charged'
+      range: '1'
+      q: 0
+      type: 'Armor'
+      tl: 14
+      s: 0
+      CP: 1
+      config: 'Armor'
+      b: 0
+      notes: ''
+      tons: 0
+      e: 0
+      mcr: 0
+      mod: ''
+      r: 0
+      category: 'AV=28. 1 Kinetic Charged'
+      target: 14
+      mount: 'Kinetic'
+
+   - 
+      totalTons: 1.98
+      howMany: 1
+      totalMCr: 15.7
+      eff: 1.2
+      label: 'Adv Semi-Organic Model/3 fib'
+      basetl: 2
+      name: 'Semi-Organic Brain'
+      stage: 'Adv'
+      Sq: 3.96
+      range: 'f'
+      q: 4
+      original: 
+         totalTons: 6
+         howMany: 1
+         totalMCr: 15.7
+         eff: 1
+         label: 'Semi-Organic Model/3 fib'
+         basetl: 2
+         name: 'Semi-Organic Brain'
+         Sq: 12
+         range: 'f'
+         q: 0
+         r: 0
+         notes: ''
+         s: 0
+         CP: 1
+         config: 'Ops'
+         b: 0
+         tl: 14
+         tons: 6
+         e: 0
+         mcr: 15.7
+         mount: 'Model/3'
+         type: 'Ops'
+         category: 'Semi-Organic Brain Model/3 fib'
+         target: 17
+         mod: 3
+      r: 3
+      notes: ''
+      s: 5
+      CP: 1
+      config: 'Ops'
+      b: -5
+      tl: 11
+      tons: 1.98
+      e: 0
+      mcr: 15.7
+      mount: 'Model/3'
+      type: 'Ops'
+      category: 'Semi-Organic Brain Model/3 fib'
+      target: 17
+      mod: 6
+
+   - 
+      totalTons: 0
+      howMany: 1
+      totalMCr: 1.5
+      eff: 1
+      label: 'AR Surf Communicator'
+      basetl: 8
+      name: 'Communicator'
+      range: 'AR'
+      q: 0
+      type: 'Sensor'
+      tl: 14
+      s: 0
+      CP: 1
+      config: 'Sensor'
+      b: 0
+      notes: ''
+      tons: 0
+      e: 0
+      mcr: 1.5
+      mod: 0
+      r: 0
+      category: 'AR Surf Communicator'
+      target: 14
+      mount: 'Surf'
+
+   - 
+      totalTons: 0
+      howMany: 1
+      totalMCr: 1.5
+      eff: 1
+      label: 'AR Surf EMS'
+      basetl: 12
+      name: 'EMS'
+      range: 'AR'
+      q: 0
+      type: 'Sensor'
+      tl: 14
+      s: 0
+      CP: 1
+      config: 'Sensor'
+      b: 0
+      notes: ''
+      tons: 0
+      e: 0
+      mcr: 1.5
+      mod: 0
+      r: 0
+      category: 'AR Surf EMS'
+      target: 14
+      mount: 'Surf'
+
+   - 
+      totalTons: 0
+      howMany: 1
+      totalMCr: 1.5
+      eff: 1
+      label: 'AR Surf Neutrino Detector'
+      basetl: 10
+      name: 'Neutrino Detector'
+      range: 'AR'
+      q: 0
+      type: 'Sensor'
+      tl: 14
+      s: 0
+      CP: 1
+      config: 'Sensor'
+      b: 0
+      notes: ''
+      tons: 0
+      e: 0
+      mcr: 1.5
+      mod: 0
+      r: 0
+      category: 'AR Surf Neutrino Detector'
+      target: 14
+      mount: 'Surf'
+
+   - 
+      totalTons: 0
+      howMany: 1
+      totalMCr: 1.5
+      eff: 1
+      label: 'AR Surf Stealth Mask'
+      basetl: 12
+      name: 'Stealth Mask'
+      range: 'AR'
+      q: 0
+      type: 'Sensor'
+      tl: 14
+      s: 0
+      CP: 1
+      config: 'Sensor'
+      b: 0
+      notes: ''
+      tons: 0
+      e: 0
+      mcr: 1.5
+      mod: 0
+      r: 0
+      category: 'AR Surf Stealth Mask'
+      target: 14
+      mount: 'Surf'
+
+   - 
+      totalTons: 0
+      howMany: 1
+      totalMCr: 1.5
+      eff: 1
+      label: 'AR Surf Visor'
+      basetl: 14
+      name: 'Visor'
+      range: 'AR'
+      q: 0
+      type: 'Sensor'
+      tl: 14
+      s: 0
+      CP: 1
+      config: 'Sensor'
+      b: 0
+      notes: ''
+      tons: 0
+      e: 0
+      mcr: 1.5
+      mod: 0
+      r: 0
+      category: 'AR Surf Visor'
+      target: 14
+      mount: 'Surf'
+
+   - 
+      s: 0
+      howMany: 1
+      CP: 0
+      b: 0
+      eff: 1
+      tl: 12
+      totalTons: 16
+      tons: 16
+      totalMCr: 0
+      e: 0
+      mcr: 0
+      label: 'Cargo Hold Basic'
+      Sq: 32
+      type: 'Payload'
+      category: 'Cargo'
+      q: 0
+      target: 12
+      r: 0
+      notes: ''
+
+   - 
+      s: 0
+      howMany: 1
+      CP: 0
+      b: 0
+      eff: 1
+      tl: 14
+      totalTons: 0.5
+      tons: 0.5
+      totalMCr: 0.5
+      e: 0
+      mcr: 0.5
+      label: 'Crew Shared Fresher'
+      Sq: 1
+      r: 0
+      q: 0
+      target: 14
+      type: 'Crew'
+      notes: '4 crew'
+
+   - 
+      s: 0
+      howMany: 1
+      CP: 0
+      b: 0
+      eff: 1
+      tl: 14
+      totalTons: 1
+      tons: 1
+      totalMCr: 1
+      e: 0
+      mcr: 1
+      label: 'Life Support Standard'
+      Sq: 2
+      r: 0
+      q: 0
+      target: 14
+      type: 'Ops'
+      notes: '10 person-months'
+
+   - 
+      s: 0
+      howMany: 4
+      CP: 0
+      b: 0
+      eff: 1
+      tl: 14
+      label: 'Crew Stateroom'
+      tons: 2
+      totalMCr: 0.4
+      totalSleeps: 4
+      e: 0
+      mcr: 0.1
+      totalTons: 8
+      Sq: 16
+      sleeps: 1
+      type: 'Crew'
+      q: 0
+      target: 14
+      r: 0
+      notes: '1 crew'
+
+   - 
+      s: 0
+      howMany: 4
+      CP: 0
+      b: 0
+      eff: 1
+      notes: ''
+      totalTons: 16
+      tons: 4
+      totalMCr: 0
+      e: 0
+      mcr: 0
+      label: 'Crew Lounge'
+      Sq: 32
+      type: 'Crew'
+      q: 0
+      target: 14
+      r: 0
+      tl: 14
+
+   - 
+      s: 0
+      howMany: 4
+      CP: 0
+      b: 0
+      eff: 1
+      tl: 14
+      label: 'Luxury Stateroom'
+      tons: 6
+      totalMCr: 1.6
+      totalSleeps: 4
+      e: 0
+      mcr: 0.4
+      totalTons: 24
+      Sq: 48
+      sleeps: 1
+      type: 'Passenger'
+      q: 0
+      target: 14
+      r: 0
+      notes: '1 passenger + fresher'
+
+   - 
+      s: 0
+      howMany: 1
+      q: 0
+      CP: 0
+      b: 0
+      eff: 1
+      notes: '1 passenger'
+      label: 'Standard Stateroom'
+      tons: 2
+      totalMCr: 0.1
+      e: 0
+      mcr: 0.1
+      totalTons: 2
+      Sq: 4
+      sleeps: 1
+      r: 0
+      totalSleeps: 1
+      target: 14
+      type: 'Passenger'
+      tl: 14
+
+   - 
+      s: 0
+      howMany: 1
+      CP: 0
+      b: 0
+      eff: 1
+      tl: 14
+      totalTons: 4
+      tons: 4
+      totalMCr: 0
+      e: 0
+      mcr: 0
+      label: 'Passenger Lounge'
+      Sq: 8
+      r: 0
+      q: 0
+      target: 14
+      type: 'Passenger'
+      notes: ''
+
+   - 
+      s: 0
+      howMany: 1
+      CP: 0
+      b: 0
+      eff: 1
+      tl: 14
+      totalTons: 0.5
+      tons: 0.5
+      totalMCr: 0.5
+      e: 0
+      mcr: 0.5
+      label: 'Shared Fresher'
+      Sq: 1
+      r: 0
+      q: 0
+      target: 14
+      type: 'Passenger'
+      notes: '4 passengers'
+
+   - 
+      totalTons: 4.29
+      howMany: 1
+      totalMCr: 13
+      B: 0
+      eff: 1.2
+      label: 'Adv PowerPlant-4 (D)'
+      basetl: 11
+      name: 'PowerPlant'
+      rating: 4
+      E: 0
+      powerFuelUsage: 0.01
+      stage: 'Adv'
+      Sq: 8.58
+      code: 'D'
+      q: 10
+      original: 
+         totalTons: 13
+         howMany: 1
+         totalMCr: 13
+         B: 0
+         eff: 1
+         label: 'PowerPlant-4 (D)'
+         basetl: 11
+         name: 'PowerPlant'
+         rating: 4
+         E: 0
+         powerFuelUsage: 0.01
+         Sq: 26
+         code: 'D'
+         q: 0
+         type: 'Drive'
+         r: 0
+         notes: 'P 4'
+         s: 0
+         CP: 1
+         b: 0
+         autoAdjust: 1
+         tl: 14
+         tons: 13
+         e: 0
+         mcr: 13
+         Q: 0
+         R: 0
+         mod: 0
+         S: 0
+         category: 'PowerPlant'
+         target: 14
+      r: 0
+      notes: 'P 4'
+      s: 3
+      CP: 1
+      b: 0
+      autoAdjust: 1
+      tl: 11
+      tons: 4.29
+      type: 'Drive'
+      e: 3
+      mcr: 13
+      Q: 0
+      R: 0
+      mod: 3
+      S: 0
+      category: 'PowerPlant'
+      target: 14
+
+   - 
+      totalTons: 25
+      howMany: 1
+      totalMCr: 25
+      B: 0
+      eff: 1.1
+      label: 'Imp Jump Drive-4 (D)'
+      jumpFuelUsage: 0.1
+      basetl: 13
+      name: 'Jump Drive'
+      rating: 4
+      E: 0
+      type: 'Drive'
+      stage: 'Imp'
+      Sq: 50
+      code: 'D'
+      q: 8
+      original: 
+         totalTons: 25
+         howMany: 1
+         totalMCr: 25
+         B: 0
+         eff: 1
+         label: 'Jump Drive-4 (D)'
+         jumpFuelUsage: 0.1
+         basetl: 13
+         name: 'Jump Drive'
+         rating: 4
+         E: 0
+         type: 'Drive'
+         Sq: 50
+         code: 'D'
+         q: 0
+         r: 0
+         notes: 'J 4'
+         s: 0
+         CP: 1
+         b: 0
+         autoAdjust: 1
+         tl: 14
+         tons: 25
+         e: 0
+         mcr: 25
+         Q: 0
+         R: 0
+         mod: 0
+         S: 0
+         category: 'Jump Drive'
+         target: 14
+      r: 1
+      notes: 'J 4'
+      s: 2
+      CP: 1
+      b: -2
+      autoAdjust: 1
+      tl: 13
+      tons: 25
+      e: 3
+      mcr: 25
+      Q: 0
+      R: 0
+      mod: 1
+      S: 0
+      category: 'Jump Drive'
+      target: 14
+
+   - 
+      totalTons: 1.5
+      howMany: 1
+      totalMCr: 3
+      eff: 1
+      label: 'D T3de Hybrid L-S-M'
+      basetl: 9
+      name: 'Hybrid L-S-M'
+      Sq: 3
+      range: 'D'
+      q: 0
+      type: 'Weapon'
+      tl: 14
+      s: 0
+      CP: 1
+      config: 'Weapon'
+      b: 0
+      notes: ''
+      tons: 1.5
+      e: 0
+      mcr: 3
+      mount: 'T3de'
+      r: 0
+      category: 'D T3de Hybrid L-S-M'
+      target: 14
+      mod: 0
+
+   - 
+      s: '0'
+      howMany: 1
+      CP: 0
+      b: '0'
+      eff: '1'
+      av: '15,10,10,10,12,22,20'
+      totalTons: 6
+      tons: 6
+      totalMCr: 2.2
+      e: '0'
+      speed: 6
+      label: 'Grav Speeder + niche'
+      tl: '14'
+      Sq: 12
+      load: 1
+      code: 'FPGPH'
+      mcr: 2.2
+      r: '0'
+      q: '0'
+      target: '14'
+      type: 'Vehicle'
+      mod: ''
+
+   - 
+      s: 0
+      howMany: 2
+      CP: 1
+      b: 0
+      eff: 1
+      notes: ''
+      totalTons: 1
+      tons: 0.5
+      totalMCr: 0.2
+      e: 0
+      mcr: 0.1
+      label: 'Air Lock'
+      Sq: 2
+      type: 'Payload'
+      q: 0
+      target: 14
+      r: 0
+      tl: 14
+
+   - 
+      s: 0
+      howMany: 1
+      CP: 0
+      b: 0
+      eff: 1
+      notes: ''
+      totalTons: 5
+      tons: 5
+      name: 'Bridge'
+      e: 0
+      mcr: 0
+      label: 'Standard Controls'
+      Sq: 10
+      totalMCr: 0
+      mod: 0
+      r: 0
+      category: 'Bridge'
+      q: 0
+      target: 14
+      type: 'Ops'
+      tl: 14

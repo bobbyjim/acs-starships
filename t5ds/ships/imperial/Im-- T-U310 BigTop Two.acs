@@ -1,0 +1,48 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:30 2021
+Mission: Military Transport
+QSP: T-U310
+TL: 14 
+Name: BigTop Two
+Tons: 300
+Actual Tons: 245.5
+Allegiance: Im
+
+MCr: 86.3
+
+Crew comfort: -1
+Passenger demand: -5
+Cargo: 0
+FuelPercentage: 0
+Components:
+ - HH1   U  1 00000 300   17  Unstreamlined Hull
+ - HL1   K  1 00000   3    3  Legs with pads
+ - HW1   G  1 00000   3  1.5  Folding wings
+ - AA1  28  1 00000   0    0  AV=28. 1 Kinetic Charged
+ - DF0   -  1 00000   0    0  Jump Fuel (0  parsec)
+ - DF0   -  1 00000   1    0  Plant Fuel (0.5 months)
+ - DM1   B  1 00000   3    6  Maneuver Drive-1 (B)
+ - DP1   3  1 00000 3.5    7  Adv PowerPlant-1 (B)
+ - OC1   3  1 00000   3    3  Computer Model/3 std
+ - OO1   -  1 00000   4    3  Surgery
+ - OL1   -  1 00000   2    2  Life support (80 people/month)
+ - OB0   -  1 00000  10    0  Standard Bridge
+ - SS1   -  1 00000   0    1  AR Surf Communicator
+ - SS1   -  1 00000   0    1  AR Surf Jammer
+ - SS1   -  1 00000   0    1  AR Surf Neutrino Detector
+ - SS1   1  1 00000   1  1.5  AR Ant EMS
+ - SS1   -  1 00000   0    1  AR Surf Stealth Mask
+ - SS1   -  1 00000   0    1  AR Surf Visor
+ - WW1   -  1 00000   3    3  AR B1 Empty
+ - WW1  -1  1 00000   1  1.5  Vd T3 Beam Laser
+ - WW1  -1  1 00000   1  1.1  Vd T3 Sandcaster
+ - CO0   -  1 00000  80   10  Center Stage
+ - CO0   -  2 00000   4  0.5  Officer's Lounge
+ - CO0   - 12 00000   4  0.5  Barracks
+ - CO0   - 12 00000   4  0.5  Crew/Officer Staterooms
+ - CO0   -  6 00000   2  0.2  Crew/Officer Small Stateroom
+ - CO0   -  1 00000   4  0.5  Crew Lounge
+ - VO0   -  7 00000   1    1  Grapple
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

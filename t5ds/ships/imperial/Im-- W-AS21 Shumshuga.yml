@@ -1,0 +1,495 @@
+--- 
+components: 
+   - 
+      howMany: 1
+      totalTons: 100
+      totalMCr: 8
+      category: 'Hull'
+      code: 'S'
+      eff: 1
+      type: 'Hull'
+      config: 'Streamlined'
+      label: 'Streamlined Hull'
+      preMult: 1
+      mult: 1
+      tons: 100
+      q: 0
+      r: 0
+      mcr: 8
+      s: 0
+      target: 12
+      tl: 12
+      notes: 'S'
+      CP: 0
+      b: 0
+      e: 0
+      Sq: 200
+      name: 'Hull'
+
+   - 
+      s: 0
+      howMany: 1
+      target: 12
+      tl: 12
+      totalMCr: 0
+      mcr: 0
+      label: 'Cargo Hold Basic'
+      eff: 1
+      CP: 0
+      type: 'Payload'
+      b: 0
+      e: 0
+      category: 'Cargo'
+      Sq: 40
+      totalTons: 20
+      tons: 20
+      q: 0
+      r: 0
+      notes: ''
+
+   - 
+      s: 0
+      howMany: 1
+      totalTons: 40
+      tl: 12
+      totalMCr: 0
+      mcr: 0
+      label: 'Jump Fuel (4  parsecs)'
+      eff: 1
+      target: 12
+      type: 'Drive'
+      b: 0
+      e: 0
+      category: 'Jump Fuel'
+      Sq: 80
+      CP: 0
+      tons: 40
+      q: 0
+      r: 0
+      notes: 'J4, 10t/pc'
+
+   - 
+      s: 0
+      howMany: 1
+      target: 12
+      tl: 12
+      totalMCr: 0
+      notes: '5 months'
+      label: 'Plant Fuel (5 months)'
+      eff: 1
+      CP: 0
+      type: 'Drive'
+      b: 0
+      e: 0
+      category: 'Powerplant Fuel'
+      Sq: 20
+      totalTons: 10
+      tons: 10
+      q: 0
+      r: 0
+      mcr: 0
+
+   - 
+      s: 0
+      howMany: 1
+      totalTons: 1
+      b: 0
+      totalMCr: 1
+      mcr: 1
+      mcrPerTon: 1
+      eff: 1
+      tons: 1
+      CP: 1
+      type: 'Hull'
+      note: 'D'
+      e: 0
+      name: 'Flotation hull'
+      code: 'D'
+      Sq: 2
+      target: 9
+      tl: 9
+      tonsPercent: 1
+      label: 'Flotation hull'
+      q: 0
+      r: 0
+      category: 'fittings'
+
+   - 
+      s: 0
+      howMany: 1
+      CP: 1
+      b: 0
+      totalMCr: 0
+      mcr: 0
+      code: 'G'
+      eff: 1
+      target: 9
+      type: 'Hull'
+      note: 'G'
+      e: 0
+      name: 'Folding wings'
+      label: 'Folding wings'
+      mcrPerTon: 0.5
+      Sq: 2
+      totalTons: 0
+      tl: 9
+      tonsPercent: 0
+      tons: 0
+      q: 0
+      r: 0
+      category: 'wings'
+
+   - 
+      howMany: 1
+      totalTons: 4
+      B: 0
+      totalMCr: 4
+      category: 'PowerPlant'
+      code: 'A'
+      eff: 1
+      basetl: 9
+      type: 'Drive'
+      E: 0
+      rating: 2
+      label: 'PowerPlant-2 (A)'
+      powerFuelUsage: 0.01
+      tons: 4
+      q: 0
+      r: 0
+      notes: 'P 2'
+      s: 0
+      CP: 1
+      b: 0
+      mcr: 4
+      target: 9
+      tl: 9
+      e: 0
+      Q: 0
+      R: 0
+      autoAdjust: 1
+      S: 0
+      name: 'PowerPlant'
+      Sq: 8
+
+   - 
+      howMany: 1
+      totalTons: 10
+      B: 0
+      totalMCr: 10
+      category: 'Jump Drive'
+      label: 'Jump Drive-1 (A)'
+      eff: 1
+      basetl: 9
+      type: 'Drive'
+      E: 0
+      rating: 1
+      code: 'A'
+      jumpFuelUsage: 0.1
+      tons: 10
+      q: 0
+      r: 0
+      mcr: 10
+      s: 0
+      CP: 1
+      b: 0
+      notes: 'J 1'
+      target: 9
+      tl: 9
+      e: 0
+      Q: 0
+      R: 0
+      autoAdjust: 1
+      S: 0
+      name: 'Jump Drive'
+      Sq: 20
+
+   - 
+      howMany: 1
+      totalTons: 2
+      B: 0
+      totalMCr: 4
+      category: 'Maneuver Drive'
+      code: 'A'
+      eff: 1
+      basetl: 9
+      type: 'Drive'
+      E: 0
+      rating: 2
+      label: 'Maneuver Drive-2 (A)'
+      tons: 2
+      q: 0
+      r: 0
+      notes: '2 G'
+      s: 0
+      CP: 1
+      b: 0
+      mcr: 4
+      target: 9
+      tl: 9
+      e: 0
+      Q: 0
+      R: 0
+      autoAdjust: 1
+      S: 0
+      name: 'Maneuver Drive'
+      Sq: 4
+
+   - 
+      s: 0
+      howMany: 1
+      count: 1
+      CP: 1
+      tl: 8
+      totalMCr: 1
+      notes: '4t/hr'
+      label: 'Fuel Purifiers 4t/hr'
+      eff: 1
+      target: 8
+      type: 'Drive'
+      b: 0
+      e: 0
+      code: 'P1'
+      mcr: 1
+      Sq: 2
+      totalTons: 1
+      tons: 1
+      q: 0
+      r: 0
+      category: 'Fuel Purifiers'
+
+   - 
+      s: 0
+      howMany: 1
+      count: 1
+      CP: 1
+      b: 0
+      totalMCr: 0.1
+      category: 'Fuel Intakes'
+      label: 'Fuel Intakes 40t/hr'
+      eff: 1
+      target: 8
+      type: 'Drive'
+      tl: 8
+      e: 0
+      code: 'I1'
+      mcr: 0.1
+      Sq: 2
+      totalTons: 1
+      tons: 1
+      q: 0
+      r: 0
+      notes: '40t/hr'
+
+   - 
+      s: 0
+      howMany: 1
+      target: 9
+      tl: 9
+      totalMCr: 1
+      notes: '10 person-months'
+      label: 'Life Support Standard'
+      eff: 1
+      totalTons: 1
+      type: 'Ops'
+      b: 0
+      e: 0
+      Sq: 2
+      CP: 0
+      tons: 1
+      q: 0
+      r: 0
+      mcr: 1
+
+   - 
+      s: 0
+      howMany: 4
+      sleeps: 2
+      target: 9
+      b: 0
+      totalMCr: 0.4
+      notes: '1 crew'
+      label: 'Spacer Bunks'
+      eff: 1
+      CP: 0
+      type: 'Crew'
+      tl: 9
+      e: 0
+      Sq: 4
+      totalTons: 2
+      totalSleeps: 8
+      tons: 0.5
+      q: 0
+      r: 0
+      mcr: 0.1
+
+   - 
+      s: 0
+      howMany: 1
+      target: 9
+      tl: 9
+      totalMCr: 0
+      mcr: 0
+      label: 'Crew Lounge'
+      eff: 1
+      totalTons: 4
+      type: 'Crew'
+      b: 0
+      e: 0
+      Sq: 8
+      CP: 0
+      tons: 4
+      q: 0
+      r: 0
+      notes: ''
+
+   - 
+      s: 0
+      howMany: 1
+      target: 9
+      tl: 9
+      totalMCr: 0.5
+      notes: '4 crew'
+      label: 'Crew Shared Fresher'
+      eff: 1
+      CP: 0
+      type: 'Crew'
+      b: 0
+      e: 0
+      Sq: 1
+      totalTons: 0.5
+      tons: 0.5
+      q: 0
+      r: 0
+      mcr: 0.5
+
+   - 
+      s: 0
+      howMany: 1
+      count: 1
+      target: 8
+      tl: 8
+      totalMCr: 0.1
+      notes: '100t/hr'
+      label: 'Fuel Scoops 100t/hr'
+      eff: 1
+      totalTons: 1
+      type: 'Drive'
+      b: 0
+      e: 0
+      code: 'S1'
+      category: 'Fuel Scoops'
+      Sq: 2
+      CP: 1
+      tons: 1
+      q: 0
+      r: 0
+      mcr: 0.1
+
+   - 
+      howMany: 1
+      totalTons: 0
+      totalMCr: 0
+      mod: ''
+      eff: 1
+      basetl: 8
+      type: 'Armor'
+      config: 'Armor'
+      label: 'AV=9. 1 Kinetic Plate'
+      mount: 'Kinetic'
+      tons: 0
+      q: 0
+      r: 0
+      range: '1'
+      s: 0
+      CP: 1
+      tl: 9
+      mcr: 0
+      target: 9
+      b: 0
+      e: 0
+      notes: ''
+      name: 'Plate'
+      category: 'AV=9. 1 Kinetic Plate'
+
+   - 
+      howMany: 1
+      totalTons: 1
+      totalMCr: 1.5
+      category: 'Computer Model/1 std'
+      mod: 1
+      eff: 1
+      basetl: 0
+      type: 'Ops'
+      config: 'Ops'
+      label: 'Computer Model/1 std'
+      mount: 'Model/1'
+      tons: 1
+      q: 0
+      r: 0
+      notes: ''
+      s: 0
+      CP: 1
+      tl: 9
+      range: 's'
+      target: 10
+      b: 0
+      e: 0
+      mcr: 1.5
+      Sq: 2
+      name: 'Computer'
+
+   - 
+      s: 0
+      howMany: 1
+      CP: 0
+      b: 0
+      totalMCr: 0
+      notes: ''
+      label: 'Cramped Controls'
+      eff: 1
+      target: 7
+      type: 'Ops'
+      tl: 9
+      e: 0
+      mod: -2
+      mcr: 0
+      Sq: 4
+      totalTons: 2
+      r: 0
+      tons: 2
+      q: 0
+      name: 'Bridge'
+      category: 'Bridge'
+header: 
+   overtons: 0.5
+   missionLabel: 'Barge'
+   crewComfort: -4
+   pf: 5
+   totalMCr: 32.1
+   format: 'T5-ACS-1'
+   mult: 1
+   preMult: 1
+   spaciousness: 0.5
+   config: 'S'
+   troops: 0
+   tons: 100
+   staff: 0
+   tonsFree: -0.5
+   totalCargoSpace: 20
+   passengers: 1
+   controlConsoles: 1
+   demand: -5
+   shipname: 'Shumshuga'
+   operatingConsoles: 3
+   workstations: 0
+   undertons: 1.5
+   tl: 9
+   low: 0
+   comments: 'Displacing 100 tons, the Type W Barge is a low-tech level, utilitarian vessel designed to haul small amounts of critical material across space as cheaply as possible.  As a result, the ship is slow (Jump-1), and uncomfortable, with a cramped bridge, one four-ton lounge, a shared fresher, and four bunks for the crew (comfort = -4).  It is slightly (0.5 tons) overtonnage, making it somewhat ungainly. The barge typically carries 12 tons of fuel – sufficient for a one parsec jump and one month of operations – a fuel purifier, fuel scoops, fuel intakes, and 38 tons of cargo.  This barge carries 50 tons of fuel and also has transfer pumps to refuel other ships. It costs MCr 31.5.'
+   qsp: 'W-AS21'
+   jumpFuelPercentage: 0.1
+   shifts: 1
+   powerFuelPercentage: 0.02
+   jf: 4
+   crew: 4
+   mission: 'W'

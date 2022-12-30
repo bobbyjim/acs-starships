@@ -1,0 +1,53 @@
+--- 
+ACS1.0: Thu Dec  2 22:43:36 2021
+Mission: Freighter
+QSP: F-ZC14
+TL: 14 
+Name: Risek
+Tons: 2400
+Actual Tons: 2425
+Overtonnage: 25
+
+MCr: 539.8
+Owner: Al Morai
+Allegiance: ImAl
+
+Crew comfort: 0
+Passenger demand: 1
+Cargo: 900
+FuelPercentage: 12
+Components:
+ - HH0   C  1 00000 2400   48  Cluster Hull, lifters, 24 a/l free
+ - HL1  n/  1 00000 -12    0  No Landers
+ - DF0   -  1 00000 864    0  Jump Fuel (4  parsecs)
+ - DF0   -  1 00000 79.2    0  Plant Fuel (one month)
+ - DM1   M  1 00000  23   46  Maneuver Drive-1 (M)
+ - DF1   P  1 00000   1    1  Fuel Purifier
+ - DF1   X  1 00000   1    1  Fuel Transfer Pumps
+ - DJ8  Z2  1 3040A 250  250  Imp Jump Drive Z2 (R4)
+ - DP5  Z2  1 550E5 48.18  146  Adv PowerPlant Z2 (R4)
+ - OC1   4  1 00000   4   18  Computer Model/4 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   -  1 00000   1    1  Life Support Luxury
+ - OO0   -  1 00000   1    1  Life Support Adaptable
+ - OO1   -  1 00000   2    1  Clinic
+ - OO1   -  1 00000   2  0.2  Counsellor
+ - OO0   -  1 00000  18    1  Gunner Barracks
+ - OB0   2  1 00000  36  1.5  Spacious Bridge
+ - WW1  -2  8 00000   1  0.4  AR T1 Missile
+ - WW1  -2  8 00000   1  0.3  Vd T1 Sandcaster
+ - WW1  -2  8 00000   1  0.7  Vd T1 Beam Laser
+ - CO1   -  2 00000   6  0.4  Officer Suite
+ - CO0   -  2 00000   1    1  Crew Common Fresher
+ - CO0   -  8 00000   4    0  Crew Commons
+ - CO0   - 14 00000   2  0.1  Crew Stateroom
+ - CO0   -  1 00000   2  0.1  Crew Double
+ - PO0   -  8 00000   6  0.4  Luxury Stateroom
+ - PO0   -  8 00000   2  0.1  Standard Stateroom
+ - PO0   -  2 00000 0.5  0.5  Shared Fresher
+ - PO0   -  8 00000   4    0  Passenger Commons
+ - PO0   - 16 00000 0.5  0.1  Low Berth
+ - PC0   -  1 00000 900    0  Cargo Hold Basic
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

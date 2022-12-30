@@ -1,0 +1,46 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:35 2021
+Mission: Corvette
+QSP: EB-DS64
+TL: 13 
+Name: Zhdits
+Tons: 400
+Actual Tons: 399
+
+MCr: 257.1
+Owner: Zhodani
+Allegiance: Zh
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 0
+FuelPercentage: 16
+Components:
+ - HH0   S  1 00000 400   30  Streamlined Hull, lifters
+ - HL1   K  1 00000   4    4  Landing legs with pads
+ - HF1   D  1 00000   4    4  Flotation hull
+ - AA1  26  1 00000  16    0  AV=26. 2 Blast Plate
+ - DF0   -  1 00000 160    0  Jump Fuel (4  parsecs)
+ - DF0   -  1 00000  12    0  Plant Fuel (0.5 months)
+ - DJ2   H  1 00000  45   45  Jump Drive-4 (H)
+ - DP2   M  1 00000  37   37  PowerPlant-6 (M)
+ - DF1   S  1 00000   1  0.1  Fuel Scoops
+ - DM1   M  1 00000  23   46  Maneuver Drive-6 (M)
+ - OO0   -  1 00000   1    1  Life Support Standard
+ - OS1   5  1 00000  10  40.5  Semi-Organic Model/5 fib
+ - OB0   2  1 00000  12    0  Spacious Controls
+ - SS1   1  1 00000   2  2.5  LR Ant Communicator
+ - SS1   1  1 00000   2  2.5  LR Ant Neutrino Detector
+ - SS1   1  1 00000   2  2.5  LR Ant EMS
+ - SS1   -  1 00000   0  1.5  AR Surf Scope
+ - SS1   -  1 00000   0  1.5  AR Surf Stealth Mask
+ - SS1   -  1 00000   0  1.5  AR Surf Jammer
+ - WW1   -  4 00000   4  8.5  G T3 Beam Laser
+ - CO0   -  3 00000   4  0.1  Officer Stateroom
+ - CO0   -  9 00000   2  0.1  Crew Stateroom
+ - CO0   -  5 00000   4    0  Crew Lounge
+ - CO0   -  3 00000 0.5  0.5  Crew Shared Fresher
+ - PO1   -  1 00000 0.5  0.1  Air Lock
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

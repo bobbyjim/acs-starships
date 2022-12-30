@@ -1,0 +1,60 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:34 2021
+Mission: Far Trader
+QSP: A2-DA11
+TL: 17 
+Name: Grendel
+Tons: 400
+Actual Tons: 397
+
+MCr: 109.7
+Owner: Republic of Regina
+Allegiance: Rr
+
+Crew comfort: 0
+Passenger demand: 0
+Cargo: 90
+FuelPercentage: 11
+Components:
+ - HH0   A  1 00000 400   30  Airframe Hull
+ - AA1  17  1 00000   0    0  AV=17. 1 Kinetic Plate
+ - AC1   -  1 00000   0    0  AV=0. c Ablat
+ - DF0   -  1 00000  80    0  Jump Fuel (2  parsecs)
+ - DF0   -  1 00000   4    0  Plant Fuel (one month)
+ - DP1   B  1 00000   7    7  PowerPlant-1 (B)
+ - DJ1   B  1 00000  15   15  Jump Drive-1 (B)
+ - DH1   B  1 00000  15   15  Hop Drive-1 (B)
+ - DF1   S  1 00000   1  0.1  Fuel Scoops
+ - DF1   I  1 00000   1  0.1  Fuel Intakes
+ - DF1   B  1 00000   1  0.1  Fuel Bins
+ - DF1   P  3 00000   1  0.1  Fuel Purifiers
+ - DM1   B  1 00000   3    6  Maneuver Drive-1 (B)
+ - OC1   1  1 00000   1  1.5  Computer Model/1 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   -  1 00000   1    1  Life Support Luxury
+ - OO0   -  1 00000   1    1  Life Support Adaptable
+ - OO1   -  1 00000   2    1  Clinic
+ - OO1   -  1 00000   2  0.2  Counsellor
+ - OO0   -  1 00000   4  0.2  Gunners' Barracks
+ - OB0   2  1 00000  24  1.7  Spacious Bridge
+ - WW1   -  1 00000   1  1.5  Vd T3 Beam Laser
+ - WW1   -  1 00000   1  1.1  Vd T3 Sandcaster
+ - WW1   -  2 00000   1  1.2  AR T3 Missile
+ - CO1   -  1 00000   6  0.4  Owner Suite
+ - CO0   -  6 00000   2  0.1  Crew Stateroom
+ - CO0   -  2 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  3 00000   4    0  Crew Lounge
+ - PO0   -  8 00000   4  0.2  Standard Suite
+ - PO0   -  4 00000 0.5  0.5  Shared Fresher
+ - PO1   -  1 00000   2    0  Cargo Lock
+ - PO1   -  2 00000 0.5  0.1  Air Lock
+ - PO0   -  1 00000   1    0  Magazine
+ - PO0   -  1 00000   1    0  Mail Vault
+ - PO0   -  8 00000 0.5  0.1  Low Berth
+ - PO0   -  8 00000   4    0  Passenger Lounge
+ - PC0   -  1 00000  90    0  Cargo Hold Basic
+ - VO0  MS  1 00000  20   16  Launch
+ - VO1   -  1 00000  10    0  Large Vehicle Lock
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

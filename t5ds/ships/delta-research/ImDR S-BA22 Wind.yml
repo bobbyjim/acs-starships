@@ -1,0 +1,594 @@
+--- 
+components: 
+   - 
+      tons: 200
+      CP: 0
+      type: 'Hull'
+      tl: 12
+      name: 'Hull'
+      notes: 'A, lifters'
+      code: 'A'
+      label: 'Airframe Hull, lifters'
+      mcr: 18
+      q: 0
+      category: 'Hull'
+      r: 0
+      s: 0
+      b: 0
+      howMany: 1
+      totalTons: 200
+      target: 12
+      eff: 1
+      config: 'Airframe'
+      totalMCr: 18
+      preMult: 1
+      Sq: 400
+      mult: 1
+      e: 0
+
+   - 
+      s: 0
+      tons: 40
+      b: 0
+      howMany: 1
+      label: 'Jump Fuel (2  parsecs)'
+      type: 'Drive'
+      tl: 12
+      target: 12
+      notes: 'J2, 20t/pc'
+      category: 'Jump Fuel'
+      e: 0
+      CP: 0
+      Sq: 80
+      mcr: 0
+      totalMCr: 0
+      eff: 1
+      totalTons: 40
+      q: 0
+      r: 0
+
+   - 
+      s: 0
+      tons: 4
+      b: 0
+      howMany: 1
+      label: 'Plant Fuel (one month)'
+      type: 'Drive'
+      tl: 12
+      target: 12
+      notes: 'one month'
+      category: 'Powerplant Fuel'
+      e: 0
+      CP: 0
+      Sq: 8
+      mcr: 0
+      totalMCr: 0
+      eff: 1
+      totalTons: 4
+      q: 0
+      r: 0
+
+   - 
+      s: 0
+      tonsPercent: 3
+      tons: 6
+      mcrPerTon: 1.5
+      howMany: 1
+      label: 'Landing wheels'
+      type: 'Hull'
+      mcr: 9
+      name: 'Landing wheels'
+      b: 0
+      code: 'M'
+      CP: 1
+      Sq: 12
+      note: 'M'
+      totalMCr: 9
+      e: 0
+      category: 'landers'
+      totalTons: 6
+      q: 0
+      tl: 12
+      target: 12
+      r: 0
+      eff: 1
+
+   - 
+      s: 0
+      tonsPercent: 1
+      tons: 2
+      mcrPerTon: 1
+      howMany: 1
+      label: 'Flotation hull'
+      type: 'Hull'
+      mcr: 2
+      name: 'Flotation hull'
+      b: 0
+      code: 'D'
+      CP: 1
+      Sq: 4
+      note: 'D'
+      totalMCr: 2
+      e: 0
+      category: 'fittings'
+      totalTons: 2
+      q: 0
+      tl: 12
+      target: 12
+      r: 0
+      eff: 1
+
+   - 
+      notes: 'P 2'
+      B: 0
+      CP: 1
+      type: 'Drive'
+      tl: 12
+      name: 'PowerPlant'
+      tons: 7
+      code: 'B'
+      label: 'PowerPlant-2 (B)'
+      mcr: 7
+      E: 0
+      q: 0
+      r: 0
+      s: 0
+      category: 'PowerPlant'
+      b: 0
+      howMany: 1
+      totalTons: 7
+      target: 12
+      e: 0
+      basetl: 9
+      Sq: 14
+      Q: 0
+      totalMCr: 7
+      rating: 2
+      R: 0
+      eff: 1
+      powerFuelUsage: 0.01
+      S: 0
+      autoAdjust: 1
+
+   - 
+      notes: 'J 2'
+      B: 0
+      CP: 1
+      type: 'Drive'
+      tl: 12
+      name: 'Jump Drive'
+      tons: 15
+      code: 'B'
+      label: 'Jump Drive-2 (B)'
+      mcr: 15
+      E: 0
+      q: 0
+      r: 0
+      s: 0
+      category: 'Jump Drive'
+      b: 0
+      howMany: 1
+      totalTons: 15
+      target: 12
+      e: 0
+      basetl: 11
+      Sq: 30
+      Q: 0
+      totalMCr: 15
+      rating: 2
+      R: 0
+      eff: 1
+      S: 0
+      jumpFuelUsage: 0.1
+      autoAdjust: 1
+
+   - 
+      notes: '2 G'
+      B: 0
+      CP: 1
+      type: 'Drive'
+      tl: 12
+      name: 'Maneuver Drive'
+      tons: 3
+      code: 'B'
+      label: 'Maneuver Drive-2 (B)'
+      mcr: 6
+      E: 0
+      q: 0
+      r: 0
+      s: 0
+      category: 'Maneuver Drive'
+      b: 0
+      howMany: 1
+      totalTons: 3
+      target: 12
+      e: 0
+      basetl: 9
+      Sq: 6
+      Q: 0
+      totalMCr: 6
+      rating: 2
+      R: 0
+      eff: 1
+      S: 0
+      autoAdjust: 1
+
+   - 
+      s: 0
+      count: 1
+      notes: '4t/hr'
+      b: 0
+      howMany: 1
+      totalTons: 1
+      type: 'Drive'
+      tl: 8
+      target: 8
+      tons: 1
+      category: 'Fuel Purifiers'
+      code: 'P1'
+      label: 'Fuel Purifiers 4t/hr'
+      Sq: 2
+      mcr: 1
+      totalMCr: 1
+      e: 0
+      CP: 1
+      q: 0
+      r: 0
+      eff: 1
+
+   - 
+      s: 0
+      CP: 1
+      notes: '100t/hr'
+      b: 0
+      howMany: 1
+      totalTons: 1
+      type: 'Drive'
+      tl: 8
+      target: 8
+      tons: 1
+      code: 'S1'
+      label: 'Fuel Scoop/Intakes 50t/20t per hr'
+      Sq: 2
+      mcr: 0.1
+      totalMCr: 0.1
+      e: 0
+      count: 1
+      q: 0
+      category: 'Fuel Scoops'
+      r: 0
+      eff: 1
+
+   - 
+      notes: ''
+      label: 'Vd T3 Hybrid L-S-M'
+      type: 'Weapon'
+      tl: 12
+      name: 'Hybrid L-S-M'
+      tons: 1
+      CP: 1
+      mcr: 2
+      q: 0
+      r: 0
+      s: 0
+      category: 'Vd T3 Hybrid L-S-M'
+      b: 0
+      howMany: 1
+      mod: 0
+      totalMCr: 2
+      e: 0
+      basetl: 10
+      totalTons: 1
+      config: 'Weapon'
+      target: 12
+      eff: 1
+      mount: 'T3'
+      Sq: 2
+      range: 'Vd'
+
+   - 
+      s: 0
+      r: 0
+      tons: 4
+      load: 2
+      howMany: 1
+      CP: 0
+      type: 'Vehicle'
+      tl: 9
+      av: '9,0,4,0,4,0,24,0'
+      b: 0
+      e: 0
+      label: 'Air/Raft Enclosed'
+      Sq: 8
+      mcr: 0.1
+      target: 9
+      code: 'ELPV'
+      speed: 3
+      totalTons: 4
+      q: 0
+      totalMCr: 0.1
+      eff: 1
+
+   - 
+      s: '0'
+      totalTons: 1
+      tons: 1
+      load: 2
+      howMany: 1
+      totalMCr: 1
+      mod: ''
+      type: 'Vehicle'
+      tl: '9'
+      av: '9,0,4,0,4,0,24,0'
+      b: '0'
+      e: '0'
+      CP: 0
+      Sq: 2
+      mcr: 1
+      target: '9'
+      code: 'ELPV'
+      speed: 3
+      label: 'Air/Raft Niche'
+      q: '0'
+      r: '0'
+      eff: '1'
+
+   - 
+      s: 0
+      totalTons: 30
+      notes: ''
+      b: 0
+      howMany: 1
+      CP: 0
+      type: 'Crew'
+      mcr: 0
+      target: '12'
+      tons: 30
+      e: 0
+      mod: ''
+      Sq: 60
+      tl: '12'
+      totalMCr: 0
+      eff: 1
+      label: 'Mission Component'
+      q: 0
+      r: 0
+
+   - 
+      s: 0
+      totalSleeps: 4
+      tons: 2
+      b: 0
+      howMany: 4
+      CP: 0
+      type: 'Crew'
+      mcr: 0.1
+      target: 12
+      notes: '1 crew'
+      e: 0
+      label: 'Crew Stateroom'
+      Sq: 16
+      tl: 12
+      totalMCr: 0.4
+      eff: 1
+      totalTons: 8
+      q: 0
+      r: 0
+      sleeps: 1
+
+   - 
+      s: 0
+      notes: '4 crew'
+      b: 0
+      howMany: 1
+      label: 'Crew Shared Fresher'
+      type: 'Crew'
+      mcr: 0.5
+      target: 12
+      tons: 0.5
+      e: 0
+      CP: 0
+      Sq: 1
+      tl: 12
+      totalMCr: 0.5
+      eff: 1
+      totalTons: 0.5
+      q: 0
+      r: 0
+
+   - 
+      notes: ''
+      label: 'Computer Model/2 std'
+      type: 'Ops'
+      tl: 12
+      name: 'Computer'
+      tons: 2
+      CP: 1
+      mcr: 5
+      q: 0
+      r: 0
+      s: 0
+      category: 'Computer Model/2 std'
+      b: 0
+      howMany: 1
+      mod: 2
+      totalMCr: 5
+      e: 0
+      basetl: 0
+      totalTons: 2
+      config: 'Ops'
+      target: 14
+      eff: 1
+      mount: 'Model/2'
+      Sq: 4
+      range: 's'
+
+   - 
+      s: 0
+      tons: 3
+      b: 0
+      howMany: 1
+      label: 'Cargo Hold Basic'
+      type: 'Payload'
+      mcr: 0
+      target: 12
+      notes: ''
+      category: 'Cargo'
+      e: 0
+      CP: 0
+      Sq: 6
+      tl: 12
+      totalMCr: 0
+      eff: 1
+      totalTons: 3
+      q: 0
+      r: 0
+
+   - 
+      s: 0
+      tons: 2
+      b: 0
+      howMany: 1
+      label: 'Life Support Long Term'
+      type: 'Ops'
+      mcr: 2
+      target: 12
+      notes: '40 person-months'
+      e: 0
+      CP: 0
+      Sq: 4
+      tl: 12
+      totalMCr: 2
+      eff: 1
+      totalTons: 2
+      q: 0
+      r: 0
+
+   - 
+      notes: ''
+      label: 'AV=24. 2 Blast Plate'
+      type: 'Armor'
+      tl: 12
+      name: 'Plate'
+      tons: 8
+      CP: 1
+      mcr: 0
+      q: 0
+      r: 0
+      s: 0
+      category: 'AV=24. 2 Blast Plate'
+      b: 0
+      howMany: 1
+      mod: ''
+      totalMCr: 0
+      e: 0
+      basetl: 8
+      totalTons: 8
+      config: 'Armor'
+      target: 12
+      eff: 1
+      mount: 'Blast'
+      Sq: 16
+      range: '2'
+
+   - 
+      s: 0
+      tons: 1
+      b: 0
+      howMany: 1
+      label: 'Mail Vault'
+      type: 'Payload'
+      mcr: 0
+      target: 12
+      notes: 'for express contracts'
+      e: 0
+      CP: 0
+      Sq: 2
+      tl: 12
+      totalMCr: 0
+      eff: 1
+      totalTons: 1
+      q: 0
+      r: 0
+
+   - 
+      s: 0
+      notes: ''
+      b: 0
+      howMany: 1
+      CP: 1
+      type: 'Payload'
+      mcr: 0.1
+      target: 12
+      tons: 0.5
+      e: 0
+      label: 'Air Lock'
+      Sq: 1
+      tl: 12
+      totalMCr: 0.1
+      eff: 1
+      totalTons: 0.5
+      q: 0
+      r: 0
+
+   - 
+      s: 0
+      CP: 0
+      tons: 10
+      b: 0
+      target: 14
+      totalTons: 10
+      type: 'Ops'
+      mcr: 0
+      name: 'Bridge'
+      notes: ''
+      category: 'Bridge'
+      e: 0
+      label: 'Spacious Controls'
+      Sq: 20
+      tl: 12
+      totalMCr: 0
+      eff: 1
+      howMany: 1
+      mod: 2
+      q: 0
+      r: 0
+header: 
+   staff: 0
+   totalCargoSpace: 3
+   tons: 200
+   passengers: 1
+   tonsFree: 50
+   demand: -5
+   shipname: 'Wind'
+   architect: 'Paranoia Press, LIC'
+   controlConsoles: 1
+   undertons: 50
+   operatingConsoles: 3
+   tl: 12
+   workstations: 1
+   powerFuelPercentage: 0.02
+   jf: 2
+   qsp: 'S-BA22'
+   pf: 1
+   jumpFuelPercentage: 0.1
+   shifts: 1
+   owner: 'Paranoia Press, LIC'
+   low: 0
+   crew: 5
+   mission: 'S'
+   crewComfort: 4
+   missionLabel: 'Scout/Courier'
+   totalMCr: 69.7
+   comments: |
+      The Wind-class Extended Scout is a undertonned 200t airframe hull, designed as a larger, TL12 version of its Serpent-class Scout.  The ship sports Jump and Maneuver-2.  Its fuel tanks support one jump-2 and 4 weeks of operations.  It has one hardpoint, with a hybrid L-M-S triple turret installed.  It has one vehicle: an Air/Raft in a fitted niche.
+      
+      The Extended Scout has a crew of two: Pilot/Astrogator and Gunner/Engineer.  The ship can carry up to four crew members.  There are 3 tons of cargo space, and one 30-ton module for mission-defined space.
+      
+   config: 'A'
+   mult: 1
+   preMult: 1
+   spaciousness: 2
+   format: 'T5-ACS-1'
+   troops: 0
+   lifters: 'y'

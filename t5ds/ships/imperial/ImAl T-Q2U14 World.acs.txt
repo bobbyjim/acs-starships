@@ -1,0 +1,82 @@
+--- 
+ACS1.0: Fri May  6 13:52:20 2022
+Mission: Transport
+QSP: T-Q2U14 
+Cx: 16
+Vx: S3
+Name: World
+Tons: 3000
+TL: 15 
+Overtonnage: 6.5
+MCr: 846.5
+Allegiance: ImAl
+
+Crew comfort: 0
+Passengers: 30
+Passenger demand: 0
+Low berths: 
+Cargo: 1200
+Fuel: 1194
+Fuel treatment: 
+Computer: Model/4  
+
+Comments: |-
+   Al Morai maintains a homogenous fleet of 53 type MK Mora-class cargo carriers.  The quantity 53 allows one ship to be present at each world along Al Morai's routes, as well as one ship in maintenance at each of the two overhaul facilities.
+      
+   Al Morai's World class ships are named for the worlds on the company routes, for example, Regina, Fornice, Bendor, and Jewell.  Two additional ships are named Imperial Glory and Imperial Reign.
+   
+   Using a 3000-ton, TL14 hull, the World class Transport mounts jump drive-V3, maneuver drive-Q, and power plant-V3, giving a performance of jump-4 and 1G acceleration. Fuel tankage supports a 4 parsec jump, at 270t per parsec, and one month of operations. Attached to the bridge is a Computer Model/4. There are 30 passenger staterooms and no low berths. Cargo capacity is 1200 tons. The ship is unstreamlined. Its overtonnage is compensated for by its power plant.
+   
+   Carried craft include 3 Light Shuttles for ground contact. The ship requires 18 crew: captain, two pilots, astrogator, sensop, medic, six engineers, three stewards, and three freightmasters. It can carry 24 high passengers, and 6 middle passengers.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -  3000   . Unstreamlined Hull                 92.0  ,HH.0  U .....
+ -   -15   . No Landers                          0.0  ,HL.1 n/ .....
+ -     0   . Armor: 1 Rad Charged                0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -  1080   . Jump Fuel (4  parsecs)              0.0  ,DF.0  . .....
+ -   114   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     1   . Fuel Transfer Pumps                 1.0  ,DF.1  X .....
+ -     7   . Ult Maneuver Drive Q (R1)         116.0  ,DM11  4 745D0
+ -   157   . Mod Jump Drive V3 (R4)            157.5  ,DJ49 V3 445C3
+ -    45   . Ult PowerPlant V3 (R5)            366.0  ,DP56 V3 1035B2
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . Computer Model/4                   18.0  ,OC41  . .....
+ -     6  6x Life Support Luxury                 6.0  ,OLU0  . .....
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -    36   . Spacious Bridge                     1.4  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Basic                       6.0  ,SS.1  . .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    10 10x Spacer Niche                        1.0  ,CS.0  1 .....
+ -    12  2x Officer Suite                       0.8  ,CS.1  1 .....
+ -    12  6x Crew Stateroom                      0.6  ,CS.0  1 .....
+ -     2  2x Crew Common Fresher                 2.0  ,CF.0  2 .....
+ -    40 10x Crew Commons                        0.0  ,CC.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -  1200   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -     4   . Passenger Commons                   0.0  ,PC.0  . .....
+ -     1   . Common Fresher                      1.0  ,PF.0  2 .....
+ -   144 24x Luxury Stateroom                    9.6  ,PS.0  1 .....
+ -    12  3x Standard Suite                      0.6  ,PS.0  2 .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   120  3x Light Shuttle                      54.0  ,VO.0 LM .....
+ -    12 12x Shuttle Grapples                   12.0  ,VO.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

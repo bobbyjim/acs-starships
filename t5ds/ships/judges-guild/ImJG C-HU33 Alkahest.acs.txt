@@ -1,0 +1,63 @@
+--- 
+ACS1.0: Thu Apr 14 09:59:13 2022
+Mission: Cruiser
+QSP: C-HU33
+TL: 12 
+Name: Alkahest
+Tons: 800
+Actual Tons: 806
+Overtonnage: 6
+
+MCr: 310.4
+Builder: Bilstein Yards
+Owner: Judges Guild
+Disposition: In Service
+Allegiance: ImJG
+
+Crew comfort: -1
+Passenger demand: -5
+Cargo: 80
+FuelPercentage: 13
+Components:
+#  CODE R  # QREBS TONS  MCR   LABEL
+ - HH0  U  1 00000 800   26    Unstreamlined Hull, lifters, 8 a/l free
+ - HL1 n/  1 00000 -4    0     No Landers
+ - AA1 24  1 00000 32    0     AV=24. 2 Kinetic Plate
+ - DF0  -  1 00000 240   0     Jump Fuel (3  parsecs)
+ - DF0  -  1 00000 48    0     Plant Fuel (2 months)
+ - DM1  M  1 00000 23    46    Maneuver Drive-3 (M)
+ - DJ2  M  1 00000 65    65    Jump Drive-3 (M)
+ - DP2  M  1 00000 37    37    PowerPlant-3 (M)
+ - OC1  5  1 00000 5     27    Computer Model/5 std
+ - OM1  -  2 00000 2     1     Clinic
+ - OM1  -  1 00000 4     3     Surgery
+ - OL0  L  2 00000 2     2     Life Support Long Term
+ - OL0  A  1 00000 1     1     Life Support Adaptable
+ - OB0  2  1 00000 24    1.6   Spacious Bridge
+ - SS1  -  1 00000 0     4     LR Surf Communicator
+ - SS1  -  1 00000 0     4     LR Surf Radar
+ - SS1  -  1 00000 0     4     LR Surf Scope
+ - SS1  -  1 00000 0     4     LR Surf Neutrino Detector
+ - SS1  -  1 00000 0     4     LR Surf Jammer
+ - SS1  -  1 00000 0     2     AR Surf Stealth Mask
+ - WS1  -  1 00000 0     3.1   Or Surf Densitometer
+ - WS1  -  1 00000 0     3.1   Or Surf Activity Sensor
+ - WS1  -  1 00000 0     3.1   Or Surf Deep Radar
+ - WS1  -  1 00000 0     3.1   Or Surf Mass Sensor
+ - WS1  -  1 00000 0     3.1   Or Surf Proximeter
+ - WS1  -  1 00000 0     3.1   Or Surf Field Sensor
+ - WW1  -  8 00000 1     1     AR T3 Empty
+ - CS0  1  5 00000 2     0.1   Senior Crew Stateroom
+ - CS0  2 20 00000 2     0.1   Crew Double
+ - CF0  2  5 00000 1     1     Crew Common Fresher
+ - CC0  - 21 00000 4     0     Crew Lounge
+ - PC0  -  1 00000 80    0     Cargo Hold Basic
+ - PO1  -  1 00000 2     0     Cargo Lock
+ - VO0 MF  2 00000 40    18    Pinnace
+ - VO0 EL  1 00000 4     0.1   Air/Raft Enclosed
+ - VO0 EL  1 00000 4     0.1   ATV
+ - VO0  -  1 00000 2     1.5   Air/Raft Niche
+ - VO0  -  4 00000 1     1     Smallcraft Grapples
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

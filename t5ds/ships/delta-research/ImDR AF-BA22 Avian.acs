@@ -1,0 +1,46 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:32 2021
+Mission: Far Trader
+QSP: AF-BA22
+TL: 11 
+Name: Avian
+Tons: 200
+Actual Tons: 200
+
+MCr: 70.4
+Owner: Delta Research
+Allegiance: ImDR
+
+Crew comfort: -1
+Passenger demand: -1
+Cargo: 68
+FuelPercentage: 12
+Components:
+ - HH0   A  1 00000 200   18  Airframe Hull, lifters
+ - HL1   M  1 00000   6    9  Landing wheels
+ - HF1   D  1 00000   2    2  Flotation hull
+ - AA1  11  1 00000   0    0  AV=11. 1 Blast Plate
+ - DF0   -  1 00000  40    0  Jump Fuel (2  parsecs)
+ - DF0   -  1 00000   4    0  Plant Fuel (one month)
+ - DJ1   B  1 00000  15   15  Jump Drive-2 (B)
+ - DM1   B  1 00000   3    6  Maneuver Drive-2 (B)
+ - DF1  S1  1 00000   1  0.1  Fuel Scoop/Intakes 50t/20t hr
+ - DP1   B  1 00000   7    7  PowerPlant-2 (B)
+ - OC1   2  1 00000   2    5  Computer Model/2 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OB0   2  1 00000   8    0  Spacious Controls
+ - WW1   -  1 00000   1    2  Vd T3 Hybrid L-S-M
+ - WW1   -  1 00000   1    1  AR T3 Empty
+ - CO0   -  1 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  4 00000   2  0.1  Crew Stateroom
+ - CO0   -  2 00000   4    0  Crew Lounge
+ - PO0   -  2 00000 0.5  0.5  Shared Fresher
+ - PO0   -  6 00000   2  0.1  Standard Stateroom
+ - PO0   -  1 00000   1    0  Mail Vault
+ - PO0   -  2 00000   4    0  Passenger Lounge
+ - PO1   -  1 00000 0.5  0.1  Air Lock
+ - PC0   -  1 00000  68    0  Cargo Hold Basic
+ - PO0   -  2 00000 0.5  0.1  Low Berth
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

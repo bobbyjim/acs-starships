@@ -1,0 +1,54 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:30 2021
+Mission: Transport
+QSP: T-CL10
+TL: 14 
+Name: BigTop Two
+Tons: 300
+Actual Tons: 300
+Allegiance: Im
+
+MCr: 165
+Builder: Bilstein Yards
+Disposition: Reserve
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 10
+FuelPercentage: 1
+Components:
+ - HH0   L  1 00000 300   43  Lift body Hull, lifters
+ - HL1   K  1 00000   3    3  Landing legs with pads
+ - HF1   D  1 00000   3    3  Flotation hull
+ - AA1  28  1 00000   0    0  AV=28. 1 Kinetic Charged
+ - DF0   -  1 00000   0    0  Jump Fuel (0  parsec)
+ - DF0   -  1 00000 1.5    0  Plant Fuel (0.5 months)
+ - DM1   B  1 00000   3    6  Maneuver Drive-1 (B)
+ - DP1   B  1 00000   7    7  PowerPlant-1 (B)
+ - OC1   3  1 00000   3  10.5  Computer Model/3 std
+ - OO1   -  1 00000   4    3  Medical Bay
+ - OO0   -  4 00000  10  0.2  Troop Barracks (16 each)
+ - OO0   -  2 00000   2    2  Life Support Long Term
+ - OB0   2  1 00000  12    0  Spacious Controls
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   -  1 00000   0  1.5  AR Surf Jammer
+ - SS1   -  1 00000   0  1.5  AR Surf Neutrino Detector
+ - SS1   1  1 00000   1  1.5  AR Ant EMS
+ - SS1   -  1 00000   0  1.5  AR Surf Stealth Mask
+ - SS1   -  1 00000   0  1.5  AR Surf Visor
+ - WW1   2  1 00000   3  5.5  AR B1 Particle Accelerator
+ - WW1   -  1 00000   1  1.5  Vd T3 Beam Laser
+ - WW1   -  1 00000   1  1.1  Vd T3 Sandcaster
+ - CO0   - 12 00000   4  0.1  Officer Stateroom
+ - CO0   -  6 00000   2  0.1  Crew Stateroom
+ - CO0   -  2 00000   1    1  Crew Common Fresher
+ - CO0   -  3 00000   4    0  Galley/Lounge
+ - PO1   -  1 00000 0.5  0.1  Air Lock
+ - PO0   -  1 00000 100    0  Center Stage
+ - PO0   -  1 00000  10    0  Cargo Hold Basic
+ - PO1   -  2 00000   2    0  Cargo Lock
+ - VO1   -  4 00000   4    0  Vehicle Lock
+ - VO0   -  9 00000   1    7  Grapples
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

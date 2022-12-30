@@ -1,0 +1,54 @@
+Subsidized Merchant RK-DA12 Far Guilder MCr101.3
+
+Builder: Yard 11 No. 1
+Owner: Judges Guild
+Disposition: In Service
+
+Using a 400-ton, TL12 hull, the MC&S Far Guilder Class Subsidized Merchant mounts jump drive-D, maneuver drive-B, and power plant-D, giving a performance of jump-2 and 1G acceleration. Fuel tankage supports a 2 parsec jump, at 36t per parsec, and 2 months of operations. Attached to the bridge is a Computer Model/2. There are 13 staterooms, one spacer niche, and 9 low berths. Two empty single turrets are installed. Cargo capacity is 140 tons. The ship has an airframed hull, with scoops, intakes, and bins for frontier refueling. It is also capable of water and wilderness landings.
+
+The ship carries 1 Lifeboat. The ship has 6 crew (pilot, astrogator, medic, steward, and two engineers), and can carry 8 passengers and 9 low passengers. 
+
+Actual volume: 398 tons
+Crew comfort:     +0
+Passenger demand: +1
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    400	 Airframe Hull, lifters, 4 a/l free 	   30	A, lifters, 4 a/l free
+      4	 Flotation hull                     	    4	
+      4	 Landing legs with pads             	    4	
+      0	 AV=12. 1 Kinetic Plate             	    0	
+     72	 Jump Fuel (2  parsecs)             	    0	2 parsec jump, at 36t per parsec
+   14.4	 Plant Fuel (2 months)              	    0	2 months
+      1	 Fuel Scoops                        	  0.1	
+      1	 Fuel Intakes                       	  0.1	
+      1	 Fuel Bins                          	  0.1	
+      3	 Maneuver Drive-1 (B)               	    6	1 G
+    6.5	 Mod PowerPlant D (R2)              	  6.5	R2
+     25	 Imp Jump Drive D (R2)              	   25	R2
+      0	 AR Surf Communicator               	  1.5	
+      0	 AR Surf Radar                      	  1.5	
+      0	 AR Surf Scope                      	  1.5	
+      2	 2x AR T2 Empty                     	    1	#2 
+      2	 Clinic                             	    1	
+      2	 Computer Model/2 std               	    5	
+      2	 2x Life Support Luxury             	    2	#2 4 high passengers
+      1	 Life Support Standard              	    1	21 people
+     14	 Spacious Bridge                    	  0.7	1cc 4op 2ws
+     10	 5x Crew Stateroom                  	  0.5	#5 1 crew
+      1	 Crew Common Fresher                	    1	10 crew
+      1	 Spacer Niche                       	  0.1	1 crew
+     14	 Crew Lounge                        	    0	
+    4.5	 9x Low Berth                       	  0.9	#9 1 passenger
+      1	 Mail Vault                         	    0	for express contracts
+      4	 2x Cargo Lock                      	    0	#2 
+    140	 Cargo Hold Basic                   	    0	
+     48	 8x Luxury Stateroom                	  3.2	#8 1 passenger + fresher
+     10	 Lifeboat                           	  4.6	
+     10	 Hangar Lock                        	    0	
+[/code]
+
+[code]
+[/code]
+

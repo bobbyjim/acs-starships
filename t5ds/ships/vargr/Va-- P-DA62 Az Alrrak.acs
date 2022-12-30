@@ -1,0 +1,53 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:35 2021
+Mission: Corsair
+QSP: P-DA62
+TL: 11 
+Name: Az Alrrak
+Tons: 400
+Actual Tons: 397
+
+MCr: 386.2
+Owner: Vargr
+Allegiance: Va
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 15
+FuelPercentage: 17
+Components:
+ - HH0   A  1 00000 400   34  Airframe Hull, lifters
+ - HL1   K  1 00000   4    4  Landing legs with pads
+ - AA1  22  1 00000  24    0  AV=22. 2 Kinetic Plate
+ - DF0   -  1 00000  80    0  Jump Fuel (2  parsecs)
+ - DF0   -  1 00000  30    0  Plant Fuel (one month)
+ - DF1   S  1 00000   1  0.1  Fuel Scoops
+ - DF1   P  1 00000   1  0.1  Fuel Purifiers
+ - DJ1   D  1 00000  25   25  Jump Drive-2 (D)
+ - DP2  -4  1 3BCA0  74  185  Pro PowerPlant-6 (M)
+ - DM1  -3  1 7ADA0  23   92  Ear Maneuver Drive-6 (M)
+ - OC1   2  1 00000   2    5  Computer Model/2 std
+ - OO0   -  1 00000   1    1  Life Support Standard
+ - OO1   -  1 00000   4    3  Surgery
+ - OO1   -  1 00000   2    1  Clinic
+ - OB0   2  1 00000  18  1.1  Spacious Bridge
+ - SS1   1  1 00000   1  1.5  AR Ant Communicator
+ - SS1   1  1 00000   1  1.5  AR Ant Jammer
+ - SS1   1  1 00000   1  1.5  AR Ant Radar
+ - SS1   1  1 00000   1  1.5  AR Ant Scope
+ - SS1   1  1 00000   1  1.5  AR Ant Neutrino Detector
+ - WS1   1  1 00000   1  0.6  Vd Ant Activity Sensor
+ - WW1   -  1 00000   1  1.5  Vd T3 Beam Laser
+ - WW1   -  2 00000   1  1.2  AR T3 Missile
+ - WW1   -  1 00000   1  1.1  Vd T3 Sandcaster
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - CO0   -  1 00000   8  0.4  Captain's Suite
+ - CO0   -  2 00000   4  0.2  Officer Stateroom
+ - CO0   -  8 00000   2  0.1  Crew Stateroom
+ - CO0   -  6 00000   4    0  Common Space
+ - PO0   - 12 00000 0.5  0.1  Low Berth
+ - PC0   -  1 00000  15    0  Cargo Hold Basic
+ - VO0  MQ  1 00000  20   18  Fighter in hangar
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

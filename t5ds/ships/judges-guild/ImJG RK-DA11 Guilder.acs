@@ -1,0 +1,56 @@
+--- 
+ACS1.0: Mon Dec 27 18:09:18 2021
+Mission: Subsidized Merchant
+QSP: RK-DA11
+TL: 12 
+Name: Guilder
+Tons: 400
+Actual Tons: 400.5
+Overtonnage: 0.5
+
+MCr: 85.6
+Builder: Yard 11 No. 1
+Owner: Judges Guild
+Disposition: In Service
+Allegiance: ImJG
+
+Crew comfort: 0
+Passenger demand: 1
+Cargo: 200
+FuelPercentage: 11
+Components:
+ - HH0   A  1 00000 400   30  Airframe Hull, lifters, 4 a/l free
+ - HF1   D  1 00000   4    4  Flotation hull
+ - HL1   K  1 00000   4    4  Landing legs with pads
+ - AA1  12  1 00000   0    0  AV=12. 1 Kinetic Plate
+ - DF0   -  1 00000  40    0  Jump Fuel (1  parsec)
+ - DF0   -  1 00000   4    0  Plant Fuel (one month)
+ - DF1   S  1 00000   1  0.1  Fuel Scoops
+ - DF1   I  1 00000   1  0.1  Fuel Intakes
+ - DF1   B  1 00000   1  0.1  Fuel Bins
+ - DM1   B  1 00000   3    6  Maneuver Drive-1 (B)
+ - DJ1   B  1 00000  15   15  Jump Drive-1 (B)
+ - DP1   B  1 00000   7    7  PowerPlant-1 (B)
+ - OC1   1  1 00000   1  1.5  Computer Model/1 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO1   -  1 00000   2    1  Clinic
+ - OB0   2  1 00000  12  0.6  Spacious Bridge
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   -  1 00000   0  1.5  AR Surf Radar
+ - SS1   -  1 00000   0  1.5  AR Surf Scope
+ - WW1  -1  2 00000   1  0.5  AR T2 Empty
+ - CO0   -  5 00000   2  0.1  Crew Stateroom
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - CO0   -  1 00000  10    0  Crew Lounge
+ - PC0   -  1 00000 200    0  Cargo Hold Basic
+ - PO0   -  9 00000 0.5  0.1  Low Berth
+ - PO0   -  1 00000   1    0  Mail Vault
+ - PO1   -  2 00000   2    0  Cargo Lock
+ - PO0   -  8 00000   2  0.1  Standard Stateroom
+ - PO0   -  1 00000  34    0  Passenger Lounge
+ - PO0   -  1 00000   1    1  Common Fresher
+ - VO0  Vl  1 00000  10  4.6  Lifeboat
+ - VO1   -  1 00000  10    0  Hangar Lock
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

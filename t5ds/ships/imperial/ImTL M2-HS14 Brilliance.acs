@@ -1,0 +1,50 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:34 2021
+Mission: Long Liner
+QSP: M2-HS14
+TL: 15 
+Name: Brilliance
+Tons: 800
+Actual Tons: 844
+Overtonnage: 44
+
+MCr: 253.9
+Allegiance: ImTL
+
+Crew comfort: -2
+Passenger demand: 5
+Cargo: 4
+FuelPercentage: 13
+Components:
+ - HH0   S  1 00000 800   50  Streamlined Hull
+ - AA1   6  1 00000   0    0  AV=6. 1 Kinetic Polymer
+ - DF0   -  1 00000 288    0  Jump Fuel (4  parsecs)
+ - DF0   -  1 00000  32    0  Plant Fuel (one month)
+ - DM1   D  1 00000   7   14  Maneuver Drive-1 (D)
+ - DP2   R  1 00000  49   49  PowerPlant-4 (R)
+ - DJ3   1  1 70DA0  85   85  Imp Jump Drive-4 (R)
+ - OC1   3  1 00000   3  10.5  Computer Model/3 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   -  3 00000   1    1  Life Support Luxury
+ - OO0   -  1 00000   1    1  Life Support Adaptable
+ - OO1   -  1 00000   2  0.2  Counsellor
+ - OB0   -  1 00000   9    0  Standard Controls
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - CO0   -  2 00000   4    0  Crew Lounge
+ - CO0   -  4 00000   1  0.1  Spacer Niche
+ - CO0   -  5 00000   2  0.1  Crew Stateroom
+ - PO0   -  4 00000   6  0.4  Luxury Stateroom
+ - PO0   - 12 00000   2  0.1  Standard Stateroom
+ - PO0   - 10 00000   4    0  Meeting Rooms
+ - PO0   - 12 00000   4  0.3  Luxury Stateroom Small
+ - PC0   -  1 00000   4    0  Cargo Hold Basic
+ - PO0   -  1 00000  32    0  Dining Lounge
+ - PO0   -  1 00000  42    0  Conference Center
+ - PO0   - 12 00000   1    1  Luxury Fresher
+ - PO0   -  2 00000  16    0  Shugilii Kitchen
+ - PO0   -  2 00000  16    0  Library/Study
+ - VO0  MS  1 00000  40   18  Slow Pinnace
+ - VO1   -  1 00000  10    0  Hangar Overhead
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

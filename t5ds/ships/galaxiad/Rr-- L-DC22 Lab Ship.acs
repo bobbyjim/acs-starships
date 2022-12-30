@@ -1,0 +1,55 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:30 2021
+Mission: Lab Ship
+QSP: L-DC22
+TL: 16 
+Name: Lab Ship-TL16
+Tons: 400
+Actual Tons: 387
+Allegiance: Rr
+
+MCr: 148.5
+Allegiance: Rr
+
+Crew comfort: 1
+Passenger demand: 3
+Cargo: 50
+FuelPercentage: 9
+Components:
+ - HH0   C  1 00000 400    8  Cluster Hull
+ - HL1  n/  1 00000  -2    0  No Landers
+ - DF0   -  1 00000   0    0  Jump Fuel (0  parsec)
+ - DF0   -  1 00000 12.8    0  Plant Fuel (2 months)
+ - DC2   D  1 00000  40   20  Collector-2 (D)
+ - DJ1   3  1 803A3 8.25   25  Adv Jump Drive D (R2)
+ - DP1   3  1 532A1 4.29   13  Adv PowerPlant D (R2)
+ - DM1   3  1 1055B2 2.31   14  Adv Maneuver Drive D (R2)
+ - OC1   4  1 00000   4   18  Computer Model/4 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   -  1 00000   1    1  Life Support Luxury
+ - OO0   -  1 00000   1    1  Life Support Adaptable
+ - OB0   2  1 00000  22  1.9  Spacious Bridge
+ - SS1   1  1 00000   3  3.5  DS Ant Communicator
+ - SS1   1  1 00000   3  3.5  DS Ant Neutrino Detector
+ - SS1   1  1 00000   3  3.5  DS Ant EMS
+ - SS1   1  1 00000   3  3.5  DS Ant Stealth Mask
+ - SS1   1  1 00000   3  3.5  DS Ant Grav Sensor
+ - SS1   1  1 00000   3  3.5  DS Ant Visor
+ - WS1   1  1 00000   3  2.6  Fo Ant Mass Sensor
+ - WS1   1  1 00000   3  2.6  Fo Ant Deep Radar
+ - WS1   1  1 00000   3  2.6  Fo Ant Densitometer
+ - WS1   1  1 00000   3  2.6  Fo Ant Life Detector
+ - WS1   1  1 00000   3  2.6  Fo Ant Proximeter
+ - WS1   1  1 00000   3  2.6  Fo Ant Field Sensor
+ - CO0   -  5 00000   2  0.1  Crew Stateroom
+ - CO0   -  5 00000   4    0  Crew Lounge
+ - CO0   -  2 00000 0.5  0.5  Crew Shared Fresher
+ - PC0   -  1 00000  50    0  Cargo Hold Basic
+ - PO0   - 20 00000   2  0.1  Standard Stateroom
+ - PO0   -  5 00000 0.5  0.5  Shared Fresher
+ - PO1   -  1 00000 120    2  Lab
+ - VO0  EL  1 00000   4  0.1  Air/Raft Enclosed
+ - VO1   -  2 00000   4    0  Vehicle Lock
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

@@ -1,0 +1,81 @@
+--- 
+ACS1.0: Thu May  5 21:01:41 2022
+Mission: Subsidized Liner
+QSP: MK-FU13 
+Cx: ABCCCDEEE.ATTT
+Vx: L1
+Name: Stellar
+Tons: 600
+TL: 13 
+Overtonnage: 9
+MCr: 186.8
+Allegiance: Im
+
+Crew comfort: 0
+Passengers: 21
+Passenger demand: 1
+Low berths: 20
+Cargo: 129
+Fuel: 177
+Fuel treatment: 
+Computer: Model/3  
+
+Comments: |-
+   Using a 600-ton TL13 unstreamlined hull, the subsidized liner is a passenger and freight carrier committed to long-haul routes. It has jump drive-J, maneuver drive-C, and power plant-J, supporting 1 month of operations and giving performance of jump-3 and 1-G acceleration. Fuel tankage supports the power plant and allows one jump-3. Adjacent to the bridge is a Model/3 computer.  There are thirty staterooms and twenty low berths.  The ship has three hardpoints; no weapons are installed. There is one ship's vehicle: a 20-ton launch, carried in an internal hangar. Cargo capacity is 129 tons. The hull is unstreamlined and overtonnage; adding turrets will increase the overtonnage.
+   
+   The subsidized liner requires a crew of nine: pilot, astrogator, three engineers, three stewards, and a medic. Up to three gunners may be added in bunks. The ship can carry 21 high or middle passengers and twenty low passengers. The pilot also operates the launch.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   600   . Unstreamlined Hull                 20.0  ,HH.0  U .....
+ -     0   . Armor: 1 Blast Plate                0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   162   . Jump Fuel (3  parsecs)              0.0  ,DF.0  . .....
+ -    15   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     5   . Maneuver Drive-1 (C)               10.0  ,DM11  C .....
+ -    50   . Imp Jump Drive J (R3)              50.0  ,DJ32  1 84CAA
+ -     9   . Adv PowerPlant J (R3)              28.0  ,DP31  3 5210A
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     3   . Computer Model/3                   10.5  ,OC31  . .....
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -     6  6x Life Support Luxury                 6.0  ,OLU0  . .....
+ -     2   . Clinic                              1.0  ,OM.1  . .....
+ -    20   . Spacious Bridge                     1.0  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . DS Surf Communicator                6.0  ,SS.1  . .....
+ -     0   . DS Surf Neutrino Detector           6.0  ,SS.1  . .....
+ -     0   . DS Surf EMS                         6.0  ,SS.1  . .....
+ -     0   . DS Surf Scope                       6.0  ,SS.1  . .....
+#
+#   TONS   # W-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . G Surf Proximeter                   8.1  ,WS.1  . .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Crew Common Fresher                 1.0  ,CF.0  2 .....
+ -    18  9x Crew Stateroom                      0.9  ,CS.0  1 .....
+ -    20  5x Crew Commons                        0.0  ,CC.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   129   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -     2   . Cargo Lock                          0.4  ,PO.1  . .....
+ -   126 21x Luxury Stateroom                    8.4  ,PS.0  1 .....
+ -    10 20x Low Berth                           2.0  ,PL.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    20   . Launch                             13.0  ,VO.0 MS .....
+ -    10   . Hull Niche                          1.5  ,VO.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

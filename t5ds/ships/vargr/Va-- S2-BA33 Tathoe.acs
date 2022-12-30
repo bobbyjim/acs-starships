@@ -1,0 +1,50 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:35 2021
+Mission: Enhanced Scout/Courier
+QSP: S2-BA33
+TL: 13 
+Name: Tathoe
+Tons: 200
+Actual Tons: 198.5
+
+MCr: 125.8
+Owner: Vargr
+Allegiance: Va
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 8
+FuelPercentage: 13
+Components:
+ - HH0   A  1 00000 200   18  Airframe Hull, lifters
+ - HJ1   G  1 00000   0    2  Jump Grid
+ - HW1   V  1 00000   2    4  Collapsing wings
+ - AC1   -  1 00000   0    0  AV=0. c Reflec
+ - AA1  13  1 00000   0    0  AV=13. 1 Kinetic Plate
+ - DF0   -  1 00000  60    0  Jump Fuel (3  parsecs)
+ - DF0   -  1 00000 3.3    0  Plant Fuel (0.5 months)
+ - DF1  S1  1 00000   1  0.1  Fuel Scoops 100t/hr
+ - DF1  P1  1 00000   1    1  Fuel Purifiers 4t/hr
+ - DJ1   1  1 00000  20   20  Alt Jump Drive-3 (C)
+ - DF1  I1  1 00000   1  0.1  Fuel Intakes 40t/hr
+ - DM1   1  1 00000   5   10  Alt Maneuver Drive-3 (C)
+ - DP1   2  1 10A5C2   5    5  Mod PowerPlant-3 (C)
+ - OC1   6  1 00000   5   27  Alt Computer Model/5 std
+ - OB0   2  1 00000  10    0  Spacious Controls
+ - SS1   2  1 00000   1  1.5  Alt AR Ant EMS
+ - SS1   1  1 00000   0  1.5  Alt AR Surf Scope
+ - SS1   1  1 00000   0  1.5  Alt AR Surf Radar
+ - WW1  -1  1 00000   1  0.7  Alt Vd T1 Beam Laser
+ - WW1  -1  1 00000   1  0.7  Alt Vd T1 Beam Laser
+ - CO0   -  5 00000   2  0.1  Crew Stateroom
+ - CO0   -  1 00000  10    0  Crew Lounge
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - PC0   -  1 00000   8    0  Cargo Hold Basic
+ - PO0   -  1 00000 0.5  0.5  Medical Console
+ - PO0   -  1 00000   1    1  Life Support
+ - PO0   -  1 00000   2    0  Cargohold Stowage-Cutter
+ - PO0   -  1 00000   0    1  Folding Fins
+ - VO0  MQ  1 00000  50   28  Modular Cutter
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

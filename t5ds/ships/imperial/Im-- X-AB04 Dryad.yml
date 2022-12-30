@@ -1,0 +1,450 @@
+--- 
+components: 
+   - 
+      code: 'B'
+      CP: 0
+      target: 12
+      notes: 'B'
+      tl: 12
+      category: 'Hull'
+      Sq: 200
+      config: 'Braced'
+      r: 0
+      type: 'Hull'
+      s: 0
+      q: 0
+      howMany: ''
+      b: 0
+      totalTons: 100
+      totalMCr: 3
+      eff: 1
+      e: 0
+      mult: 1
+      mcr: 3
+      tons: 100
+      name: 'Hull'
+      label: 'Braced Hull'
+      preMult: 1
+
+   - 
+      s: 0
+      notes: 'J4, 10t/pc'
+      howMany: ''
+      b: 0
+      CP: 0
+      totalMCr: 0
+      tl: 12
+      q: 0
+      eff: 1
+      e: 0
+      target: 12
+      mcr: 0
+      category: 'Jump Fuel'
+      tons: 40
+      totalTons: 40
+      Sq: 80
+      label: 'Jump Fuel (4  parsecs)'
+      r: 0
+      type: 'Drive'
+
+   - 
+      s: 0
+      notes: '2 months'
+      howMany: ''
+      b: 0
+      CP: 0
+      totalMCr: 0
+      tl: 12
+      q: 0
+      eff: 1
+      e: 0
+      target: 12
+      mcr: 0
+      category: 'Powerplant Fuel'
+      tons: 8
+      totalTons: 8
+      Sq: 16
+      label: 'Plant Fuel (2 months)'
+      r: 0
+      type: 'Drive'
+
+   - 
+      tonsPercent: -0.5
+      code: 'n/a'
+      mcrPerTon: 0
+      howMany: ''
+      b: 0
+      totalTons: -0.5
+      type: 'Hull'
+      s: 0
+      target: 13
+      tl: 13
+      q: 0
+      eff: 1
+      CP: 1
+      totalMCr: 0
+      note: 'n/a'
+      mcr: 0
+      category: 'landers'
+      tons: -0.5
+      name: 'No Landers'
+      label: 'No Landers'
+      r: 0
+      e: 0
+
+   - 
+      tonsPercent: 0
+      code: 'G'
+      mcrPerTon: 0
+      howMany: ''
+      b: 0
+      totalTons: 0
+      type: 'Hull'
+      s: 0
+      target: 13
+      tl: 13
+      q: 0
+      eff: 1
+      CP: 1
+      totalMCr: 1
+      note: 'G'
+      mcr: 1
+      category: 'jump field'
+      tons: 0
+      name: 'Jump Grid'
+      mcrPerHullTon: 0.01
+      label: 'Jump Grid'
+      r: 0
+      e: 0
+
+   - 
+      tonsPercent: 1
+      code: 'D'
+      mcrPerTon: 1
+      howMany: ''
+      b: 0
+      totalTons: 1
+      type: 'Hull'
+      s: 0
+      target: 13
+      tl: 13
+      q: 0
+      eff: 1
+      CP: 1
+      totalMCr: 1
+      note: 'D'
+      mcr: 1
+      category: 'fittings'
+      tons: 1
+      name: 'Flotation hull'
+      Sq: 2
+      label: 'Flotation hull'
+      r: 0
+      e: 0
+
+   - 
+      notes: ''
+      range: '1'
+      CP: 1
+      target: 13
+      tl: 13
+      category: 'AV=13. 1 Rad Plate'
+      q: 0
+      config: 'Armor'
+      r: 0
+      type: 'Armor'
+      s: 0
+      mod: ''
+      howMany: ''
+      b: 0
+      totalTons: 0
+      totalMCr: 0
+      eff: 1
+      basetl: 8
+      e: 0
+      mount: 'Rad'
+      mcr: 0
+      tons: 0
+      name: 'Plate'
+      label: 'AV=13. 1 Rad Plate'
+
+   - 
+      notes: ''
+      range: 's'
+      CP: 1
+      target: 17
+      tl: 13
+      category: 'Computer Model/4 std'
+      Sq: 8
+      q: 0
+      config: 'Ops'
+      r: 0
+      type: 'Ops'
+      s: 0
+      mod: 4
+      howMany: ''
+      b: 0
+      totalTons: 4
+      totalMCr: 18
+      eff: 1
+      basetl: 0
+      e: 0
+      mount: 'Model/4'
+      mcr: 18
+      tons: 4
+      name: 'Computer'
+      label: 'Computer Model/4 std'
+
+   - 
+      s: 0
+      notes: 'for express contracts'
+      howMany: ''
+      b: 0
+      CP: 0
+      totalMCr: 0
+      tl: 13
+      q: 0
+      eff: 1
+      e: 0
+      target: 13
+      mcr: 0
+      tons: 1
+      totalTons: 1
+      Sq: 2
+      label: 'Mail Vault'
+      r: 0
+      type: 'Payload'
+
+   - 
+      notes: ''
+      range: 'DS'
+      CP: 1
+      target: 17
+      tl: 13
+      category: 'DS Ext Communicator'
+      Sq: 18
+      q: 0
+      config: 'Sensor'
+      r: 0
+      type: 'Sensor'
+      s: 0
+      mod: 4
+      howMany: ''
+      b: 0
+      totalTons: 9
+      totalMCr: 8.5
+      eff: 1
+      basetl: 10
+      e: 0
+      mount: 'Ext'
+      mcr: 8.5
+      tons: 9
+      name: 'Communicator'
+      label: 'DS Ext Communicator'
+
+   - 
+      s: 0
+      notes: '1 crew'
+      sleeps: 1
+      howMany: 2
+      b: 0
+      CP: 0
+      totalMCr: 0.2
+      tl: 13
+      eff: 1
+      e: 0
+      target: 13
+      totalSleeps: 2
+      mcr: 0.1
+      tons: 2
+      totalTons: 4
+      Sq: 8
+      label: 'Crew Stateroom'
+      q: 0
+      r: 0
+      type: 'Crew'
+
+   - 
+      s: 0
+      notes: '4 crew'
+      howMany: ''
+      b: 0
+      CP: 0
+      totalMCr: 0.5
+      tl: 13
+      q: 0
+      eff: 1
+      e: 0
+      target: 13
+      mcr: 0.5
+      tons: 0.5
+      totalTons: 0.5
+      Sq: 1
+      label: 'Crew Shared Fresher'
+      r: 0
+      type: 'Crew'
+
+   - 
+      s: 0
+      notes: ''
+      howMany: ''
+      b: 0
+      CP: 0
+      target: 13
+      tl: 13
+      eff: 1
+      e: 0
+      totalMCr: 0
+      mcr: 0
+      tons: 7
+      totalTons: 7
+      Sq: 14
+      label: 'Crew Lounge'
+      q: 0
+      r: 0
+      type: 'Crew'
+
+   - 
+      s: 0
+      notes: '80 people/month'
+      howMany: ''
+      b: 0
+      totalTons: 2
+      type: 'Ops'
+      totalMCr: 2
+      tl: 13
+      q: 0
+      eff: 1
+      CP: 1
+      target: 13
+      mcr: 2
+      category: 'Life Support'
+      e: 0
+      name: 'life support'
+      Sq: 4
+      label: 'Life support (80 people/month)'
+      r: 0
+      tons: 2
+
+   - 
+      s: 0
+      mod: -2
+      notes: ''
+      howMany: ''
+      b: 0
+      CP: 0
+      type: 'Ops'
+      target: 11
+      tl: 13
+      q: 0
+      eff: 1
+      totalTons: 2
+      totalMCr: 0
+      mcr: 0
+      category: 'Bridge'
+      e: 0
+      name: 'Bridge'
+      Sq: 4
+      label: 'Cramped Controls'
+      r: 0
+      tons: 2
+
+   - 
+      notes: 'P 4'
+      autoAdjust: 1
+      B: 0
+      CP: 1
+      target: 13
+      code: 'B'
+      E: 0
+      tl: 13
+      category: 'PowerPlant'
+      Sq: 14
+      r: 0
+      type: 'Drive'
+      s: 0
+      q: 0
+      howMany: ''
+      b: 0
+      totalTons: 7
+      totalMCr: 7
+      eff: 1
+      basetl: 11
+      e: 0
+      Q: 0
+      mcr: 7
+      powerFuelUsage: 0.01
+      tons: 7
+      name: 'PowerPlant'
+      S: 0
+      label: 'PowerPlant-4 (B)'
+      rating: 4
+      R: 0
+
+   - 
+      notes: 'J 4'
+      autoAdjust: 1
+      B: 0
+      CP: 1
+      target: 13
+      code: 'B'
+      E: 0
+      tl: 13
+      category: 'Jump Drive'
+      Sq: 30
+      r: 0
+      type: 'Drive'
+      s: 0
+      q: 0
+      howMany: ''
+      b: 0
+      totalTons: 15
+      totalMCr: 15
+      eff: 1
+      basetl: 13
+      e: 0
+      jumpFuelUsage: 0.1
+      Q: 0
+      mcr: 15
+      R: 0
+      tons: 15
+      name: 'Jump Drive'
+      S: 0
+      label: 'Jump Drive-4 (B)'
+      rating: 4
+header: 
+   format: 'T5-ACS-1'
+   totalCargoSpace: 0
+   passengers: 1
+   staff: 0
+   demand: -5
+   shipname: 'Dryad'
+   tl: 13
+   undertons: 15
+   crewComfort: 0
+   powerFuelPercentage: 0.04
+   qsp: 'X-AB04'
+   comments: 'Constructed using the 100 ton hull, the express boat is fitted with drives producing jump-4, and nothing else. There is no power plant or maneuver drive installation. Fuel tankage is sufficient for one jump. The cramped bridge is complemented by a Model/4 computer. The ship has two staterooms; one is necessary for the single crew member, while the other can carry a passenger. More often, the pilot uses the second room for additional living space. There is a one ton cargo bay which is occasionally used to carry vital cargo such as vaccines or sophisticated repair parts.'
+   controlConsoles: 1
+   disposition: 'In Service'
+   config: 'B'
+   jf: 4
+   crew: 4
+   shifts: 1
+   mission: 'X'
+   overtons: 3.5
+   lifeSupport: 2
+   workstations: 0
+   pf: 2
+   totalMCr: 56.7
+   operatingConsoles: 3
+   jumpFuelPercentage: 0.1
+   low: 0
+   missionLabel: 'Express Courier'
+   tons: 100
+   mult: 1
+   preMult: 1
+   builder: 'Arshani, Etran'
+   tonsFree: 0
+   troops: 0
+   spaciousness: 0.5

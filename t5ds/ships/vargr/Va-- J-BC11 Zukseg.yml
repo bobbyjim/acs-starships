@@ -1,0 +1,619 @@
+--- 
+components: 
+   - 
+      e: 0
+      r: 0
+      category: 'Hull'
+      howMany: 1
+      s: 0
+      CP: 0
+      code: 'C'
+      Sq: 400
+      totalTons: 200
+      totalMCr: 6
+      notes: 'C, lifters'
+      label: 'Cluster Hull, lifters'
+      eff: 1
+      name: 'Hull'
+      config: 'Cluster'
+      mult: 1
+      tl: 12
+      preMult: 1
+      b: 0
+      type: 'Hull'
+      mcr: 6
+      tons: 200
+      q: 0
+      target: 12
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: '1 parsec jump, at 20t per parsec'
+      label: 'Jump Fuel (1  parsec)'
+      category: 'Jump Fuel'
+      s: 0
+      r: 0
+      totalTons: 20
+      eff: 1
+      howMany: 1
+      tl: 12
+      b: 0
+      type: 'Drive'
+      CP: 0
+      target: 12
+      Sq: 40
+      tons: 20
+      mcr: 0
+      q: 0
+
+   - 
+      totalMCr: 0
+      e: 0
+      r: 0
+      label: 'Plant Fuel (2 months)'
+      category: 'Powerplant Fuel'
+      s: 0
+      notes: '2 months'
+      totalTons: 4
+      eff: 1
+      howMany: 1
+      tl: 12
+      b: 0
+      type: 'Drive'
+      CP: 0
+      target: 12
+      Sq: 8
+      tons: 4
+      mcr: 0
+      q: 0
+
+   - 
+      totalMCr: 0
+      e: 0
+      r: 0
+      note: 'n/a'
+      category: 'landers'
+      s: 0
+      name: 'No Landers'
+      mcrPerTon: 0
+      label: 'No Landers'
+      target: 9
+      eff: 1
+      howMany: 1
+      tl: 9
+      tons: -1
+      type: 'Hull'
+      CP: 1
+      tonsPercent: -0.5
+      code: 'n/a'
+      b: 0
+      totalTons: -1
+      mcr: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      autoAdjust: 1
+      category: 'PowerPlant'
+      howMany: 1
+      s: 0
+      B: 0
+      CP: 1
+      q: 0
+      Sq: 8
+      totalTons: 4
+      Q: 0
+      totalMCr: 4
+      E: 0
+      notes: 'P 1'
+      label: 'PowerPlant-1 (A)'
+      eff: 1
+      S: 0
+      name: 'PowerPlant'
+      R: 0
+      tl: 9
+      b: 0
+      type: 'Drive'
+      powerFuelUsage: 0.01
+      rating: 1
+      basetl: 8
+      tons: 4
+      mcr: 4
+      target: 9
+      code: 'A'
+
+   - 
+      e: 0
+      r: 0
+      autoAdjust: 1
+      category: 'Jump Drive'
+      R: 0
+      howMany: 1
+      s: 0
+      B: 0
+      CP: 1
+      code: 'A'
+      Sq: 20
+      totalTons: 10
+      Q: 0
+      totalMCr: 10
+      E: 0
+      notes: 'J 1'
+      label: 'Jump Drive-1 (A)'
+      eff: 1
+      S: 0
+      name: 'Jump Drive'
+      jumpFuelUsage: 0.1
+      tl: 9
+      b: 0
+      type: 'Drive'
+      mcr: 10
+      rating: 1
+      basetl: 9
+      tons: 10
+      q: 0
+      target: 9
+
+   - 
+      e: 0
+      r: 0
+      autoAdjust: 1
+      category: 'Maneuver Drive'
+      howMany: 1
+      s: 0
+      B: 0
+      CP: 1
+      code: 'A'
+      Sq: 4
+      totalTons: 2
+      Q: 0
+      totalMCr: 4
+      E: 0
+      R: 0
+      label: 'Maneuver Drive-1 (A)'
+      eff: 1
+      S: 0
+      name: 'Maneuver Drive'
+      notes: '1 G'
+      tl: 9
+      b: 0
+      type: 'Drive'
+      mcr: 4
+      rating: 1
+      basetl: 9
+      tons: 2
+      target: 9
+      q: 0
+
+   - 
+      totalMCr: 0.1
+      e: 0
+      r: 0
+      label: 'Fuel Bins 20t/hr'
+      category: 'Fuel Bins'
+      count: 1
+      s: 0
+      target: 8
+      notes: '20t/hr'
+      Sq: 2
+      eff: 1
+      howMany: 1
+      tl: 8
+      tons: 1
+      type: 'Drive'
+      CP: 1
+      code: 'B1'
+      b: 0
+      totalTons: 1
+      mcr: 0.1
+      q: 0
+
+   - 
+      basetl: 8
+      e: 0
+      r: 0
+      category: 'AV=9. 1 Kinetic Plate'
+      s: 0
+      mod: ''
+      howMany: 1
+      CP: 1
+      target: 9
+      totalTons: 0
+      totalMCr: 0
+      notes: ''
+      label: 'AV=9. 1 Kinetic Plate'
+      eff: 1
+      name: 'Plate'
+      tons: 0
+      tl: 9
+      config: 'Armor'
+      type: 'Armor'
+      mcr: 0
+      mount: 'Kinetic'
+      range: '1'
+      b: 0
+      q: 0
+
+   - 
+      mount: 'Surf'
+      e: 0
+      r: 0
+      category: 'Vd Surf Mass Sensor'
+      s: 0
+      mod: 0
+      howMany: 1
+      CP: 1
+      q: 0
+      totalTons: 0
+      totalMCr: 0.6
+      notes: ''
+      label: 'Vd Surf Mass Sensor'
+      eff: 1
+      name: 'Mass Sensor'
+      tons: 0
+      tl: 9
+      config: 'Sensor'
+      type: 'Sensor'
+      mcr: 0.6
+      basetl: 8
+      range: 'Vd'
+      b: 0
+      target: 9
+
+   - 
+      mount: 'Surf'
+      e: 0
+      r: 0
+      category: 'Vd Surf Densitometer'
+      s: 0
+      mod: 0
+      howMany: 1
+      CP: 1
+      target: 10
+      totalTons: 0
+      totalMCr: 0.6
+      notes: ''
+      label: 'Vd Surf Densitometer'
+      eff: 1
+      name: 'Densitometer'
+      tons: 0
+      tl: 10
+      config: 'Sensor'
+      type: 'Sensor'
+      mcr: 0.6
+      basetl: 10
+      range: 'Vd'
+      b: 0
+      q: 0
+
+   - 
+      basetl: 10
+      e: 0
+      r: 0
+      category: 'Vd Surf Proximeter'
+      s: 0
+      mod: 0
+      howMany: 1
+      CP: 1
+      q: 0
+      totalTons: 0
+      totalMCr: 0.6
+      notes: ''
+      label: 'Vd Surf Proximeter'
+      eff: 1
+      name: 'Proximeter'
+      config: 'Sensor'
+      tl: 10
+      tons: 0
+      type: 'Sensor'
+      mcr: 0.6
+      mount: 'Surf'
+      range: 'Vd'
+      b: 0
+      target: 10
+
+   - 
+      speed: '3G'
+      e: 0
+      r: 0
+      label: 'Slow Boat'
+      load: 29
+      eff: 1
+      totalMCr: 14
+      tons: 30
+      howMany: 1
+      s: 0
+      b: 0
+      type: 'Vehicle'
+      CP: 0
+      av: '30,10,10,10,10,10,10'
+      tl: 12
+      code: 'MSQB'
+      target: 12
+      Sq: 60
+      totalTons: 30
+      mcr: 14
+      q: 0
+
+   - 
+      totalMCr: 2
+      e: 0
+      r: 0
+      label: 'Grapple Set Single'
+      eff: 1
+      tons: 2
+      howMany: 1
+      s: 0
+      b: 0
+      type: 'Vehicle'
+      CP: 0
+      tl: 9
+      q: 0
+      target: 9
+      Sq: 4
+      totalTons: 2
+      mcr: 2
+      notes: 'up to 35t'
+
+   - 
+      totalMCr: 0
+      e: 0
+      r: 0
+      label: 'Cargo Hold Basic'
+      eff: 1
+      s: 0
+      notes: ''
+      totalTons: 65
+      category: 'Cargo'
+      howMany: 1
+      tl: 12
+      b: 0
+      type: 'Payload'
+      mcr: 0
+      target: 12
+      Sq: 130
+      tons: 65
+      CP: 0
+      q: 0
+
+   - 
+      totalMCr: 0.5
+      e: 0
+      notes: '10 individuals'
+      label: 'Emergency Low Berth'
+      eff: 1
+      s: 0
+      r: 0
+      b: 0
+      howMany: 1
+      tl: 9
+      tons: 1
+      type: 'Ops'
+      mcr: 0.5
+      target: 9
+      Sq: 2
+      totalTons: 1
+      CP: 0
+      q: 0
+
+   - 
+      mount: 'T1de'
+      e: 0
+      r: 0
+      category: 'Vd T1de Mining Laser'
+      mod: -2
+      howMany: 2
+      s: 0
+      CP: 1
+      q: 0
+      Sq: 12
+      totalTons: 6
+      totalMCr: 7.4
+      notes: ''
+      label: 'Vd T1de Mining Laser'
+      eff: 1
+      name: 'Mining Laser'
+      tons: 3
+      tl: 9
+      b: 0
+      type: 'Weapon'
+      mcr: 3.7
+      basetl: 8
+      range: 'Vd'
+      config: 'Weapon'
+      target: 7
+
+   - 
+      totalMCr: 1
+      e: 0
+      notes: ''
+      label: 'Clinic'
+      eff: 1
+      s: 0
+      r: 0
+      totalTons: 2
+      howMany: 1
+      tl: 9
+      b: 0
+      type: 'Ops'
+      mcr: 1
+      q: 0
+      Sq: 4
+      tons: 2
+      CP: 1
+      target: 9
+
+   - 
+      totalMCr: 2
+      e: 0
+      notes: '40 person-months'
+      label: 'Life Support Long Term'
+      eff: 1
+      s: 0
+      r: 0
+      totalTons: 2
+      howMany: 1
+      tl: 9
+      b: 0
+      type: 'Ops'
+      mcr: 2
+      q: 0
+      Sq: 4
+      tons: 2
+      CP: 0
+      target: 9
+
+   - 
+      totalMCr: 2
+      e: 0
+      notes: '4 crew'
+      label: 'Crew Shared Fresher'
+      eff: 1
+      s: 0
+      r: 0
+      totalTons: 2
+      howMany: 4
+      tl: 9
+      b: 0
+      type: 'Crew'
+      mcr: 0.5
+      q: 0
+      Sq: 4
+      tons: 0.5
+      CP: 0
+      target: 9
+
+   - 
+      totalMCr: 0.6
+      e: 0
+      notes: '1 crew'
+      label: 'Crew Stateroom'
+      eff: 1
+      r: 0
+      Sq: 24
+      sleeps: 1
+      howMany: 6
+      s: 0
+      tons: 2
+      type: 'Crew'
+      mcr: 0.1
+      tl: 9
+      q: 0
+      totalSleeps: 6
+      b: 0
+      totalTons: 12
+      CP: 0
+      target: 9
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: ''
+      label: 'Crew Lounge'
+      eff: 1
+      s: 0
+      r: 0
+      howMany: 5
+      tl: 9
+      tons: 4
+      b: 0
+      type: 'Crew'
+      mcr: 0
+      q: 0
+      Sq: 40
+      totalTons: 20
+      CP: 0
+      target: 9
+
+   - 
+      basetl: 9
+      e: 0
+      r: 0
+      category: 'Computer Model/1 std'
+      s: 0
+      mod: 1
+      howMany: 1
+      CP: 1
+      target: 10
+      Sq: 2
+      totalTons: 1
+      totalMCr: 1.5
+      notes: ''
+      label: 'Computer Model/1 std'
+      eff: 1
+      name: 'Computer'
+      config: 'Ops'
+      tl: 9
+      b: 0
+      type: 'Ops'
+      mcr: 1.5
+      mount: 'Model/1'
+      range: 's'
+      tons: 1
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Bridge'
+      mod: 2
+      howMany: 1
+      s: 0
+      CP: 0
+      target: 11
+      Sq: 32
+      totalTons: 16
+      ws: 0
+      notes: '4cc 4op 0ws'
+      label: 'Spacious Bridge'
+      eff: 1
+      cc: 4
+      name: 'Bridge'
+      tons: 16
+      op: 4
+      tl: 9
+      totalMCr: 1.2
+      b: 0
+      type: 'Ops'
+      mcr: 1.2
+      q: 0
+header: 
+   crew: 6
+   format: 'T5-ACS-1'
+   staff: 0
+   missionLabel: 'Prospector'
+   crewLocked: 'yes'
+   controlConsoles: 4
+   spaciousness: 2
+   operatingConsoles: 4
+   totalCargoSpace: 65
+   demand: -5
+   lifters: 'y'
+   passengers: 0
+   shipname: 'Zukseg'
+   crewComfort: 0
+   workstations: 0
+   mission: 'J'
+   comments: |
+      Using a 200-ton cluster hull, the Vargr Type J is a wide-ranging prospecting and mining vessel. It mounts jump drive-A, maneuver drive-A, and power plant-A, providing a performance of jump-1 and 1G acceleration. Fuel tankage for 24 tons supports one jump-1 and two months' operations. On to the bridge is a Model/1 computer. There are four staterooms and one emergency low berth. The ship has two hardpoints, with two deployable single turrets: each mounts one mining laser. The weaponry is primarily used for mining operations. There is one ship's vehicle: a ship's boat, grappled to the hull. Cargo capacity (primarily for ore) is 65 tons. It has fuel bins for refuelling from asteroid ice.
+      
+      The Vargr seeker requires a crew of four: pilot, navigator, engineer, and medic. Additional crew members may be added as workers. The pilot operates the ship's boat. The ship does not normally carry passengers. 
+   undertons: 1
+   jumpFuelPercentage: 0.1
+   jf: 1
+   low: 0
+   tons: 200
+   powerFuelPercentage: 0.01
+   pf: 2
+   tl: 9
+   qsp: 'J-BC11'
+   preMult: 1
+   config: 'C'
+   mult: 1
+   owner: 'Vargr'
+   tonsFree: 1
+   totalMCr: 58.1
+   shifts: 1
+   troops: 0

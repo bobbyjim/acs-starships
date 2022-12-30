@@ -1,0 +1,62 @@
+--- 
+ACS1.0: Wed Apr 13 17:24:26 2022
+Mission: Corvette
+QSP: EB-DL42
+TL: 13 
+Name: Spearhead
+Tons: 400
+Actual Tons: 400
+
+MCr: 202.4
+Owner: Judges Guild
+Allegiance: ImJG
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 35
+FuelPercentage: 14
+Components:
+#  CODE R  # QREBS TONS  MCR   LABEL
+ - HH0  L  1 00000 400   52    Lift body Hull, lifters, 4 a/l free
+ - HL1  K  1 00000 4     4     Landing legs with pads
+ - HF1  E  1 00000 8     8     Submergence hull
+ - AA1 56  1 00000 16    0     AV=56. 2 Kinetic Charged
+ - AC1  -  1 00000 0     0     AV=0. c Reflec
+ - DF0  -  1 00000 160   0     Jump Fuel (4  parsecs)
+ - DF0  -  1 00000 16    0     Plant Fuel (one month)
+ - DJ1  D  1 00000 25    25    Jump Drive-2 (D)
+ - DP1  H  1 00000 25    25    PowerPlant-4 (H)
+ - DF2 SP  1 00000 2     1.1   Fuel Scoops with Purifier
+ - DF2 IP  1 00000 2     1.1   Fuel Intakes with Purifier
+ - DF2 BP  1 00000 2     1.1   Fuel Bins with Purifier
+ - DM1  H  1 00000 15    30    Maneuver Drive-4 (H)
+ - OC1  5  1 00000 5     27    Computer Model/5 std
+ - OL0  L  1 00000 2     2     Life Support Long Term
+ - OL0  A  1 00000 1     1     Life Support Adaptable
+ - OM1  -  1 00000 2     1     Clinic
+ - OO1  -  1 00000 2     0.2   Counsellor
+ - OO0  -  1 00000 4     0.2   Gunner Barracks
+ - OB0  2  1 00000 16    1     Spacious Bridge
+ - SS1  -  1 00000 0     2     AR Surf Communicator
+ - SS1  -  1 00000 0     2     AR Surf Jammer
+ - SS1  -  1 00000 0     2     AR Surf Neutrino Detector
+ - SS1  -  1 00000 0     2     AR Surf EMS
+ - SS1  -  1 00000 0     2     AR Surf Stealth Mask
+ - SS1  -  1 00000 0     2     AR Surf Scope
+ - WW1  -  1 00000 1     1.2   AR T3 Missile
+ - WW1  -  1 00000 1     1.3   Vd T3 Pulse Laser
+ - WW1  -  1 00000 1     1.1   Vd T3 Sandcaster
+ - WW1  -  1 00000 1     1.5   Vd T3 Beam Laser
+ - WM0  -  1 00000 1     0     Magazine
+ - CF0  2  1 00000 1     1     Crew Common Fresher
+ - CS1  1  1 00000 6     0.4   Captain's Suite
+ - CO0  1  3 00000 1     0.1   Drive Tech Niche
+ - CS0  1  6 00000 2     0.1   Crew Stateroom
+ - CC0  -  6 00000 4     0     Crew Commons
+ - PO0  -  1 00000 1     1     Mail Vault
+ - PO1  -  1 00000 2     0.4   Cargo Lock
+ - PL0  -  4 00000 1     0.5   Emergency Low Berth
+ - PC0  -  1 00000 35    0     Cargo Hold Basic
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

@@ -1,0 +1,40 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:34 2021
+Mission: Barge
+QSP: W-AS21
+TL: 9 
+Name: Shumshuga
+Tons: 100
+Actual Tons: 100.5
+Overtonnage: 0.5
+
+MCr: 32.1
+Allegiance: Im
+
+Crew comfort: -4
+Passenger demand: -5
+Cargo: 20
+FuelPercentage: 12
+Components:
+ - HH0   S  1 00000 100    8  Streamlined Hull
+ - HF1   D  1 00000   1    1  Flotation hull
+ - HW1   G  1 00000   0    0  Folding wings
+ - AA1   9  1 00000   0    0  AV=9. 1 Kinetic Plate
+ - DF0   -  1 00000  40    0  Jump Fuel (4  parsecs)
+ - DF0   -  1 00000  10    0  Plant Fuel (5 months)
+ - DP1   A  1 00000   4    4  PowerPlant-2 (A)
+ - DJ1   A  1 00000  10   10  Jump Drive-1 (A)
+ - DM1   A  1 00000   2    4  Maneuver Drive-2 (A)
+ - DF1  P1  1 00000   1    1  Fuel Purifiers 4t/hr
+ - DF1  I1  1 00000   1  0.1  Fuel Intakes 40t/hr
+ - DF1  S1  1 00000   1  0.1  Fuel Scoops 100t/hr
+ - OO0   -  1 00000   1    1  Life Support Standard
+ - OC1   1  1 00000   1  1.5  Computer Model/1 std
+ - OB0  -2  1 00000   2    0  Cramped Controls
+ - CO0   -  4 00000 0.5  0.1  Spacer Bunks
+ - CO0   -  1 00000   4    0  Crew Lounge
+ - CO0   -  1 00000 0.5  0.5  Crew Shared Fresher
+ - PC0   -  1 00000  20    0  Cargo Hold Basic
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

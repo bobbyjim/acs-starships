@@ -1,0 +1,734 @@
+--- 
+components: 
+   - 
+      tons: 200
+      category: 'Hull'
+      label: 'Unstreamlined Hull, lifters'
+      type: 'Hull'
+      name: 'Hull'
+      code: 'U'
+      mcr: 10
+      howMany: 1
+      totalMCr: 10
+      eff: 1
+      q: 0
+      totalTons: 200
+      r: 0
+      s: 0
+      mult: 1
+      preMult: 1
+      b: 0
+      target: 12
+      e: 0
+      notes: 'U, lifters'
+      tl: 12
+      CP: 0
+      config: 'Unstreamlined'
+      Sq: 400
+
+   - 
+      s: 0
+      Sq: 80
+      tons: 40
+      category: 'Jump Fuel'
+      label: 'Jump Fuel (2  parsecs)'
+      type: 'Drive'
+      target: 12
+      b: 0
+      e: 0
+      notes: 'J2, 20t/pc'
+      totalTons: 40
+      howMany: 1
+      tl: 12
+      totalMCr: 0
+      eff: 1
+      q: 0
+      mcr: 0
+      r: 0
+      CP: 0
+
+   - 
+      s: 0
+      Sq: 14
+      tons: 7
+      category: 'Powerplant Fuel'
+      label: 'Plant Fuel (0.5 months)'
+      type: 'Drive'
+      mcr: 0
+      b: 0
+      e: 0
+      notes: '0.5 months'
+      totalTons: 7
+      howMany: 1
+      tl: 12
+      CP: 0
+      eff: 1
+      q: 0
+      target: 12
+      r: 0
+      totalMCr: 0
+
+   - 
+      s: 0
+      mcrPerTon: 1
+      tons: 2
+      category: 'landers'
+      label: 'Landing legs with pads'
+      type: 'Hull'
+      target: 12
+      b: 0
+      e: 0
+      tonsPercent: 1
+      name: 'Landing legs with pads'
+      howMany: 1
+      tl: 12
+      totalMCr: 2
+      Sq: 4
+      r: 0
+      eff: 1
+      q: 0
+      totalTons: 2
+      mcr: 2
+      note: 'K'
+      CP: 1
+      code: 'K'
+
+   - 
+      B: 0
+      category: 'PowerPlant'
+      label: 'PowerPlant-7 (G)'
+      type: 'Drive'
+      mcr: 22
+      tons: 22
+      code: 'G'
+      totalTons: 22
+      howMany: 1
+      E: 0
+      eff: 1
+      q: 0
+      name: 'PowerPlant'
+      basetl: 14
+      totalMCr: 22
+      rating: 7
+      s: 0
+      powerFuelUsage: 0.01
+      b: 0
+      autoAdjust: 1
+      target: 14
+      r: 0
+      notes: 'P 7'
+      R: 0
+      CP: 1
+      S: 0
+      Q: 0
+      Sq: 44
+      tl: 14
+      e: 0
+
+   - 
+      S: 0
+      tons: 15
+      category: 'Jump Drive'
+      label: 'Jump Drive-2 (B)'
+      type: 'Drive'
+      name: 'Jump Drive'
+      B: 0
+      code: 'B'
+      mcr: 15
+      howMany: 1
+      totalMCr: 15
+      eff: 1
+      q: 0
+      totalTons: 15
+      jumpFuelUsage: 0.1
+      basetl: 11
+      E: 0
+      s: 0
+      autoAdjust: 1
+      b: 0
+      rating: 2
+      target: 12
+      e: 0
+      notes: 'J 2'
+      tl: 12
+      CP: 1
+      r: 0
+      Q: 0
+      Sq: 30
+      R: 0
+
+   - 
+      S: 0
+      tons: 13
+      category: 'Maneuver Drive'
+      label: 'Maneuver Drive-7 (G)'
+      type: 'Drive'
+      name: 'Maneuver Drive'
+      B: 0
+      code: 'G'
+      totalTons: 13
+      howMany: 1
+      E: 0
+      eff: 1
+      q: 0
+      mcr: 26
+      basetl: 10
+      totalMCr: 26
+      rating: 7
+      s: 0
+      autoAdjust: 1
+      b: 0
+      target: 12
+      e: 0
+      Q: 0
+      tl: 12
+      CP: 1
+      r: 0
+      notes: '7 G'
+      Sq: 26
+      R: 0
+
+   - 
+      s: 0
+      tons: 1
+      category: 'Fuel Scoops'
+      label: 'Fuel Scoops'
+      type: 'Drive'
+      target: 8
+      b: 0
+      code: 'S'
+      mcr: 0.1
+      howMany: 1
+      tl: 8
+      CP: 1
+      eff: 1
+      q: 0
+      totalTons: 1
+      Sq: 2
+      r: 0
+      totalMCr: 0.1
+      e: 0
+
+   - 
+      s: 0
+      b: 0
+      target: 8
+      category: 'Fuel Purifiers'
+      label: 'Fuel Purifiers'
+      type: 'Drive'
+      mcr: 0.1
+      tons: 1
+      code: 'P'
+      totalTons: 1
+      howMany: 1
+      tl: 8
+      totalMCr: 0.1
+      eff: 1
+      q: 0
+      Sq: 2
+      r: 0
+      CP: 1
+      e: 0
+
+   - 
+      tons: 5
+      category: 'Computer Model/5 phot'
+      label: 'Computer Model/5 phot'
+      type: 'Ops'
+      name: 'Computer'
+      mod: 5
+      totalTons: 5
+      howMany: 1
+      mount: 'Model/5'
+      totalMCr: 13.5
+      eff: 1
+      q: 0
+      mcr: 13.5
+      r: 0
+      s: 0
+      b: 0
+      range: 'p'
+      target: 17
+      basetl: 3
+      notes: ''
+      tl: 12
+      CP: 1
+      config: 'Ops'
+      Sq: 10
+      e: 0
+
+   - 
+      tons: 1
+      category: 'AR T3 Missile'
+      label: 'AR T3 Missile'
+      type: 'Weapon'
+      mcr: 1.2
+      mod: 0
+      totalTons: 1
+      howMany: 1
+      mount: 'T3'
+      totalMCr: 1.2
+      eff: 1
+      q: 0
+      name: 'Missile'
+      basetl: 7
+      s: 0
+      b: 0
+      range: 'AR'
+      target: 12
+      r: 0
+      notes: ''
+      tl: 12
+      CP: 1
+      config: 'Weapon'
+      Sq: 2
+      e: 0
+
+   - 
+      s: 0
+      tons: 3
+      category: 'Cargo'
+      label: 'Cargo Hold Basic'
+      type: 'Payload'
+      mcr: 0
+      b: 0
+      e: 0
+      notes: ''
+      target: 12
+      howMany: 1
+      tl: 12
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 3
+      Sq: 6
+      r: 0
+      totalMCr: 0
+
+   - 
+      s: '0'
+      tons: 5
+      label: 'Air/Raft Enclosed + bracket'
+      type: 'Vehicle'
+      mcr: 1.1
+      b: '0'
+      e: '0'
+      mod: ''
+      CP: 0
+      target: '9'
+      howMany: 1
+      tl: '9'
+      av: '9,0,4,0,4,0,24,0'
+      load: 2
+      speed: 3
+      eff: '1'
+      q: '0'
+      totalTons: 5
+      Sq: 10
+      r: '0'
+      totalMCr: 1.1
+      code: 'ELPV'
+
+   - 
+      s: 0
+      Sq: 2
+      b: 0
+      label: 'Life Support Standard'
+      type: 'Ops'
+      target: 12
+      tons: 1
+      e: 0
+      notes: '10 person-months'
+      totalTons: 1
+      howMany: 1
+      tl: 12
+      totalMCr: 1
+      eff: 1
+      q: 0
+      mcr: 1
+      r: 0
+      CP: 0
+
+   - 
+      s: 0
+      Sq: 4
+      b: 0
+      label: 'Crew Stateroom'
+      type: 'Crew'
+      sleeps: 1
+      mcr: 0.1
+      totalSleeps: 1
+      e: 0
+      notes: '1 crew'
+      totalTons: 2
+      howMany: 1
+      tl: 12
+      CP: 0
+      tons: 2
+      eff: 1
+      q: 0
+      target: 12
+      r: 0
+      totalMCr: 0.1
+
+   - 
+      s: 0
+      tons: 1
+      mcr: 0.1
+      label: 'Spacer Niche'
+      type: 'Crew'
+      sleeps: 1
+      target: 12
+      b: 0
+      e: 0
+      notes: '1 crew'
+      totalTons: 4
+      howMany: 4
+      tl: 12
+      totalMCr: 0.4
+      totalSleeps: 4
+      eff: 1
+      q: 0
+      Sq: 8
+      r: 0
+      CP: 0
+
+   - 
+      s: 0
+      tons: 4
+      label: 'Crew Lounge'
+      type: 'Crew'
+      target: 12
+      b: 0
+      e: 0
+      notes: ''
+      mcr: 0
+      howMany: 4
+      tl: 12
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 16
+      Sq: 32
+      r: 0
+      totalMCr: 0
+
+   - 
+      s: 0
+      tons: 0.5
+      mcr: 0.5
+      label: 'Crew Shared Fresher'
+      type: 'Crew'
+      target: 12
+      b: 0
+      e: 0
+      notes: '4 crew'
+      totalTons: 1
+      howMany: 2
+      tl: 12
+      totalMCr: 1
+      eff: 1
+      q: 0
+      Sq: 2
+      r: 0
+      CP: 0
+
+   - 
+      tons: 5
+      label: 'AR B2 Particle Accelerator'
+      type: 'Weapon'
+      mcr: 6.5
+      category: 'AR B2 Particle Accelerator'
+      mod: 3
+      name: 'Particle Accelerator'
+      howMany: 1
+      mount: 'B2'
+      totalMCr: 6.5
+      eff: 1
+      q: 0
+      totalTons: 5
+      basetl: 11
+      s: 0
+      b: 0
+      range: 'AR'
+      target: 15
+      r: 0
+      notes: ''
+      tl: 12
+      CP: 1
+      config: 'Weapon'
+      Sq: 10
+      e: 0
+
+   - 
+      tons: 16
+      label: 'AV=36. 3 Kinetic Plate'
+      type: 'Armor'
+      mcr: 0
+      category: 'AV=36. 3 Kinetic Plate'
+      mod: ''
+      totalTons: 16
+      howMany: 1
+      mount: 'Kinetic'
+      totalMCr: 0
+      eff: 1
+      q: 0
+      name: 'Plate'
+      basetl: 8
+      s: 0
+      b: 0
+      range: '3'
+      target: 12
+      r: 0
+      notes: ''
+      tl: 12
+      CP: 1
+      config: 'Armor'
+      Sq: 32
+      e: 0
+
+   - 
+      tons: 3
+      category: 'AR Ext Communicator'
+      label: 'AR Ext Communicator'
+      type: 'Sensor'
+      mcr: 2.5
+      mod: 4
+      totalTons: 3
+      howMany: 1
+      mount: 'Ext'
+      totalMCr: 2.5
+      eff: 1
+      q: 0
+      name: 'Communicator'
+      basetl: 8
+      s: 0
+      b: 0
+      range: 'AR'
+      target: 16
+      r: 0
+      notes: ''
+      tl: 12
+      CP: 1
+      config: 'Sensor'
+      Sq: 6
+      e: 0
+
+   - 
+      tons: 3
+      category: 'AR Ext Jammer'
+      label: 'AR Ext Jammer'
+      type: 'Sensor'
+      name: 'Jammer'
+      mod: 4
+      mcr: 2.5
+      howMany: 1
+      mount: 'Ext'
+      totalMCr: 2.5
+      eff: 1
+      q: 0
+      totalTons: 3
+      r: 0
+      s: 0
+      b: 0
+      range: 'AR'
+      target: 16
+      basetl: 8
+      notes: ''
+      tl: 12
+      CP: 1
+      config: 'Sensor'
+      Sq: 6
+      e: 0
+
+   - 
+      tons: 9
+      label: 'DS Ext Neutrino Detector'
+      type: 'Sensor'
+      name: 'Neutrino Detector'
+      category: 'DS Ext Neutrino Detector'
+      mod: 4
+      mcr: 8.5
+      howMany: 1
+      mount: 'Ext'
+      totalMCr: 8.5
+      eff: 1
+      q: 0
+      totalTons: 9
+      r: 0
+      s: 0
+      b: 0
+      range: 'DS'
+      target: 16
+      basetl: 12
+      notes: ''
+      tl: 12
+      e: 0
+      config: 'Sensor'
+      Sq: 18
+      CP: 1
+
+   - 
+      tons: 3
+      category: 'AR Ext Stealth Mask'
+      label: 'AR Ext Stealth Mask'
+      type: 'Sensor'
+      name: 'Stealth Mask'
+      mod: 4
+      mcr: 2.5
+      howMany: 1
+      mount: 'Ext'
+      totalMCr: 2.5
+      eff: 1
+      q: 0
+      totalTons: 3
+      r: 0
+      s: 0
+      b: 0
+      range: 'AR'
+      target: 16
+      basetl: 12
+      notes: ''
+      tl: 12
+      CP: 1
+      config: 'Sensor'
+      Sq: 6
+      e: 0
+
+   - 
+      tons: 3
+      category: 'AR Ext EMS'
+      label: 'AR Ext EMS'
+      type: 'Sensor'
+      mcr: 2.5
+      mod: 4
+      name: 'EMS'
+      howMany: 1
+      mount: 'Ext'
+      totalMCr: 2.5
+      eff: 1
+      q: 0
+      totalTons: 3
+      r: 0
+      s: 0
+      b: 0
+      range: 'AR'
+      target: 16
+      basetl: 12
+      notes: ''
+      tl: 12
+      CP: 1
+      config: 'Sensor'
+      Sq: 6
+      e: 0
+
+   - 
+      tons: 3
+      label: 'AR Ext Scope'
+      type: 'Sensor'
+      mcr: 2.5
+      category: 'AR Ext Scope'
+      mod: 4
+      totalTons: 3
+      howMany: 1
+      mount: 'Ext'
+      totalMCr: 2.5
+      eff: 1
+      q: 0
+      name: 'Scope'
+      r: 0
+      s: 0
+      b: 0
+      range: 'AR'
+      target: 16
+      basetl: 9
+      notes: ''
+      tl: 12
+      CP: 1
+      config: 'Sensor'
+      Sq: 6
+      e: 0
+
+   - 
+      s: '0'
+      tons: 4
+      label: "Hero's Shrine"
+      type: 'Crew'
+      mcr: 0.4
+      b: '0'
+      e: '0'
+      mod: ''
+      notes: ''
+      target: '12'
+      howMany: 1
+      tl: '12'
+      CP: 0
+      eff: '1'
+      q: '0'
+      totalTons: 4
+      Sq: 8
+      r: '0'
+      totalMCr: 0.4
+
+   - 
+      s: 0
+      tons: 12
+      target: 14
+      category: 'Bridge'
+      label: 'Spacious Controls'
+      type: 'Ops'
+      name: 'Bridge'
+      b: 0
+      e: 0
+      mod: 2
+      notes: ''
+      mcr: 0
+      howMany: 1
+      tl: 12
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 12
+      Sq: 24
+      r: 0
+      totalMCr: 0
+header: 
+   powerFuelPercentage: 0.07
+   jf: 2
+   qsp: 'EB-BU72'
+   pf: 0.5
+   tons: 200
+   lifters: 'y'
+   tonsFree: 0
+   crew: 6
+   owner: 'Aslan'
+   mission: 'EB'
+   overtons: 4
+   missionLabel: 'Corvette'
+   controlConsoles: 1
+   totalMCr: 122.1
+   shifts: 1
+   shipname: 'Stayow'
+   workstations: 0
+   low: 0
+   mult: 1
+   preMult: 1
+   spaciousness: 2
+   troops: 0
+   operatingConsoles: 5
+   staff: 0
+   crewComfort: 0
+   totalCargoSpace: 3
+   comments: |
+      The Htaulao is a Stayow-class Corvette. Though this class of ship is highly modifiable, it is always designed and used in a military context, often as a reconnaissance vessel. The Htaulao sports the Taiwiue Systems B12-2b jump drive, the Yuaii Impulse G7 maneuver drive, and the Grid 7k Uaiy/G4 power plant, giving performance of Jump-2 and 7G acceleration. Fuel tankage supports 2 weeks of operations and one jump-2. On the bridge is a photonic computer Model/5. One particle accelerator and one missile launcher are installed on hardpoints. The ship has a powerful sensor array, geared toward detecting other ships and avoiding detection. There is one vehicle: an air/raft. The ship is unstreamlined, but is capable of skimming and purifying fuel. There is a 3 ton cargo bay.
+      
+      A crew of 5 is required: Pilot, Astrogator, Engineer, Gunner, and Medic. The captain of this particular ship, Sa'ao Hleilaiea, a male of high social standing, has a single cabin; the rest of his crew sleep in spacer niches. 
+      
+      A typical compartment aboard Aslan craft is the Shrine of Heroes.  The shrine on this ship is elaborate, with computer consoles which allow a complete holographic record of past battles, heroes, or other inspirational events to be called up. The room is used for meditation and contemplation of the heroic traditions of the Aslan race.
+   passengers: 1
+   demand: -5
+   tl: 12
+   config: 'U'
+   format: 'T5-ACS-1'
+   undertons: 12
+   jumpFuelPercentage: 0.1

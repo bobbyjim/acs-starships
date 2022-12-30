@@ -1,0 +1,54 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:30 2021
+Mission: Transport
+QSP: T-MC26
+TL: 14 
+Name: Ringmaster0913
+Tons: 1200
+Actual Tons: 1140
+Allegiance: Im
+
+MCr: 521.4
+Builder: Bilstein Yards
+Disposition: Reserve
+
+Crew comfort: -2
+Passenger demand: -5
+Cargo: 17
+FuelPercentage: 14
+Components:
+ - HH0   C  1 00000 1200   24  Cluster Hull
+ - HL1  n/  1 00000  -6    0  No Landers
+ - AA1  28  1 00000   0    0  AV=28. 1 Kinetic Charged
+ - DF0   -  1 00000 648    0  Jump Fuel (6  parsecs)
+ - DF0   -  1 00000 64.8    0  Plant Fuel (one month)
+ - DF1  X1  1 00000   1    1  Fuel Transfer Pumps 
+ - DP4  T2  1 7000B 109  109  Imp PowerPlant-6 (T2)
+ - DJ6  T2  1 00000 185  185  Jump Drive-6 (J5 actual)
+ - DM1   4  1 53503 5.75   92  Ult Maneuver Drive-2 (M)
+ - OC1   4  1 00000   4   18  Computer Model/4 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   -  2 00000   4  0.2  Gunners' Barracks
+ - OO1   -  1 00000   9    4  Medical Ward
+ - OB0   2  1 00000   4    0  Spacious Controls
+ - SS1   1  1 00000   1  1.5  AR Ant Communicator
+ - SS1   1  1 00000   1  1.5  AR Ant Jammer
+ - SS1   1  1 00000   1  1.5  AR Ant Scope
+ - SS1   1  1 00000   1  1.5  AR Ant Neutrino Detector
+ - SS1   1  1 00000   1  1.5  AR Ant EMS
+ - SS1   1  1 00000   1  1.5  AR Ant Stealth Mask
+ - WW1   -  2 00000   1  1.1  Vd T3 Sandcaster
+ - WW1   -  4 00000   1  1.5  Vd T3 Beam Laser
+ - WW1   1  1 00000 0.5  1.7  D T4 DataCaster
+ - WW1   1  1 00000 0.5  5.7  SR T4 CommCaster
+ - WW1   2  4 00000   3  5.5  AR B1 Particle Accelerator
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - CO0   -  5 00000   1  0.1  Spacer Niche
+ - CO0   -  4 00000   3  0.1  Crew Stateroom
+ - CO0   -  2 00000   4    0  Crew Lounge
+ - PC0   -  1 00000  17    0  Cargo Hold Basic
+ - PO1   -  1 00000 0.5  0.1  Air Lock
+ - VO0   - 37 00000   1    1  Grapples
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

@@ -1,0 +1,52 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:30 2021
+Mission: Ortillery
+QSP: H-U730
+TL: 14 
+Name: Bigtop One
+Tons: 700
+Actual Tons: 695
+Alegiance: Im
+
+MCr: 241.1
+
+Crew comfort: 3
+Passenger demand: -5
+Cargo: 20
+FuelPercentage: 2
+Components:
+ - HH1   U  1 00000 700   37  Unstreamlined Hull
+ - HL1   K  1 00000   7    7  Legs with pads
+ - AA1  28  1 00000   0    0  AV=28. 1 Kinetic Charged
+ - DF0   -  1 00000   0    0  Jump Fuel (0  parsec)
+ - DF0   -  1 00000 8.5    0  Plant Fuel (0.5 months)
+ - DP1   3  1 00000  17   34  Adv PowerPlant-3 (L)
+ - DM1   3  1 00000 10.5   42  Adv Maneuver Drive-3 (L)
+ - OC1   5  1 00000   5    5  Computer Model/5 std
+ - OL1   -  1 00000   3    3  Life support (120 people/month)
+ - OB0   -  1 00000  14    0  Standard Bridge
+ - SS1   -  1 00000   0    1  AR Surf Communicator
+ - SS1   -  1 00000   0    1  AR Surf Jammer
+ - SS1   -  1 00000   0    1  AR Surf Neutrino Detector
+ - SS1   -  1 00000   0    1  AR Surf Visor
+ - SS1   -  1 00000   0    1  AR Surf Stealth Mask
+ - SS1   1  1 00000   1  1.5  AR Ant EMS
+ - WS1   -  1 00000   0  0.1  G Surf Proximeter
+ - WW1   -  3 00000   3    3  AR B1 Empty
+ - WW1  -1  2 00000   1  1.5  Vd T3 Beam Laser
+ - WW1  -1  2 00000   1  1.1  Vd T3 Sandcaster
+ - CO0   -  2 00000   2  0.2  Crew Small Stateroom
+ - CO0   -  1 00000   4  0.5  Crew Double Stateroom
+ - CO0   -  2 00000   4  0.5  Crew Single Stateroom
+ - CO0   - 10 00000 0.5  0.1  Crew Hotbunk
+ - CO0   -  4 00000   1  0.1  Crew Niche
+ - CO0   -  6 00000   4  0.5  Barracks
+ - CO0   -  1 00000 500  62.5  Center Stage
+ - PC0   -  1 00000  20    0  Cargo Hold Basic
+ - PO0   -  1 00000   7  0.5  Large Animal Berth
+ - PO0   -  2 00000   7    0  Animal Tanks
+ - PO0   -  6 00000   1  0.5  Standard Animal Berth
+ - VO0   - 20 00000   1    1  Grapple
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

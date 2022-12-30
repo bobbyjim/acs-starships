@@ -1,0 +1,45 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:31 2021
+Mission: Corvette
+QSP: V-BS44
+TL: 13 
+Name: Hkauiya
+Tons: 200
+Actual Tons: 200
+
+MCr: 105.2
+Allegiance: As
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 17
+FuelPercentage: 14
+Components:
+ - HH0   S  1 00000 200   16  Streamlined Hull, lifters
+ - HF1   D  1 00000   2    2  Flotation hull
+ - HL1   K  1 00000   2    2  Landing legs with pads
+ - AA1  12  1 00000   0    0  AV=12. 1 Kinetic Plate
+ - DF0   -  1 00000  80    0  Jump Fuel (4  parsecs)
+ - DF0   -  1 00000   8    0  Plant Fuel (one month)
+ - DF1   -  1 00000   1  0.1  Fuel Scoops 100t/hr
+ - DF1   -  1 00000   1  0.1  Fuel Intakes 40t/hr
+ - DF1   -  1 00000   1  0.1  Fuel Bins 20t/hr
+ - DF1   -  4 00000   4    4  Fuel Purifiers 16t/hr
+ - DP1   D  1 00000  13   13  PowerPlant-4 (D)
+ - DJ1   D  1 00000  25   25  Jump Drive-4 (D)
+ - DM1   D  1 00000   7   14  Maneuver Drive-4 (D)
+ - OC1   4  1 00000   4   18  Computer Model/4 std
+ - OO0   -  1 00000   1    1  Life Support Standard
+ - OB0   2  1 00000  18    0  Spacious Controls
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   -  1 00000   0  1.5  AR Surf EMS
+ - SS1   -  1 00000   0  1.5  AR Surf Scope
+ - SS1   -  1 00000   0  1.5  AR Surf Jammer
+ - SS1   -  1 00000   0  1.5  AR Surf Neutrino Detector
+ - WW1  -1  2 00000   1  0.5  AR T2 Empty
+ - CO0   -  3 00000   2  0.1  Crew Stateroom
+ - CO0   -  2 00000   4    0  Crew Lounge
+ - PC0   -  1 00000  17    0  Cargo Hold Basic
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

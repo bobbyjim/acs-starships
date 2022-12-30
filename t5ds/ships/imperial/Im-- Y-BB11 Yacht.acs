@@ -1,0 +1,47 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:34 2021
+Mission: Yacht
+QSP: Y-BB11
+TL: 9 
+Name: Yacht
+Tons: 200
+Actual Tons: 200
+
+MCr: 72.1
+Owner: Imperial
+Allegiance: Im
+
+Crew comfort: 0
+Passenger demand: 0
+Cargo: 12
+FuelPercentage: 11
+Components:
+ - HH0   B  1 00000 200    6  Braced Hull
+ - HJ1   G  1 00000   0    2  Jump Grid
+ - AA1   9  1 00000   0    0  AV=9. 1 Rad Plate
+ - DF0   -  1 00000  20    0  Jump Fuel (1  parsec)
+ - DF0   -  1 00000   2    0  Plant Fuel (one month)
+ - DP1   A  1 00000   4    4  PowerPlant-1 (A)
+ - DJ1   A  1 00000  10   10  Jump Drive-1 (A)
+ - DM1   A  1 00000   2    4  Maneuver Drive-1 (A)
+ - OC1   1  1 00000   1  1.5  Computer Model/1 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   -  1 00000   1    1  Life Support Luxury
+ - OO0   -  1 00000   1    1  Life Support Adaptable
+ - OO1   -  1 00000   2    1  Clinic
+ - OO1   -  1 00000   2    1  Galley
+ - OB0   -  1 00000   5  0.5  Standard Bridge
+ - SS1  -2  1 00000   9   17  DS T1de Communicator
+ - CO1   -  1 00000   6  0.4  Owner Suite
+ - CO0   -  4 00000   4  0.7  Crew Stateroom + fresher
+ - CO0   -  1 00000   4    0  Crew Lounge
+ - PO0   -  9 00000 4.5  0.4  Luxury Stateroom
+ - PC0   -  1 00000  12    0  Cargo Hold Basic
+ - PO0   -  3 00000   4    0  Passenger Lounge
+ - PO1   -  1 00000 0.5  0.1  Air Lock
+ - VO0  EL  1 00000   4  0.1  Air/Raft Enclosed (in hold)
+ - VO0  MF  1 00000  40   14  Fast Boat + hangar
+ - VO0  EL  1 00000   4  0.1  ATV (in hold)
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

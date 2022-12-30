@@ -1,0 +1,62 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:30 2021
+Mission: Long Packet
+QSP: UL-GL64
+TL: 15 
+Name: Leggy Leaper
+Tons: 700
+Actual Tons: 731
+Overtonnage: 31
+
+MCr: 413.5
+Builder: Clan Severn
+Disposition: In Service
+Allegiance: Im
+
+Crew comfort: 3
+Passenger demand: 5
+Cargo: 10
+FuelPercentage: 16
+Components:
+ - HH0   L  1 00000 700   95  Lift body Hull, lifters
+ - HL1   K  1 00000   7    7  Landing legs with pads
+ - HF1   D  1 00000   7    7  Flotation hull
+ - AA1  30  1 00000   0    0  AV=30. 1 Kinetic Charged
+ - AC1   -  1 00000   0    0  AV=0. c Slick
+ - DF0   -  1 00000 280    0  Jump Fuel (4  parsecs)
+ - DF0   -  1 00000  42    0  Plant Fuel (one month)
+ - DF1   S  1 00000   1  0.1  Fuel Scoops
+ - DF1   I  1 00000   1  0.1  Fuel Intakes
+ - DF1   P  2 00000   1  0.1  Fuel Purifiers
+ - DP2   W  1 00000  64   64  PowerPlant-6 (W)
+ - DJ3   P  1 00000  75   75  Jump Drive-4 (P)
+ - DM2   W  1 00000  41   82  Maneuver Drive-6 (W)
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   -  1 00000   1    1  Life Support Luxury
+ - OO0   -  1 00000   1    1  Life Support Adaptable
+ - OO0   -  1 00000   4  0.2  Gunners' Barracks
+ - OC1   5  1 00000   5   27  Computer Model/5 std
+ - OO1   -  1 00000   4    3  Surgery
+ - OB0   2  1 00000  18  1.8  Spacious Bridge
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   -  1 00000   0  1.5  AR Surf Jammer
+ - SS1   -  1 00000   0  1.5  AR Surf Stealth Mask
+ - WW1   -  1 00000   1  1.1  Vd T3 Sandcaster
+ - WW1   -  1 00000   1    2  Vd T3 DataCaster
+ - WW1   -  2 00000   1  1.2  AR T3 Missile
+ - WW1   -  3 00000   1  1.5  Vd T3 Beam Laser
+ - CO0   -  8 00000   2  0.1  Crew Stateroom
+ - CO0   -  2 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   - 12 00000   4    0  Crew Lounge
+ - PO0   -  1 00000   1    0  Magazine
+ - PO0   -  1 00000   1    0  Mail Vault
+ - PO0   -  1 00000  10    0  Cargo Hold Basic
+ - PO0   -  2 00000 0.5  0.1  Low Berth
+ - PO1   -  2 00000 0.5  0.1  Air Lock
+ - PO0   -  6 00000   6  0.4  Luxury Stateroom
+ - PO0   -  6 00000   4    0  Passenger Lounge
+ - VO1   -  1 00000  10    0  Large Vehicle Lock
+ - VO0  LM  1 00000  20   28  Gig
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

@@ -1,0 +1,839 @@
+--- 
+components: 
+   - 
+      tons: 800
+      category: 'Hull'
+      label: 'Braced Hull'
+      type: 'Hull'
+      Sq: 1600
+      mcr: 24
+      code: 'B'
+      name: 'Hull'
+      howMany: 1
+      totalMCr: 24
+      eff: 1
+      q: 0
+      totalTons: 800
+      r: 0
+      s: 0
+      mult: 1
+      preMult: 1
+      b: 0
+      target: 12
+      e: 0
+      notes: 'B'
+      tl: 12
+      CP: 0
+      config: 'Braced'
+
+   - 
+      s: 0
+      tons: 240
+      category: 'Jump Fuel'
+      label: 'Jump Fuel (3  parsecs)'
+      type: 'Drive'
+      Sq: 480
+      mcr: 0
+      b: 0
+      e: 0
+      notes: 'J3, 80t/pc'
+      target: 12
+      howMany: 1
+      tl: 12
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 240
+      r: 0
+      totalMCr: 0
+
+   - 
+      s: 0
+      tons: 36
+      category: 'Powerplant Fuel'
+      label: 'Plant Fuel (one month)'
+      type: 'Drive'
+      Sq: 72
+      mcr: 0
+      b: 0
+      e: 0
+      notes: 'one month'
+      target: 12
+      howMany: 1
+      tl: 12
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 36
+      r: 0
+      totalMCr: 0
+
+   - 
+      S: 0
+      B: 0
+      category: 'Jump Drive'
+      label: 'Jump Drive-3 (M)'
+      type: 'Drive'
+      Sq: 130
+      name: 'Jump Drive'
+      tons: 65
+      code: 'M'
+      autoAdjust: 1
+      mcr: 65
+      howMany: 1
+      E: 0
+      eff: 1
+      q: 0
+      totalTons: 65
+      jumpFuelUsage: 0.1
+      r: 0
+      totalMCr: 65
+      rating: 3
+      s: 0
+      b: 0
+      target: 13
+      e: 0
+      Q: 0
+      tl: 13
+      CP: 2
+      basetl: 12
+      notes: 'J 3'
+      R: 0
+
+   - 
+      tons: 3
+      label: 'Computer Model/3 std'
+      type: 'Ops'
+      Sq: 6
+      name: 'Computer'
+      category: 'Computer Model/3 std'
+      mod: 3
+      mcr: 10.5
+      howMany: 1
+      totalMCr: 10.5
+      eff: 1
+      q: 0
+      totalTons: 3
+      r: 0
+      s: 0
+      b: 0
+      range: 's'
+      target: 16
+      e: 0
+      basetl: 0
+      notes: ''
+      tl: 13
+      CP: 1
+      config: 'Ops'
+      mount: 'Model/3'
+
+   - 
+      basetl: 8
+      tons: 0
+      label: 'AR Surf Communicator'
+      type: 'Sensor'
+      name: 'Communicator'
+      category: 'AR Surf Communicator'
+      mod: 0
+      mcr: 1.5
+      howMany: 1
+      totalMCr: 1.5
+      eff: 1
+      q: 0
+      totalTons: 0
+      r: 0
+      s: 0
+      b: 0
+      range: 'AR'
+      target: 13
+      e: 0
+      notes: ''
+      tl: 13
+      CP: 1
+      config: 'Sensor'
+      mount: 'Surf'
+
+   - 
+      basetl: 8
+      tons: 0
+      label: 'AR Surf Jammer'
+      type: 'Sensor'
+      name: 'Jammer'
+      category: 'AR Surf Jammer'
+      mod: 0
+      mcr: 1.5
+      howMany: 1
+      totalMCr: 1.5
+      eff: 1
+      q: 0
+      totalTons: 0
+      r: 0
+      s: 0
+      b: 0
+      range: 'AR'
+      target: 13
+      e: 0
+      notes: ''
+      tl: 13
+      CP: 1
+      config: 'Sensor'
+      mount: 'Surf'
+
+   - 
+      basetl: 9
+      tons: 0
+      label: 'AR Surf Scope'
+      type: 'Sensor'
+      name: 'Scope'
+      category: 'AR Surf Scope'
+      mod: 0
+      mcr: 1.5
+      howMany: 1
+      totalMCr: 1.5
+      eff: 1
+      q: 0
+      totalTons: 0
+      r: 0
+      s: 0
+      b: 0
+      range: 'AR'
+      target: 13
+      e: 0
+      notes: ''
+      tl: 13
+      CP: 1
+      config: 'Sensor'
+      mount: 'Surf'
+
+   - 
+      basetl: 10
+      tons: 0
+      label: 'AR Surf Neutrino Detector'
+      type: 'Sensor'
+      name: 'Neutrino Detector'
+      category: 'AR Surf Neutrino Detector'
+      mod: 0
+      mcr: 1.5
+      howMany: 1
+      totalMCr: 1.5
+      eff: 1
+      q: 0
+      totalTons: 0
+      r: 0
+      s: 0
+      b: 0
+      range: 'AR'
+      target: 13
+      e: 0
+      notes: ''
+      tl: 13
+      CP: 1
+      config: 'Sensor'
+      mount: 'Surf'
+
+   - 
+      basetl: 12
+      tons: 0
+      label: 'AR Surf EMS'
+      type: 'Sensor'
+      name: 'EMS'
+      category: 'AR Surf EMS'
+      mod: 0
+      mcr: 1.5
+      howMany: 1
+      totalMCr: 1.5
+      eff: 1
+      q: 0
+      totalTons: 0
+      r: 0
+      s: 0
+      b: 0
+      range: 'AR'
+      target: 13
+      e: 0
+      notes: ''
+      tl: 13
+      CP: 1
+      config: 'Sensor'
+      mount: 'Surf'
+
+   - 
+      basetl: 12
+      tons: 0
+      label: 'AR Surf Stealth Mask'
+      type: 'Sensor'
+      name: 'Stealth Mask'
+      category: 'AR Surf Stealth Mask'
+      mod: 0
+      mcr: 1.5
+      howMany: 1
+      totalMCr: 1.5
+      eff: 1
+      q: 0
+      totalTons: 0
+      r: 0
+      s: 0
+      b: 0
+      range: 'AR'
+      target: 13
+      e: 0
+      notes: ''
+      tl: 13
+      CP: 1
+      config: 'Sensor'
+      mount: 'Surf'
+
+   - 
+      tons: 1
+      label: 'Vd T3 Sandcaster'
+      type: 'Weapon'
+      Sq: 2
+      name: 'Sandcaster'
+      category: 'Vd T3 Sandcaster'
+      mod: 0
+      mcr: 1.1
+      howMany: 1
+      totalMCr: 1.1
+      eff: 1
+      q: 0
+      totalTons: 1
+      r: 0
+      s: 0
+      b: 0
+      range: 'Vd'
+      target: 13
+      e: 0
+      basetl: 9
+      notes: ''
+      tl: 13
+      CP: 1
+      config: 'Weapon'
+      mount: 'T3'
+
+   - 
+      s: 0
+      tons: 2
+      label: 'Life Support Long Term'
+      type: 'Ops'
+      Sq: 4
+      target: 13
+      b: 0
+      e: 0
+      notes: '40 person-months'
+      mcr: 2
+      howMany: 1
+      tl: 13
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 2
+      r: 0
+      totalMCr: 2
+
+   - 
+      s: 0
+      tons: 1
+      label: 'Life Support Adaptable'
+      type: 'Ops'
+      Sq: 2
+      target: 13
+      b: 0
+      e: 0
+      notes: '10 sophonts'
+      mcr: 1
+      howMany: 1
+      tl: 13
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 1
+      r: 0
+      totalMCr: 1
+
+   - 
+      s: 0
+      tons: 18
+      label: 'Platoon Barracks'
+      type: 'Ops'
+      Sq: 36
+      target: 13
+      b: 0
+      e: 0
+      notes: '(22) 4 sq + R4 O1/O2'
+      mcr: 1
+      howMany: 1
+      tl: 13
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 18
+      r: 0
+      totalMCr: 1
+
+   - 
+      s: 0
+      tons: 58
+      category: 'Cargo'
+      label: 'Cargo Hold Basic'
+      type: 'Payload'
+      Sq: 116
+      mcr: 0
+      b: 0
+      e: 0
+      notes: ''
+      target: 12
+      howMany: 1
+      tl: 12
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 58
+      r: 0
+      totalMCr: 0
+
+   - 
+      s: 0
+      tons: 1
+      label: 'Magazine'
+      type: 'Weapon'
+      Sq: 2
+      target: 13
+      b: 0
+      e: 0
+      notes: '50 x Size-5'
+      mcr: 0
+      howMany: 1
+      tl: 13
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 1
+      r: 0
+      totalMCr: 0
+
+   - 
+      s: 0
+      tons: 4
+      label: 'Gunner Barracks'
+      type: 'Ops'
+      Sq: 16
+      mcr: 0.2
+      b: 0
+      e: 0
+      mod: ''
+      notes: '(5) R1 R1 R2 R2 R3'
+      target: '13'
+      howMany: 2
+      tl: '13'
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 8
+      r: 0
+      totalMCr: 0.4
+
+   - 
+      s: 0
+      tons: 2
+      label: 'Crew Stateroom'
+      type: 'Crew'
+      Sq: 56
+      mcr: 0.1
+      b: 0
+      e: 0
+      notes: '1 crew'
+      totalTons: 28
+      howMany: 14
+      tl: 13
+      CP: 0
+      totalSleeps: 14
+      eff: 1
+      q: 0
+      sleeps: 1
+      target: 13
+      r: 0
+      totalMCr: 1.4
+
+   - 
+      s: 0
+      tons: 4
+      label: 'Crew Lounge'
+      type: 'Crew'
+      Sq: 64
+      mcr: 0
+      b: 0
+      e: 0
+      notes: ''
+      target: 13
+      howMany: 8
+      tl: 13
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 32
+      r: 0
+      totalMCr: 0
+
+   - 
+      s: 0
+      tons: 1
+      label: 'Crew Common Fresher'
+      type: 'Crew'
+      Sq: 6
+      mcr: 1
+      b: 0
+      e: 0
+      notes: '10 crew'
+      target: 13
+      howMany: 3
+      tl: 13
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 3
+      r: 0
+      totalMCr: 3
+
+   - 
+      s: 0
+      b: 0
+      label: 'Pinnace, hangared'
+      type: 'Vehicle'
+      Sq: 300
+      mcr: 18
+      load: 30
+      e: 0
+      mod: ''
+      av: '30,10,10,10,10,10,10'
+      target: '15'
+      howMany: 3
+      tl: '15'
+      CP: 0
+      tons: 50
+      speed: '4G'
+      eff: 1
+      q: 0
+      totalTons: 150
+      r: 0
+      totalMCr: 54
+      code: 'MFQN'
+
+   - 
+      r: 0
+      tons: 5
+      label: 'AR B2 Missile'
+      type: 'Weapon'
+      Sq: 30
+      mcr: 4.2
+      category: 'AR B2 Missile'
+      mod: 3
+      name: 'Missile'
+      howMany: 3
+      totalMCr: 12.6
+      eff: 1
+      q: 0
+      totalTons: 15
+      basetl: 7
+      s: 0
+      b: 0
+      range: 'AR'
+      target: 16
+      e: 0
+      notes: ''
+      tl: 13
+      CP: 1
+      config: 'Weapon'
+      mount: 'B2'
+
+   - 
+      r: 0
+      tons: 5
+      label: 'AR B2 Particle Accelerator'
+      type: 'Weapon'
+      Sq: 20
+      mcr: 6.5
+      category: 'AR B2 Particle Accelerator'
+      mod: 3
+      name: 'Particle Accelerator'
+      howMany: 2
+      totalMCr: 13
+      eff: 1
+      q: 0
+      totalTons: 10
+      basetl: 11
+      s: 0
+      b: 0
+      range: 'AR'
+      target: 16
+      e: 0
+      notes: ''
+      tl: 13
+      CP: 1
+      config: 'Weapon'
+      mount: 'B2'
+
+   - 
+      r: 0
+      tons: 1
+      label: 'Vd T2 Beam Laser'
+      type: 'Weapon'
+      Sq: 4
+      mcr: 1
+      category: 'Vd T2 Beam Laser'
+      mod: -1
+      name: 'Beam Laser'
+      howMany: 2
+      totalMCr: 2
+      eff: 1
+      q: 0
+      totalTons: 2
+      basetl: 10
+      s: 0
+      b: 0
+      range: 'Vd'
+      target: 12
+      e: 0
+      notes: ''
+      tl: 13
+      CP: 1
+      config: 'Weapon'
+      mount: 'T2'
+
+   - 
+      tons: 32
+      label: 'AV=26. 2 Blast Plate'
+      type: 'Armor'
+      Sq: 64
+      name: 'Plate'
+      category: 'AV=26. 2 Blast Plate'
+      mod: ''
+      mcr: 0
+      howMany: 1
+      totalMCr: 0
+      eff: 1
+      q: 0
+      totalTons: 32
+      r: 0
+      s: 0
+      b: 0
+      range: '2'
+      target: 13
+      e: 0
+      basetl: 8
+      notes: ''
+      tl: 13
+      CP: 1
+      config: 'Armor'
+      mount: 'Blast'
+
+   - 
+      stage: 'Mod'
+      basetl: 10
+      B: 0
+      category: 'Maneuver Drive'
+      label: 'Mod Maneuver Drive-5 (V)'
+      type: 'Drive'
+      Sq: 39
+      name: 'Maneuver Drive'
+      tons: 19.5
+      code: 'V'
+      mod: 2
+      mcr: 39
+      howMany: 1
+      E: 0
+      autoAdjust: 1
+      q: 8
+      totalTons: 19.5
+      r: 0
+      totalMCr: 39
+      rating: 5
+      s: 5
+      eff: 0.9
+      b: 0
+      target: 13
+      e: 4
+      original: 
+         basetl: 10
+         B: 0
+         category: 'Maneuver Drive'
+         label: 'Maneuver Drive-5 (V)'
+         type: 'Drive'
+         Sq: 78
+         name: 'Maneuver Drive'
+         tons: 39
+         code: 'V'
+         mod: 0
+         mcr: 78
+         howMany: 1
+         E: 0
+         autoAdjust: 1
+         q: 0
+         totalTons: 39
+         r: 0
+         totalMCr: 78
+         rating: 5
+         s: 0
+         eff: 1
+         b: 0
+         target: 13
+         e: 0
+         Q: 0
+         tl: 13
+         CP: 2
+         S: 0
+         notes: '5 G'
+         R: 0
+      Q: 0
+      tl: 11
+      CP: 2
+      S: 0
+      notes: '5 G'
+      R: 0
+
+   - 
+      stage: 'Imp'
+      basetl: 12
+      B: 0
+      category: 'PowerPlant'
+      label: 'Imp PowerPlant-5 (V)'
+      type: 'Drive'
+      Sq: 122
+      name: 'PowerPlant'
+      tons: 61
+      code: 'V'
+      mod: 1
+      mcr: 61
+      howMany: 1
+      E: 0
+      autoAdjust: 1
+      q: 7
+      totalTons: 61
+      r: -3
+      totalMCr: 61
+      rating: 5
+      s: 2
+      eff: 1.1
+      powerFuelUsage: 0.01
+      b: -4
+      target: 13
+      e: 0
+      original: 
+         B: 0
+         category: 'PowerPlant'
+         autoAdjust: 1
+         type: 'Drive'
+         Sq: 122
+         mcr: 61
+         tons: 61
+         code: 'V'
+         label: 'PowerPlant-5 (V)'
+         name: 'PowerPlant'
+         howMany: 1
+         E: 0
+         mod: 0
+         eff: 1
+         q: 0
+         totalTons: 61
+         basetl: 12
+         totalMCr: 61
+         rating: 5
+         s: 0
+         powerFuelUsage: 0.01
+         b: 0
+         target: 13
+         r: 0
+         Q: 0
+         tl: 13
+         e: 0
+         S: 0
+         notes: 'P 5'
+         R: 0
+         CP: 2
+      Q: 0
+      tl: 12
+      CP: 2
+      S: 0
+      notes: 'P 5'
+      R: 0
+
+   - 
+      s: 0
+      tons: 0.5
+      label: 'Air Lock'
+      type: 'Payload'
+      Sq: 1
+      target: 13
+      b: 0
+      e: 0
+      notes: ''
+      mcr: 0.1
+      howMany: 1
+      tl: 13
+      CP: 1
+      eff: 1
+      q: 0
+      totalTons: 0.5
+      r: 0
+      totalMCr: 0.1
+
+   - 
+      s: 0
+      tons: 14
+      category: 'Bridge'
+      label: 'Spacious Controls'
+      type: 'Ops'
+      Sq: 28
+      name: 'Bridge'
+      b: 0
+      e: 0
+      mod: 2
+      notes: ''
+      mcr: 0
+      howMany: 1
+      tl: 13
+      CP: 0
+      eff: 1
+      q: 0
+      totalTons: 14
+      target: 15
+      r: 0
+      totalMCr: 0
+header: 
+   powerFuelPercentage: 0.045
+   jf: 3
+   qsp: 'G-HB53'
+   pf: 1
+   tons: 800
+   shifts: 1
+   tonsFree: 0
+   crew: 7
+   owner: 'Carrillian'
+   mission: 'G'
+   overtons: 3.5
+   missionLabel: 'Frigate'
+   controlConsoles: 2
+   totalMCr: 301
+   shipname: 'Avenger'
+   workstations: 0
+   low: 0
+   mult: 1
+   crewLocked: 'no'
+   preMult: 1
+   spaciousness: 2
+   troops: 0
+   operatingConsoles: 5
+   staff: 0
+   crewComfort: 0
+   totalCargoSpace: 58
+   comments: |
+      The 'Avenger' class Patrol Frigate is a staple of the Carrillian Assembly Navy, generally assigned to independent patrol of the borders and beyond, wherever the Assembly needs to show the flag. Its design is similar to other ships of the same size found in various parts of the Imperium. 
+      
+      It carries three armed pinnaces for scouting and customs details, as well as having the capacity to land its 22 troops with a minimum of hassle and a maximum of fire support. Surplus Avengers have found their way into the Navies of Assembly allies and client states, and several are investing Ildrissar to help suppress the long-running rebellion there. Over 500 units have been manufactured, 300 of them within the last 3 years. Cheaply made and indifferently crewed, the Avenger is still a match for ships of its own size.
+      
+   passengers: 1
+   demand: -5
+   tl: 13
+   config: 'B'
+   format: 'T5-ACS-1'
+   undertons: 14
+   jumpFuelPercentage: 0.1

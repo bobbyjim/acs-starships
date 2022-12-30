@@ -1,0 +1,89 @@
+--- 
+ACS1.0: Fri May  6 11:40:18 2022
+Mission: Touring Ship
+QSP: K-BA12 
+Cx: ABCDE
+Vx: L1 V1
+Name: Leaping Snowcat
+Tons: 200
+TL: 11 
+Undertonnage: 3.5
+MCr: 81.4
+Allegiance: Im
+
+Crew comfort: 0
+Passengers: 6
+Passenger demand: 1
+Low berths: 
+Cargo: 6
+Fuel: 48
+Fuel treatment: SP,IP
+Computer: Model/1bis  
+
+Comments: |-
+   Using a 200-ton hull, the safari ship is an excursion vessel intended for trophy-taking (real or photographic) expeditions to other worlds. It has jump drive-B, maneuver drive-A, and power plant-B, giving a performance of jump-2 and 1-G acceleration. The ship is undertonned, resulting in Agility+1 and 2-G acceleration in atmosphere 2+. Fuel tankage supports one jump-2 and two months of operations. Adjacent to the bridge is a computer Model/1 bis. There are eleven staterooms and no low berths. The ship has one hardpoint and one ton allocated to fire control. A double turret is installed; the turret is mounted with twin beam lasers.
+   
+   There are two ship's vehicles: an air/raft and a 20-ton launch. Cargo capacity is 6 tons. Two 7-ton capture tanks hold specimens, and two 4-ton lounges are combined into a trophy lounge, serving as a hunter's recreation area. The hull is airframed, and can be submerged.
+   
+   The safari ship requires a crew of five: pilot, astrogator, engineer, steward, and medic. A gunner and additional expedition personnel may be added. The pilot operates the launch; the steward operates the air/raft. The ship can carry a party of six (or up to 8 if the crew goes to double occupancy) on expeditions; it does not engage in commercial passenger service.
+   
+   Launch (also called Lifeboat): Using a 20-ton hull, the launch is capable of 3-G acceleration, carries 1 ton of fuel tankage, and has a crew of two. The craft has 15 tons excess space available for custom use, and costs MCr16.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   200   . Airframe Hull                      16.0  ,HH.0  A .....
+ -     2   . Landing legs with pads              2.0  ,HL.1  K .....
+ -     0   . Armor: 1 Kinetic Plate              0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    40   . Jump Fuel (2  parsecs)              0.0  ,DF.0  . .....
+ -     8   . Plant Fuel (2 months)               0.0  ,DF.0  . .....
+ -    15   . Jump Drive-2 (B)                   15.0  ,DJ21  B .....
+ -     2   . Fuel Scoops with Purifier           1.1  ,DF.2 SP .....
+ -     2   . Fuel Intakes with Purifier          1.1  ,DF.2 IP .....
+ -     2   . Mod Maneuver Drive A (R1)           2.0  ,DM11  2 75005
+ -     7   . PowerPlant-2 (B)                    7.0  ,DP21  B .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Computer Model/1bis                 3.0  ,OC21  . .....
+ -     2   . Life Support Long Term              2.0  ,OLL0  . .....
+ -     4  4x Life Support Luxury                 4.0  ,OLU0  . .....
+ -     2   . Clinic                              1.0  ,OM.1  . .....
+ -     8   . Spacious Bridge                     0.8  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Basic                       6.0  ,SS.1  . .....
+#
+#   TONS   # W-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Vd Surf Life Detector               1.1  ,WS.1  . .....
+ -     0   . Vd Surf Field Sensor                1.1  ,WS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . AR T2 Empty                         0.5  ,WW.1 -1 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     8  4x Crew Stateroom                      0.4  ,CS.0  1 .....
+ -     0   . Crew Shared Fresher                 0.5  ,CF.0  1 .....
+ -    12  3x Crew Commons                        0.0  ,CC.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    36  6x Luxury Stateroom                    2.4  ,PS.0  1 .....
+ -    14  2x Capture Tank                        1.4  ,PO.0  . .....
+ -     6   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    20   . Launch                             13.0  ,VO.0 MS .....
+ -     4   . Air/Raft Enclosed                   0.1  ,VO.0 EL .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

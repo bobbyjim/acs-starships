@@ -1,0 +1,54 @@
+Lab Ship L-DC12 Lab Ship MCr127.8
+
+
+Using a 400-ton cluster hull, the laboratory ship is a movable research and development station used for routine commercial experimentation. It has jump drive-D, maneuver drive-C, and power plant-F, giving it a performance of jump-2 and 1-G. Fuel tankage supports the power plant and one jump-2. A computer Model/2 is adjacent to the bridge. There are twenty staterooms and no low berths. Two turrets are installed; no weapons are mounted. The ship has one 40-ton pinnace and two air/rafts. Cargo capacity is 23 tons. An additional 85 tons are available within the ship for use as lab space. The lab ship is unstreamlined, and cannot skim fuel. This task falls to the 40-ton pinnace. It is assigned the routine of skimming a gas giant and ferrying fuel to the lab ship. Where refined fuel is available at a distance from the station, the pinnace carries it to the ship's fuel tanks.
+
+The lab ship requires a crew of five: pilot, navigator, medic, and two engineers. The pilot also operates the pinnace. Gunners may be added to the crew if the ship is armed. Additional crew are carried to execute the research functions.
+
+The lab ship is built as a ring structure which is rotated to provide centrifugal gravity simulation. Although the standard grav plates and inertial compensators are installed, they may be turned off and centrifugal force used instead in order to remove grav forces as a variable in experiments. Two drive pods are mounted on the rings and contain drives and the power plant; on the forward face of the pods are hardpoints for turret weaponry if called for.
+
+Two air/rafts are carried in compartments on the ring hull. They provide access to world surfaces, both for specimen gathering and for routine errands. The 40-ton pinnace is carried at the end of a central spoke, making mating easy even if the ring is rotating.
+
+Actual volume: 391 tons
+Crew comfort:     +1
+Passenger demand: +2
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    400	 Cluster Hull, lifters, 4 a/l free  	    8	C, lifters, 4 a/l free
+     -2	 No Landers                         	    0	
+      0	 AV=11. 1 Rad Plate                 	    0	
+     80	 Jump Fuel (2  parsecs)             	    0	2 parsec jump, at 40t per parsec
+   10.8	 Plant Fuel (one month)             	    0	one month
+      3	 Maneuver Drive-1 (B)               	    6	1 G
+     25	 Jump Drive-2 (D)                   	   25	J 2
+      1	 Fuel Transfer Pumps                	    1	
+     19	 Imp PowerPlant F (R3)              	   19	R3
+      0	 DS Surf Communicator               	    6	
+      0	 DS Surf Radar                      	    6	
+      0	 DS Surf Scope                      	    6	
+      0	 DS Surf Neutrino Detector          	    6	
+      0	 DS Surf Jammer                     	    6	
+      2	 2x AR T1 Empty                     	  0.4	#2 
+      2	 Computer Model/2                   	    5	
+      2	 Clinic                             	    1	
+    0.5	 Med Console                        	  0.5	
+      2	 2x Medical Low Berth               	    1	#2 
+      2	 Life Support Long Term             	    2	84 people
+      2	 2x Life Support Adaptable          	    2	#2 4 sophonts
+     20	 Spacious Bridge                    	  1.2	3cc 5op 2ws
+     30	 5x Crew Suite                      	    2	#5 fresher + safe
+     23	 Cargo Hold Basic                   	    0	
+     85	 Lab                                	    1	Sophisticated equipment
+     30	 15x Standard Stateroom             	  1.5	#15 1 passenger
+      2	 2x Common Fresher                  	    2	#2 10 passengers
+      8	 2x Air/Raft Enclosed               	  0.2	#2 
+     40	 Slow Pinnace                       	   15	m1bis C
+      2	 2x Air/Raft Bracket                	    2	#2 Up to 10 tons
+      2	 2x Grapple                         	    2	#2 1 pair per 35t
+[/code]
+
+[code]
+[/code]
+

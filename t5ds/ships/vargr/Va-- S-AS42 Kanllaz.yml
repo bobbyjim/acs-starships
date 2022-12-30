@@ -1,0 +1,692 @@
+--- 
+components: 
+   - 
+      Sq: 200
+      e: 0
+      target: 12
+      code: 'S'
+      totalTons: 100
+      category: 'Hull'
+      label: 'Streamlined Hull, lifters'
+      eff: 1
+      mult: 1
+      preMult: 1
+      totalMCr: 9
+      tl: 12
+      b: 0
+      config: 'Streamlined'
+      notes: 'S, lifters'
+      tons: 100
+      q: 0
+      mcr: 9
+      r: 0
+      CP: 0
+      s: 0
+      type: 'Hull'
+      name: 'Hull'
+      howMany: ''
+
+   - 
+      b: 0
+      Sq: 40
+      howMany: ''
+      e: 0
+      tl: 12
+      target: 12
+      mcr: 0
+      r: 0
+      tons: 20
+      CP: 0
+      totalTons: 20
+      q: 0
+      category: 'Jump Fuel'
+      label: 'Jump Fuel (2  parsecs)'
+      eff: 1
+      s: 0
+      type: 'Drive'
+      totalMCr: 0
+      notes: 'J2, 10t/pc'
+
+   - 
+      b: 0
+      Sq: 16
+      howMany: ''
+      tons: 8
+      tl: 12
+      q: 0
+      mcr: 0
+      r: 0
+      e: 0
+      CP: 0
+      totalTons: 8
+      target: 12
+      totalMCr: 0
+      label: 'Plant Fuel (2 months)'
+      eff: 1
+      s: 0
+      type: 'Drive'
+      category: 'Powerplant Fuel'
+      notes: '2 months'
+
+   - 
+      b: 0
+      tons: 0
+      totalMCr: 1
+      e: 0
+      mcrPerTon: 0
+      tonsPercent: 0
+      target: 12
+      name: 'Jump Grid'
+      tl: 12
+      r: 0
+      note: 'G'
+      CP: 1
+      totalTons: 0
+      q: 0
+      category: 'jump field'
+      label: 'Jump Grid'
+      eff: 1
+      mcrPerHullTon: 0.01
+      s: 0
+      code: 'G'
+      type: 'Hull'
+      howMany: ''
+      mcr: 1
+
+   - 
+      b: 0
+      Sq: 4
+      s: 0
+      category: 'fittings'
+      e: 0
+      tl: 12
+      tonsPercent: 2
+      target: 12
+      mcr: 4
+      code: 'E'
+      r: 0
+      note: 'E'
+      CP: 1
+      name: 'Submergence hull'
+      q: 0
+      totalMCr: 4
+      mcrPerTon: 2
+      label: 'Submergence hull'
+      eff: 1
+      tons: 2
+      totalTons: 2
+      type: 'Hull'
+      howMany: ''
+
+   - 
+      b: 0
+      Sq: 2
+      howMany: ''
+      category: 'Fuel Scoops'
+      tons: 1
+      tl: 8
+      q: 0
+      mcr: 0.1
+      r: 0
+      e: 0
+      CP: 1
+      s: 0
+      target: 8
+      totalMCr: 0.1
+      label: 'Fuel Scoops 100t/hr'
+      eff: 1
+      totalTons: 1
+      type: 'Drive'
+      count: 1
+      notes: '100t/hr'
+
+   - 
+      b: 0
+      Sq: 2
+      count: 1
+      e: 0
+      mcr: 0.1
+      target: 8
+      tl: 8
+      r: 0
+      tons: 1
+      CP: 1
+      s: 0
+      q: 0
+      totalMCr: 0.1
+      label: 'Fuel Intakes 40t/hr'
+      eff: 1
+      totalTons: 1
+      category: 'Fuel Intakes'
+      type: 'Drive'
+      howMany: ''
+      notes: '40t/hr'
+
+   - 
+      Sq: 8
+      range: 's'
+      e: 0
+      mount: 'Model/4'
+      tl: 12
+      basetl: 0
+      target: 16
+      totalMCr: 18
+      label: 'Computer Model/4 std'
+      eff: 1
+      totalTons: 4
+      category: 'Computer Model/4 std'
+      notes: ''
+      b: 0
+      config: 'Ops'
+      tons: 4
+      q: 0
+      mcr: 18
+      r: 0
+      CP: 1
+      name: 'Computer'
+      type: 'Ops'
+      mod: 4
+      s: 0
+      howMany: ''
+
+   - 
+      Sq: 2
+      range: 'Vd'
+      e: 0
+      mount: 'T3'
+      tl: 12
+      basetl: 10
+      target: 12
+      category: 'Vd T3 Hybrid L-S-M'
+      label: 'Vd T3 Hybrid L-S-M'
+      eff: 1
+      totalTons: 1
+      totalMCr: 2
+      notes: ''
+      b: 0
+      config: 'Weapon'
+      tons: 1
+      q: 0
+      mcr: 2
+      r: 0
+      mod: 0
+      s: 0
+      type: 'Weapon'
+      CP: 1
+      name: 'Hybrid L-S-M'
+      howMany: ''
+
+   - 
+      b: 0
+      Sq: 16
+      sleeps: 1
+      tons: 2
+      mcr: 0.1
+      totalSleeps: 4
+      q: 0
+      r: 0
+      e: 0
+      CP: 0
+      totalTons: 8
+      target: 12
+      totalMCr: 0.4
+      tl: 12
+      label: 'Crew Stateroom'
+      eff: 1
+      s: 0
+      type: 'Crew'
+      howMany: 4
+      notes: '1 crew'
+
+   - 
+      b: 0
+      Sq: 1
+      target: 12
+      e: 0
+      mcr: 0.5
+      q: 0
+      tl: 12
+      r: 0
+      tons: 0.5
+      CP: 0
+      totalTons: 0.5
+      type: 'Crew'
+      totalMCr: 0.5
+      label: 'Crew Shared Fresher'
+      eff: 1
+      s: 0
+      howMany: ''
+      notes: '4 crew'
+
+   - 
+      b: 0
+      howMany: 8
+      tons: 0
+      mcr: 0
+      q: 0
+      tl: 12
+      r: 0
+      e: 0
+      CP: 0
+      s: 0
+      type: 'Payload'
+      totalMCr: 0
+      label: 'Cargo Hold Basic'
+      eff: 1
+      totalTons: 0
+      target: 12
+      notes: ''
+
+   - 
+      b: 0
+      Sq: 12
+      s: 0
+      speed: 6
+      tons: 6
+      code: 'FPGPH'
+      target: 13
+      mcr: 0.2
+      r: 0
+      e: 0
+      CP: 0
+      totalTons: 6
+      q: 0
+      totalMCr: 0.2
+      tl: 13
+      label: 'Grav Speeder'
+      eff: 1
+      av: '15,10,10,10,12,22,20'
+      type: 'Vehicle'
+      howMany: ''
+      load: 1
+
+   - 
+      range: '1'
+      e: 0
+      target: 12
+      basetl: 8
+      mount: 'Kinetic'
+      category: 'AV=12. 1 Kinetic Plate'
+      tl: 12
+      label: 'AV=12. 1 Kinetic Plate'
+      eff: 1
+      totalTons: 0
+      totalMCr: 0
+      notes: ''
+      b: 0
+      config: 'Armor'
+      tons: 0
+      q: 0
+      mcr: 0
+      r: 0
+      mod: ''
+      s: 0
+      type: 'Armor'
+      CP: 1
+      name: 'Plate'
+      howMany: ''
+
+   - 
+      B: 0
+      Sq: 14
+      notes: 'P 4'
+      e: 0
+      target: 12
+      S: 0
+      tl: 12
+      R: 0
+      basetl: 11
+      Q: 0
+      category: 'PowerPlant'
+      label: 'PowerPlant-4 (B)'
+      eff: 1
+      totalTons: 7
+      totalMCr: 7
+      code: 'B'
+      b: 0
+      rating: 4
+      powerFuelUsage: 0.01
+      tons: 7
+      q: 0
+      mcr: 7
+      r: 0
+      autoAdjust: 1
+      CP: 1
+      name: 'PowerPlant'
+      type: 'Drive'
+      E: 0
+      s: 0
+      howMany: ''
+
+   - 
+      B: 0
+      Sq: 6
+      e: 0
+      target: 12
+      S: 0
+      tl: 12
+      R: 0
+      totalTons: 3
+      Q: 0
+      category: 'Maneuver Drive'
+      label: 'Maneuver Drive-4 (B)'
+      eff: 1
+      basetl: 9
+      totalMCr: 6
+      notes: '4 G'
+      b: 0
+      rating: 4
+      tons: 3
+      code: 'B'
+      q: 0
+      mcr: 6
+      r: 0
+      autoAdjust: 1
+      CP: 1
+      name: 'Maneuver Drive'
+      type: 'Drive'
+      E: 0
+      s: 0
+      howMany: ''
+
+   - 
+      B: 0
+      Sq: 20
+      e: 0
+      target: 12
+      S: 0
+      code: 'A'
+      R: 0
+      basetl: 11
+      Q: 0
+      category: 'Jump Drive'
+      label: 'Jump Drive-2 (A)'
+      eff: 1
+      totalTons: 10
+      totalMCr: 10
+      jumpFuelUsage: 0.1
+      notes: 'J 2'
+      b: 0
+      rating: 2
+      tons: 10
+      tl: 12
+      q: 0
+      mcr: 10
+      r: 0
+      autoAdjust: 1
+      CP: 1
+      name: 'Jump Drive'
+      type: 'Drive'
+      E: 0
+      mod: 0
+      s: 0
+      howMany: ''
+
+   - 
+      b: 0
+      Sq: 2
+      howMany: ''
+      category: 'Fuel Bins'
+      tons: 1
+      mcr: 0.1
+      q: 0
+      tl: 8
+      r: 0
+      e: 0
+      CP: 1
+      totalTons: 1
+      target: 8
+      count: 1
+      label: 'Fuel Bins 20t/hr'
+      eff: 1
+      s: 0
+      type: 'Drive'
+      totalMCr: 0.1
+      notes: '20t/hr'
+
+   - 
+      b: 0
+      Sq: 2
+      category: 'Fuel Purifiers'
+      tons: 1
+      tl: 8
+      q: 0
+      mcr: 1
+      r: 0
+      e: 0
+      CP: 1
+      totalTons: 1
+      target: 8
+      count: 1
+      label: 'Fuel Purifiers 4t/hr'
+      eff: 1
+      s: 0
+      totalMCr: 1
+      type: 'Drive'
+      howMany: ''
+      notes: '4t/hr'
+
+   - 
+      b: 0
+      Sq: 2
+      howMany: ''
+      e: 0
+      mcr: 0
+      target: 12
+      tl: 12
+      r: 0
+      tons: 1
+      CP: 0
+      s: 0
+      type: 'Payload'
+      totalMCr: 0
+      label: 'Mail Vault'
+      eff: 1
+      totalTons: 1
+      q: 0
+      notes: 'for express contracts'
+
+   - 
+      Sq: 2
+      range: 'AR'
+      e: 0
+      target: 13
+      tl: 12
+      totalTons: 1
+      mount: 'Ant'
+      totalMCr: 1.5
+      label: 'AR Ant Radar'
+      eff: 1
+      basetl: 9
+      category: 'AR Ant Radar'
+      notes: ''
+      b: 0
+      config: 'Sensor'
+      tons: 1
+      q: 0
+      mcr: 1.5
+      r: 0
+      CP: 1
+      s: 0
+      type: 'Sensor'
+      mod: 1
+      name: 'Radar'
+      howMany: ''
+
+   - 
+      Sq: 2
+      range: 'AR'
+      e: 0
+      mount: 'Ant'
+      tl: 12
+      basetl: 9
+      target: 13
+      totalMCr: 1.5
+      label: 'AR Ant Scope'
+      eff: 1
+      totalTons: 1
+      category: 'AR Ant Scope'
+      notes: ''
+      b: 0
+      config: 'Sensor'
+      tons: 1
+      q: 0
+      mcr: 1.5
+      r: 0
+      CP: 1
+      s: 0
+      type: 'Sensor'
+      mod: 1
+      name: 'Scope'
+      howMany: ''
+
+   - 
+      b: 0
+      Sq: 24
+      target: 12
+      tons: 4
+      mcr: 0
+      q: 0
+      tl: 12
+      r: 0
+      e: 0
+      CP: 0
+      totalTons: 12
+      type: 'Crew'
+      totalMCr: 0
+      label: 'Crew Lounge'
+      eff: 1
+      s: 0
+      howMany: 3
+      notes: ''
+
+   - 
+      b: 0
+      Sq: 4
+      name: 'Wings and fins'
+      howMany: ''
+      tons: 2
+      mcrPerTon: 1
+      tonsPercent: 2
+      target: 12
+      tl: 12
+      r: 0
+      note: 'W'
+      CP: 1
+      totalTons: 2
+      q: 0
+      totalMCr: 2.5
+      mcr: 2.5
+      label: 'Wings and fins'
+      eff: 1
+      e: 0
+      s: 0
+      type: 'Hull'
+      category: 'wings'
+      code: 'W'
+
+   - 
+      b: 0
+      Sq: 1
+      notes: ''
+      target: 12
+      tons: 0.5
+      q: 0
+      tl: 12
+      r: 0
+      e: 0
+      CP: 0
+      s: 0
+      type: 'Payload'
+      totalMCr: 0.5
+      mcr: 0.5
+      label: 'Medical Console'
+      eff: 1
+      totalTons: 0.5
+      howMany: ''
+
+   - 
+      b: 0
+      Sq: 2
+      notes: ''
+      target: 12
+      tons: 1
+      q: 0
+      tl: 12
+      r: 0
+      e: 0
+      CP: 0
+      s: 0
+      type: 'Payload'
+      totalMCr: 1
+      mcr: 1
+      label: 'Life Support'
+      eff: 1
+      totalTons: 1
+      howMany: ''
+
+   - 
+      b: 0
+      Sq: 16
+      s: 0
+      notes: ''
+      category: 'Bridge'
+      target: 14
+      tons: 8
+      q: 0
+      mcr: 0
+      r: 0
+      e: 0
+      mod: 2
+      totalTons: 8
+      type: 'Ops'
+      totalMCr: 0
+      label: 'Spacious Controls'
+      eff: 1
+      CP: 0
+      name: 'Bridge'
+      howMany: ''
+      tl: 12
+header: 
+   undertons: 8
+   jf: 2
+   pf: 2
+   qsp: 'S-AS42'
+   jumpFuelPercentage: 0.1
+   shifts: 1
+   overtons: 33.5
+   comments: |
+      Using a 100-ton hull, the Vargr scout is primarily a military and paramilitary ship used by naval units and corsair bands for reconnaissance and ground support duties. It is fitted with the Sagnael 2 Grid A2 jump drive, the Suedoz mB/4 maneuver drive, and the Gozoukhs Power B power plant, and is capable of Jump-2 and 4G acceleration. Fuel tankage of 28 tons supports 2 weeks of operations and one jump-2. On the bridge is a computer Model/4.
+      
+      There are 4 staterooms and no low berths. There is one triple turret mounting a heterogenous mix of weaponry: one beam laser, one missile rack, and one sandcaster. There is one ship's vehicle, a 6-ton grav speeder. Cargo capacity is 8 tons. The hull is streamlined.
+      
+      The Vargr scout requires a crew of one: the pilot/astrogator/engineer; a gunner is generally carried as well. The two remaining staterooms are for scouts or relief crew. Four additional personnel may be carried with double occupancy. It is not intended for commercial passenger transport.
+   crewLocked: 'yes'
+   totalMCr: 66.9
+   spaciousness: 2
+   crew: 4
+   powerFuelPercentage: 0.04
+   mission: 'S'
+   crewComfort: 0
+   preMult: 1
+   tl: 12
+   missionLabel: 'Scout/Courier'
+   config: 'S'
+   low: 0
+   id: 'S-AS42'
+   tons: 100
+   mult: 1
+   tonsFree: 0
+   architect: 'Copper Hamster'
+   staff: 0
+   controlConsoles: 1
+   totalCargoSpace: 0
+   shipname: 'Kanllaz'
+   operatingConsoles: 3
+   passengers: 1
+   workstations: 0
+   demand: -5
+   owner: 'Vargr'
+   lifters: 'y'
+   format: 'T5-ACS-1'
+   troops: 0

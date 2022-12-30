@@ -1,0 +1,47 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:34 2021
+Mission: Freighter
+QSP: F-KS13
+TL: 12 
+Name: Susa
+Tons: 1000
+Actual Tons: 1000
+
+MCr: 228.9
+Owner: Oberlindes
+Allegiance: ImOL
+
+Crew comfort: 0
+Passenger demand: 1
+Cargo: 417
+FuelPercentage: 13
+Components:
+ - HH0   S  1 00000 1000   72  Streamlined Hull, lifters
+ - HW1   F  1 00000   5  2.5  Fins
+ - HL1   K  1 00000  10   10  Landing legs with pads
+ - AA1  12  1 00000   0    0  AV=12. 1 Kinetic Plate
+ - DF0   -  1 00000 300    0  Jump Fuel (3  parsecs)
+ - DF0   -  1 00000 16.5    0  Plant Fuel (0.5 months)
+ - DJ3   Q  1 00000  80   80  Jump Drive-3 (Q)
+ - DP2   2  1 72101  23   23  Mod PowerPlant-3 (Q)
+ - DM1   2  1 74330 4.5    9  Mod Maneuver Drive-1 (E)
+ - DF1   S  1 00000   1  0.1  Fuel Scoops
+ - DF1   I  1 00000   1  0.1  Fuel Intakes
+ - DF1   P  2 00000   1  0.1  Fuel Purifiers
+ - OC1   3  1 00000   3  10.5  Computer Model/3 std
+ - OO0   -  1 00000   4  0.2  Gunner Barracks
+ - OB0   -  1 00000  10    0  Standard Controls
+ - WW1   -  3 00000   3  4.5  Vd T3de Beam Laser
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - CO0   -  7 00000   2  0.1  Crew Stateroom
+ - CO0   -  4 00000   4    0  Crew Lounge
+ - PO0   -  1 00000   1    1  Common Fresher
+ - PO0   - 10 00000 0.5  0.1  Low Berth
+ - PO0   - 12 00000   2  0.1  Standard Stateroom
+ - PO0   - 12 00000   4    0  Passenger Lounge
+ - PC0   -  1 00000 417    0  Cargo Hold Basic
+ - VO0  EL  1 00000   4  0.1  Air/Raft Enclosed
+ - VO0  EL  1 00000   1    2  Air/Raft Streamlined Bracket
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

@@ -1,0 +1,35 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:32 2021
+Mission: Unclassified
+QSP: Z-V2U00
+TL: 9 
+Name: Chamaxi Sleeper Ship
+Tons: 4000
+Actual Tons: 3919
+
+MCr: 708.1
+Builder: šahî Shipyards
+Owner: kärvîkvriyä
+Disposition: Lost
+Allegiance: NaCh
+
+Crew comfort: -5
+Passenger demand: 0
+Cargo: 200
+FuelPercentage: 1
+Components:
+ - HH0   U  1 00000 4000  162  Unstreamlined Hull, lifters
+ - HF1   D  1 00000  40   40  Flotation hull
+ - AA1   9  1 00000   0    0  AV=9. 1 Kinetic Plate
+ - DF0   -  1 00000   0    0  Jump Fuel (0  parsec)
+ - DF0   -  1 00000 400    0  Plant Fuel (10 months)
+ - DP2   V  1 00000  61   61  PowerPlant-1 (V)
+ - DN2   V  1 00000  40   40  NAFAL-1 (V)
+ - OC1   1  1 00000   1  1.5  Computer Model/1 std
+ - OL41   -  1 00000 403  403  Life support (16120 people/month)
+ - OB0   2  1 00000  24    0  Spacious Controls
+ - PC0   -  1 00000 200    0  Cargo Hold Basic
+ - PO0   -  1 00000 2750    0  Hibernation Rooms
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

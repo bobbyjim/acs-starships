@@ -1,0 +1,782 @@
+--- 
+components: 
+   - 
+      e: 0
+      r: 0
+      category: 'Hull'
+      howMany: 1
+      s: 0
+      CP: 0
+      code: 'L'
+      Sq: 200
+      totalTons: 100
+      totalMCr: 16
+      notes: 'L, lifters, 1 a/l free'
+      label: 'Lift body Hull, lifters, 1 a/l free'
+      eff: 1
+      name: 'Hull'
+      tons: 100
+      mult: 1
+      tl: 12
+      preMult: 1
+      b: 0
+      type: 'Hull'
+      mcr: 16
+      config: 'Lift body'
+      target: 12
+      q: 0
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: '2 parsec jump, at 9t per parsec'
+      label: 'Jump Fuel (2  parsecs)'
+      category: 'Jump Fuel'
+      s: 0
+      r: 0
+      totalTons: 18
+      eff: 1
+      howMany: 1
+      tl: 12
+      b: 0
+      type: 'Drive'
+      mcr: 0
+      q: 0
+      Sq: 36
+      tons: 18
+      CP: 0
+      target: 12
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: 'one month'
+      label: 'Plant Fuel (one month)'
+      category: 'Powerplant Fuel'
+      s: 0
+      r: 0
+      totalTons: 4.5
+      eff: 1
+      howMany: 1
+      tl: 12
+      b: 0
+      type: 'Drive'
+      CP: 0
+      target: 12
+      Sq: 9
+      tons: 4.5
+      mcr: 0
+      q: 0
+
+   - 
+      totalMCr: 1
+      e: 0
+      r: 0
+      label: 'Landing legs with pads'
+      eff: 1
+      s: 0
+      name: 'Landing legs with pads'
+      tons: 1
+      note: 'K'
+      target: 13
+      tonsPercent: 1
+      howMany: 1
+      tl: 13
+      mcrPerTon: 1
+      type: 'Hull'
+      mcr: 1
+      Sq: 2
+      category: 'landers'
+      code: 'K'
+      b: 0
+      totalTons: 1
+      CP: 1
+      q: 0
+
+   - 
+      totalMCr: 1.1
+      e: 0
+      r: 0
+      label: 'Fuel Scoops with Purifier'
+      eff: 1
+      s: 0
+      notes: '100 t/hr'
+      target: 8
+      tons: 2
+      category: 'Fuel Scoops'
+      howMany: 1
+      tl: 8
+      b: 0
+      type: 'Drive'
+      mcr: 1.1
+      code: 'SP'
+      Sq: 4
+      totalTons: 2
+      CP: 2
+      q: 0
+
+   - 
+      totalMCr: 1.1
+      e: 0
+      r: 0
+      label: 'Fuel Intakes with Purifier'
+      eff: 1
+      s: 0
+      q: 0
+      notes: '40 t/hr'
+      Sq: 4
+      category: 'Fuel Intakes'
+      howMany: 1
+      tl: 8
+      tons: 2
+      type: 'Drive'
+      mcr: 1.1
+      code: 'IP'
+      b: 0
+      totalTons: 2
+      CP: 2
+      target: 8
+
+   - 
+      totalMCr: 1.1
+      e: 0
+      r: 0
+      label: 'Fuel Bins with Purifier'
+      eff: 1
+      s: 0
+      target: 8
+      notes: '20 t/hr'
+      category: 'Fuel Bins'
+      howMany: 1
+      tl: 8
+      tons: 2
+      b: 0
+      type: 'Drive'
+      mcr: 1.1
+      code: 'BP'
+      Sq: 4
+      totalTons: 2
+      CP: 2
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Computer Model/3 fib'
+      mount: 'Model/3'
+      mod: 3
+      howMany: 1
+      s: 0
+      CP: 1
+      q: 0
+      Sq: 12
+      totalTons: 6
+      totalMCr: 15.7
+      notes: ''
+      label: 'Computer Model/3 fib'
+      eff: 1
+      name: 'Computer'
+      tons: 6
+      tl: 13
+      b: 0
+      type: 'Ops'
+      mcr: 15.7
+      basetl: 12
+      range: 'f'
+      config: 'Ops'
+      target: 16
+
+   - 
+      e: -1
+      r: 1
+      category: 'PowerPlant'
+      notes: 'R5'
+      target: 13
+      autoAdjust: 1
+      mod: 1
+      howMany: 1
+      s: 4
+      B: 0
+      CP: 1
+      code: 'C'
+      Sq: 20
+      original: 
+         e: 0
+         r: 0
+         category: 'PowerPlant'
+         s: 0
+         target: 13
+         autoAdjust: 1
+         mod: 0
+         howMany: 1
+         B: 0
+         CP: 1
+         code: 'C'
+         q: 0
+         Sq: 20
+         totalTons: 10
+         Q: 0
+         totalMCr: 10
+         E: 0
+         R: 0
+         label: 'PowerPlant-5 (C)'
+         eff: 1
+         S: 0
+         name: 'PowerPlant'
+         tons: 10
+         tl: 13
+         b: 0
+         type: 'Drive'
+         powerFuelUsage: 0.01
+         rating: 5
+         basetl: 12
+         mcr: 10
+         notes: 'P 5'
+      Q: 0
+      totalMCr: 10
+      E: 0
+      R: 0
+      totalTons: 10
+      eff: 1.1
+      S: 0
+      name: 'PowerPlant'
+      tons: 10
+      label: 'Imp PowerPlant C (R5)'
+      rating: 5
+      b: -2
+      type: 'Drive'
+      powerFuelUsage: 0.01
+      tl: 12
+      basetl: 12
+      stage: 'Imp'
+      mcr: 10
+      q: 6
+
+   - 
+      e: 0
+      r: 5
+      type: 'Drive'
+      category: 'Maneuver Drive'
+      autoAdjust: 1
+      mod: 2
+      howMany: 1
+      s: 2
+      B: 0
+      CP: 1
+      code: 'C'
+      Sq: 5
+      original: 
+         e: 0
+         r: 0
+         category: 'Maneuver Drive'
+         s: 0
+         autoAdjust: 1
+         mod: 0
+         howMany: 1
+         B: 0
+         CP: 1
+         code: 'C'
+         Sq: 10
+         totalTons: 5
+         Q: 0
+         totalMCr: 10
+         E: 0
+         R: 0
+         label: 'Maneuver Drive-5 (C)'
+         eff: 1
+         S: 0
+         name: 'Maneuver Drive'
+         notes: '5 G'
+         rating: 5
+         b: 0
+         type: 'Drive'
+         mcr: 10
+         tl: 13
+         basetl: 11
+         tons: 5
+         target: 13
+         q: 0
+      Q: 0
+      totalMCr: 5
+      E: 0
+      notes: 'R5'
+      totalTons: 2.5
+      eff: 1.1
+      S: 0
+      name: 'Maneuver Drive'
+      tons: 2.5
+      label: 'Mod Maneuver Drive C (R5)'
+      rating: 5
+      b: -3
+      R: 0
+      mcr: 5
+      tl: 11
+      basetl: 11
+      stage: 'Mod'
+      q: 9
+      target: 13
+
+   - 
+      e: 0
+      r: 0
+      type: 'Drive'
+      category: 'Jump Drive'
+      autoAdjust: 1
+      mod: 1
+      howMany: 1
+      s: 3
+      jumpFuelUsage: 0.1
+      B: 0
+      CP: 1
+      code: 'A'
+      Sq: 20
+      totalTons: 10
+      Q: 0
+      totalMCr: 10
+      E: 0
+      R: 0
+      original: 
+         e: 0
+         r: 0
+         category: 'Jump Drive'
+         s: 0
+         q: 0
+         autoAdjust: 1
+         mod: 0
+         howMany: 1
+         B: 0
+         CP: 1
+         code: 'A'
+         Sq: 20
+         totalTons: 10
+         Q: 0
+         totalMCr: 10
+         E: 0
+         R: 0
+         label: 'Jump Drive-2 (A)'
+         eff: 1
+         S: 0
+         name: 'Jump Drive'
+         jumpFuelUsage: 0.1
+         rating: 2
+         b: 0
+         type: 'Drive'
+         mcr: 10
+         tl: 13
+         basetl: 11
+         tons: 10
+         target: 13
+         notes: 'J 2'
+      eff: 1.1
+      S: 0
+      name: 'Jump Drive'
+      tons: 10
+      label: 'Imp Jump Drive A (R2)'
+      tl: 12
+      b: -1
+      notes: 'R2'
+      mcr: 10
+      rating: 2
+      basetl: 11
+      stage: 'Imp'
+      q: 5
+      target: 13
+
+   - 
+      totalMCr: 1
+      e: 0
+      r: 0
+      label: 'Life Support Standard'
+      eff: 1
+      s: 0
+      notes: '10 person-months'
+      totalTons: 1
+      howMany: 1
+      tl: 13
+      b: 0
+      type: 'Ops'
+      CP: 0
+      q: 0
+      Sq: 2
+      tons: 1
+      mcr: 1
+      target: 13
+
+   - 
+      totalMCr: 0.2
+      e: 0
+      notes: ''
+      label: 'Counsellor'
+      eff: 1
+      s: 0
+      r: 0
+      totalTons: 2
+      howMany: 1
+      tl: 13
+      b: 0
+      type: 'Ops'
+      CP: 1
+      q: 0
+      Sq: 4
+      tons: 2
+      mcr: 0.2
+      target: 13
+
+   - 
+      totalMCr: 0.5
+      e: 0
+      r: 0
+      label: 'Med Console'
+      eff: 1
+      notes: ''
+      tons: 0.5
+      howMany: 1
+      s: 0
+      b: 0
+      type: 'Ops'
+      mcr: 0.5
+      tl: 13
+      target: 13
+      Sq: 1
+      totalTons: 0.5
+      CP: 0
+      q: 0
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: '50 x Size-5'
+      label: 'Magazine'
+      eff: 1
+      r: 0
+      Sq: 2
+      howMany: 1
+      s: 0
+      tons: 1
+      type: 'Weapon'
+      mcr: 0
+      tl: 13
+      q: 0
+      b: 0
+      totalTons: 1
+      CP: 0
+      target: 13
+
+   - 
+      totalMCr: 0
+      e: 0
+      r: 0
+      label: 'Cargo Hold Basic'
+      eff: 1
+      s: 0
+      notes: ''
+      totalTons: 1
+      category: 'Cargo'
+      howMany: 1
+      tl: 12
+      b: 0
+      type: 'Payload'
+      mcr: 0
+      target: 12
+      Sq: 2
+      tons: 1
+      CP: 0
+      q: 0
+
+   - 
+      e: 0
+      mount: 'B2'
+      category: 'AR B2 Particle Accelerator'
+      r: 0
+      mod: 3
+      howMany: 1
+      s: 0
+      CP: 1
+      q: 0
+      Sq: 10
+      totalTons: 5
+      totalMCr: 6.5
+      notes: ''
+      label: 'AR B2 PA + Missile Launcher'
+      eff: 1
+      name: 'Particle Accelerator'
+      tons: 5
+      tl: 13
+      config: 'Weapon'
+      type: 'Weapon'
+      mcr: 6.5
+      basetl: 11
+      range: 'AR'
+      b: 0
+      target: 16
+
+   - 
+      totalMCr: 0.3
+      e: 0
+      r: 0
+      label: 'Spacer Hotbunks'
+      eff: 1
+      tons: 0.5
+      sleeps: 6
+      howMany: 3
+      s: 0
+      b: 0
+      notes: '6 crew/3 shifts'
+      mcr: 0.1
+      totalTons: 1.5
+      tl: 13
+      target: 13
+      totalSleeps: 18
+      Sq: 3
+      type: 'Crew'
+      CP: 0
+      q: 0
+
+   - 
+      totalMCr: 1
+      e: 0
+      r: 0
+      label: 'Crew Shared Fresher'
+      eff: 1
+      s: 0
+      notes: '4 crew'
+      totalTons: 1
+      howMany: 2
+      tl: 13
+      b: 0
+      type: 'Crew'
+      CP: 0
+      target: 13
+      Sq: 2
+      tons: 0.5
+      mcr: 0.5
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'AV=65. 5 Blast Plate'
+      mount: 'Blast'
+      mod: ''
+      howMany: 1
+      s: 0
+      CP: 1
+      q: 0
+      Sq: 32
+      totalTons: 16
+      totalMCr: 0
+      notes: ''
+      label: 'AV=65. 5 Blast Plate'
+      eff: 1
+      name: 'Plate'
+      config: 'Armor'
+      tl: 13
+      tons: 16
+      type: 'Armor'
+      mcr: 0
+      basetl: 8
+      range: '5'
+      b: 0
+      target: 13
+
+   - 
+      e: 0
+      r: 0
+      category: 'LR Ant Jammer'
+      mount: 'Ant'
+      mod: 1
+      howMany: 1
+      s: 0
+      CP: 1
+      q: 0
+      Sq: 4
+      totalTons: 2
+      totalMCr: 2.5
+      notes: ''
+      label: 'LR Ant Jammer'
+      eff: 1
+      name: 'Jammer'
+      tons: 2
+      tl: 13
+      b: 0
+      type: 'Sensor'
+      mcr: 2.5
+      basetl: 9
+      range: 'LR'
+      config: 'Sensor'
+      target: 14
+
+   - 
+      e: 0
+      r: 0
+      category: 'LR Ant Communicator'
+      mount: 'Ant'
+      mod: 1
+      howMany: 1
+      s: 0
+      CP: 1
+      q: 0
+      Sq: 4
+      totalTons: 2
+      totalMCr: 2.5
+      notes: ''
+      label: 'LR Ant Communicator'
+      eff: 1
+      name: 'Communicator'
+      tons: 2
+      tl: 13
+      b: 0
+      type: 'Sensor'
+      mcr: 2.5
+      basetl: 9
+      range: 'LR'
+      config: 'Sensor'
+      target: 14
+
+   - 
+      e: 0
+      mount: 'Ant'
+      category: 'LR Ant Neutrino Detector'
+      r: 0
+      mod: 1
+      howMany: 1
+      s: 0
+      CP: 1
+      q: 0
+      Sq: 4
+      totalTons: 2
+      totalMCr: 2.5
+      notes: ''
+      label: 'LR Ant Neutrino Detector'
+      eff: 1
+      name: 'Neutrino Detector'
+      tons: 2
+      tl: 13
+      config: 'Sensor'
+      type: 'Sensor'
+      mcr: 2.5
+      basetl: 11
+      range: 'LR'
+      b: 0
+      target: 14
+
+   - 
+      e: 0
+      mount: 'Ant'
+      category: 'LR Ant EMS'
+      r: 0
+      mod: 1
+      howMany: 1
+      s: 0
+      CP: 1
+      q: 0
+      Sq: 4
+      totalTons: 2
+      totalMCr: 2.5
+      notes: ''
+      label: 'LR Ant EMS'
+      eff: 1
+      name: 'EMS'
+      tons: 2
+      tl: 13
+      config: 'Sensor'
+      type: 'Sensor'
+      mcr: 2.5
+      basetl: 13
+      range: 'LR'
+      b: 0
+      target: 14
+
+   - 
+      e: 0
+      mount: 'Ant'
+      category: 'LR Ant Stealth Mask'
+      r: 0
+      mod: 1
+      howMany: 1
+      s: 0
+      CP: 1
+      q: 0
+      Sq: 4
+      totalTons: 2
+      totalMCr: 2.5
+      notes: ''
+      label: 'LR Ant Stealth Mask'
+      eff: 1
+      name: 'Stealth Mask'
+      tons: 2
+      tl: 13
+      config: 'Sensor'
+      type: 'Sensor'
+      mcr: 2.5
+      basetl: 13
+      range: 'LR'
+      b: 0
+      target: 14
+
+   - 
+      e: 0
+      r: 0
+      category: 'Bridge'
+      mod: -2
+      howMany: 1
+      s: 0
+      CP: 0
+      q: 0
+      Sq: 5
+      totalTons: 2.5
+      cc: 1
+      ws: 0
+      notes: '1cc 4op 0ws'
+      label: 'Cramped Bridge'
+      eff: 1
+      totalMCr: 0.6
+      name: 'Bridge'
+      tons: 2.5
+      op: 4
+      tl: 13
+      b: 0
+      type: 'Ops'
+      mcr: 0.6
+      target: 11
+header: 
+   crew: 7
+   format: 'T5-ACS-1'
+   staff: 0
+   missionLabel: 'Gunboat'
+   controlConsoles: 1
+   spaciousness: 0.5
+   operatingConsoles: 4
+   totalCargoSpace: 1
+   demand: -5
+   lifters: 'y'
+   passengers: 0
+   shipname: 'Hoshisame'
+   crewComfort: -4
+   workstations: 0
+   mission: 'GBS'
+   comments: |
+      Using a 100-ton, TL13 hull, the Hoshisame-class Defender mounts jump drive-A, maneuver drive-C, and power plant-C, giving a performance of jump-2 and 5G acceleration. Fuel tankage supports a 2 parsec jump, at 9t per parsec, and one month of operations. Attached to the cramped bridge is a Computer Model/3 fib. There are 3 spacer hotbunks, a medical console, and a counsellor's office. The ship has a dual barbette containing a hybrid mix of particle accelerator and missile launcher. Cargo capacity is 1 ton. The ship has a lift body hull, with scoops, intakes, and bins for frontier refueling. 
+      
+      The ship requires 4 crew, not including 3 crew positions operated by the ship's computer.
+      
+      BACKGROUND:
+      
+      The original naval requirements for the Hoshisame called for a small fast heavily armed system attack boat. However just as the first two test craft were nearing completion, the navy decided that the Hoshisames should also be jump capable to allow for rapid redeployment to neighboring systems if needed. Thus was born the Hoshisame class gun sloop, a small heavily armed starship with minimal crew accommodations, there are only niches for the crew. In fact the crew of the Hoshisame are given quarters off the ship at the base the ship is assigned to. With time it was found that most of the Hoshisames only used their jump capability to get to their initial duty stations. With the jump drives being hardly ever used the navy decided that what it really wanted was a small fast heavily armed system attack boat resulting in production of the Hoshisame B. The two major differences Between the original Hoshisames and the newer Hoshisame Bs are the Bs lack of a jump drive obviously and the Bs increased missile capacity.
+   undertons: 0.5
+   jumpFuelPercentage: 0.09
+   jf: 2
+   totalMCr: 83.6
+   config: 'L'
+   powerFuelPercentage: 0.045
+   mult: 1
+   tonsFree: 0.5
+   qsp: 'GBS-AL52'
+   preMult: 1
+   tons: 100
+   pf: 1
+   shifts: 1
+   tl: 13
+   low: 0
+   crewLocked: 'yes'
+   troops: 0

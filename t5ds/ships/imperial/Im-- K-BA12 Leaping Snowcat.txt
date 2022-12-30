@@ -1,0 +1,52 @@
+Touring Ship K-BA12 Leaping Snowcat MCr81.4
+
+
+Using a 200-ton hull, the safari ship is an excursion vessel intended for trophy-taking (real or photographic) expeditions to other worlds. It has jump drive-B, maneuver drive-A, and power plant-B, giving a performance of jump-2 and 1-G acceleration. The ship is undertonned, resulting in Agility+1 and 2-G acceleration in atmosphere 2+. Fuel tankage supports one jump-2 and two months of operations. Adjacent to the bridge is a computer Model/1 bis. There are eleven staterooms and no low berths. The ship has one hardpoint and one ton allocated to fire control. A double turret is installed; the turret is mounted with twin beam lasers.
+
+There are two ship’s vehicles: an air/raft and a 20-ton launch. Cargo capacity is 6 tons. Two 7-ton capture tanks hold specimens, and two 4-ton lounges are combined into a trophy lounge, serving as a hunter’s recreation area. The hull is airframed, and can be submerged.
+
+The safari ship requires a crew of five: pilot, astrogator, engineer, steward, and medic. A gunner and additional expedition personnel may be added. The pilot operates the launch; the steward operates the air/raft. The ship can carry a party of six (or up to 8 if the crew goes to double occupancy) on expeditions; it does not engage in commercial passenger service.
+
+Launch (also called Lifeboat): Using a 20-ton hull, the launch is capable of 3-G acceleration, carries 1 ton of fuel tankage, and has a crew of two. The craft has 15 tons excess space available for custom use, and costs MCr16.
+
+Actual volume: 196.5 tons
+Crew comfort:     +0
+Passenger demand: +1
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    200	 Airframe Hull, lifters, 2 a/l free 	   16	A, lifters, 2 a/l free
+      2	 Landing legs with pads             	    2	
+      0	 AV=11. 1 Kinetic Plate             	    0	
+     40	 Jump Fuel (2  parsecs)             	    0	2 parsec jump, at 20t per parsec
+      8	 Plant Fuel (2 months)              	    0	2 months
+     15	 Jump Drive-2 (B)                   	   15	J 2
+      2	 Fuel Scoops with Purifier          	  1.1	100 t/hr
+      2	 Fuel Intakes with Purifier         	  1.1	40 t/hr
+      2	 Mod Maneuver Drive A (R1)          	    2	R1
+      7	 PowerPlant-2 (B)                   	    7	R2
+      0	 AR Surf Basic                      
+      
+      	    6	
+      0	 Vd Surf Life Detector              	  1.1	
+      0	 Vd Surf Field Sensor               	  1.1	
+      1	 AR T2 Empty                        	  0.5	
+      1	 Computer Model/1bis                	    3	
+      2	 Life Support Long Term             	    2	84 people
+      4	 4x Life Support Luxury             	    4	#4 4 high passengers
+      2	 Clinic                             	    1	
+      8	 Spacious Bridge                    	  0.8	4cc 0op 0ws
+      8	 4x Crew Stateroom                  	  0.4	#4 1 crew
+    0.5	 Crew Shared Fresher                	  0.5	4 crew
+     12	 3x Crew Commons                    	    0	#3 
+     14	 2x Capture Tank                    	  1.4	#2 atmospheric controlled
+      6	 Cargo Hold Basic                   	    0	
+     36	 6x Luxury Stateroom                	  2.4	#6 1 passenger + fresher
+     20	 Launch                             	   13	m1bis C L0
+      4	 Air/Raft Enclosed                  	  0.1	
+[/code]
+
+[code]
+[/code]
+

@@ -1,0 +1,45 @@
+--- 
+ACS1.0: Thu Dec  2 19:50:15 2021
+Mission: Prospector
+QSP: J-BC11
+TL: 9 
+Name: Zukseg
+Tons: 200
+Actual Tons: 199
+
+MCr: 58.1
+Owner: Vargr
+Allegiance: Va
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 65
+FuelPercentage: 11
+Components:
+ - HH0   C  1 00000 200    6  Cluster Hull, lifters
+ - HL1  n/  1 00000  -1    0  No Landers
+ - AA1   9  1 00000   0    0  AV=9. 1 Kinetic Plate
+ - DF0   -  1 00000  20    0  Jump Fuel (1  parsec)
+ - DF0   -  1 00000   4    0  Plant Fuel (2 months)
+ - DP1   A  1 00000   4    4  PowerPlant-1 (A)
+ - DJ1   A  1 00000  10   10  Jump Drive-1 (A)
+ - DM1   A  1 00000   2    4  Maneuver Drive-1 (A)
+ - DF1  B1  1 00000   1  0.1  Fuel Bins 20t/hr
+ - OO0   -  1 00000   1  0.5  Emergency Low Berth
+ - OO1   -  1 00000   2    1  Clinic
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OC1   1  1 00000   1  1.5  Computer Model/1 std
+ - OB0   2  1 00000  16  1.2  Spacious Bridge
+ - WS1   -  1 00000   0  0.6  Vd Surf Mass Sensor
+ - WS1   -  1 00000   0  0.6  Vd Surf Densitometer
+ - WS1   -  1 00000   0  0.6  Vd Surf Proximeter
+ - WW1  -2  2 00000   3  3.7  Vd T1de Mining Laser
+ - CO0   -  4 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  6 00000   2  0.1  Crew Stateroom
+ - CO0   -  5 00000   4    0  Crew Lounge
+ - PC0   -  1 00000  65    0  Cargo Hold Basic
+ - VO0  MS  1 00000  30   14  Slow Boat
+ - VO0   -  1 00000   2    2  Grapple Set Single
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

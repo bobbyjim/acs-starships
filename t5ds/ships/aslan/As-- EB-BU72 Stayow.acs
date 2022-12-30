@@ -1,0 +1,49 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:31 2021
+Mission: Corvette
+QSP: EB-BU72
+TL: 12 
+Name: Stayow
+Tons: 200
+Actual Tons: 200
+
+MCr: 122.1
+Owner: Aslan
+Allegiance: As
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 3
+FuelPercentage: 17
+Components:
+ - HH0   U  1 00000 200   10  Unstreamlined Hull, lifters
+ - HL1   K  1 00000   2    2  Landing legs with pads
+ - AA1  36  1 00000  16    0  AV=36. 3 Kinetic Plate
+ - DF0   -  1 00000  40    0  Jump Fuel (2  parsecs)
+ - DF0   -  1 00000   7    0  Plant Fuel (0.5 months)
+ - DP1   G  1 00000  22   22  PowerPlant-7 (G)
+ - DJ1   B  1 00000  15   15  Jump Drive-2 (B)
+ - DM1   G  1 00000  13   26  Maneuver Drive-7 (G)
+ - DF1   S  1 00000   1  0.1  Fuel Scoops
+ - DF1   P  1 00000   1  0.1  Fuel Purifiers
+ - OC1   5  1 00000   5  13.5  Computer Model/5 phot
+ - OO0   -  1 00000   1    1  Life Support Standard
+ - OB0   2  1 00000  12    0  Spacious Controls
+ - SS1   4  1 00000   3  2.5  AR Ext Communicator
+ - SS1   4  1 00000   3  2.5  AR Ext Jammer
+ - SS1   4  1 00000   9  8.5  DS Ext Neutrino Detector
+ - SS1   4  1 00000   3  2.5  AR Ext Stealth Mask
+ - SS1   4  1 00000   3  2.5  AR Ext EMS
+ - SS1   4  1 00000   3  2.5  AR Ext Scope
+ - WW1   -  1 00000   1  1.2  AR T3 Missile
+ - WW1   3  1 00000   5  6.5  AR B2 Particle Accelerator
+ - CO0   -  1 00000   2  0.1  Crew Stateroom
+ - CO0   -  4 00000   1  0.1  Spacer Niche
+ - CO0   -  4 00000   4    0  Crew Lounge
+ - CO0   -  2 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  1 00000   4  0.4  Hero's Shrine
+ - PC0   -  1 00000   3    0  Cargo Hold Basic
+ - VO0  EL  1 00000   5  1.1  Air/Raft Enclosed + bracket
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

@@ -1,0 +1,722 @@
+--- 
+components: 
+   - 
+      code: 'U'
+      name: 'Hull'
+      tl: 12
+      preMult: 1
+      notes: 'U, lifters'
+      category: 'Hull'
+      CP: 0
+      config: 'Unstreamlined'
+      q: 0
+      Sq: 2000
+      r: 0
+      s: 0
+      tons: 1000
+      b: 0
+      mcr: 42
+      e: 0
+      howMany: 1
+      target: 12
+      totalTons: 1000
+      totalMCr: 42
+      label: 'Unstreamlined Hull, lifters'
+      eff: 1
+      type: 'Hull'
+      mult: 1
+
+   - 
+      s: 0
+      label: 'Jump Fuel (4  parsecs)'
+      tons: 360
+      Sq: 720
+      b: 0
+      tl: 12
+      category: 'Jump Fuel'
+      eff: 1
+      e: 0
+      notes: 'J4, 90t/pc'
+      howMany: 1
+      target: 12
+      CP: 0
+      totalMCr: 0
+      mcr: 0
+      q: 0
+      type: 'Drive'
+      totalTons: 360
+      r: 0
+
+   - 
+      s: 0
+      label: 'Plant Fuel (one month)'
+      category: 'Powerplant Fuel'
+      Sq: 88
+      b: 0
+      tl: 12
+      tons: 44
+      q: 0
+      e: 0
+      notes: 'one month'
+      howMany: 1
+      target: 12
+      totalTons: 44
+      totalMCr: 0
+      mcr: 0
+      eff: 1
+      type: 'Drive'
+      CP: 0
+      r: 0
+
+   - 
+      category: 'AV=13. 1 Kinetic Plate'
+      mount: 'Kinetic'
+      tl: 13
+      type: 'Armor'
+      mod: ''
+      notes: ''
+      CP: 1
+      range: '1'
+      config: 'Armor'
+      q: 0
+      r: 0
+      s: 0
+      tons: 0
+      b: 0
+      e: 0
+      mcr: 0
+      howMany: 1
+      target: 13
+      totalTons: 0
+      totalMCr: 0
+      label: 'AV=13. 1 Kinetic Plate'
+      eff: 1
+      basetl: 8
+      name: 'Plate'
+
+   - 
+      category: 'Computer Model/4 std'
+      mount: 'Model/4'
+      tl: 13
+      range: 's'
+      mod: 4
+      notes: ''
+      CP: 1
+      type: 'Ops'
+      config: 'Ops'
+      q: 0
+      Sq: 8
+      r: 0
+      s: 0
+      tons: 4
+      b: 0
+      mcr: 18
+      e: 0
+      howMany: 1
+      target: 17
+      totalTons: 4
+      name: 'Computer'
+      label: 'Computer Model/4 std'
+      eff: 1
+      basetl: 0
+      totalMCr: 18
+
+   - 
+      category: 'Vd T3 Hybrid L-S-M'
+      mount: 'T3'
+      tl: 13
+      basetl: 10
+      mod: 0
+      notes: ''
+      CP: 1
+      range: 'Vd'
+      config: 'Weapon'
+      q: 0
+      Sq: 2
+      r: 0
+      s: 0
+      tons: 1
+      b: 0
+      mcr: 2
+      e: 0
+      howMany: 1
+      target: 13
+      totalTons: 1
+      name: 'Hybrid L-S-M'
+      label: 'Vd T3 Hybrid L-S-M'
+      eff: 1
+      type: 'Weapon'
+      totalMCr: 2
+
+   - 
+      category: 'AR T1 Empty'
+      mount: 'T1'
+      tl: 13
+      range: 'AR'
+      mod: -2
+      notes: ''
+      CP: 1
+      basetl: 7
+      config: 'Weapon'
+      q: 0
+      Sq: 8
+      r: 0
+      s: 0
+      tons: 1
+      b: 0
+      mcr: 0.2
+      e: 0
+      howMany: 4
+      target: 11
+      totalTons: 4
+      name: 'Empty'
+      label: 'AR T1 Empty'
+      eff: 1
+      type: 'Weapon'
+      totalMCr: 0.8
+
+   - 
+      s: 0
+      category: 'Cargo'
+      Sq: 260
+      b: 0
+      tl: 12
+      tons: 130
+      q: 0
+      e: 0
+      mcr: 0
+      howMany: 1
+      target: 12
+      CP: 0
+      totalMCr: 0
+      notes: ''
+      label: 'Cargo Hold Basic'
+      eff: 1
+      type: 'Payload'
+      totalTons: 130
+      r: 0
+
+   - 
+      s: 0
+      tons: 2
+      b: 0
+      tl: 13
+      eff: 1
+      e: 0
+      totalTons: 2
+      mcr: 2
+      howMany: 1
+      target: 13
+      CP: 0
+      totalMCr: 2
+      notes: '40 person-months'
+      label: 'Life Support Long Term'
+      q: 0
+      type: 'Ops'
+      Sq: 4
+      r: 0
+
+   - 
+      s: 0
+      tons: 1
+      Sq: 6
+      b: 0
+      tl: 13
+      q: 0
+      e: 0
+      mcr: 1
+      howMany: 3
+      target: 13
+      CP: 0
+      totalMCr: 3
+      notes: '10 high passengers'
+      label: 'Life Support Luxury'
+      eff: 1
+      type: 'Ops'
+      totalTons: 3
+      r: 0
+
+   - 
+      s: 0
+      tons: 1
+      Sq: 2
+      b: 0
+      tl: 13
+      q: 0
+      e: 0
+      mcr: 1
+      howMany: 1
+      target: 13
+      CP: 0
+      totalMCr: 1
+      notes: '10 sophonts'
+      label: 'Life Support Adaptable'
+      eff: 1
+      type: 'Ops'
+      totalTons: 1
+      r: 0
+
+   - 
+      s: 0
+      tons: 20
+      av: '20,10,10,10,10,10,10'
+      Sq: 40
+      b: 0
+      mcr: 16
+      tl: 13
+      code: 'MSQL'
+      eff: 1
+      speed: '3G'
+      e: 0
+      CP: 0
+      howMany: 1
+      target: 13
+      totalTons: 20
+      totalMCr: 16
+      label: 'Launch'
+      q: 0
+      type: 'Vehicle'
+      load: 15
+      r: 0
+
+   - 
+      s: 0
+      tons: 2
+      Sq: 4
+      b: 0
+      tl: 13
+      eff: 1
+      e: 0
+      mcr: 2
+      howMany: 1
+      target: 13
+      totalTons: 2
+      totalMCr: 2
+      notes: 'up to 35t'
+      label: 'Grapple Set Single'
+      q: 0
+      type: 'Vehicle'
+      CP: 0
+      r: 0
+
+   - 
+      rating: 1
+      label: 'Mod Maneuver Drive-1 (E)'
+      category: 'Maneuver Drive'
+      autoAdjust: 1
+      B: 0
+      tl: 11
+      code: 'E'
+      eff: 0.9
+      basetl: 9
+      original: 
+         rating: 1
+         category: 'Maneuver Drive'
+         basetl: 9
+         B: 0
+         tl: 13
+         code: 'E'
+         eff: 1
+         E: 0
+         notes: '1 G'
+         CP: 1
+         mod: 0
+         q: 0
+         Sq: 18
+         autoAdjust: 1
+         s: 0
+         tons: 9
+         b: 0
+         mcr: 18
+         r: 0
+         howMany: 1
+         target: 13
+         totalTons: 9
+         R: 0
+         e: 0
+         totalMCr: 18
+         S: 0
+         label: 'Maneuver Drive-1 (E)'
+         Q: 0
+         type: 'Drive'
+         name: 'Maneuver Drive'
+      mod: 2
+      notes: '1 G'
+      CP: 1
+      E: 0
+      q: 8
+      Sq: 9
+      r: -1
+      s: 1
+      tons: 4.5
+      b: -3
+      stage: 'Mod'
+      e: 5
+      mcr: 9
+      howMany: 1
+      target: 13
+      totalTons: 4.5
+      R: 0
+      totalMCr: 9
+      S: 0
+      Q: 0
+      type: 'Drive'
+      name: 'Maneuver Drive'
+
+   - 
+      rating: 4
+      label: 'Imp Jump Drive-4 (V)'
+      code: 'V'
+      type: 'Drive'
+      B: 0
+      tl: 14
+      category: 'Jump Drive'
+      eff: 1.1
+      original: 
+         rating: 4
+         code: 'V'
+         type: 'Drive'
+         B: 0
+         tl: 15
+         category: 'Jump Drive'
+         eff: 1
+         E: 0
+         notes: 'J 4'
+         CP: 3
+         mod: 0
+         q: 0
+         Sq: 210
+         r: 0
+         s: 0
+         tons: 105
+         b: 0
+         mcr: 105
+         autoAdjust: 1
+         Q: 0
+         target: 15
+         totalTons: 105
+         R: 0
+         e: 0
+         name: 'Jump Drive'
+         S: 0
+         label: 'Jump Drive-4 (V)'
+         howMany: 1
+         basetl: 13
+         jumpFuelUsage: 0.1
+         totalMCr: 105
+      mod: 1
+      notes: 'J 4'
+      CP: 3
+      E: 0
+      q: 5
+      Sq: 210
+      autoAdjust: 1
+      s: -1
+      tons: 105
+      b: -1
+      mcr: 105
+      r: 1
+      stage: 'Imp'
+      Q: 0
+      target: 15
+      totalTons: 105
+      R: 0
+      e: 0
+      totalMCr: 105
+      S: 0
+      howMany: 1
+      basetl: 13
+      jumpFuelUsage: 0.1
+      name: 'Jump Drive'
+
+   - 
+      s: 0
+      tons: 0.5
+      Sq: 14
+      b: 0
+      tl: 15
+      eff: 1
+      e: 0
+      mcr: 0.1
+      howMany: 14
+      target: 15
+      totalTons: 7
+      totalMCr: 1.4
+      notes: '1 passenger'
+      label: 'Low Berth'
+      q: 0
+      type: 'Payload'
+      CP: 0
+      r: 0
+
+   - 
+      rating: 4
+      label: 'Mod PowerPlant-4 (V)'
+      code: 'V'
+      powerFuelUsage: 0.01
+      B: 0
+      tl: 11
+      category: 'PowerPlant'
+      eff: 0.9
+      basetl: 11
+      original: 
+         rating: 4
+         category: 'PowerPlant'
+         powerFuelUsage: 0.01
+         B: 0
+         tl: 13
+         code: 'V'
+         eff: 1
+         basetl: 11
+         mod: 0
+         notes: 'P 4'
+         CP: 2
+         E: 0
+         q: 0
+         Sq: 122
+         r: 0
+         s: 0
+         tons: 61
+         b: 0
+         mcr: 61
+         autoAdjust: 1
+         howMany: 1
+         target: 13
+         totalTons: 61
+         R: 0
+         e: 0
+         totalMCr: 61
+         S: 0
+         label: 'PowerPlant-4 (V)'
+         Q: 0
+         type: 'Drive'
+         name: 'PowerPlant'
+      E: 0
+      notes: 'P 4'
+      CP: 2
+      mod: 2
+      q: 10
+      Sq: 61
+      autoAdjust: 1
+      s: 5
+      tons: 30.5
+      b: 1
+      stage: 'Mod'
+      r: -1
+      mcr: 30.5
+      Q: 0
+      target: 13
+      totalTons: 30.5
+      R: 0
+      e: 2
+      name: 'PowerPlant'
+      S: 0
+      howMany: 1
+      type: 'Drive'
+      totalMCr: 30.5
+
+   - 
+      s: 0
+      tons: 6
+      Sq: 432
+      b: 0
+      totalSleeps: 36
+      tl: 15
+      sleeps: 1
+      e: 0
+      mcr: 0.4
+      howMany: 36
+      target: 15
+      totalTons: 216
+      eff: 1
+      totalMCr: 14.4
+      notes: '1 passenger + fresher'
+      label: 'Luxury Stateroom'
+      q: 0
+      type: 'Passenger'
+      CP: 0
+      r: 0
+
+   - 
+      s: 0
+      tons: 2
+      Sq: 52
+      b: 0
+      totalSleeps: 13
+      tl: 13
+      sleeps: 1
+      e: 0
+      mcr: 0.1
+      howMany: 13
+      target: 13
+      totalTons: 26
+      eff: 1
+      totalMCr: 1.3
+      notes: '1 crew'
+      label: 'Crew Stateroom'
+      q: 0
+      type: 'Crew'
+      CP: 0
+      r: 0
+
+   - 
+      s: 0
+      tons: 4
+      b: 0
+      tl: 13
+      q: 0
+      e: 0
+      CP: 0
+      mcr: 0
+      howMany: 3
+      target: 13
+      totalTons: 12
+      totalMCr: 0
+      notes: ''
+      label: 'Crew Lounge'
+      eff: 1
+      type: 'Crew'
+      Sq: 24
+      r: 0
+
+   - 
+      s: 0
+      tons: 0.5
+      Sq: 4
+      b: 0
+      tl: 13
+      eff: 1
+      e: 0
+      mcr: 0.5
+      howMany: 4
+      target: 13
+      totalTons: 2
+      totalMCr: 2
+      notes: '4 crew'
+      label: 'Crew Shared Fresher'
+      q: 0
+      type: 'Crew'
+      CP: 0
+      r: 0
+
+   - 
+      s: 0
+      tons: 8
+      Sq: 32
+      b: 0
+      tl: 15
+      eff: 1
+      e: 0
+      mcr: 0
+      howMany: 2
+      target: 15
+      totalTons: 16
+      totalMCr: 0
+      notes: ''
+      label: 'Passenger Lounge'
+      q: 0
+      type: 'Passenger'
+      CP: 0
+      r: 0
+
+   - 
+      s: 0
+      tons: 8
+      Sq: 48
+      b: 0
+      tl: 15
+      eff: 1
+      e: 0
+      mcr: 0
+      howMany: 3
+      target: 15
+      CP: 0
+      totalMCr: 0
+      notes: ''
+      label: 'Passenger Dining Area'
+      q: 0
+      type: 'Passenger'
+      totalTons: 24
+      r: 0
+
+   - 
+      s: 0
+      tons: 1
+      Sq: 10
+      b: 0
+      mcr: 0.5
+      tl: 15
+      eff: 1
+      e: 0
+      howMany: 5
+      target: 15
+      totalTons: 5
+      totalMCr: 2.5
+      notes: '10 individuals'
+      label: 'Emergency Low Berth'
+      q: 0
+      type: 'Ops'
+      CP: 0
+      r: 0
+
+   - 
+      s: 0
+      label: 'Standard Controls'
+      tons: 14
+      b: 0
+      tl: 15
+      category: 'Bridge'
+      q: 0
+      e: 0
+      totalTons: 14
+      notes: ''
+      howMany: 1
+      target: 15
+      CP: 0
+      mod: 0
+      name: 'Bridge'
+      mcr: 0
+      eff: 1
+      type: 'Ops'
+      Sq: 28
+      r: 0
+      totalMCr: 0
+header: 
+   crewLocked: 'yes'
+   preMult: 1
+   spaciousness: 1
+   low: 0
+   troops: 0
+   staff: 0
+   comments: |
+      Using a 1000-ton streamlined hull, the Tukera Iong-liner is a main-route passenger transport serving much of the Imperium. It mounts a Shva type T14 RE jump drive, the LSP Impulse E1 maneuver drive, and the LSP Power/T power plant, giving performance of Jump-4 and 1G acceleration.  Fuel tankage supports a month of operations and one jump-4. On the bridge is a Model/4 computer. There are 50 staterooms and 5 emergency low berths. The ship has five hardpoints. Only one triple turret is usually installed; it carries a heterogeneous mix of one beam laser, one missile rack, and one sandcaster. The ship carries one vehicle: a 20-ton launch, grappled to the hull. Cargo capacity for the long-liner is 130 tons.
+      
+      The long-liner requires a crew of 13: captain/pilot, astrogator, 6 engineers, medic, 3 stewards, and gunner.  The pilot or astrogator operates the launch. The ship can carry up to 36 passengers.
+   totalCargoSpace: 130
+   tl: 15
+   passengers: 36
+   crewComfort: -1
+   demand: 2
+   shipname: 'Tukera RT'
+   config: 'U'
+   undertons: 1000
+   lifters: 'y'
+   jumpFuelPercentage: 0.09
+   powerFuelPercentage: 0.044
+   tons: 1000
+   qsp: 'M2-KU14'
+   tonsFree: -33
+   shifts: 1
+   owner: 'Tukera'
+   jf: 4
+   controlConsoles: 2
+   crew: 4
+   operatingConsoles: 8
+   mission: 'M2'
+   overtons: 33
+   format: 'T5-ACS-1'
+   missionLabel: 'Long Liner'
+   pf: 1
+   totalMCr: 254.3
+   workstations: 4
+   mult: 1

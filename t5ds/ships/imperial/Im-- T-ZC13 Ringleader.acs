@@ -1,0 +1,50 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:30 2021
+Mission: Military Transport
+QSP: T-ZC13
+TL: 14 
+Name: Ringleader
+Tons: 2400
+Actual Tons: 1141.5
+Allegiance: Im
+
+MCr: 588.4
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 0
+FuelPercentage: 11
+Components:
+ - HH0   C  1 00000 2400   48  Cluster Hull
+ - HL1  n/  1 00000 -12    0  No Landers
+ - AA1  28  1 00000   0    0  AV=28. 1 Kinetic Charged
+ - DF0   -  1 00000 648    0  Jump Fuel (3  parsecs)
+ - DF0   -  1 00000  60    0  Plant Fuel (one month)
+ - DJ6  T2  1 54D14 185  185  Imp Jump Drive-3 (T2)
+ - DP4  T2  1 720A4 35.97  109  Adv PowerPlant-3 (T2)
+ - DM1   3  1 701D2 7.59   46  Adv Maneuver Drive-1 (M)
+ - DF1  P1  1 00000   1    1  Fuel Purifiers 4t/hr
+ - DF1  X1  1 00000   1    1  Fuel Transfer Pumps 
+ - OC1   6  1 00000   6   39  Computer Model/6 std
+ - OO1   -  1 00000  10    4  Ward
+ - OO0   -  1 00000   1    1  Life Support Luxury
+ - OO0   -  3 00000   2    2  Life Support Long Term
+ - OO0   -  2 00000   4  0.2  Gunners' Barracks
+ - OB0   -  1 00000  24    0  Standard Controls
+ - SS1   1  1 00000   2  2.5  LR Ant Communicator
+ - SS1   1  1 00000   2  2.5  LR Ant Jammer
+ - SS1   1  1 00000   2  2.5  LR Ant Scope
+ - SS1   1  1 00000   2  2.5  LR Ant Neutrino Detector
+ - SS1   1  1 00000   2  2.5  LR Ant EMS
+ - SS1   1  1 00000   2  2.5  LR Ant Stealth Mask
+ - WW1   3  6 00000  10   12  LR B2 Empty
+ - WW1   -  6 00000 0.5  1.5  D T3 DataCaster
+ - WW1   -  6 00000 0.5  0.6  D T3 Sandcaster
+ - WW1   -  6 00000 0.5    1  D T3 Beam Laser
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - CO0   - 10 00000   2  0.1  Crew Stateroom
+ - CO0   -  5 00000   4    0  Crew Lounge
+ - VO0   - 19 00000   2    2  Grapples (1330 tons max)
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

@@ -1,0 +1,59 @@
+Corvette EB-DL42 Spearhead MCr202.4
+
+Owner: Judges Guild
+
+Using a 400-ton, TL13 hull, the Spearhead-class Corvette mounts jump drive-D, maneuver drive-H, and power plant-H, giving a performance of jump-2 and 4G acceleration. Fuel tankage supports a 4 parsec jump, at 40t per parsec, and one month of operations. Attached to the bridge is a Computer Model/5. There is one captain's suite, six crew staterooms, three drive tech niches, a gunner barracks, and four emergency low berths. Installed weaponry include 1 T3 Missile, 1 T3 Pulse Laser, 1 T3 Sandcaster, and 1 T3 Beam Laser. Cargo capacity is 35 tons. The ship has a lift body hull, with scoops, intakes, and bins for frontier refueling. 
+
+The ship has a crew of 12: two pilots, one astrogator, one medic, a chief engineer, three drive techs, and four gunners.
+
+Crew comfort:     +0
+Passenger demand: -5
+
+[code]
+   Tons	 Component                  	  MCr	Notes
+  -----	 ---------------------------	-----	--------------------
+    400	 Lift body Hull                 52	L, 4 airlocks 
+      4	 Landing legs with pads     	    4	
+      8	 Submergence hull           	    8	
+     16	 AV=56. 2 Kinetic Charged   	    0	
+      0	 AV=0. c Reflec             	    0	
+    160	 Jump Fuel (4  parsecs)     	    0	4 pc, 40t/pc
+     16	 Plant Fuel (one month)     	    0	one month
+     25	 Jump Drive-2 (D)           	   25	J 2
+     25	 PowerPlant-4 (H)           	   25	P 4
+      2	 Fuel Scoops with Purifier  	  1.1	100 t/hr
+      2	 Fuel Intakes with Purifier 	  1.1	40 t/hr
+      2	 Fuel Bins with Purifier    	  1.1	20 t/hr
+     15	 Maneuver Drive-4 (H)       	   30	4 G
+      0	 AR Surf Communicator       	    2	
+      0	 AR Surf Jammer             	    2	
+      0	 AR Surf Neutrino Detector  	    2	
+      0	 AR Surf EMS                	    2	
+      0	 AR Surf Stealth Mask       	    2	
+      0	 AR Surf Scope              	    2	
+      1	 AR T3 Missile              	  1.2	
+      1	 Vd T3 Pulse Laser          	  1.3	
+      1	 Vd T3 Sandcaster           	  1.1	
+      1	 Vd T3 Beam Laser           	  1.5	
+      1	 Magazine                   	    0	50 x Size-5
+      5	 Computer Model/5 std       	   27	
+      2	 Life Support Long Term     	    2	40 person-months
+      1	 Life Support Adaptable     	    1	10 sophonts
+      2	 Clinic                     	    1	
+      2	 Counsellor                 	  0.2	
+      4	 Gunner Barracks            	  0.2	(5) R1 R1 R2 R2 R3
+      4	 4x Emergency Low Berth     	    2	#4 4 individuals
+     16	 Spacious Bridge            	    1	2cc 6op 0ws
+      1	 Crew Common Fresher        	    1	10 crew
+      6	 Captain's Suite            	  0.4	fresher + safe
+      3	 3x Drive Tech Niche        	  0.3	#3 1 crew
+     12	 6x Crew Stateroom          	  0.6	#6 1 crew
+     24	 6x Crew Commons            	    0	#6 
+      1	 Mail Vault                 	    1	for express contracts
+      2	 Cargo Lock                 	  0.4	
+     35	 Cargo Hold Basic           	    0	
+[/code]
+
+[code]
+[/code]
+

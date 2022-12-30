@@ -1,0 +1,60 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:31 2021
+Mission: Lab Ship
+QSP: L-DL14
+TL: 14 
+Name: Hkiyrerao
+Tons: 400
+Actual Tons: 400
+
+MCr: 226.3
+Owner: Aslan
+Allegiance: As
+
+Crew comfort: 0
+Passenger demand: 2
+Cargo: 0
+FuelPercentage: 12
+Components:
+ - HH0   L  1 00000 400   56  Lift body Hull, lifters
+ - HL1   K  1 00000   4    4  Landing legs with pads
+ - AA1  28  1 00000   0    0  AV=28. 1 Rad Charged
+ - DF0   -  1 00000 144    0  Jump Fuel (4  parsecs)
+ - DF0   -  1 00000 7.2    0  Plant Fuel (0.5 months)
+ - DF1   S  1 00000   1  0.1  Fuel Scoops
+ - DF1   P  1 00000   1  0.1  Fuel Purifiers
+ - DF1   I  1 00000   1  0.1  Fuel Intakes
+ - DF1   B  1 00000   1  0.1  Fuel Bins
+ - DP1   1  1 61BB0  25   25  Imp PowerPlant-4 (H)
+ - DJ2   1  1 51100  45   45  Imp Jump Drive-4 (H)
+ - DM1   B  1 00000   3    6  Maneuver Drive-1 (B)
+ - OC1   5  1 00000   5   27  Computer Model/5 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OB0  -2  1 00000 5.5    0  Cramped Controls
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   -  1 00000   0  3.5  DS Surf Neutrino Detector
+ - SS1   -  1 00000   0  3.5  DS Surf EMS
+ - SS1   -  1 00000   0  3.5  DS Surf Grav Sensor
+ - SS1   -  1 00000   0  1.5  AR Surf Visor
+ - WS1   -  1 00000   0  0.6  Vd Surf Mass Sensor
+ - WS1   -  1 00000   0  0.6  Vd Surf Deep Radar
+ - WS1   -  1 00000   0  0.6  Vd Surf Analyzer/Sniffer
+ - WS1   -  1 00000   0  0.6  Vd Surf Densitometer
+ - WS1   -  1 00000   0  0.6  Vd Surf Life Detector
+ - WS1   -  1 00000   0  0.6  Vd Surf Proximeter
+ - WS1   -  1 00000   0  0.6  Vd Surf Activity Sensor
+ - WS1   -  1 00000   0  0.6  Vd Surf Field Sensor
+ - WW1  -2  1 00000   4  2.1  G T1 Mining Laser
+ - CO0   -  1 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  4 00000   2  0.1  Crew Stateroom
+ - CO0   -  3 00000   4    0  Crew Lounge
+ - PO0   -  1 00000   1    1  Common Fresher
+ - PO0   - 10 00000 0.5  0.1  Low Berth
+ - PO0   -  1 00000   1    0  Hero's Shrine
+ - PO0   - 10 00000   2  0.1  Standard Stateroom
+ - PO1   - 10 00000   5    2  Lab
+ - VO0  Al  1 00000   9  4.5  GCarrier + streamlined bracket
+ - VO0  LM  1 00000  45   11  Light Shuttle + hangar
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

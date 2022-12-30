@@ -1,0 +1,62 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:31 2021
+Mission: Frigate
+QSP: G-DL71
+TL: 14 
+Name: Khosaa
+Tons: 400
+Actual Tons: 400
+
+MCr: 276.2
+Owner: Aslan
+Allegiance: As
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 0
+FuelPercentage: 17
+Components:
+ - HH0   L  1 00000 400   56  Lift body Hull, lifters
+ - HJ1   P  1 00000   0  0.4  Jump Plates
+ - HL1   K  1 00000   4    4  Landing legs with pads
+ - HF1   E  1 00000   8   16  Submergence hull
+ - AA1  42  1 00000  32    0  AV=42. 3 Blast Plate
+ - DF0   -  1 00000  40    0  Jump Fuel (1  parsec)
+ - DF0   -  1 00000  14    0  Plant Fuel (0.5 months)
+ - DP2   P  1 00000  43   43  PowerPlant-7 (P)
+ - DJ1   B  1 00000  15   15  Jump Drive-1 (B)
+ - DM1   P  1 00000  27   54  Maneuver Drive-7 (P)
+ - DF1   S  1 00000   1  0.1  Fuel Scoops
+ - DF1   I  1 00000   1  0.1  Fuel Intakes
+ - DF1   P  2 00000   1  0.1  Fuel Purifiers
+ - OC1   5  1 00000   5   27  Computer Model/5 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO0   -  1 00000  18    1  Platoon Barracks
+ - OO0   -  1 00000   1  0.5  Emergency Low Berth
+ - OO0   -  1 00000   2    1  Frozen Watch
+ - OO1   -  1 00000   4    3  Surgery
+ - OO0   -  1 00000   4  0.2  Gunner Barracks
+ - OB0   2  1 00000  18    0  Spacious Controls
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   -  1 00000   0  1.5  AR Surf Jammer
+ - SS1   -  1 00000   0  1.5  AR Surf Neutrino Detector
+ - SS1   -  1 00000   0  1.5  AR Surf EMS
+ - SS1   -  1 00000   0  1.5  AR Surf Stealth Mask
+ - SS1   -  1 00000   0  1.5  AR Surf Visor
+ - WW1   5  1 00000  50  7.5  AR Bay Particle Accelerator
+ - WW1   5  1 00000  50   15  AR Bay Salvo Rack
+ - WW1   3  1 00000   5    9  AR B2 CommCaster
+ - WW1   3  1 00000   5    5  Vd B2 DataCaster
+ - DD1  -1  1 00000   2    2  B Meson Screen
+ - DD1  -1  1 00000   3    2  B Nuclear Damper
+ - CO0   -  1 00000   1    1  Crew Common Fresher
+ - CO0   -  9 00000   2  0.1  Crew Stateroom
+ - CO0   -  5 00000   4    0  Crew Lounge
+ - CO0   -  1 00000   1    0  Hero's Shrine
+ - PO0   -  1 00000   1    0  Magazine
+ - PO1   -  2 00000 0.5  0.1  Air Lock
+ - PO0   -  1 00000   1    0  Magazine
+ - PO0   -  1 00000   1    0  Locker
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

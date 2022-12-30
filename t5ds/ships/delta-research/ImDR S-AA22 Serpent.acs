@@ -1,0 +1,58 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:32 2021
+Mission: Scout/Courier
+QSP: S-AA22
+TL: 12 
+Name: Serpent
+Tons: 100
+Actual Tons: 100
+
+MCr: 60.5
+Allegiance: ImDR
+Owner: Delta Research
+
+Crew comfort: 1
+Passenger demand: -5
+Cargo: 5
+FuelPercentage: 12
+Components:
+ - HH0   A  1 00000 100   10  Airframe Hull, lifters
+ - HL1   K  1 00000   1    1  Landing legs with pads
+ - HF1   D  1 00000   1    1  Flotation hull
+ - HW1   G  1 00000   0    0  Folding wings
+ - AA1  12  1 00000   0    0  AV=12. 1 Kinetic Plate
+ - DF0   -  1 00000  20    0  Jump Fuel (2  parsecs)
+ - DF0   -  1 00000   8    0  Plant Fuel (4 months)
+ - DP1   A  1 00000   4    4  PowerPlant-2 (A)
+ - DJ1   A  1 00000  10   10  Jump Drive-2 (A)
+ - DM1   A  1 00000   2    4  Maneuver Drive-2 (A)
+ - DF1  P1  1 00000   1    1  Fuel Purifiers 4t/hr
+ - DF1  S1  1 00000   1  0.1  Fuel Scoops 100t/hr
+ - DF1  I1  1 00000   1  0.1  Fuel Intakes 40t/hr
+ - DF1  B1  1 00000   1  0.1  Fuel Bins 20t/hr
+ - OC1   3  1 00000   3  10.5  Computer Model/3 std
+ - OO0   -  1 00000   1    1  Life Support Standard
+ - OO1   -  1 00000   2    1  Clinic
+ - OB0   2  1 00000   8    0  Spacious Controls
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   -  1 00000   0  1.5  AR Surf Jammer
+ - SS1   -  1 00000   0  1.5  AR Surf EMS
+ - SS1   -  1 00000   0  1.5  AR Surf Scope
+ - SS1   -  1 00000   0  1.5  AR Surf Neutrino Detector
+ - WS1   -  1 00000   0  0.6  Vd Surf Mass Sensor
+ - WS1   -  1 00000   0  0.6  Vd Surf Deep Radar
+ - WS1   -  1 00000   0  0.6  Vd Surf Densitometer
+ - WS1   -  1 00000   0  0.6  Vd Surf Life Detector
+ - WS1   -  1 00000   0  0.6  Vd Surf Proximeter
+ - WS1   -  1 00000   0  0.6  Vd Surf Activity Sensor
+ - WS1   -  1 00000   0  0.6  Vd Surf Field Sensor
+ - WW1   -  1 00000   1    2  Vd T3 Hybrid L-S-M
+ - CO0   -  4 00000   2  0.1  Crew Stateroom
+ - CO0   -  2 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  4 00000   4    0  Crew Lounge
+ - PC0   -  1 00000   5    0  Cargo Hold Basic
+ - VO0  EL  1 00000   4  0.1  Air/Raft Enclosed
+ - VO1   -  1 00000   1    1  Air/Raft Niche
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

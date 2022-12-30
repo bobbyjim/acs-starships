@@ -1,0 +1,62 @@
+Cruiser C-HU33 Alkahest MCr310.4
+
+Builder: Bilstein Yards
+Owner: Judges Guild
+Disposition: In Service
+
+Using a 800-ton, TL12 hull, the Alkahest-class cruiser mounts M-series drives, giving a performance of jump-3 and 3G acceleration. Fuel tankage supports a 3 parsec jump, at 80t per parsec, and 2 months of operations. Attached to the bridge is a Computer Model/5. There are 24 staterooms and no low berths. Eight empty triple turrets are installed. Cargo capacity is 80 tons. The hull is unstreamlined. 
+
+Carried craft include 2 Pinnaces, 1 Air/Raft Enclosed, and 2 Heavy Grav Tanks. The ship has 7 crew. 
+
+* - JG has ATV's listed. I used Grav Tanks for the equal volume. Adjust price accordingly.
+
+Overtonnage: 6 tons
+Crew comfort:     -1
+Passenger demand: -5
+
+[code]
+   Tons	 Component                   	  MCr	Notes
+  -----	 ----------------------------	-----	--------------------
+    800	 Unstreamlined Hull, lifters 	   26	U; 8 airlocks
+     -4	 No Landers                  	    0	
+     32	 AV=24. 2 Kinetic Plate      	    0	
+    240	 Jump Fuel (3  parsecs)      	    0	3 pc, 80t/pc
+     48	 Plant Fuel (2 months)       	    0	2 months
+     23	 Maneuver Drive-3 (M)        	   46	3 G
+     65	 Jump Drive-3 (M)            	   65	J 3
+     37	 PowerPlant-3 (M)            	   37	P 3
+      0	 LR Surf Communicator        	    4	
+      0	 LR Surf Radar               	    4	
+      0	 LR Surf Scope               	    4	
+      0	 LR Surf Neutrino Detector   	    4	
+      0	 Or Surf Densitometer        	  3.1	
+      0	 Or Surf Activity Sensor     	  3.1	
+      0	 Or Surf Deep Radar          	  3.1	
+      0	 Or Surf Mass Sensor         	  3.1	
+      0	 Or Surf Proximeter          	  3.1	
+      0	 Or Surf Field Sensor        	  3.1	
+      0	 LR Surf Jammer              	    4	
+      0	 AR Surf Stealth Mask        	    2	
+      8	 8x AR T3 Empty              	    8	#8 
+      5	 Computer Model/5 std        	   27	
+      4	 2x Clinic                   	    2	#2 
+      4	 Surgery                     	    3	
+      4	 2x Life Support Long Term   	    4	#2 40 person-months
+      1	 Life Support Adaptable      	    1	10 sophonts
+     24	 Spacious Bridge             	  1.6	5cc 6op 1ws
+     10	 5x Senior Crew Stateroom    	  0.5	#5 1 crew
+     40	 20x Crew Double             	    2	#20 2 crew
+      5	 5x Crew Common Fresher      	    5	#5 10 crew
+     84	 21x Crew Lounge             	    0	#21 
+     80	 Cargo Hold Basic            	    0	
+      2	 Cargo Lock                  	    0	
+     80	 2x Pinnace                  	   36	#2 
+      4	 Air/Raft Enclosed           	  0.1	
+      4	 ATV                         	  0.1	
+      2	 Air/Raft Niche              	  1.5	Half Vehicle Volume
+      4	 4x Smallcraft Grapples      	    4	#4 1 pair per 35t
+[/code]
+
+[code]
+[/code]
+

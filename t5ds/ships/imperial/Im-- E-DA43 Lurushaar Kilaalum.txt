@@ -1,0 +1,48 @@
+Escort E-DA43 Lurushaar Kilaalum MCr182.4
+
+
+Using a 400-ton, TL12 hull, the Lurushaar Kilaalum class Corvette is an intermediate Navy vessel deployed in an offensive role. The ship is tailored for long-term operations in a specific area. Based on operational status, this ship is sometimes called a Patrol Cruiser.
+
+It mounts jump drive-F, maneuver drive-H, and power plant-H, giving a performance of jump-3 and 4G acceleration. Fuel tankage supports a 3 parsec jump, at 40t per parsec, and 2 months of operations. Attached to the bridge is a Computer Model/3. There is one officer’s suite, 8 crew staterooms, a gunners’ barracks, and a squad barracks. The is one vehicle: a gig in a streamlined hull niche. There are four hard points with empty single turrets; the purchaser is expected to assign weapons according to the ship’s mission. Cargo capacity is 5 tons. The ship has an airframe hull, with scoops and purifiers for frontier refueling. The ship is undertonned, giving atmospheric performance of 5G.
+
+The Corvette requires a crew of 6: Captain, Pilot, Astrogator, two Engineers, and a Medic. Two additional crew may be added. Barracks accommodate up to four gunners and six ship’s troops
+
+Actual volume: 373 tons
+Crew comfort:     +0
+Passenger demand: -5
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    400	 Airframe Hull, lifters, 4 a/l free 	   30	A, lifters, 4 a/l free
+     12	 Landing wheels                     	    6	
+      0	 Folding fins                       	    2	
+     16	 AV=24. 2 Kinetic Plate             	    0	
+    120	 Jump Fuel (3  parsecs)             	    0	3 parsec jump, at 40t per parsec
+     32	 Plant Fuel (2 months)              	    0	2 months
+     15	 Maneuver Drive-4 (H)               	   30	4 G
+     35	 Jump Drive-3 (F)                   	   35	J 3
+     25	 PowerPlant-4 (H)                   	   25	P 4
+      4	 2x Fuel Scoops with Purifier       	  2.2	#2 100 t/hr
+      0	 AR Surf Basic C-R-T                	    6	
+      0	 AR Surf Basic C-E-N-T              	    5	
+      4	 4x AR T1 Empty                     	  0.8	#4 
+      1	 Magazine                           	    0	50 x Size-5
+      2	 B Meson Screen                     	    2	
+      3	 B Nuclear Damper                   	    2	
+      3	 Computer Model/3                   	 10.5	
+      2	 Life Support Long Term             	    2	84 people
+      2	 Clinic                             	    1	
+      4	 Security Barracks                  	  0.2	5 gunners
+      4	 Squad Barracks                     	  0.2	(5) R1 R1 R2 R2 R3
+     14	 Spacious Bridge                    	  0.8	2cc 4op 1ws
+      6	 Officer Suite                      	  0.4	fresher + safe
+     34	 2x Crew Cluster                    	  1.8	#2 4 + common + fresher
+      5	 Cargo Hold Basic                   	    0	
+     20	 Gig                                	   18	m2 B C
+     10	 Hull Niche                         	  1.5	Half Vehicle Volume
+[/code]
+
+[code]
+[/code]
+

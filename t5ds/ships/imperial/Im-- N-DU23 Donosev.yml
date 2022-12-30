@@ -1,0 +1,1078 @@
+--- 
+components: 
+   - 
+      e: 0
+      r: 0
+      category: 'Hull'
+      Sq: 800
+      howMany: 1
+      s: 0
+      CP: 0
+      code: 'U'
+      totalTons: 400
+      totalMCr: 14
+      notes: 'U, lifters, 4 a/l free'
+      label: 'Unstreamlined Hull, lifters, 4 a/l free'
+      eff: 1
+      name: 'Hull'
+      tons: 400
+      mult: 1
+      tl: 12
+      preMult: 1
+      config: 'Unstreamlined'
+      type: 'Hull'
+      mcr: 14
+      b: 0
+      q: 0
+      target: 12
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: ''
+      label: 'Cargo Hold Basic'
+      category: 'Cargo'
+      r: 0
+      Sq: 40
+      tons: 20
+      eff: 1
+      howMany: 1
+      s: 0
+      b: 0
+      type: 'Payload'
+      mcr: 0
+      tl: 12
+      target: 12
+      totalTons: 20
+      CP: 0
+      q: 0
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: '3 parsec jump, at 33t per parsec'
+      label: 'Jump Fuel (3  parsecs)'
+      category: 'Jump Fuel'
+      s: 0
+      Sq: 198
+      r: 0
+      eff: 1
+      howMany: 1
+      tl: 12
+      tons: 99
+      type: 'Drive'
+      CP: 0
+      q: 0
+      b: 0
+      totalTons: 99
+      mcr: 0
+      target: 12
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: '2.5 months'
+      label: 'Plant Fuel (2.5 months)'
+      category: 'Powerplant Fuel'
+      s: 0
+      Sq: 50
+      r: 0
+      eff: 1
+      howMany: 1
+      tl: 12
+      tons: 25
+      type: 'Drive'
+      CP: 0
+      q: 0
+      b: 0
+      totalTons: 25
+      mcr: 0
+      target: 12
+
+   - 
+      totalMCr: 0
+      e: 0
+      r: 0
+      note: 'n/a'
+      tonsPercent: -0.5
+      s: 0
+      name: 'No Landers'
+      tons: -2
+      label: 'No Landers'
+      q: 0
+      category: 'landers'
+      howMany: 1
+      tl: 12
+      mcrPerTon: 0
+      type: 'Hull'
+      CP: 1
+      eff: 1
+      code: 'n/a'
+      b: 0
+      totalTons: -2
+      mcr: 0
+      target: 12
+
+   - 
+      totalMCr: 1
+      e: 0
+      notes: ''
+      label: 'Fuel Purifier'
+      category: 'Fuel Purifier'
+      r: 0
+      Sq: 2
+      tons: 1
+      eff: 1
+      howMany: 1
+      s: 0
+      b: 0
+      type: 'Drive'
+      CP: 1
+      tl: 8
+      code: 'P'
+      mcr: 1
+      totalTons: 1
+      target: 8
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Computer Model/5 std'
+      s: 0
+      Sq: 10
+      mod: 5
+      howMany: 1
+      CP: 1
+      target: 20
+      mount: 'Model/5'
+      totalTons: 5
+      totalMCr: 27
+      notes: ''
+      label: 'Computer Model/5 std'
+      eff: 1
+      name: 'Computer'
+      config: 'Ops'
+      tl: 15
+      tons: 5
+      type: 'Ops'
+      mcr: 27
+      basetl: 13
+      range: 's'
+      b: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'AR T1 Empty'
+      Sq: 8
+      mod: -2
+      howMany: 4
+      s: 0
+      CP: 1
+      q: 0
+      mount: 'T1'
+      totalTons: 4
+      totalMCr: 0.8
+      notes: ''
+      label: 'AR T1 Empty'
+      eff: 1
+      name: 'Empty'
+      tons: 1
+      tl: 15
+      config: 'Weapon'
+      type: 'Weapon'
+      mcr: 0.2
+      basetl: 7
+      range: 'AR'
+      b: 0
+      target: 13
+
+   - 
+      e: 0
+      r: 0
+      note: ''
+      category: 'AV=30. 1 EMP Charged'
+      s: 0
+      mod: ''
+      howMany: 1
+      CP: 1
+      code: ''
+      mount: 'EMP'
+      totalTons: 0
+      totalMCr: 0
+      notes: ''
+      label: 'AV=30. 1 EMP Charged'
+      eff: 1
+      name: 'AV=30. 1 EMP Charged'
+      config: 'Armor'
+      tl: 15
+      tons: 0
+      type: 'Armor'
+      mcr: 0
+      basetl: 14
+      range: '1'
+      b: 0
+      target: 15
+      q: 0
+
+   - 
+      totalMCr: 2
+      e: 0
+      notes: '40 person-months'
+      label: 'Life Support Long Term'
+      eff: 1
+      s: 0
+      Sq: 4
+      r: 0
+      howMany: 1
+      tl: 15
+      tons: 2
+      type: 'Ops'
+      mcr: 2
+      q: 0
+      b: 0
+      totalTons: 2
+      CP: 0
+      target: 15
+
+   - 
+      totalMCr: 1
+      e: 0
+      notes: ''
+      label: 'Clinic'
+      eff: 1
+      s: 0
+      Sq: 4
+      r: 0
+      howMany: 1
+      tl: 15
+      tons: 2
+      type: 'Ops'
+      mcr: 1
+      q: 0
+      b: 0
+      totalTons: 2
+      CP: 1
+      target: 15
+
+   - 
+      totalMCr: 0.2
+      e: 0
+      notes: ''
+      label: 'Counsellor'
+      eff: 1
+      s: 0
+      Sq: 4
+      r: 0
+      howMany: 1
+      tl: 15
+      tons: 2
+      type: 'Ops'
+      mcr: 0.2
+      q: 0
+      b: 0
+      totalTons: 2
+      CP: 1
+      target: 15
+
+   - 
+      totalMCr: 1.4
+      e: 0
+      notes: ''
+      label: 'Mission Space'
+      eff: 1
+      s: 0
+      Sq: 28
+      r: 0
+      howMany: 14
+      tl: 15
+      tons: 1
+      type: 'Ops'
+      mcr: 0.1
+      q: 0
+      b: 0
+      totalTons: 14
+      CP: 1
+      target: 15
+
+   - 
+      autoAdjust: 1
+      Sq: 14
+      r: 0
+      category: 'Maneuver Drive'
+      e: 0
+      howMany: 1
+      s: 0
+      B: 0
+      CP: 1
+      code: 'D'
+      totalTons: 7
+      Q: 0
+      totalMCr: 14
+      E: 0
+      R: 0
+      label: 'Maneuver Drive-2 (D)'
+      eff: 1
+      S: 0
+      name: 'Maneuver Drive'
+      notes: '2 G'
+      rating: 2
+      b: 0
+      type: 'Drive'
+      mcr: 14
+      tl: 15
+      basetl: 10
+      tons: 7
+      target: 15
+      q: 0
+
+   - 
+      autoAdjust: 1
+      Sq: 23.1
+      r: 0
+      stage: 'Adv'
+      category: 'Jump Drive'
+      e: 0
+      q: 0
+      mod: 3
+      howMany: 1
+      s: 0
+      B: 0
+      CP: 1
+      code: 'F'
+      totalTons: 11.55
+      Q: 0
+      totalMCr: 35
+      E: 0
+      R: 0
+      label: 'Adv Jump Drive-3 (F)'
+      eff: 1.2
+      S: 0
+      name: 'Jump Drive'
+      tons: 11.55
+      original: 
+         autoAdjust: 1
+         Sq: 70
+         r: 0
+         category: 'Jump Drive'
+         s: 0
+         e: 0
+         mod: 0
+         howMany: 1
+         B: 0
+         CP: 1
+         code: 'F'
+         totalTons: 35
+         Q: 0
+         totalMCr: 35
+         E: 0
+         R: 0
+         label: 'Jump Drive-3 (F)'
+         eff: 1
+         S: 0
+         name: 'Jump Drive'
+         tons: 35
+         rating: 3
+         jumpFuelUsage: 0.1
+         notes: 'J 3'
+         mcr: 35
+         tl: 15
+         basetl: 12
+         b: 0
+         type: 'Drive'
+         target: 15
+         q: 0
+      rating: 3
+      jumpFuelUsage: 0.1
+      notes: 'J 3'
+      powerFuelUsage: ''
+      tl: 12
+      basetl: 12
+      b: 0
+      type: 'Drive'
+      mcr: 35
+      target: 15
+
+   - 
+      autoAdjust: 1
+      Sq: 12.54
+      r: 0
+      stage: 'Adv'
+      category: 'PowerPlant'
+      e: 0
+      q: 0
+      mod: 3
+      howMany: 1
+      s: 0
+      B: 0
+      CP: 1
+      code: 'F'
+      totalTons: 6.27
+      Q: 0
+      totalMCr: 19
+      E: 0
+      R: 0
+      label: 'Adv PowerPlant-3 (F)'
+      eff: 1.2
+      S: 0
+      name: 'PowerPlant'
+      tons: 6.27
+      original: 
+         autoAdjust: 1
+         Sq: 38
+         r: 0
+         category: 'PowerPlant'
+         s: 0
+         e: 0
+         target: 15
+         mod: 0
+         howMany: 1
+         B: 0
+         CP: 1
+         code: 'F'
+         totalTons: 19
+         Q: 0
+         totalMCr: 19
+         E: 0
+         R: 0
+         label: 'PowerPlant-3 (F)'
+         eff: 1
+         S: 0
+         name: 'PowerPlant'
+         notes: 'P 3'
+         rating: 3
+         b: 0
+         type: 'Drive'
+         mcr: 19
+         tl: 15
+         basetl: 10
+         tons: 19
+         powerFuelUsage: 0.01
+         q: 0
+      rating: 3
+      jumpFuelUsage: ''
+      notes: 'P 3'
+      powerFuelUsage: 0.01
+      tl: 12
+      basetl: 10
+      b: 0
+      type: 'Drive'
+      mcr: 19
+      target: 15
+
+   - 
+      e: 0
+      r: 0
+      category: 'AR Ant Communicator'
+      s: 0
+      Sq: 2
+      mod: 1
+      howMany: 1
+      CP: 1
+      target: 16
+      mount: 'Ant'
+      totalTons: 1
+      totalMCr: 1.5
+      notes: ''
+      label: 'AR Ant Communicator'
+      eff: 1
+      name: 'Communicator'
+      config: 'Sensor'
+      tl: 15
+      tons: 1
+      type: 'Sensor'
+      mcr: 1.5
+      basetl: 8
+      range: 'AR'
+      b: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'AR Ant Neutrino Detector'
+      s: 0
+      Sq: 2
+      mod: 1
+      howMany: 1
+      CP: 1
+      target: 16
+      mount: 'Ant'
+      totalTons: 1
+      totalMCr: 1.5
+      notes: ''
+      label: 'AR Ant Neutrino Detector'
+      eff: 1
+      name: 'Neutrino Detector'
+      config: 'Sensor'
+      tl: 15
+      tons: 1
+      type: 'Sensor'
+      mcr: 1.5
+      basetl: 10
+      range: 'AR'
+      b: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'AR Ant EMS'
+      s: 0
+      Sq: 2
+      mod: 1
+      howMany: 1
+      CP: 1
+      target: 16
+      mount: 'Ant'
+      totalTons: 1
+      totalMCr: 1.5
+      notes: ''
+      label: 'AR Ant EMS'
+      eff: 1
+      name: 'EMS'
+      config: 'Sensor'
+      tl: 15
+      tons: 1
+      type: 'Sensor'
+      mcr: 1.5
+      basetl: 12
+      range: 'AR'
+      b: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Vd Ant Sound Sensor'
+      s: 0
+      Sq: 2
+      mod: 1
+      howMany: 1
+      CP: 1
+      target: 16
+      mount: 'Ant'
+      totalTons: 1
+      totalMCr: 0.6
+      notes: ''
+      label: 'Vd Ant Sound Sensor'
+      eff: 1
+      name: 'Sound Sensor'
+      config: 'Sensor'
+      tl: 15
+      tons: 1
+      type: 'Sensor'
+      mcr: 0.6
+      basetl: 7
+      range: 'Vd'
+      b: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Vd Ant Mass Sensor'
+      s: 0
+      Sq: 2
+      mod: 1
+      howMany: 1
+      CP: 1
+      target: 16
+      mount: 'Ant'
+      totalTons: 1
+      totalMCr: 0.6
+      notes: ''
+      label: 'Vd Ant Mass Sensor'
+      eff: 1
+      name: 'Mass Sensor'
+      config: 'Sensor'
+      tl: 15
+      tons: 1
+      type: 'Sensor'
+      mcr: 0.6
+      basetl: 8
+      range: 'Vd'
+      b: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Vd Ant Deep Radar'
+      s: 0
+      Sq: 2
+      mod: 1
+      howMany: 1
+      CP: 1
+      target: 16
+      mount: 'Ant'
+      totalTons: 1
+      totalMCr: 0.6
+      notes: ''
+      label: 'Vd Ant Deep Radar'
+      eff: 1
+      name: 'Deep Radar'
+      config: 'Sensor'
+      tl: 15
+      tons: 1
+      type: 'Sensor'
+      mcr: 0.6
+      basetl: 9
+      range: 'Vd'
+      b: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Vd Ant Analyzer/Sniffer'
+      s: 0
+      Sq: 2
+      mod: 1
+      howMany: 1
+      CP: 1
+      target: 16
+      mount: 'Ant'
+      totalTons: 1
+      totalMCr: 0.6
+      notes: ''
+      label: 'Vd Ant Analyzer/Sniffer'
+      eff: 1
+      name: 'Analyzer/Sniffer'
+      config: 'Sensor'
+      tl: 15
+      tons: 1
+      type: 'Sensor'
+      mcr: 0.6
+      basetl: 9
+      range: 'Vd'
+      b: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Vd Ant Densitometer'
+      s: 0
+      Sq: 2
+      mod: 1
+      howMany: 1
+      CP: 1
+      target: 16
+      mount: 'Ant'
+      totalTons: 1
+      totalMCr: 0.6
+      notes: ''
+      label: 'Vd Ant Densitometer'
+      eff: 1
+      name: 'Densitometer'
+      config: 'Sensor'
+      tl: 15
+      tons: 1
+      type: 'Sensor'
+      mcr: 0.6
+      basetl: 10
+      range: 'Vd'
+      b: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Vd Ant Life Detector'
+      s: 0
+      Sq: 2
+      mod: 1
+      howMany: 1
+      CP: 1
+      target: 16
+      mount: 'Ant'
+      totalTons: 1
+      totalMCr: 0.6
+      notes: ''
+      label: 'Vd Ant Life Detector'
+      eff: 1
+      name: 'Life Detector'
+      config: 'Sensor'
+      tl: 15
+      tons: 1
+      type: 'Sensor'
+      mcr: 0.6
+      basetl: 10
+      range: 'Vd'
+      b: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Vd Ant Proximeter'
+      s: 0
+      Sq: 2
+      mod: 1
+      howMany: 1
+      CP: 1
+      target: 16
+      mount: 'Ant'
+      totalTons: 1
+      totalMCr: 0.6
+      notes: ''
+      label: 'Vd Ant Proximeter'
+      eff: 1
+      name: 'Proximeter'
+      config: 'Sensor'
+      tl: 15
+      tons: 1
+      type: 'Sensor'
+      mcr: 0.6
+      basetl: 10
+      range: 'Vd'
+      b: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Vd Ant Activity Sensor'
+      s: 0
+      Sq: 2
+      mod: 1
+      howMany: 1
+      CP: 1
+      target: 16
+      mount: 'Ant'
+      totalTons: 1
+      totalMCr: 0.6
+      notes: ''
+      label: 'Vd Ant Activity Sensor'
+      eff: 1
+      name: 'Activity Sensor'
+      config: 'Sensor'
+      tl: 15
+      tons: 1
+      type: 'Sensor'
+      mcr: 0.6
+      basetl: 11
+      range: 'Vd'
+      b: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Vd Ant Field Sensor'
+      s: 0
+      Sq: 2
+      mod: 1
+      howMany: 1
+      CP: 1
+      target: 16
+      mount: 'Ant'
+      totalTons: 1
+      totalMCr: 0.6
+      notes: ''
+      label: 'Vd Ant Field Sensor'
+      eff: 1
+      name: 'Field Sensor'
+      config: 'Sensor'
+      tl: 15
+      tons: 1
+      type: 'Sensor'
+      mcr: 0.6
+      basetl: 12
+      range: 'Vd'
+      b: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'AR Ant Grav Sensor'
+      s: 0
+      Sq: 2
+      mod: 1
+      howMany: 1
+      CP: 1
+      target: 16
+      mount: 'Ant'
+      totalTons: 1
+      totalMCr: 1.5
+      notes: ''
+      label: 'AR Ant Grav Sensor'
+      eff: 1
+      name: 'Grav Sensor'
+      config: 'Sensor'
+      tl: 15
+      tons: 1
+      type: 'Sensor'
+      mcr: 1.5
+      basetl: 13
+      range: 'AR'
+      b: 0
+      q: 0
+
+   - 
+      totalMCr: 1
+      e: 0
+      notes: '4 individuals'
+      label: 'Emergency Low Berth'
+      eff: 1
+      s: 0
+      Sq: 4
+      r: 0
+      howMany: 2
+      tl: 15
+      tons: 1
+      type: 'Ops'
+      mcr: 0.5
+      target: 15
+      b: 0
+      totalTons: 2
+      CP: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'AR Surf Visor'
+      s: 0
+      mod: 0
+      howMany: 1
+      CP: 1
+      q: 0
+      mount: 'Surf'
+      totalTons: 0
+      totalMCr: 2
+      notes: ''
+      label: 'AR Surf Visor'
+      eff: 1
+      name: 'Visor'
+      config: 'Sensor'
+      tl: 15
+      tons: 0
+      type: 'Sensor'
+      mcr: 2
+      basetl: 14
+      range: 'AR'
+      b: 0
+      target: 15
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: ''
+      label: 'Hangar Lock'
+      eff: 1
+      s: 0
+      Sq: 20
+      r: 0
+      howMany: 1
+      tl: 15
+      tons: 10
+      type: 'Vehicle'
+      CP: 1
+      q: 0
+      b: 0
+      totalTons: 10
+      mcr: 0
+      target: 15
+
+   - 
+      speed: 3
+      e: 0
+      r: 0
+      label: 'Air/Raft Enclosed'
+      load: 2
+      eff: 1
+      s: 0
+      totalMCr: 0.2
+      av: '9,0,4,0,4,0,24,0'
+      tons: 4
+      howMany: 2
+      Sq: 16
+      type: 'Vehicle'
+      mcr: 0.1
+      tl: 9
+      code: 'ELPV'
+      q: 0
+      b: 0
+      totalTons: 8
+      CP: 0
+      target: 9
+
+   - 
+      speed: '4G'
+      e: 0
+      notes: 'm3bis 3'
+      label: 'Modular (Fuel) Cutter'
+      load: 3
+      eff: 1
+      s: 0
+      totalMCr: 28
+      av: 11
+      tons: 50
+      howMany: 1
+      Sq: 100
+      type: 'Vehicle'
+      mcr: 28
+      tl: 11
+      code: 'MQC'
+      target: 11
+      b: 0
+      totalTons: 50
+      CP: 0
+      q: 0
+      r: 0
+
+   - 
+      speed: '4G'
+      e: 0
+      notes: 'm3bis 3'
+      label: 'Modular (Transport) Cutter'
+      load: 3
+      eff: 1
+      totalMCr: 28
+      av: 11
+      tons: 50
+      howMany: 1
+      s: 0
+      Sq: 100
+      type: 'Vehicle'
+      mcr: 28
+      tl: 11
+      code: 'MQC'
+      q: 0
+      b: 0
+      totalTons: 50
+      CP: 0
+      target: 11
+      r: 0
+
+   - 
+      q: 0
+      totalMCr: 1.1
+      e: 0
+      notes: '1 crew'
+      label: 'Crew Stateroom'
+      eff: 1
+      s: 0
+      Sq: 44
+      r: 0
+      sleeps: 1
+      howMany: 11
+      tl: 15
+      tons: 2
+      type: 'Crew'
+      CP: 0
+      totalSleeps: 11
+      b: 0
+      totalTons: 22
+      mcr: 0.1
+      target: 15
+
+   - 
+      totalMCr: 1.5
+      e: 0
+      notes: '4 crew'
+      label: 'Crew Shared Fresher'
+      eff: 1
+      s: 0
+      Sq: 3
+      r: 0
+      howMany: 3
+      tl: 15
+      tons: 0.5
+      type: 'Crew'
+      mcr: 0.5
+      target: 15
+      b: 0
+      totalTons: 1.5
+      CP: 0
+      q: 0
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: ''
+      label: 'Crew Commons'
+      eff: 1
+      s: 0
+      Sq: 40
+      r: 0
+      howMany: 5
+      tl: 15
+      tons: 4
+      type: 'Crew'
+      mcr: 0
+      target: 15
+      b: 0
+      totalTons: 20
+      CP: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Bridge'
+      Sq: 44
+      mod: 2
+      howMany: 1
+      s: 0
+      CP: 0
+      target: 17
+      totalTons: 22
+      ws: 2
+      notes: '1cc 8op 2ws'
+      label: 'Spacious Bridge'
+      cc: 1
+      totalMCr: 1.1
+      name: 'Bridge'
+      tons: 22
+      op: 8
+      eff: 1
+      tl: 15
+      b: 0
+      type: 'Ops'
+      mcr: 1.1
+      q: 0
+header: 
+   crew: 12
+   format: 'T5-ACS-1'
+   staff: 0
+   missionLabel: 'Surveyor'
+   totalCargoSpace: 20
+   spaciousness: 2
+   operatingConsoles: 8
+   controlConsoles: 1
+   workstations: 2
+   lifters: 'y'
+   passengers: 0
+   shipname: 'Donosev'
+   crewComfort: -1
+   demand: -5
+   mission: 'N'
+   comments: |
+      Using a 400-ton, TL15 hull, the Donosev Class Surveyor is a typical ship in the Scout Service. Its function is to continually re-survey the interior regions of the Imperium, updating maps and charts, and maintaining beacons and markers for astrogation hazards. These vessels also conduct planetary surveys from orbit, converying teams to planetary surfaces with its transport cutter.
+      
+      The ship mounts jump drive-F, maneuver drive-D, and power plant-F, giving a performance of jump-3 and 2G acceleration. Fuel tankage supports a 3 parsec jump, at 33t per parsec, and 2.5 months of operations. Attached to the bridge is a Computer Model/5. There are 10 staterooms and two emergency low berths. Installed weaponry include 4 empty single turrets. Cargo capacity is 20 tons. The ship has an unstreamlined hull. 
+      
+      Carried craft include two Modular Cutters and two enclosed Air/Rafts. The ship has 11 crew. 
+   undertons: 5
+   jumpFuelPercentage: 0.083
+   jf: 3
+   low: 0
+   config: 'U'
+   powerFuelPercentage: 0.025
+   pf: 2.5
+   tl: 15
+   qsp: 'N-DU23'
+   totalMCr: 189.6
+   tons: 400
+   mult: 1
+   shifts: 1
+   tonsFree: 5
+   preMult: 1
+   crewLocked: 'no'
+   troops: 0

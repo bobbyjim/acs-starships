@@ -1,0 +1,604 @@
+--- 
+components: 
+   - 
+      e: 0
+      r: 0
+      mcr: 28
+      mult: 1
+      CP: 0
+      s: 0
+      config: 'Lift body'
+      target: 10
+      category: 'Hull'
+      howMany: 1
+      code: 'L'
+      preMult: 1
+      tl: 10
+      totalTons: 200
+      label: 'Lift body Hull, lifters, 2 a/l free'
+      name: 'Hull'
+      totalMCr: 28
+      notes: 'L, lifters, 2 a/l free'
+      eff: 1
+      b: 0
+      type: 'Hull'
+      tons: 200
+      Sq: 400
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      label: 'Jump Fuel (0  parsec)'
+      target: 10
+      totalMCr: 0
+      s: 0
+      totalTons: 0
+      tl: 10
+      mcr: 0
+      notes: '0 parsec jump, at 20t per parsec'
+      CP: 0
+      category: 'Jump Fuel'
+      eff: 1
+      b: 0
+      type: 'Drive'
+      howMany: 1
+      tons: 0
+      Sq: 40
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      label: 'Plant Fuel (2 months)'
+      target: 10
+      totalMCr: 0
+      s: 0
+      totalTons: 4
+      tl: 10
+      mcr: 0
+      notes: '2 months'
+      CP: 0
+      category: 'Powerplant Fuel'
+      eff: 1
+      b: 0
+      type: 'Drive'
+      howMany: 1
+      tons: 4
+      Sq: 8
+      q: 0
+
+   - 
+      code: 'K'
+      e: 0
+      r: 0
+      label: 'Landing legs with pads'
+      target: 15
+      totalMCr: 2
+      s: 0
+      name: 'Landing legs with pads'
+      tons: 2
+      mcr: 2
+      note: 'K'
+      CP: 1
+      category: 'landers'
+      eff: 1
+      b: 0
+      tonsPercent: 1
+      howMany: 1
+      mcrPerTon: 1
+      tl: 15
+      type: 'Hull'
+      Sq: 4
+      q: 0
+      totalTons: 2
+
+   - 
+      e: 0
+      r: 0
+      mcr: 4
+      Sq: 4
+      q: 0
+      s: 0
+      tl: 15
+      rating: 1
+      target: 15
+      category: 'Maneuver Drive'
+      B: 0
+      howMany: 1
+      code: 'A'
+      Q: 0
+      basetl: 9
+      autoAdjust: 1
+      R: 0
+      label: 'Maneuver Drive-1 (A)'
+      S: 0
+      name: 'Maneuver Drive'
+      totalMCr: 4
+      notes: '1 G'
+      eff: 1
+      E: 0
+      type: 'Drive'
+      tons: 2
+      b: 0
+      totalTons: 2
+      CP: 1
+
+   - 
+      e: 0
+      r: 0
+      mcr: 10
+      Sq: 20
+      CP: 1
+      s: 0
+      tl: 15
+      rating: 1
+      q: 0
+      category: 'Jump Drive'
+      B: 0
+      howMany: 1
+      code: 'A'
+      Q: 0
+      basetl: 9
+      autoAdjust: 1
+      R: 0
+      label: 'Jump Drive-1 (A)'
+      S: 0
+      name: 'Jump Drive'
+      totalMCr: 10
+      notes: 'J 1'
+      eff: 1
+      E: 0
+      type: 'Drive'
+      jumpFuelUsage: 0.1
+      tons: 10
+      b: 0
+      totalTons: 10
+      target: 15
+
+   - 
+      powerFuelUsage: 0.01
+      e: 0
+      r: 0
+      mcr: 4
+      Sq: 8
+      CP: 1
+      s: 0
+      tons: 4
+      rating: 1
+      q: 0
+      category: 'PowerPlant'
+      B: 0
+      howMany: 1
+      code: 'A'
+      Q: 0
+      basetl: 8
+      autoAdjust: 1
+      R: 0
+      label: 'PowerPlant-1 (A)'
+      S: 0
+      name: 'PowerPlant'
+      totalMCr: 4
+      notes: 'P 1'
+      eff: 1
+      E: 0
+      type: 'Drive'
+      tl: 15
+      b: 0
+      totalTons: 4
+      target: 15
+
+   - 
+      e: 0
+      r: 0
+      mcr: 10
+      Sq: 40
+      q: 0
+      s: 0
+      tl: 15
+      rating: 1
+      target: 15
+      category: 'Collector'
+      B: 0
+      howMany: 1
+      code: 'A'
+      Q: 0
+      basetl: 14
+      autoAdjust: 1
+      R: 0
+      label: 'Collector-1 (A)'
+      S: 0
+      name: 'Collector'
+      totalMCr: 10
+      notes: '1 C'
+      eff: 1
+      E: 0
+      type: 'Drive'
+      tons: 20
+      b: 0
+      totalTons: 20
+      CP: 1
+      mod: 0
+
+   - 
+      e: 0
+      r: 0
+      range: '1'
+      q: 0
+      s: 0
+      basetl: 14
+      mcr: 0
+      target: 15
+      category: 'AV=30. 1 Rad Charged'
+      tons: 0
+      howMany: 1
+      config: 'Armor'
+      totalTons: 0
+      label: 'AV=30. 1 Rad Charged'
+      name: 'Charged'
+      totalMCr: 0
+      notes: ''
+      mount: 'Rad'
+      b: 0
+      type: 'Armor'
+      eff: 1
+      tl: 15
+      CP: 1
+      mod: ''
+
+   - 
+      e: 0
+      r: 0
+      range: 'LR'
+      q: 0
+      s: 0
+      basetl: 13
+      mcr: 10
+      target: 15
+      category: 'LR Surf Basic C-E-N-T'
+      tons: 0
+      howMany: 1
+      config: 'Sensor'
+      totalTons: 0
+      label: 'LR Surf Basic C-E-N-T'
+      name: 'Basic C-E-N-T'
+      totalMCr: 10
+      notes: ''
+      mount: 'Surf'
+      b: 0
+      type: 'Sensor'
+      eff: 1
+      tl: 15
+      CP: 1
+      mod: 0
+
+   - 
+      e: 0
+      r: 0
+      range: 'Vd'
+      q: 0
+      s: 0
+      basetl: 10
+      mcr: 1
+      target: 14
+      category: 'Vd T2 Beam Laser'
+      tons: 1
+      howMany: 1
+      config: 'Weapon'
+      totalTons: 1
+      label: 'Vd T2 Beam Laser'
+      name: 'Beam Laser'
+      totalMCr: 1
+      notes: ''
+      mount: 'T2'
+      b: 0
+      type: 'Weapon'
+      eff: 1
+      tl: 15
+      Sq: 2
+      CP: 1
+      mod: -1
+
+   - 
+      e: 0
+      r: 0
+      label: 'Life Support Luxury'
+      q: 0
+      s: 0
+      totalTons: 2
+      tons: 1
+      mcr: 1
+      notes: '4 high passengers'
+      CP: 0
+      eff: 1
+      b: 0
+      totalMCr: 2
+      howMany: 2
+      tl: 15
+      type: 'Ops'
+      Sq: 4
+      target: 15
+
+   - 
+      e: 0
+      r: 0
+      label: 'Life Support Standard'
+      target: 15
+      totalMCr: 1
+      s: 0
+      totalTons: 1
+      tl: 15
+      mcr: 1
+      notes: '21 people'
+      q: 0
+      eff: 1
+      b: 0
+      type: 'Ops'
+      howMany: 1
+      tons: 1
+      Sq: 2
+      CP: 0
+
+   - 
+      e: 0
+      r: 0
+      mcr: 1
+      target: 15
+      totalMCr: 1
+      s: 0
+      totalTons: 2
+      tl: 15
+      label: 'Clinic'
+      notes: ''
+      CP: 1
+      eff: 1
+      b: 0
+      type: 'Ops'
+      howMany: 1
+      tons: 2
+      Sq: 4
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      label: 'Luxury Cluster'
+      totalSleeps: 8
+      target: 15
+      s: 0
+      totalTons: 48
+      tl: 15
+      totalMCr: 3.2
+      notes: '4 high + freshers'
+      CP: 0
+      eff: 1
+      sleeps: 4
+      type: 'Passenger'
+      mcr: 1.6
+      Sq: 96
+      tons: 24
+      b: 0
+      howMany: 2
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      label: 'Cargo Hold Basic'
+      q: 0
+      s: 0
+      totalTons: 5
+      tl: 10
+      mcr: 0
+      CP: 0
+      category: 'Cargo'
+      eff: 1
+      b: 0
+      totalMCr: 0
+      howMany: 1
+      notes: ''
+      tons: 5
+      type: 'Payload'
+      Sq: 10
+      target: 10
+
+   - 
+      speed: '8G'
+      e: 0
+      r: 0
+      label: 'Gig'
+      load: 7.5
+      target: 15
+      s: 0
+      totalTons: 20
+      tl: 15
+      totalMCr: 18
+      notes: 'm2 B C'
+      CP: 0
+      eff: 1
+      b: 0
+      type: 'Vehicle'
+      howMany: 1
+      av: 15
+      code: 'LMAQB'
+      tons: 20
+      Sq: 40
+      q: 0
+      mcr: 18
+
+   - 
+      e: 0
+      r: 0
+      label: 'Hangar Lock'
+      q: 0
+      s: 0
+      totalTons: 10
+      tl: 15
+      mcr: 0
+      notes: ''
+      target: 15
+      eff: 1
+      b: 0
+      totalMCr: 0
+      howMany: 1
+      tons: 10
+      type: 'Vehicle'
+      Sq: 20
+      CP: 1
+
+   - 
+      speed: 6
+      e: 0
+      r: 0
+      mcr: 0.2
+      load: 1
+      CP: 0
+      s: 0
+      totalTons: 6
+      tons: 6
+      totalMCr: 0.2
+      av: '15,10,10,10,12,22,20'
+      q: 0
+      eff: 1
+      b: 0
+      type: 'Vehicle'
+      label: 'Grav Speeder'
+      Sq: 12
+      code: 'FPGPH'
+      tl: 13
+      howMany: 1
+      target: 13
+
+   - 
+      e: 0
+      r: 0
+      label: 'Crew Cluster'
+      totalSleeps: 8
+      target: 15
+      s: 0
+      totalTons: 34
+      tl: 15
+      totalMCr: 1.8
+      notes: '4 + common + fresher'
+      CP: 0
+      eff: 1
+      sleeps: 4
+      type: 'Crew'
+      mcr: 0.9
+      Sq: 68
+      tons: 17
+      b: 0
+      howMany: 2
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      label: 'Passenger Commons'
+      target: 15
+      s: 0
+      totalTons: 8
+      tons: 4
+      mcr: 0
+      notes: ''
+      q: 0
+      eff: 1
+      b: 0
+      totalMCr: 0
+      howMany: 2
+      tl: 15
+      type: 'Passenger'
+      Sq: 16
+      CP: 0
+
+   - 
+      e: 0
+      r: 0
+      range: 's'
+      q: 0
+      s: 0
+      basetl: 12
+      mcr: 18
+      target: 19
+      category: 'Computer Model/4  '
+      tons: 4
+      howMany: 1
+      config: 'Ops'
+      totalTons: 4
+      label: 'Computer Model/4  '
+      name: 'Computer'
+      totalMCr: 18
+      notes: ''
+      mount: 'Model/4'
+      b: 0
+      type: 'Ops'
+      eff: 1
+      tl: 15
+      Sq: 8
+      CP: 1
+      mod: 4
+
+   - 
+      e: 0
+      r: 0
+      mcr: 0.6
+      CP: 0
+      s: 0
+      cc: 1
+      tons: 12
+      target: 17
+      category: 'Bridge'
+      howMany: 1
+      totalTons: 12
+      label: 'Spacious Bridge'
+      name: 'Bridge'
+      ws: 1
+      totalMCr: 0.6
+      notes: '1cc 4op 1ws'
+      eff: 1
+      b: 0
+      type: 'Ops'
+      tl: 15
+      op: 4
+      Sq: 24
+      q: 0
+      mod: 2
+header: 
+   tl: 15
+   format: 'T5-ACS-1'
+   crew: 7
+   troops: 0
+   missionLabel: 'Yacht'
+   crewLocked: 'no'
+   staff: 0
+   spaciousness: 2
+   totalCargoSpace: 5
+   tons: 200
+   controlConsoles: 1
+   passengers: 8
+   preMult: 1
+   operatingConsoles: 4
+   demand: 2
+   comments: |
+      Using a 200-ton, TL15 hull, the Canopic Sunrise mounts jump drive-A, maneuver drive-A, and power plant-A, giving a performance of jump-1 and 1G acceleration. Fuel tankage supports 2 months of operations. A Collector supports the jump drive. Attached to the bridge is a Computer Model/4. There are 8 crew staterooms and 8 high-passage  staterooms. There is one T2 Beam Laser. Cargo capacity is 5 tons. The ship has an aerodynamic lift body hull.
+      
+      Carried craft include 1 Gig, and 1 Grav Speeder. The ship requires four crew: Pilot, Astrogator, Engineer, and Medic. Up to four additional crew can be hired as stewards, though all crew members should have training as footman, valet, or butler. A gunner may also be hired. The pilot operates the gig.
+      
+      The ship can carry 8 high passengers. 
+   workstations: 1
+   shipname: 'Canopic Sunrise'
+   undertons: 5
+   crewComfort: 0
+   mission: 'Y'
+   totalMCr: 114.8
+   jumpFuelPercentage: 0.1
+   jf: 0
+   low: 0
+   powerFuelPercentage: 0.01
+   pf: 2
+   lifters: 'y'
+   qsp: 'Y-BL11'
+   config: 'L'
+   shifts: 1
+   mult: 1
+   tonsFree: 5

@@ -1,0 +1,41 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:31 2021
+Mission: Scout/Courier
+QSP: S-AS22
+TL: 15 
+Name: Gashiiri
+Tons: 100
+Actual Tons: 60
+
+MCr: 36.1
+Builder: Bilstein Yards
+Disposition: Building
+Allegiance: Im
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 7
+FuelPercentage: 12
+Components:
+ - HH0   S  1 00000 100    9  Streamlined Hull, lifters
+ - HL1   K  1 00000   1    1  Landing legs with pads
+ - AA1  30  1 00000   0    0  AV=30. 1 Blast Charged
+ - DF0   -  1 00000  10    0  Jump Fuel (1  parsec)
+ - DF0   -  1 00000   2    0  Plant Fuel (one month)
+ - DF1   -  1 00000   1  0.1  Fuel Scoops 100t/hr
+ - DF1   -  1 00000   1    1  Fuel Purifiers 4t/hr
+ - DM1   A  1 00000   2    4  Maneuver Drive-2 (A)
+ - DJ1   A  1 00000  10   10  Jump Drive-2 (A)
+ - DP1   A  1 00000   4    4  PowerPlant-2 (A)
+ - OC1   1  1 00000   1  1.5  Computer Model/1 std
+ - OL1   -  1 00000   1    1  Life support (10 people/month)
+ - OB0  -2  1 00000   2    0  Cramped Controls
+ - WW1  -2  1 00000   1  0.7  Vd T1 Mining Laser
+ - CO0   -  3 00000   2  0.1  Crew Single Stateroom
+ - CO0   -  2 00000   4    0  Crew Lounge
+ - CO0   -  2 00000 0.5  0.5  Crew Shared Fresher
+ - PC0   -  1 00000   7    0  Cargo Hold Basic
+ - VO0   -  1 00000   2    2  Pod Grapples (70t max)
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

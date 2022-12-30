@@ -1,0 +1,54 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:31 2021
+Mission: Prospector
+QSP: J-BS22
+TL: 12 
+Name: Kteiroa
+Tons: 200
+Actual Tons: 199
+
+MCr: 75.5
+Owner: Aslan
+Allegiance: As
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 78
+FuelPercentage: 11
+Components:
+ - HH0   S  1 00000 200   16  Streamlined Hull, lifters
+ - HL1   K  1 00000   2    2  Landing legs with pads
+ - HW1   W  1 00000   4    4  Wings and fins
+ - HF1   D  1 00000   2    2  Flotation hull
+ - AA1  12  1 00000   0    0  AV=12. 1 Kinetic Plate
+ - DF0   -  1 00000  36    0  Jump Fuel (2  parsecs)
+ - DF0   -  1 00000   8    0  Plant Fuel (2 months)
+ - DF1   S  1 00000   1  0.1  Fuel Scoops
+ - DF1   I  1 00000   1  0.1  Fuel Intakes
+ - DF1   P  2 00000   1  0.1  Fuel Purifiers
+ - DP1   B  1 00000   7    7  PowerPlant-2 (B)
+ - DJ1   1  1 4D01A  15   15  Imp Jump Drive-2 (B)
+ - DM1   2  1 81213 1.5    3  Mod Maneuver Drive-2 (B)
+ - OC1   3  1 00000   3  10.5  Computer Model/3 std
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OO1   -  1 00000   2    1  Clinic
+ - OB0   2  1 00000  10    0  Spacious Controls
+ - SS1   -  1 00000   0  2.5  LR Surf Communicator
+ - SS1   -  1 00000   0  1.5  AR Surf Neutrino Detector
+ - SS1   -  1 00000   0  1.5  AR Surf EMS
+ - SS1   -  1 00000   0  1.5  AR Surf Scope
+ - WS1   -  1 00000   0  0.6  Vd Surf Mass Sensor
+ - WS1   -  1 00000   0  0.6  Vd Surf Densitometer
+ - WS1   -  1 00000   0  0.6  Vd Surf Life Detector
+ - WS1   -  1 00000   0  0.6  Vd Surf Proximeter
+ - WS1   -  1 00000   0  0.6  Vd Surf Field Sensor
+ - WW1  -2  1 00000   1  0.7  Vd T1 Mining Laser
+ - CO0   -  1 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  4 00000   2  0.1  Crew Stateroom
+ - CO0   -  3 00000   4    0  Crew Lounge
+ - CO0   -  1 00000   1    0  Hero's Shrine
+ - PC0   -  1 00000  78    0  Cargo Hold Basic
+ - PO0   -  4 00000 0.5  0.1  Low Berth
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

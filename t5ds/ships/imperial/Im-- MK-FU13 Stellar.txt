@@ -1,0 +1,45 @@
+Subsidized Liner MK-FU13 Stellar MCr186.8
+
+
+Using a 600-ton TL13 unstreamlined hull, the subsidized liner is a passenger and freight carrier committed to long-haul routes. It has jump drive-J, maneuver drive-C, and power plant-J, supporting 1 month of operations and giving performance of jump-3 and 1-G acceleration. Fuel tankage supports the power plant and allows one jump-3. Adjacent to the bridge is a Model/3 computer.  There are thirty staterooms and twenty low berths.  The ship has three hardpoints; no weapons are installed. There is one ship's vehicle: a 20-ton launch, carried in an internal hangar. Cargo capacity is 129 tons. The hull is unstreamlined and overtonnage; adding turrets will increase the overtonnage.
+
+The subsidized liner requires a crew of nine: pilot, astrogator, three engineers, three stewards, and a medic. Up to three gunners may be added in bunks. The ship can carry 21 high or middle passengers and twenty low passengers. The pilot also operates the launch.
+
+Overtonnage: 9 tons
+Crew comfort:     +0
+Passenger demand: +1
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    600	 Unstreamlined Hull, lifters, 6 a/l 	   20	U, lifters, 6 a/l free
+      0	 AV=13. 1 Blast Plate               	    0	
+    162	 Jump Fuel (3  parsecs)             	    0	3 parsec jump, at 54t per parsec
+     15	 Plant Fuel (one month)             	    0	one month
+      5	 Maneuver Drive-1 (C)               	   10	1 G
+     50	 Imp Jump Drive J (R3)              	   50	R3
+   9.24	 Adv PowerPlant J (R3)              	   28	R3
+      0	 DS Surf Communicator               	    6	
+      0	 DS Surf Neutrino Detector          	    6	
+      0	 DS Surf EMS                        	    6	
+      0	 DS Surf Scope                      	    6	
+      0	 G Surf Proximeter                  	  8.1	
+      3	 Computer Model/3                   	 10.5	
+      1	 Life Support Standard              	    1	21 people
+      6	 6x Life Support Luxury             	    6	#6 4 high passengers
+      2	 Clinic                             	    1	
+     20	 Spacious Bridge                    	    1	2cc 4op 4ws
+      1	 Crew Common Fresher                	    1	10 crew
+     18	 9x Crew Stateroom                  	  0.9	#9 1 crew
+     20	 5x Crew Commons                    	    0	#5 
+    129	 Cargo Hold Basic                   	    0	
+      2	 Cargo Lock                         	  0.4	
+     10	 20x Low Berth                      	    2	#20 1 passenger
+    126	 21x Luxury Stateroom               	  8.4	#21 1 passenger + fresher
+     20	 Launch                             	   13	m1bis C L0
+     10	 Hull Niche                         	  1.5	Half Vehicle Volume
+[/code]
+
+[code]
+[/code]
+

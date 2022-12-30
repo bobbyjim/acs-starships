@@ -1,0 +1,46 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:34 2021
+Mission: Trader
+QSP: A-BU10
+TL: 18 
+Name: Beowulf Mark IV
+Tons: 200
+Actual Tons: 196
+
+MCr: 37.2
+Owner: Republic of Regina
+Allegiance: Rr
+
+Crew comfort: 0
+Passenger demand: 0
+Cargo: 75
+FuelPercentage: 1
+Components:
+ - HH0   U  1 00000 200    8  Unstreamlined Hull
+ - AA1  36  1 00000   0    0  AV=36. 1 Kinetic Charged
+ - DF0   -  1 00000   0    0  Jump Fuel (0  parsec)
+ - DF0   -  1 00000   2    0  Plant Fuel (one month)
+ - DP1   A  1 00000   4    4  PowerPlant-1 (A)
+ - DM1   A  1 00000   2    4  Maneuver Drive-1 (A)
+ - DF1   S  1 00000   1  0.1  Fuel Scoops
+ - DF1   I  1 00000   1  0.1  Fuel Intakes
+ - DH1   A  1 00000  10   10  Hop Drive-1 (A)
+ - OC1   1  1 00000   1  1.5  Computer Model/1 std
+ - OO0   -  1 00000   1    1  Life Support Standard
+ - OO0   -  1 00000   1    1  Life Support Luxury
+ - OO0   -  1 00000   1    1  Life Support Adaptable
+ - OB0   2  1 00000   8  0.5  Spacious Bridge
+ - CO0   -  1 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  4 00000   2  0.1  Crew Stateroom
+ - CO0   -  1 00000  10    0  Crew Lounge
+ - PF0   -  1 00000   2    0  Hop Fuel (1 Hop-1)
+ - PO0   -  4 00000 0.5  0.5  Shared Fresher
+ - PO1   -  1 00000 0.5  0.1  Air Lock
+ - PO1   -  1 00000   2    0  Cargo Lock
+ - PO0   - 14 00000   2  0.1  Standard Stateroom
+ - PO0   -  7 00000   4    0  Passenger Lounge
+ - PO0   - 16 00000 0.5  0.1  Low Berth
+ - PC0   -  1 00000  75    0  Cargo Hold Basic
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

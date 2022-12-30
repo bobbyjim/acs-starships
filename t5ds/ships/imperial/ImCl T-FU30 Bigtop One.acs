@@ -1,0 +1,54 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:29 2021
+Mission: 
+QSP: T-FU30
+TL: 14 
+Name: Bigtop One
+Tons: 600
+Actual Tons: 631.5
+Overtonnage: 31.5
+
+MCr: 216.5
+Builder: Clan Severn
+Owner: A. Houke
+Disposition: In Service
+Allegiance: ImCl
+
+Crew comfort: -2
+Passenger demand: -5
+Cargo: 10
+FuelPercentage: 2
+Components:
+ - HH0   U  1 00000 600   20  Unstreamlined Hull
+ - AA1  28  1 00000   0    0  AV=28. 1 Kinetic Charged
+ - DF0   -  1 00000   0    0  Jump Fuel (0  parsec)
+ - DF0   -  1 00000 6.9    0  Plant Fuel (0.5 months)
+ - DP1   4  1 101502   7   56  Ult PowerPlant-3 (J)
+ - DM1   4  1 642B2 4.25   68  Ult Maneuver Drive-3 (J)
+ - OC1   5  1 00000   5   27  Computer Model/5 std
+ - OO0   -  1 00000   5  0.4  Squad Barracks
+ - OO0   -  3 00000   2    2  Life Support Long Term
+ - OB0  -2  1 00000   3    0  Cramped Controls
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   -  1 00000   0  1.5  AR Surf Jammer
+ - SS1   -  1 00000   0  1.5  AR Surf Neutrino Detector
+ - SS1   -  1 00000   0  1.5  AR Surf Visor
+ - SS1   -  1 00000   0  1.5  AR Surf Stealth Mask
+ - SS1   -  1 00000   0  1.5  AR Surf EMS
+ - WS1   -  1 00000   0  0.6  Vd Surf Proximeter
+ - WW1   -  2 00000 0.5    1  D T3 Beam Laser
+ - WW1   -  2 00000 0.5  0.6  D T3 Sandcaster
+ - CO0   -  2 00000   3  0.6  Officer Stateroom, fresher
+ - CO0   -  4 00000 0.8  0.1  Spacer Niche (bunkable)
+ - CO0   -  4 00000 1.8  0.6  Small SR, fresher (bunkable) 
+ - CO0   -  2 00000   3    0  Crew Lounge
+ - PC0   -  2 00000  10    0  Cargo Hold Basic
+ - PO0   -  1 00000   7    1  Large Animal Berth
+ - PO0   -  2 00000   7  0.7  Capture Tank
+ - PO1   -  4 00000   2    0  Cargo Lock
+ - PO0   -  6 00000 0.5  0.2  Animal Low Berth
+ - PO0   -  1 00000 500    0  Center Stage
+ - VO0   - 18 00000   1    1  Grapple
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

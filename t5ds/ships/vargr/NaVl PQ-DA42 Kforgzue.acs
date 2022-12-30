@@ -1,0 +1,57 @@
+--- 
+ACS1.0: Thu Dec  2 19:42:34 2021
+Mission: Privateer
+QSP: PQ-DA42
+TL: 16 
+Name: Kforgzue
+Tons: 400
+Actual Tons: 398.5
+
+MCr: 157.4
+Owner: Valtra
+Allegiance: NaVl
+
+Crew comfort: 0
+Passenger demand: -5
+Cargo: 128
+FuelPercentage: 11
+Components:
+ - HH0   A  1 00000 400   34  Airframe Hull, lifters
+ - HL1   K  1 00000   4    4  Landing legs with pads
+ - AA1  32  1 00000  16    0  AV=32. 2 Kinetic Plate
+ - AC1   -  1 00000   0    0  AV=0. c Slick
+ - DF0   -  1 00000  66    0  Jump Fuel (2  parsecs)
+ - DF0   -  1 00000 13.2    0  Plant Fuel (one month)
+ - DF2   T  1 00000   2  0.2  Fuel Scoops with Purifiers
+ - DF2   J  1 00000   2  0.2  Fuel Intakes with Purifiers
+ - DP1   3  1 615C2 8.25   25  Adv PowerPlant H (R4)
+ - DJ1   3  1 101BA0 8.25   25  Adv Jump Drive D (R2)
+ - DM1   3  1 822A3 4.95   30  Adv Maneuver Drive H (R4)
+ - OC1   2  1 00000   2    5  Computer Model/2 std
+ - OO0   -  2 00000   4  0.2  Squad Barracks
+ - OO1   -  1 00000   4    3  Surgery
+ - OO0   -  1 00000   2    2  Life Support Long Term
+ - OB0   -  1 00000  10  1.5  Standard Bridge
+ - SS1   -  1 00000   0  1.5  AR Surf Communicator
+ - SS1   -  1 00000   0  1.5  AR Surf Jammer
+ - SS1   -  1 00000   0  1.5  AR Surf Visor
+ - SS1   -  1 00000   0  1.5  AR Surf Neutrino Detector
+ - SS1   3  6 00000   2    2  AR Ext EMS
+ - WW1   -  2 00000   1  1.5  Vd T3 Beam Laser
+ - WW1   -  2 00000   1  1.2  AR T3 Missile
+ - CO0   -  8 00000   2  0.1  Crew Stateroom
+ - CO0   -  2 00000 0.5  0.5  Crew Shared Fresher
+ - CO0   -  1 00000   4  0.1  XO Stateroom
+ - CO1   -  1 00000   8  0.4  Owner Suite
+ - CO0   -  1 00000  16    0  Crew Lounge
+ - PO0   - 12 00000 0.5  0.1  Low Berth
+ - PO1   -  1 00000   2    0  Cargo Lock
+ - PO1   -  2 00000 0.5  0.1  Air Lock
+ - PC0   -  1 00000  72    0  Cargo Hold Basic
+ - PF0   -  1 00000  16    0  Cargo Hold (Fuel Tankage)
+ - PO0   -  1 00000  40    0  Cargo Hold (Engine Room)
+ - VO1   -  1 00000  10    0  Large Vehicle Lock
+ - VO1   -  1 00000  40    0  Hangar
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

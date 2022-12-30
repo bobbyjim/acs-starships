@@ -1,0 +1,51 @@
+Yacht Y-BU11 Maranatha MCr62.4
+
+Builder: GsBAG
+Owner: Judges Guild
+Disposition: In Service
+
+Using a 200-ton, TL12 hull, the MC&S Maranatha-class Yacht mounts advanced A-series drives, giving a performance of jump-1 and 1G acceleration. Fuel tankage supports a 2 parsec jump, at 16t per parsec, and one month of operations. Attached to the bridge is a Computer Model/1. There are four crew rooms, one owner-aboard suite, and ten passenger staterooms. There is one empty single turret installed. Cargo capacity is 13 tons. The hull is unstreamlined.
+
+Carried craft include 1 Custom Fast Boat, 1 enclosed Air/Raft, and 1 ATV.  The boat can carry the ATV. The ship has 4 crew (pilot/astrogator, engineer, medic, and steward), and can carry 11 high passengers. 
+
+Overtonnage: 7 tons
+Crew comfort:     +0
+Passenger demand: +1
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    200	 Unstreamlined Hull, lifters, 2 a/l 	    8	U, lifters, 2 a/l free
+     -1	 No Landers                         	    0	
+      0	 AV=12. 1 Kinetic Plate             	    0	
+     33	 Jump Fuel (2  parsecs)             	    0	2 parsec jump, at 16t per parsec
+      2	 Plant Fuel (one month)             	    0	one month
+    3.3	 Adv Jump Drive-1 (A)               	   10	J 1
+      2	 Maneuver Drive-1 (A)               	    4	1 G
+      4	 PowerPlant-1 (A)                   	    4	P 1
+      0	 AR Surf Communicator               	  1.5	
+      0	 AR Surf Scope                      	  1.5	
+      1	 AR Ant EMS                         	  1.5	
+      1	 AR T1 Empty                        	  0.2	
+      1	 Computer Model/1 std               	  1.5	
+      2	 Life Support Long Term             	    2	40 person-months
+      2	 Clinic                             	    1	
+      1	 Life Support Luxury                	    1	10 high passengers
+      1	 Life Support Adaptable             	    1	10 sophonts
+      6	 Standard Bridge                    	  0.6	1cc 3op 2ws
+      8	 4x Crew Stateroom                  	  0.4	#4 1 crew
+      1	 Crew Common Fresher                	    1	10 crew
+      8	 Crew Lounge                        	    0	
+     13	 Cargo Hold Basic                   	    0	
+     25	 10x Stateroom with Fresher         	    6	#10 1 passenger
+     40	 10x Passenger Lounge               	    0	#10 
+      4	 Air/Raft Enclosed                  	  0.1	
+     10	 Hangar Lock                        	    0	
+      4	 ATV                                	  0.1	
+      1	 Grapple                            	    1	1 pair per 35t
+     35	 Custom Fast Boat                   	   16	m1bis 3
+[/code]
+
+[code]
+[/code]
+

@@ -1,0 +1,54 @@
+Defender D-AL80 Hoshisame MCr124.9
+
+Owner: Republic of Regina
+
+Using a 100-ton, TL17 hull, the Hoshisame-class Defender mounts hop drive-A, advanced maneuver drive-D, and mod power plant-D, giving a performance of hop-1 and 8G acceleration. Fuel tankage supports one hop-1 and one month of operations. Attached to the standard bridge is a Computer Model/5. There is one captain's niche, three bunks, and a medical clinic. The ship has a dual barbette containing a hybrid mix of particle accelerator and missile launcher. A black globe is bolted into an interior compartment. There is no cargo hold. The ship has a lift body hull, with scoops, intakes, and bins for frontier refueling. 
+
+The ship requires 4 crew, not including 3 crew positions operated by the ship's computer.
+
+BACKGROUND:
+
+The original naval requirements for the Hoshisame called for a small fast heavily armed system attack boat. However just as the first two test craft were nearing completion, the navy decided that the Hoshisames should also be hop capable to allow for rapid redeployment across the Republic if needed. Thus was born the Hoshisame class gun sloop, a small heavily armed starship with minimal crew accommodations -- there are only hotbunks for the crew. In fact the crew of the Hoshisame are given quarters off the ship, at the base to which the ship is assigned. Over time it was found that most of the Hoshisames only used their hop capability to get to their initial duty stations. With the hop drives being hardly ever used, the navy decided that what it really wanted was a small fast heavily armed system attack boat after all, resulting in production of the Hoshisame B. The two major differences with the newer Hoshisame Bs are the lack of a hop drive and a larger missile magazine.
+
+Actual volume: 71 tons
+Crew comfort:     -4
+Passenger demand: -5
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    100	 Lift body Hull, lifters, 1 a/l free	   16	L, lifters, 1 a/l free
+      1	 Landing legs with pads             	    1	
+      1	 Flotation hull                     	    1	
+      4	 AV=68. 2 Kinetic Charged           	    0	
+     10	 Jump Fuel (1  parsec)              	    0	1 parsec jump, at 10t per parsec
+    7.2	 Plant Fuel (one month)             	    0	one month
+    6.5	 Mod PowerPlant D (R8)              	  6.5	R8
+   2.31	 Adv Maneuver Drive D (R8)          	   14	R8
+     10	 Hop Drive-1 (A)                    	   10	H 1
+      2	 Fuel Scoops with Purifier          	  1.1	100 t/hr
+      2	 Fuel Intakes with Purifier         	  1.1	40 t/hr
+      2	 Fuel Bins with Purifier            	  1.1	20 t/hr
+      0	 AR Surf Basic                      	    6	
+      0	 LR Surf Communicator               	    4	
+      0	 LR Surf Neutrino Detector          	    4	
+      0	 LR Surf EMS                        	    4	
+      0	 LR Surf Visor                      	    4	
+      0	 AR Surf CommPlus                   	    2	
+      0	 LR Surf Jammer                     	    4	
+      0	 LR Surf Stealth Mask               	    4	
+      5	 AR B2 PA + Missile                 	  6.5	
+      2	 B Black Globe                      	    5	
+      5	 Computer Model/5                   	   27	
+      0	 Life Support Short Term            	    0	5 people
+      2	 Clinic                             	    1	
+      5	 Standard Bridge                    	  0.8	3cc 2op 0ws
+    0.5	 Crew Shared Fresher                	  0.5	4 crew
+      1	 Spacer Niche                       	  0.1	1 crew
+    1.5	 3x Spacer Bunks                    	  0.3	#3 1 crew
+      1	 Magazine 50 x Size-5               	    0	
+[/code]
+
+[code]
+[/code]
+

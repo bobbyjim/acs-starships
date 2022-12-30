@@ -1,0 +1,715 @@
+--- 
+components: 
+   - 
+      e: 0
+      r: 0
+      target: 12
+      s: 0
+      totalTons: 2400
+      CP: 0
+      totalMCr: 74
+      notes: 'U, lifters, 24 a/l free'
+      eff: 1
+      config: 'Unstreamlined'
+      code: 'U'
+      mult: 1
+      tl: 12
+      preMult: 1
+      tons: 2400
+      mcr: 74
+      label: 'Unstreamlined Hull, lifters, 24 a/l free'
+      name: 'Hull'
+      Sq: 4800
+      b: 0
+      type: 'Hull'
+      category: 'Hull'
+      howMany: 1
+      q: 0
+
+   - 
+      mcr: 0
+      r: 0
+      label: 'Cargo Hold Basic'
+      tl: 12
+      target: 12
+      s: 0
+      totalTons: 20
+      e: 0
+      Sq: 40
+      totalMCr: 0
+      notes: ''
+      eff: 1
+      type: 'Payload'
+      tons: 20
+      category: 'Cargo'
+      b: 0
+      howMany: 1
+      CP: 0
+      q: 0
+
+   - 
+      mcr: 0
+      CP: 0
+      r: 0
+      label: 'Jump Fuel (0  parsec)'
+      q: 0
+      s: 0
+      totalTons: 0
+      e: 0
+      totalMCr: 0
+      notes: '0 parsec jump, at 0t per parsec'
+      eff: 1
+      type: 'Drive'
+      tons: 0
+      b: 0
+      category: 'Jump Fuel'
+      howMany: 1
+      tl: 12
+      target: 12
+
+   - 
+      CP: 0
+      mcr: 0
+      r: 0
+      label: 'Plant Fuel (one month)'
+      target: 12
+      s: 0
+      totalTons: 216
+      e: 0
+      Sq: 432
+      totalMCr: 0
+      notes: 'one month'
+      category: 'Powerplant Fuel'
+      type: 'Drive'
+      tons: 216
+      b: 0
+      eff: 1
+      howMany: 1
+      tl: 12
+      q: 0
+
+   - 
+      tons: 24
+      mcr: 24
+      r: 0
+      label: 'Landing legs with pads'
+      eff: 1
+      q: 0
+      s: 0
+      totalTons: 24
+      e: 0
+      Sq: 48
+      totalMCr: 24
+      tonsPercent: 1
+      note: 'K'
+      name: 'Landing legs with pads'
+      category: 'landers'
+      type: 'Hull'
+      mcrPerTon: 1
+      code: 'K'
+      tl: 15
+      b: 0
+      howMany: 1
+      CP: 1
+      target: 15
+
+   - 
+      e: 0
+      r: 0
+      target: 15
+      s: 0
+      totalTons: 215
+      CP: 7
+      mod: 0
+      autoAdjust: 1
+      totalMCr: 430
+      notes: '9 G'
+      eff: 1
+      tons: 215
+      code: 'X5'
+      B: 0
+      tl: 15
+      Q: 0
+      mcr: 430
+      R: 0
+      label: 'Maneuver Drive-9 (X5)'
+      rating: 9
+      basetl: 13
+      S: 0
+      name: 'Maneuver Drive'
+      Sq: 430
+      b: 0
+      type: 'Drive'
+      category: 'Maneuver Drive'
+      howMany: 1
+      E: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      target: 16
+      s: 0
+      totalTons: 335
+      CP: 10
+      autoAdjust: 1
+      totalMCr: 335
+      notes: 'P 9'
+      eff: 1
+      mcr: 335
+      tons: 335
+      code: 'X5'
+      B: 0
+      tl: 16
+      Q: 0
+      E: 0
+      R: 0
+      label: 'PowerPlant-9 (X5)'
+      rating: 9
+      basetl: 16
+      S: 0
+      name: 'PowerPlant'
+      Sq: 670
+      category: 'PowerPlant'
+      type: 'Drive'
+      b: 0
+      howMany: 1
+      powerFuelUsage: 0.01
+      q: 0
+
+   - 
+      CP: 1
+      r: 0
+      category: 'AV=150. 5 Kinetic Charged'
+      target: 15
+      s: 0
+      totalTons: 384
+      e: 0
+      totalMCr: 0
+      notes: ''
+      eff: 1
+      tons: 384
+      mount: 'Kinetic'
+      tl: 15
+      config: 'Armor'
+      mcr: 0
+      label: 'AV=150. 5 Kinetic Charged'
+      basetl: 14
+      range: '5'
+      name: 'Charged'
+      Sq: 768
+      b: 0
+      type: 'Armor'
+      mod: ''
+      howMany: 1
+      q: 0
+
+   - 
+      CP: 1
+      r: 0
+      category: 'Computer Model/7 std'
+      target: 22
+      s: 0
+      totalTons: 7
+      e: 0
+      totalMCr: 52
+      notes: ''
+      mount: 'Model/7'
+      config: 'Ops'
+      eff: 1
+      tl: 15
+      tons: 7
+      mcr: 52
+      label: 'Computer Model/7 std'
+      basetl: 15
+      range: 's'
+      name: 'Computer'
+      Sq: 14
+      b: 0
+      type: 'Ops'
+      mod: 7
+      howMany: 1
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      b: 0
+      target: 15
+      s: 0
+      totalTons: 0
+      CP: 1
+      totalMCr: 2.5
+      notes: ''
+      eff: 1
+      tons: 0
+      mount: 'Surf'
+      tl: 15
+      config: 'Sensor'
+      mcr: 2.5
+      label: 'LR Surf Communicator'
+      basetl: 9
+      range: 'LR'
+      name: 'Communicator'
+      category: 'LR Surf Communicator'
+      type: 'Sensor'
+      mod: 0
+      howMany: 1
+      q: 0
+
+   - 
+      CP: 1
+      r: 0
+      b: 0
+      target: 20
+      s: 0
+      totalTons: 51
+      e: 0
+      totalMCr: 6
+      notes: ''
+      eff: 1
+      tons: 51
+      mount: 'Bay'
+      tl: 15
+      config: 'Defense'
+      mcr: 6
+      label: 'Bay Meson Screen'
+      basetl: 11
+      range: ''
+      name: 'Meson Screen'
+      Sq: 102
+      category: 'Bay Meson Screen'
+      type: 'Defense'
+      mod: 5
+      howMany: 1
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      b: 0
+      target: 20
+      s: 0
+      totalTons: 52
+      CP: 1
+      totalMCr: 6
+      notes: ''
+      mount: 'Bay'
+      config: 'Defense'
+      eff: 1
+      tl: 15
+      tons: 52
+      mcr: 6
+      label: 'Bay Nuclear Damper'
+      basetl: 12
+      range: ''
+      name: 'Nuclear Damper'
+      Sq: 104
+      category: 'Bay Nuclear Damper'
+      type: 'Defense'
+      mod: 5
+      howMany: 1
+      q: 0
+
+   - 
+      CP: 1
+      r: 0
+      b: 0
+      q: 0
+      s: 0
+      totalTons: 51
+      e: 0
+      totalMCr: 6
+      notes: ''
+      eff: 1
+      config: 'Defense'
+      mount: 'Bay'
+      tl: 15
+      tons: 51
+      mcr: 6
+      label: 'Bay Mag Scrambler'
+      basetl: 14
+      range: ''
+      name: 'Mag Scrambler'
+      Sq: 102
+      category: 'Bay Mag Scrambler'
+      type: 'Defense'
+      mod: 5
+      howMany: 1
+      target: 20
+
+   - 
+      e: 0
+      r: 0
+      b: 0
+      target: 17
+      s: 0
+      totalTons: 12
+      CP: 1
+      totalMCr: 12.8
+      notes: ''
+      eff: 1
+      config: 'Weapon'
+      mount: 'B1'
+      tl: 15
+      tons: 1.5
+      mcr: 1.6
+      label: 'D B1 Sandcaster'
+      basetl: 8
+      range: 'D'
+      name: 'Sandcaster'
+      Sq: 24
+      category: 'D B1 Sandcaster'
+      type: 'Weapon'
+      mod: 2
+      howMany: 8
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'D B1 Beam Laser'
+      q: 0
+      s: 0
+      totalTons: 12
+      CP: 1
+      totalMCr: 16
+      notes: ''
+      eff: 1
+      tons: 1.5
+      mount: 'B1'
+      tl: 15
+      config: 'Weapon'
+      mcr: 2
+      label: 'D B1 Beam Laser'
+      basetl: 9
+      range: 'D'
+      name: 'Beam Laser'
+      Sq: 24
+      b: 0
+      type: 'Weapon'
+      mod: 2
+      howMany: 8
+      target: 17
+
+   - 
+      e: 0
+      r: 0
+      category: 'D T3 Sandcaster'
+      target: 15
+      s: 0
+      totalTons: 4
+      CP: 1
+      totalMCr: 2.4
+      notes: ''
+      eff: 1
+      config: 'Weapon'
+      mount: 'T3'
+      tl: 15
+      tons: 1
+      mcr: 0.6
+      label: 'D T3 Sandcaster'
+      basetl: 8
+      range: 'D'
+      name: 'Sandcaster'
+      Sq: 8
+      b: 0
+      type: 'Weapon'
+      mod: 0
+      howMany: 4
+      q: 0
+
+   - 
+      CP: 0
+      r: 0
+      label: 'Life Support Long Term'
+      target: 15
+      s: 0
+      totalTons: 2
+      e: 0
+      Sq: 4
+      totalMCr: 2
+      notes: '40 person-months'
+      mcr: 2
+      type: 'Ops'
+      tons: 2
+      b: 0
+      eff: 1
+      howMany: 1
+      tl: 15
+      q: 0
+
+   - 
+      mcr: 0.4
+      r: 0
+      label: 'Officer Suite'
+      q: 0
+      totalSleeps: 1
+      s: 0
+      totalTons: 6
+      e: 0
+      Sq: 12
+      totalMCr: 0.4
+      notes: 'fresher + safe'
+      CP: 1
+      type: 'Crew'
+      tons: 6
+      b: 0
+      sleeps: 1
+      eff: 1
+      howMany: 1
+      tl: 15
+      target: 15
+
+   - 
+      e: 0
+      mcr: 0.1
+      r: 0
+      label: 'Crew Stateroom'
+      target: 15
+      totalSleeps: 1
+      s: 0
+      totalTons: 2
+      CP: 0
+      Sq: 4
+      totalMCr: 0.1
+      notes: '1 crew'
+      b: 0
+      type: 'Crew'
+      tons: 2
+      sleeps: 1
+      eff: 1
+      howMany: 1
+      tl: 15
+      q: 0
+
+   - 
+      CP: 0
+      r: 0
+      label: 'Crew Suite'
+      target: 15
+      totalSleeps: 2
+      s: 0
+      totalTons: 2
+      e: 0
+      Sq: 4
+      mar: 0.1
+      totalMCr: 0
+      notes: '2 crew'
+      mcr: 0
+      type: 'Crew'
+      tons: 2
+      b: 0
+      sleeps: 2
+      eff: 1
+      howMany: 1
+      tl: 15
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      label: 'Crew Double'
+      q: 0
+      totalSleeps: 2
+      s: 0
+      totalTons: 2
+      mcr: 0.1
+      Sq: 4
+      totalMCr: 0.1
+      notes: '2 crew'
+      CP: 0
+      type: 'Crew'
+      tons: 2
+      eff: 1
+      sleeps: 2
+      b: 0
+      howMany: 1
+      tl: 15
+      target: 15
+
+   - 
+      mcr: 0.1
+      r: 0
+      label: 'Crew Triple'
+      q: 0
+      totalSleeps: 3
+      s: 0
+      totalTons: 2
+      e: 0
+      Sq: 4
+      totalMCr: 0.1
+      notes: '3 crew'
+      CP: 0
+      type: 'Crew'
+      tons: 2
+      b: 0
+      sleeps: 3
+      eff: 1
+      howMany: 1
+      tl: 15
+      target: 15
+
+   - 
+      CP: 0
+      r: 0
+      label: 'Crew Common Fresher'
+      target: 15
+      s: 0
+      totalTons: 1
+      e: 0
+      Sq: 2
+      totalMCr: 1
+      notes: '10 crew'
+      mcr: 1
+      type: 'Crew'
+      tons: 1
+      b: 0
+      eff: 1
+      howMany: 1
+      tl: 15
+      q: 0
+
+   - 
+      CP: 0
+      r: 0
+      label: 'Crew Shared Fresher'
+      tl: 15
+      target: 15
+      s: 0
+      totalTons: 0.5
+      e: 0
+      Sq: 1
+      totalMCr: 0.5
+      notes: '4 crew'
+      eff: 1
+      type: 'Crew'
+      tons: 0.5
+      b: 0
+      howMany: 1
+      mcr: 0.5
+      q: 0
+
+   - 
+      CP: 0
+      mcr: 0.1
+      r: 0
+      label: 'Spacer Niche'
+      target: 15
+      totalSleeps: 3
+      s: 0
+      totalTons: 3
+      e: 0
+      Sq: 6
+      totalMCr: 0.3
+      notes: '1 crew'
+      b: 0
+      type: 'Crew'
+      tons: 1
+      sleeps: 1
+      eff: 1
+      howMany: 3
+      tl: 15
+      q: 0
+
+   - 
+      mcr: 0
+      CP: 0
+      r: 0
+      label: 'Crew Commons'
+      target: 15
+      s: 0
+      totalTons: 12
+      e: 0
+      Sq: 24
+      totalMCr: 0
+      notes: ''
+      b: 0
+      type: 'Crew'
+      tons: 4
+      eff: 1
+      howMany: 3
+      tl: 15
+      q: 0
+
+   - 
+      CP: 0
+      r: 0
+      label: 'Company Barracks'
+      tl: 15
+      q: 0
+      s: 0
+      totalTons: 600
+      mcr: 3
+      Sq: 1200
+      totalMCr: 30
+      notes: '(70) 3 pl + O3 O2 R5 R3'
+      b: 0
+      type: 'Ops'
+      tons: 60
+      eff: 1
+      howMany: 10
+      e: 0
+      target: 15
+
+   - 
+      CP: 0
+      r: 0
+      q: 0
+      s: 0
+      totalTons: 22
+      e: 0
+      mod: 2
+      ws: 0
+      notes: '3cc 8op 0ws'
+      eff: 1
+      totalMCr: 1.4
+      tons: 22
+      tl: 15
+      mcr: 1.4
+      label: 'Spacious Bridge'
+      op: 8
+      name: 'Bridge'
+      Sq: 44
+      cc: 3
+      b: 0
+      type: 'Ops'
+      category: 'Bridge'
+      howMany: 1
+      target: 17
+header: 
+   demand: -5
+   lifters: 'y'
+   format: 'T5-ACS-1'
+   shipname: 'Traitor'
+   crewComfort: -2
+   workstations: 0
+   operatingConsoles: 8
+   mission: 'TY'
+   totalMCr: 1002.6
+   undertons: 362.5
+   jumpFuelPercentage: 0
+   jf: 0
+   config: 'U'
+   powerFuelPercentage: 0.09
+   pf: 1
+   tl: 15
+   qsp: 'TY-ZU90'
+   preMult: 1
+   tons: 2400
+   comments: |
+      Using a 2400-ton, TL15 hull, the Traitor Class Rider Carrier mounts maneuver drive-X5 and power plant-X5, giving a performance of 9G acceleration. Fuel tankage supports one month of operations. Attached to the bridge is a Computer Model/7 std. There are 1 staterooms and no low berths. Installed weaponry include 8 B1 Sandcasters, 8 B1 Beam Lasers, and 4 T3 Sandcasters. Cargo capacity is 20 tons. The ship has an unstreamlined hull. 
+      
+      The ship has 12 crew. 
+   mult: 1
+   shifts: 1
+   tonsFree: 362.5
+   low: 0
+   troops: 0
+   crew: 12
+   staff: 0
+   missionLabel: 'Rider Carrier'
+   totalCargoSpace: 20
+   spaciousness: 2
+   passengers: 0
+   controlConsoles: 3

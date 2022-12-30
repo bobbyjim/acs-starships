@@ -1,0 +1,69 @@
+Transport T-JU33 Bretremoy MCr370.5
+
+Owner: Droyne
+
+Using a 900-ton, TL16 hull, the Bretremoy-class Droyne Transport mounts advanced jump drive-P, advanced maneuver drive-P, and advanced power plant-P, giving a performance of jump-3 and 3G acceleration. Fuel tankage supports a 3 parsec jump, at 74t per parsec, and one month of operations. Attached to the bridge is a Computer Model/3 fib. There are 36 Droyne triple staterooms and 100 low berths. Installed weaponry include a B2 Particle Accelerator, T2 DataCaster, T2 Jump Damper, T2 Tractor/Pressor, two T2 Beam Lasers, two T3 Missiles, and a T2 Sandcaster.  Defenses include bolted-in nuclear damper, meson screen, mag scrambler, and black globe.
+
+Cargo capacity is 100 tons. The ship has an unstreamlined hull, with scoops, intakes, and bins for frontier refueling. 
+
+Carried craft include a GCarrier in a bracket, two light Fighters in brackets, and a Pinnace in a hull niche. The ship has 18 crew, and can carry 90 passengers and 100 low passengers. 
+
+
+Actual volume: 885 tons
+Crew comfort:     +1
+Passenger demand: +1
+
+[code]
+   Tons	 Component                          	  MCr	Notes
+-------	 -----------------------------------	-----	--------------------
+    900	 Unstreamlined Hull, lifters, 9 a/l 	   29	U, lifters, 9 a/l free
+      9	 Landing legs with pads             	    9	
+     36	 AV=64. 2 EMP Charged               	    0	
+    224	 Jump Fuel (3  parsecs)             	    0	3 parsec jump, at 74t per parsec
+   22.5	 Plant Fuel (one month)             	    0	one month
+      2	 Fuel Scoops with Purifier          	  1.1	100 t/hr
+      2	 Fuel Intakes with Purifier         	  1.1	40 t/hr
+      2	 Fuel Bins with Purifier            	  1.1	20 t/hr
+      1	 Fuel Transfer Pumps                	    1	
+  24.75	 Adv Jump Drive P (R3)              	   75	R3
+  14.19	 Adv PowerPlant P (R3)              	   43	R3
+   8.91	 Adv Maneuver Drive P (R3)          	   54	R3
+      1	 AR Ant Communicator                	  1.5	
+      1	 AR Ant Jammer                      	  1.5	
+      1	 AR Ant Neutrino Detector           	  1.5	
+      1	 AR Ant EMS                         	  1.5	
+      1	 AR Ant Stealth Mask                	  1.5	
+      1	 AR Ant Visor                       	  1.5	
+      5	 AR B2 Particle Accelerator         	  6.5	
+      1	 D T2 DataCaster                    	  1.2	
+      1	 Vd T2 Jump Damper                  	 15.5	
+      1	 Vd T2 Tractor/Pressor              	  5.5	
+      2	 2x Vd T2 Beam Laser                	    2	#2 
+      2	 2x AR T3 Missile                   	  2.4	#2 
+      1	 D T2 Sandcaster                    	  0.3	
+      1	 Magazine                           	    0	50 x Size-5
+      2	 B Meson Screen                     	    2	
+      3	 B Nuclear Damper                   	    2	
+      2	 B Mag Scrambler                    	    2	
+      2	 B Black Globe                      	    5	
+      6	 Computer Model/3 fib               	 15.7	
+      6	 3x Life Support Long Term          	    6	#3 40 person-months
+      2	 Clinic                             	    1	
+      8	 2x Gunners' Barracks               	  0.4	#2 (5) R1 R1 R2 R2 R3
+     32	 Spacious Bridge                    	  1.9	5cc 8op 3ws
+     36	 6x Droyne Triple Suite             	  2.4	#6 fresher + safe
+     50	 100x Low Berth                     	   10	#100 1 passenger
+    100	 5x Cargo Hold Basic                	    0	#5 
+    180	 30x Droyne Triple Stateroom        	   12	#30 1 passenger + fresher
+      3	 3x Grapple                         	    3	#3 1 pair per 35t
+      8	 GCarrier                           	    3	
+      1	 GCarrier Bracket                   	    1	Up to 10 tons
+      2	 2x Fighter Bracket                 	    2	#2 Up to 10 tons
+     16	 2x Lt Fighter                      	   24	#2 m1bis C L0
+     40	 Pinnace                            	   19	m2 3 L2
+     20	 Hull Niche (Pinnace)               	  1.5	Half Vehicle Volume
+[/code]
+
+[code]
+[/code]
+

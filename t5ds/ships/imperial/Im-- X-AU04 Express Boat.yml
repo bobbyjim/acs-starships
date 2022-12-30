@@ -1,0 +1,481 @@
+--- 
+components: 
+   - 
+      Sq: 200
+      e: 0
+      target: 12
+      totalTons: 100
+      category: 'Hull'
+      tl: 12
+      label: 'Unstreamlined Hull, lifters'
+      eff: 1
+      mult: 1
+      preMult: 1
+      totalMCr: 6
+      notes: 'U, lifters'
+      b: 0
+      config: 'Unstreamlined'
+      tons: 100
+      code: 'U'
+      q: 0
+      mcr: 6
+      r: 0
+      CP: 0
+      s: 0
+      type: 'Hull'
+      name: 'Hull'
+      howMany: ''
+
+   - 
+      b: 0
+      Sq: 100
+      notes: 'J5, 10t/pc'
+      totalMCr: 0
+      q: 0
+      tons: 50
+      target: 12
+      tl: 12
+      r: 0
+      e: 0
+      CP: 0
+      s: 0
+      type: 'Drive'
+      category: 'Jump Fuel'
+      label: 'Jump Fuel (5  parsecs)'
+      eff: 1
+      totalTons: 50
+      howMany: ''
+      mcr: 0
+
+   - 
+      b: 0
+      Sq: 8
+      howMany: ''
+      notes: 'one month'
+      e: 0
+      target: 12
+      tl: 12
+      r: 0
+      tons: 4
+      CP: 0
+      s: 0
+      q: 0
+      totalMCr: 0
+      label: 'Plant Fuel (one month)'
+      eff: 1
+      totalTons: 4
+      type: 'Drive'
+      category: 'Powerplant Fuel'
+      mcr: 0
+
+   - 
+      b: 0
+      mcrPerHullTon: 0.01
+      category: 'jump field'
+      e: 0
+      tonsPercent: 0
+      target: 15
+      name: 'Jump Grid'
+      code: 'G'
+      r: 0
+      note: 'G'
+      CP: 1
+      s: 0
+      q: 0
+      totalMCr: 1
+      mcrPerTon: 0
+      label: 'Jump Grid'
+      eff: 1
+      tons: 0
+      totalTons: 0
+      mcr: 1
+      type: 'Hull'
+      howMany: ''
+      tl: 15
+
+   - 
+      b: 0
+      totalTons: -0.5
+      category: 'landers'
+      q: 0
+      tons: -0.5
+      mcrPerTon: 0
+      tonsPercent: -0.5
+      target: 15
+      mcr: 0
+      r: 0
+      note: 'n/a'
+      CP: 1
+      s: 0
+      type: 'Hull'
+      totalMCr: 0
+      code: 'n/a'
+      label: 'No Landers'
+      eff: 1
+      e: 0
+      name: 'No Landers'
+      howMany: ''
+      tl: 15
+
+   - 
+      b: 0
+      Sq: 2
+      notes: ''
+      totalMCr: 1
+      target: 10
+      e: 0
+      mcr: 1
+      q: 0
+      r: 0
+      tons: 1
+      CP: 1
+      s: 0
+      type: 'Drive'
+      count: 1
+      code: 'X1'
+      label: 'Fuel Transfer Pumps '
+      eff: 1
+      totalTons: 1
+      category: 'Transfer Pumps'
+      howMany: ''
+      tl: 10
+
+   - 
+      range: '1'
+      e: 0
+      target: 15
+      basetl: 8
+      mount: 'Rad'
+      category: 'AV=15. 1 Rad Plate'
+      tl: 15
+      label: 'AV=15. 1 Rad Plate'
+      eff: 1
+      totalTons: 0
+      totalMCr: 0
+      notes: ''
+      b: 0
+      config: 'Armor'
+      tons: 0
+      q: 0
+      mcr: 0
+      r: 0
+      CP: 1
+      name: 'Plate'
+      type: 'Armor'
+      mod: ''
+      s: 0
+      howMany: ''
+
+   - 
+      b: 0
+      Sq: 1
+      howMany: ''
+      notes: '4 crew'
+      tons: 0.5
+      q: 0
+      mcr: 0.5
+      r: 0
+      e: 0
+      CP: 0
+      s: 0
+      type: 'Crew'
+      totalMCr: 0.5
+      label: 'Crew Shared Fresher'
+      eff: 1
+      totalTons: 0.5
+      target: 15
+      tl: 15
+
+   - 
+      b: 0
+      Sq: 1
+      howMany: ''
+      notes: ''
+      tons: 0.5
+      q: 0
+      mcr: 0.5
+      r: 0
+      e: 0
+      CP: 0
+      s: 0
+      type: 'Payload'
+      totalMCr: 0.5
+      label: 'Medical Console'
+      eff: 1
+      mod: ''
+      totalTons: 0.5
+      target: '15'
+      tl: '15'
+
+   - 
+      Sq: 8
+      range: 's'
+      e: 0
+      mount: 'Model/4'
+      tl: 13
+      basetl: 0
+      target: 17
+      category: 'Computer Model/4 std'
+      label: 'Computer Model/4 std'
+      eff: 1
+      totalTons: 4
+      totalMCr: 18
+      notes: ''
+      b: 0
+      config: 'Ops'
+      tons: 4
+      q: 0
+      mcr: 18
+      r: 0
+      mod: 4
+      name: 'Computer'
+      type: 'Ops'
+      CP: 1
+      s: 0
+      howMany: ''
+
+   - 
+      b: 0
+      Sq: 8
+      sleeps: 1
+      notes: '1 crew'
+      e: 0
+      totalSleeps: 2
+      target: 13
+      r: 0
+      tons: 2
+      CP: 0
+      totalTons: 4
+      q: 0
+      totalMCr: 0.2
+      mcr: 0.1
+      label: 'Crew Stateroom'
+      eff: 1
+      s: 0
+      type: 'Crew'
+      howMany: 2
+      tl: 13
+
+   - 
+      b: 0
+      Sq: 2
+      howMany: ''
+      notes: ''
+      tons: 1
+      q: 0
+      tl: 12
+      r: 0
+      e: 0
+      CP: 0
+      s: 0
+      target: 12
+      category: 'Cargo'
+      label: 'Life Support'
+      eff: 1
+      totalTons: 1
+      type: 'Payload'
+      totalMCr: 1
+      mcr: 1
+
+   - 
+      b: 0
+      Sq: 12
+      howMany: ''
+      notes: ''
+      tons: 6
+      q: 0
+      tl: 15
+      r: 0
+      e: 0
+      CP: 0
+      s: 0
+      type: 'Crew'
+      totalMCr: 0
+      label: 'Crew Lounge'
+      eff: 1
+      totalTons: 6
+      target: 15
+      mcr: 0
+
+   - 
+      B: 0
+      Sq: 30
+      e: 0
+      target: 13
+      S: 0
+      R: 0
+      basetl: 13
+      Q: 0
+      category: 'Jump Drive'
+      tl: 13
+      label: 'Jump Drive-4 (B)'
+      eff: 1
+      totalTons: 15
+      totalMCr: 15
+      jumpFuelUsage: 0.1
+      code: 'B'
+      b: 0
+      rating: 4
+      notes: 'J 4'
+      tons: 15
+      q: 0
+      mcr: 15
+      r: 0
+      autoAdjust: 1
+      CP: 1
+      name: 'Jump Drive'
+      type: 'Drive'
+      E: 0
+      s: 0
+      howMany: ''
+
+   - 
+      B: 0
+      Sq: 14
+      name: 'PowerPlant'
+      e: 0
+      target: 13
+      S: 0
+      R: 0
+      totalTons: 7
+      Q: 0
+      category: 'PowerPlant'
+      tl: 13
+      label: 'PowerPlant-4 (B)'
+      eff: 1
+      basetl: 11
+      totalMCr: 7
+      code: 'B'
+      b: 0
+      rating: 4
+      powerFuelUsage: 0.01
+      tons: 7
+      q: 0
+      mcr: 7
+      r: 0
+      autoAdjust: 1
+      CP: 1
+      s: 0
+      type: 'Drive'
+      E: 0
+      notes: 'P 4'
+      howMany: ''
+
+   - 
+      range: 'DS'
+      e: 0
+      target: 13
+      basetl: 10
+      mount: 'Surf'
+      category: 'DS Surf Communicator'
+      tl: 13
+      label: 'DS Surf Communicator'
+      eff: 1
+      totalTons: 0
+      totalMCr: 3.5
+      notes: ''
+      b: 0
+      config: 'Sensor'
+      tons: 0
+      q: 0
+      mcr: 3.5
+      r: 0
+      mod: 0
+      name: 'Communicator'
+      type: 'Sensor'
+      CP: 1
+      s: 0
+      howMany: ''
+
+   - 
+      b: 0
+      Sq: 3
+      howMany: ''
+      notes: ''
+      e: 0
+      target: 13
+      tl: 13
+      r: 0
+      tons: 1.5
+      CP: 0
+      s: 0
+      type: 'Payload'
+      totalMCr: 0
+      label: 'Cargo Hold Basic'
+      eff: 1
+      totalTons: 1.5
+      q: 0
+      mcr: 0
+
+   - 
+      b: 0
+      Sq: 12
+      s: 0
+      notes: ''
+      category: 'Bridge'
+      target: 15
+      tons: 6
+      q: 0
+      mcr: 0
+      r: 0
+      e: 0
+      mod: 2
+      totalTons: 6
+      type: 'Ops'
+      totalMCr: 0
+      label: 'Spacious Controls'
+      eff: 1
+      CP: 0
+      name: 'Bridge'
+      howMany: ''
+      tl: 13
+header: 
+   undertons: 6
+   format: 'T5-ACS-1'
+   jumpFuelPercentage: 0.1
+   pf: 1
+   id: ''
+   jf: 5
+   shifts: 1
+   overtons: 0.5
+   comments: |
+      Constructed using the 100 ton hull, the express boat is fitted with drives producing jump-4, but no maneuver drive. Fuel tankage is sufficient for one jump. The cramped bridge is complemented by a Model/4 computer. 
+      The ship has two staterooms; one is necessary for the single crew member, while the other can carry a passenger. More often, the pilot uses the second room for additional living space. 
+      There is a one ton cargo bay which is occasionally used to carry vital cargo such as vaccines or sophisticated repair parts.
+      
+      The ship carries no weapons or hardpoints.
+      
+      It is equipped with Jump drive-B and a Modified Power Plant-C, and carries sufficient fuel for one Jump-4, and 1 month of operations. Note that the ship when in Jump space can effectivly operate in low power mode thanks to the minimal systems needs and Fusion+ distributed power system. 
+      
+      Transfer pumps enable double jumps via detachable drop tanks, which the X-boat service produces in a 'standard' 100 ton size to enable quick refueling and jump procedures for the normal X-boat fleet if the tender itself is too busy to dock with the X-boat.
+      
+      The extremely advanced surface communicator is used to tight-beam sensitive encrypted communications to pre-set system 'listening posts' bypassing the need to pass these messages through the X-boat tender crews.
+   crewComfort: 0
+   totalMCr: 54.3
+   tl: 13
+   crew: 4
+   mult: 1
+   low: 0
+   crewLocked: 'yes'
+   preMult: 1
+   spaciousness: 2
+   missionLabel: 'Express Courier'
+   config: 'U'
+   mission: 'X'
+   powerFuelPercentage: 0.04
+   qsp: 'X-AU04'
+   tons: 100
+   tonsFree: 0
+   architect: 'Copper Hamster'
+   staff: 0
+   controlConsoles: 3
+   disposition: 'In Service'
+   shipname: 'Express Boat'
+   operatingConsoles: 0
+   passengers: 1
+   workstations: 0
+   demand: -5
+   lifters: 'y'
+   totalCargoSpace: 1
+   owner: 'Imperium Government'
+   troops: 0
